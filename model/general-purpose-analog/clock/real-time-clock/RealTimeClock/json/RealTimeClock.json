@@ -1,0 +1,126 @@
+{
+    "name": {
+        "type": "string",
+        "value": "RealTimeClock",
+        "editable": false
+    },
+    "version": {
+        "type": "float",
+        "value": 0.1,
+        "editable": false
+    },
+    "category": {
+        "type": "string",
+        "value": "通用模拟-时钟",
+        "editable": false
+    },
+    "part_number": {
+        "type": "string",
+        "value": "DS1307",
+        "editable": false
+    },
+    "manufacturer": {
+        "type": "string",
+        "value": "Maxim Integrated",
+        "editable": false
+    },
+    "VCC": {
+        "type": "float",
+        "value": 5.0,
+        "unit": "V",
+        "editable": true,
+        "valid_range": [4.5, 5.5]
+    },
+    "VBAT": {
+        "type": "float",
+        "value": 3.0,
+        "unit": "V",
+        "editable": true,
+        "valid_range": [2.0, 3.5]
+    },
+    "TA": {
+        "type": "float",
+        "value": 25,
+        "unit": "℃",
+        "editable": true,
+        "valid_range": [-40, 85]
+    },
+    "crystal": {
+        "type": "string",
+        "value": "external 32.768kHz, CL=12.5pF, ESR<=45kΩ",
+        "editable": false
+    },
+    "SQW": {
+        "type": "string",
+        "value": "1Hz / 4.096kHz / 8.192kHz / 32.768kHz",
+        "editable": false
+    },
+    "calendar": {
+        "type": "string",
+        "value": "BCD, 12/24h, leap year valid up to 2100",
+        "editable": false
+    },
+    "i2c_scl_frequency_hz": {
+        "type": "float",
+        "value": 100000,
+        "unit": "Hz",
+        "editable": true,
+        "valid_range": [0, 100000]
+    },
+    "ICCA": {
+        "type": "float",
+        "value": 1.5,
+        "unit": "mA",
+        "editable": false
+    },
+    "IBAT1": {
+        "type": "float",
+        "value": 500,
+        "unit": "nA",
+        "editable": false
+    },
+    "latency": {
+        "type": "float",
+        "value": 90.0,
+        "unit": "us",
+        "editable": false
+    },
+    "power": {
+        "type": "float",
+        "value": 7.5,
+        "unit": "mW",
+        "editable": false
+    },
+    "area": {
+        "type": "float",
+        "value": 19.11,
+        "unit": "mm²",
+        "editable": false
+    },
+    "dimensions": {
+        "type": "float",
+        "unit": "mm",
+        "x": 5,
+        "y": 5
+    },
+    "ports": [
+        {
+            "name": "xtal",
+            "x": 0,
+            "y": 1.5,
+            "io_type": "sc_in"
+        },
+        {
+            "name": "i2c_slave",
+            "x": 0,
+            "y": 3.5,
+            "io_type": "tlm_target_socket"
+        },
+        {
+            "name": "sqw",
+            "x": 5,
+            "y": 2.5,
+            "io_type": "sc_out"
+        }
+    ]
+}

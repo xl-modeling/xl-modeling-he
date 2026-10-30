@@ -1,0 +1,60 @@
+{   
+    "name": {
+        "type": "string",
+        "value": "fft_chiplet",
+        "editable": false
+    },
+    "version": {
+        "type": "float",
+        "value": 1.0,
+        "editable": false
+    },
+    "category": {
+        "type": "string",
+        "value": "Processor-Communication",
+        "editable": false
+    },
+    "ifft_enable": {
+        "type": "bool",
+        "value": true,
+        "editable": true
+    },
+    "fft_length": {
+        "type": "int",
+        "value": 8,
+        "unit": "points",
+        "editable": true
+    },
+    "latency": {
+        "type": "float",
+        "value": 120.0,
+        "unit": "ns",
+        "editable": false
+    },
+    "area": {
+        "type": "float",
+        "value": 20.0,
+        "unit": "mm²",
+        "editable": false
+    },
+    "power": {
+        "type": "float",
+        "value": 0.5,
+        "unit": "mW",
+        "editable": false
+    },
+    "dimensions": {
+        "type": "float",
+        "unit": "mm",
+        "x": 5,
+        "y": 5
+    },
+    "ports": [
+        {
+            "name": "target_socket",
+            "x": 0,
+            "y": 2.5,
+            "io_type": "tlm_target_socket"
+        }
+    ]
+}

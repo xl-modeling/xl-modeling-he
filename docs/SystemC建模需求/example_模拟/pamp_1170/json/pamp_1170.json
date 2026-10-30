@@ -1,0 +1,91 @@
+{
+    "name": {
+        "type": "string",
+        "value": "pamp_1170",
+        "editable": false
+    },
+    "category": {
+        "type": "string",
+        "value": "RF",
+        "editable": false
+      },
+    "dimensions": {
+        "type": "float",
+        "x": 7.0,
+        "y": 7.0,
+        "unit": "mm",
+        "editable": false
+    },
+    "version": {
+        "type": "float",
+        "value": 1.0,
+        "editable": false
+    },
+    "latency": {
+        "type": "float",
+        "value": 0.0,
+        "unit": "s",
+        "editable": false
+    },
+    "power": {
+        "type": "float",
+        "value": 4.0,
+        "unit": "W",
+        "editable": false
+    },
+    "current_freq_hz": {
+        "type": "float",
+        "value": 40e9,
+        "unit": "Hz",
+        "editable": true,
+        "valid_range":[37e9,40e9]
+    },
+    "matched_resistance": {
+        "type": "float",
+        "value": 50.0,
+        "unit": "Ω",
+        "editable": false
+    },
+    "p1db_dbm": {
+        "type": "float",
+        "value": 27.0,
+        "unit": "dBm",
+        "editable": false
+    },
+    "psat_compensate": {
+        "type": "float",
+        "value": 1.5,
+        "unit": "dBm",
+        "editable": false
+    },
+    "rapp_smooth_factor": {
+        "type": "float",
+        "value": 2.2,
+        "editable": false
+    },
+    "enable_additive_noise": {
+        "type": "bool",
+        "value": false,
+        "editable": true
+    },
+    "noise_rms_voltage": {
+        "type": "float",
+        "value": 0.001,
+        "unit": "V",
+        "editable": true
+    },
+    "ports": [
+        {
+            "name": "pa_in",
+            "x": 0,
+            "y": 3.5,
+            "io_type": "sca_in"
+        },
+        {
+            "name": "pa_out",
+            "x": 7,
+            "y": 3.5,
+            "io_type": "sca_out"
+        }
+    ]
+}
