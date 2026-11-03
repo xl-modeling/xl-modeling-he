@@ -1,0 +1,299 @@
+{
+    "name": {
+        "type": "string",
+        "value": "ClockDistribution",
+        "editable": false
+    },
+    "version": {
+        "type": "float",
+        "value": 0.1,
+        "editable": false
+    },
+    "category": {
+        "type": "string",
+        "value": "通用模拟-时钟",
+        "editable": false
+    },
+    "part_number": {
+        "type": "string",
+        "value": "MC10EL15",
+        "editable": false
+    },
+    "manufacturer": {
+        "type": "string",
+        "value": "ON Semiconductor",
+        "editable": false
+    },
+    "fanout": {
+        "type": "string",
+        "value": "1:4",
+        "editable": false
+    },
+    "clock-input": {
+        "type": "string",
+        "value": "ECL 差分时钟输入（单端输入时未用端接 VBB）",
+        "editable": false
+    },
+    "VCC": {
+        "type": "float",
+        "value": 5.0,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            4.2,
+            5.7
+        ]
+    },
+    "fMAX": {
+        "type": "float",
+        "value": 1.25,
+        "unit": "GHz",
+        "editable": false
+    },
+    "tPD-diff": {
+        "type": "float",
+        "value": 570,
+        "unit": "ps",
+        "editable": false,
+        "valid_range": [
+            470,
+            670
+        ]
+    },
+    "tPD-SE": {
+        "type": "float",
+        "value": 570,
+        "unit": "ps",
+        "editable": false,
+        "valid_range": [
+            420,
+            720
+        ]
+    },
+    "within-device-skew": {
+        "type": "float",
+        "value": 50,
+        "unit": "ps",
+        "editable": false
+    },
+    "part-to-part-skew": {
+        "type": "float",
+        "value": 200,
+        "unit": "ps",
+        "editable": false
+    },
+    "jitter-rms": {
+        "type": "float",
+        "value": 2.6,
+        "unit": "ps",
+        "editable": false
+    },
+    "tr-tf-20-80": {
+        "type": "float",
+        "value": 325.0,
+        "unit": "ps",
+        "editable": false,
+        "valid_range": [
+            325,
+            575
+        ]
+    },
+    "VOH": {
+        "type": "float",
+        "value": 4.105,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            4.02,
+            4.19
+        ]
+    },
+    "VOL": {
+        "type": "float",
+        "value": 3.21,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            3.05,
+            3.37
+        ]
+    },
+    "VIH": {
+        "type": "float",
+        "value": 4.19,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            3.87,
+            4.19
+        ]
+    },
+    "VIL": {
+        "type": "float",
+        "value": 3.05,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            3.05,
+            3.52
+        ]
+    },
+    "VBB": {
+        "type": "float",
+        "value": 3.7,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            3.65,
+            3.75
+        ]
+    },
+    "VPP": {
+        "type": "float",
+        "value": 1000,
+        "unit": "mV",
+        "editable": false,
+        "valid_range": [
+            150,
+            1000
+        ]
+    },
+    "IEE": {
+        "type": "float",
+        "value": 25,
+        "unit": "mA",
+        "editable": false,
+        "valid_range": [
+            25,
+            35
+        ]
+    },
+    "package": {
+        "type": "string",
+        "value": "SOIC-16",
+        "editable": false
+    },
+    "package-length": {
+        "type": "float",
+        "value": 9.9,
+        "unit": "mm",
+        "editable": false,
+        "valid_range": [
+            9.8,
+            10.0
+        ]
+    },
+    "package-width": {
+        "type": "float",
+        "value": 3.9,
+        "unit": "mm",
+        "editable": false,
+        "valid_range": [
+            3.8,
+            4.0
+        ]
+    },
+    "output_n": {
+        "type": "int",
+        "value": 4,
+        "editable": false
+    },
+    "skew_ps": {
+        "type": "float",
+        "value": 50,
+        "unit": "ps",
+        "editable": false
+    },
+    "jitter_ps": {
+        "type": "float",
+        "value": 2.6,
+        "unit": "ps",
+        "editable": false
+    },
+    "propagation_delay_ps": {
+        "type": "float",
+        "value": 570,
+        "unit": "ps",
+        "editable": false
+    },
+    "tr_tf_ps": {
+        "type": "float",
+        "value": 541.67,
+        "unit": "ps",
+        "editable": false
+    },
+    "voh_v": {
+        "type": "float",
+        "value": 4.105,
+        "unit": "V",
+        "editable": false
+    },
+    "vol_v": {
+        "type": "float",
+        "value": 3.21,
+        "unit": "V",
+        "editable": false
+    },
+    "vth_v": {
+        "type": "float",
+        "value": 3.7,
+        "unit": "V",
+        "editable": false
+    },
+    "latency": {
+        "type": "float",
+        "value": 570,
+        "unit": "ps",
+        "editable": false
+    },
+    "power": {
+        "type": "float",
+        "value": 125.0,
+        "unit": "mW",
+        "editable": false
+    },
+    "area": {
+        "type": "float",
+        "value": 38.61,
+        "unit": "mm²",
+        "editable": false
+    },
+    "dimensions": {
+        "type": "float",
+        "unit": "mm",
+        "x": 5,
+        "y": 5
+    },
+    "ports": [
+        {
+            "name": "iclk",
+            "x": 0,
+            "y": 2.5,
+            "io_type": "sca_in"
+        },
+        {
+            "name": "oclk_0",
+            "x": 5,
+            "y": 1.0,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "oclk_1",
+            "x": 5,
+            "y": 2.0,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "oclk_2",
+            "x": 5,
+            "y": 3.0,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "oclk_3",
+            "x": 5,
+            "y": 4.0,
+            "io_type": "sca_out"
+        }
+    ]
+}
