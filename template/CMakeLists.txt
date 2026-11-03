@@ -7,6 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Find Dependency 
+set(BOOST_ROOT $ENV{BOOST_ROOT} CACHE PATH "Path to Boost Root")
 set(SYSTEMC_HOME $ENV{SYSTEMC_HOME} CACHE PATH "Path to SystemC Home")
 set(SYSTEMC_AMS_HOME $ENV{SYSTEMC_AMS_HOME} CACHE PATH "Path to SystemC-AMS Home")
 
@@ -14,6 +15,11 @@ if(SYSTEMC_HOME)
     list(APPEND CMAKE_PREFIX_PATH ${SYSTEMC_HOME})
 endif()
 
+if(BOOST_ROOT)
+    list(APPEND CMAKE_PREFIX_PATH ${BOOST_ROOT})
+endif()
+
+find_package(Boost COMPONENTS system filesystem)    # Optional
 find_package(SystemCLanguage CONFIG REQUIRED)
 find_package(SystemCTLM CONFIG REQUIRED)
 
@@ -27,6 +33,10 @@ find_library(SYSTEMC_AMS_LIBRARIES
     NAMES systemc-ams
     HINTS ${SYSTEMC_AMS_HOME}/lib ${SYSTEMC_AMS_HOME}/lib-linux64
 )
+
+if(Boost_FOUND)
+    message(STATUS "Optional: Boost found: ${Boost_DIR}")
+endif()
 
 if(SystemCLanguage_FOUND)
     message(STATUS "SystemC found: ${SystemCLanguage_DIR}")
@@ -58,5 +68,6 @@ foreach(tb IN LISTS TESTBENCH)
     target_link_libraries(${tb_name} PRIVATE
         SystemC::systemc
         ${SYSTEMC_AMS_LIBRARIES}
+        "$<$<BOOL:${Boost_FOUND}>:Boost::system;Boost::filesystem>"
     )
 endforeach()
