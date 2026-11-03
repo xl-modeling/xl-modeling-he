@@ -1,0 +1,246 @@
+{
+    "name": {
+        "type": "string",
+        "value": "ClockBufferDF",
+        "editable": false
+    },
+    "version": {
+        "type": "float",
+        "value": 0.1,
+        "editable": false
+    },
+    "category": {
+        "type": "string",
+        "value": "通用模拟-时钟",
+        "editable": false
+    },
+    "part_number": {
+        "type": "string",
+        "value": "BXL-D3-04",
+        "editable": false
+    },
+    "manufacturer": {
+        "type": "string",
+        "value": "北京微电子技术研究所",
+        "editable": false
+    },
+    "device-type": {
+        "type": "string",
+        "value": "1:8",
+        "editable": false
+    },
+    "output-skew": {
+        "type": "float",
+        "value": 0.98,
+        "unit": "ns",
+        "editable": false
+    },
+    "additive-jitter": {
+        "type": "float",
+        "value": 0.99,
+        "unit": "ps",
+        "editable": false
+    },
+    "propagation-delay": {
+        "type": "float",
+        "value": 100,
+        "unit": "ps",
+        "editable": false
+    },
+    "VDD": {
+        "type": "float",
+        "value": 3.3,
+        "unit": "V",
+        "editable": false
+    },
+    "output-common-mode-voltage": {
+        "type": "float",
+        "value": null,
+        "unit": "V",
+        "editable": false
+    },
+    "package-size": {
+        "type": "float",
+        "value": 2.966,
+        "unit": "mm²",
+        "editable": false
+    },
+    "IDD_100M": {
+        "type": "float",
+        "value": 990,
+        "unit": "mA",
+        "editable": false
+    },
+    "IDD_power-down": {
+        "type": "float",
+        "value": 1,
+        "unit": "mA",
+        "editable": false
+    },
+    "PWd": {
+        "type": "float",
+        "value": 3.2,
+        "unit": "W",
+        "editable": false
+    },
+    "die-length": {
+        "type": "float",
+        "value": 1621,
+        "unit": "µm",
+        "editable": false
+    },
+    "die-width": {
+        "type": "float",
+        "value": 1830,
+        "unit": "µm",
+        "editable": false
+    },
+    "die-height": {
+        "type": "float",
+        "value": 763,
+        "unit": "µm",
+        "editable": false
+    },
+    "bump-count": {
+        "type": "int",
+        "value": 49,
+        "editable": false
+    },
+    "bump-pitch": {
+        "type": "float",
+        "value": 220,
+        "unit": "µm",
+        "editable": false
+    },
+    "Vd_I3": {
+        "type": "float",
+        "value": null,
+        "unit": "V",
+        "editable": false
+    },
+    "VIH": {
+        "type": "float",
+        "value": null,
+        "unit": "V",
+        "editable": false
+    },
+    "VIL": {
+        "type": "float",
+        "value": null,
+        "unit": "V",
+        "editable": false
+    },
+    "LVTTL-clock-input": {
+        "type": "float",
+        "value": null,
+        "unit": "MHz",
+        "editable": false
+    },
+    "differential-clock-input": {
+        "type": "float",
+        "value": 4,
+        "unit": "GHz",
+        "editable": false,
+        "valid_range": [
+            0,
+            4
+        ]
+    },
+    "VOD": {
+        "type": "float",
+        "value": null,
+        "unit": "mV",
+        "editable": false
+    },
+    "VOS": {
+        "type": "float",
+        "value": null,
+        "unit": "mVpp",
+        "editable": false
+    },
+    "clock-input": {
+        "type": "string",
+        "value": "差分（CML/LVDS等）",
+        "editable": false
+    },
+    "tr_tf_ns": {
+        "type": "float",
+        "value": 0.08,
+        "unit": "ns",
+        "editable": false
+    },
+    "jitter_ps": {
+        "type": "float",
+        "value": 0.99,
+        "unit": "ps",
+        "editable": false
+    },
+    "propagation_delay_ps": {
+        "type": "float",
+        "value": 100,
+        "unit": "ps",
+        "editable": false
+    },
+    "voh_v": {
+        "type": "float",
+        "value": 3.3,
+        "unit": "V",
+        "editable": false
+    },
+    "vol_v": {
+        "type": "float",
+        "value": 0.4,
+        "unit": "V",
+        "editable": false
+    },
+    "latency": {
+        "type": "float",
+        "value": 100,
+        "unit": "ps",
+        "editable": false
+    },
+    "power": {
+        "type": "float",
+        "value": 3200.0,
+        "unit": "mW",
+        "editable": false
+    },
+    "area": {
+        "type": "float",
+        "value": 2.966,
+        "unit": "mm²",
+        "editable": false
+    },
+    "dimensions": {
+        "type": "float",
+        "unit": "mm",
+        "x": 5,
+        "y": 5
+    },
+    "ports": [
+        {
+            "name": "di",
+            "x": 0,
+            "y": 1.5,
+            "io_type": "sca_in"
+        },
+        {
+            "name": "dn",
+            "x": 0,
+            "y": 3.5,
+            "io_type": "sca_in"
+        },
+        {
+            "name": "q",
+            "x": 5,
+            "y": 1.5,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "qn",
+            "x": 5,
+            "y": 3.5,
+            "io_type": "sca_out"
+        }
+    ]
+}
