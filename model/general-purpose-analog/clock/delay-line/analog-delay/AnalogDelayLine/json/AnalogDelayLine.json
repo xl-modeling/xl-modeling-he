@@ -1,0 +1,213 @@
+{
+    "name": {
+        "type": "string",
+        "value": "AnalogDelayLine",
+        "editable": false
+    },
+    "version": {
+        "type": "float",
+        "value": 0.1,
+        "editable": false
+    },
+    "category": {
+        "type": "string",
+        "value": "通用模拟-时钟",
+        "editable": false
+    },
+    "part_number": {
+        "type": "string",
+        "value": "SIP066",
+        "editable": false
+    },
+    "manufacturer": {
+        "type": "string",
+        "value": "成都仕芯半导体有限公司",
+        "editable": false
+    },
+    "process": {
+        "type": "string",
+        "value": "GaAs",
+        "editable": false
+    },
+    "frequency-range": {
+        "type": "float",
+        "value": 20,
+        "unit": "GHz",
+        "editable": false,
+        "valid_range": [
+            0,
+            20
+        ]
+    },
+    "tunable-delay": {
+        "type": "float",
+        "value": 25,
+        "unit": "ps",
+        "editable": false,
+        "valid_range": [
+            0,
+            25
+        ]
+    },
+    "insertion-loss": {
+        "type": "float",
+        "value": 3,
+        "unit": "dB",
+        "editable": false
+    },
+    "return-loss": {
+        "type": "float",
+        "value": 20,
+        "unit": "dB",
+        "editable": false
+    },
+    "max-input-power": {
+        "type": "float",
+        "value": 15,
+        "unit": "dBm",
+        "editable": false
+    },
+    "Vt": {
+        "type": "float",
+        "value": 0,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            0,
+            15
+        ]
+    },
+    "It": {
+        "type": "float",
+        "value": 10,
+        "unit": "µA",
+        "editable": false
+    },
+    "delay-sensitivity": {
+        "type": "float",
+        "value": 2,
+        "unit": "ps/V",
+        "editable": false
+    },
+    "switching-time": {
+        "type": "float",
+        "value": 120,
+        "unit": "ns",
+        "editable": false
+    },
+    "chip-length": {
+        "type": "float",
+        "value": 2.285,
+        "unit": "mm",
+        "editable": false
+    },
+    "chip-width": {
+        "type": "float",
+        "value": 0.77,
+        "unit": "mm",
+        "editable": false
+    },
+    "chip-thickness": {
+        "type": "float",
+        "value": 0.1,
+        "unit": "mm",
+        "editable": false
+    },
+    "vt_points_v": {
+        "type": "array",
+        "value": [
+            0.0,
+            0.5,
+            3.0,
+            6.0,
+            9.0,
+            12.0,
+            15.0
+        ],
+        "unit": "V",
+        "editable": false
+    },
+    "delay_ps": {
+        "type": "array",
+        "value": [
+            18.35,
+            16.48,
+            11.55,
+            6.78,
+            3.47,
+            1.24,
+            0.0
+        ],
+        "unit": "ps",
+        "editable": false
+    },
+    "f0_ghz": {
+        "type": "array",
+        "value": [
+            31.05,
+            34.49,
+            45.61,
+            59.27,
+            73.12,
+            81.92,
+            84.38
+        ],
+        "unit": "GHz",
+        "editable": false
+    },
+    "q": {
+        "type": "float",
+        "value": 0.42,
+        "editable": false
+    },
+    "gain_db": {
+        "type": "float",
+        "value": -0.3,
+        "unit": "dB",
+        "editable": false
+    },
+    "latency": {
+        "type": "float",
+        "value": 25,
+        "unit": "ps",
+        "editable": false
+    },
+    "power": {
+        "type": "float",
+        "value": 0.15,
+        "unit": "mW",
+        "editable": false
+    },
+    "area": {
+        "type": "float",
+        "value": 1.759,
+        "unit": "mm²",
+        "editable": false
+    },
+    "dimensions": {
+        "type": "float",
+        "unit": "mm",
+        "x": 5,
+        "y": 5
+    },
+    "ports": [
+        {
+            "name": "di",
+            "x": 0,
+            "y": 2.5,
+            "io_type": "sca_in"
+        },
+        {
+            "name": "vt",
+            "x": 2.5,
+            "y": 5,
+            "io_type": "sca_in"
+        },
+        {
+            "name": "dout",
+            "x": 5,
+            "y": 2.5,
+            "io_type": "sca_out"
+        }
+    ]
+}
