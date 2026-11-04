@@ -1,0 +1,205 @@
+{
+    "name": {
+        "type": "string",
+        "value": "DigitalDelayLine",
+        "editable": false
+    },
+    "version": {
+        "type": "float",
+        "value": 0.1,
+        "editable": false
+    },
+    "category": {
+        "type": "string",
+        "value": "通用模拟-时钟",
+        "editable": false
+    },
+    "part_number": {
+        "type": "string",
+        "value": "DS1100-100",
+        "editable": false
+    },
+    "manufacturer": {
+        "type": "string",
+        "value": "Maxim Integrated（Dallas Semiconductor）",
+        "editable": false
+    },
+    "total-delay": {
+        "type": "float",
+        "value": 100,
+        "unit": "ns",
+        "editable": false
+    },
+    "tap-delays": {
+        "type": "array",
+        "value": [
+            20,
+            40,
+            60,
+            80,
+            100
+        ],
+        "unit": "ns",
+        "editable": false
+    },
+    "delay-tolerance": {
+        "type": "float",
+        "value": 5,
+        "unit": "%",
+        "editable": false,
+        "valid_range": [
+            -5,
+            5
+        ]
+    },
+    "min-input-pulse-width": {
+        "type": "float",
+        "value": 20,
+        "unit": "ns",
+        "editable": false
+    },
+    "min-input-period": {
+        "type": "float",
+        "value": 40,
+        "unit": "ns",
+        "editable": false
+    },
+    "VCC": {
+        "type": "float",
+        "value": 5.0,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            4.75,
+            5.25
+        ]
+    },
+    "ICC": {
+        "type": "float",
+        "value": 30,
+        "unit": "mA",
+        "editable": false,
+        "valid_range": [
+            0,
+            50
+        ]
+    },
+    "VIH": {
+        "type": "float",
+        "value": 2.2,
+        "unit": "V",
+        "editable": false
+    },
+    "VIL": {
+        "type": "float",
+        "value": 0.8,
+        "unit": "V",
+        "editable": false
+    },
+    "IOH": {
+        "type": "float",
+        "value": -1,
+        "unit": "mA",
+        "editable": false
+    },
+    "IOL": {
+        "type": "float",
+        "value": 12,
+        "unit": "mA",
+        "editable": false
+    },
+    "power-up-time": {
+        "type": "float",
+        "value": 200,
+        "unit": "µs",
+        "editable": false
+    },
+    "TA": {
+        "type": "float",
+        "value": 25,
+        "unit": "℃",
+        "editable": false,
+        "valid_range": [
+            -40,
+            85
+        ]
+    },
+    "package": {
+        "type": "string",
+        "value": "8 SO (150 mils) / 8 µMAX",
+        "editable": false
+    },
+    "delay_ns": {
+        "type": "float",
+        "value": 100,
+        "unit": "ns",
+        "editable": false
+    },
+    "taps": {
+        "type": "int",
+        "value": 5,
+        "editable": false
+    },
+    "latency": {
+        "type": "float",
+        "value": 100,
+        "unit": "ns",
+        "editable": false
+    },
+    "power": {
+        "type": "float",
+        "value": 150.0,
+        "unit": "mW",
+        "editable": false
+    },
+    "area": {
+        "type": "float",
+        "value": 19.11,
+        "unit": "mm²",
+        "editable": false
+    },
+    "dimensions": {
+        "type": "float",
+        "unit": "mm",
+        "x": 5,
+        "y": 5
+    },
+    "ports": [
+        {
+            "name": "in",
+            "x": 0,
+            "y": 2.5,
+            "io_type": "sc_in"
+        },
+        {
+            "name": "tap_0",
+            "x": 5,
+            "y": 0.83,
+            "io_type": "sc_out"
+        },
+        {
+            "name": "tap_1",
+            "x": 5,
+            "y": 1.67,
+            "io_type": "sc_out"
+        },
+        {
+            "name": "tap_2",
+            "x": 5,
+            "y": 2.5,
+            "io_type": "sc_out"
+        },
+        {
+            "name": "tap_3",
+            "x": 5,
+            "y": 3.33,
+            "io_type": "sc_out"
+        },
+        {
+            "name": "tap_4",
+            "x": 5,
+            "y": 4.17,
+            "io_type": "sc_out"
+        }
+    ]
+}
