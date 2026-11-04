@@ -1,0 +1,204 @@
+{
+    "name": {
+        "type": "string",
+        "value": "ClockGen",
+        "editable": false
+    },
+    "version": {
+        "type": "float",
+        "value": 0.1,
+        "editable": false
+    },
+    "category": {
+        "type": "string",
+        "value": "通用模拟-时钟",
+        "editable": false
+    },
+    "part_number": {
+        "type": "string",
+        "value": "32M-频率源",
+        "editable": false
+    },
+    "manufacturer": {
+        "type": "string",
+        "value": "清华大学",
+        "editable": false
+    },
+    "process": {
+        "type": "string",
+        "value": "180nm CMOS",
+        "editable": false
+    },
+    "output-frequency": {
+        "type": "float",
+        "value": 32,
+        "unit": "MHz",
+        "editable": false,
+        "valid_range": [
+            31.9,
+            32.1
+        ]
+    },
+    "jitter-max": {
+        "type": "float",
+        "value": 20,
+        "unit": "ps",
+        "editable": false
+    },
+    "frequency-temperature-drift": {
+        "type": "float",
+        "value": 0.1,
+        "unit": "MHz",
+        "editable": false
+    },
+    "frequency-aging-drift": {
+        "type": "float",
+        "value": 0.1,
+        "unit": "MHz",
+        "editable": false
+    },
+    "supply-sensitivity": {
+        "type": "float",
+        "value": 3000,
+        "unit": "ppm/V",
+        "editable": false
+    },
+    "supply-current": {
+        "type": "float",
+        "value": 80,
+        "unit": "µA",
+        "editable": false
+    },
+    "VDDPST": {
+        "type": "float",
+        "value": 3.3,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            3.135,
+            3.465
+        ]
+    },
+    "VDD": {
+        "type": "float",
+        "value": 1.8,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            1.71,
+            1.89
+        ]
+    },
+    "startup-time": {
+        "type": "float",
+        "value": 1,
+        "unit": "ms",
+        "editable": false
+    },
+    "TA": {
+        "type": "float",
+        "value": 25,
+        "unit": "℃",
+        "editable": false,
+        "valid_range": [
+            -40,
+            125
+        ]
+    },
+    "package": {
+        "type": "string",
+        "value": "BGA，凸点阵 10×10（有效引脚 17 个），节距 200µm",
+        "editable": false
+    },
+    "package-length": {
+        "type": "float",
+        "value": 2.4,
+        "unit": "mm",
+        "editable": false
+    },
+    "package-width": {
+        "type": "float",
+        "value": 2.4,
+        "unit": "mm",
+        "editable": false
+    },
+    "package-height": {
+        "type": "float",
+        "value": 504,
+        "unit": "µm",
+        "editable": false
+    },
+    "freq_hz": {
+        "type": "float",
+        "value": 32000000.0,
+        "unit": "Hz",
+        "editable": false
+    },
+    "duty_cycle": {
+        "type": "float",
+        "value": 0.5,
+        "editable": false
+    },
+    "skew_ps": {
+        "type": "float",
+        "value": 20,
+        "unit": "ps",
+        "editable": false
+    },
+    "jitter_ps": {
+        "type": "float",
+        "value": 20,
+        "unit": "ps",
+        "editable": false
+    },
+    "tr_tf_ps": {
+        "type": "float",
+        "value": 50,
+        "unit": "ps",
+        "editable": false
+    },
+    "voh_v": {
+        "type": "float",
+        "value": 3.3,
+        "unit": "V",
+        "editable": false
+    },
+    "vol_v": {
+        "type": "float",
+        "value": 0.0,
+        "unit": "V",
+        "editable": false
+    },
+    "latency": {
+        "type": "float",
+        "value": 1,
+        "unit": "ms",
+        "editable": false
+    },
+    "power": {
+        "type": "float",
+        "value": 0.264,
+        "unit": "mW",
+        "editable": false
+    },
+    "area": {
+        "type": "float",
+        "value": 5.76,
+        "unit": "mm²",
+        "editable": false
+    },
+    "dimensions": {
+        "type": "float",
+        "unit": "mm",
+        "x": 5,
+        "y": 5
+    },
+    "ports": [
+        {
+            "name": "clk",
+            "x": 5,
+            "y": 2.5,
+            "io_type": "sca_out"
+        }
+    ]
+}
