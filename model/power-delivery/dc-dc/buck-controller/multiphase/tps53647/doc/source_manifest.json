@@ -1,0 +1,16 @@
+{
+  "model": "tps53647",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Buck-Controller_多相Buck/tps53647",
+  "original_files_sha256": {
+    "doc/TPS53647模型说明.docx": "51f083314d1ae173517d6c13739e632ad920afd877536e5708f1d31605b13774",
+    "doc/TPS53647芯粒清单.xlsx": "27eeba154a7ee2dd025a2b2834c062b14312767f7f356c942bfc8e09a1636186",
+    "doc/TPS53647芯粒自测试报告.docx": "a9daccc0417a771d29a21f797de9a3abd896411afe21e0d20ed3e31408a228af",
+    "include/tps53647.h": "3e61fe5e0eb2ee3c8170c7475c7025e7c54e78f1b5ba2f6a06b645e4b8151bba",
+    "json/tps53647.json": "c40bf2f7f18c671ff7595819420a06937b6b482d70aba24099f649e2de307c31",
+    "source/tps53647.cpp": "00b70e917fe23869e07605284b4535967325859170ce01e3dc4f898e26d62014"
+  },
+  "baseline_cases": [
+    "tps53647-SC-B01"
+  ]
+}

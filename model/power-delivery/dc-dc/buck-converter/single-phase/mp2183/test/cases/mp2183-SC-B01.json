@@ -1,0 +1,42 @@
+{
+  "id": "mp2183-SC-B01",
+  "model": "mp2183",
+  "variant": "mp2183",
+  "category": "DC-DC",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 5e-09,
+  "stop_s": 0.003,
+  "window_s": [
+    0.0029000000000000002,
+    0.002999995
+  ],
+  "capture_from_s": 0.0029000000000000002,
+  "inputs": {
+    "vin": 5,
+    "en": 2,
+    "iload": 0,
+    "rload": 33,
+    "temperature": 25,
+    "pg_pullup": 3.3
+  },
+  "fixture": {},
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [
+    {
+      "id": "B01-1",
+      "output": "vout",
+      "stat": "mean",
+      "expected": 1.2,
+      "absolute_tolerance": 0.024,
+      "unit": "V",
+      "source": "2026-10-30 functional_regression.py，配置应用±2%",
+      "purpose": "behavior_regression"
+    }
+  ],
+  "scope": "application_behavior",
+  "config": "json/mp2183.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。"
+}

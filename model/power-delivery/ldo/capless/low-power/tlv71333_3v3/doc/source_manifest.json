@@ -1,0 +1,16 @@
+{
+  "model": "tlv71333_3v3",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "LDO/Capless_LDO/供电芯粒_LDO_Capless_LDO_低功耗Capless_LDO/tlv71333_3v3",
+  "original_files_sha256": {
+    "doc/LDO芯粒清单.xlsx": "50c781327b07a07b81bb99a42d4c7391249afcd4be0c3e27938ee2f7c9378301",
+    "doc/tlv71333_3v3模型说明.docx": "d5b616cbfb7aa561cf5bffc9e38024ee2697ff9e0484d5a1597f502801bb1d3c",
+    "doc/tlv71333_3v3芯粒自测试报告.docx": "81b1fd91f45bcf019a9b783d3ff1b805deb04108ad3cb9373458bd1b61afefb1",
+    "include/tlv71333_3v3.h": "c72982b024b0e70658850f35fb285ac666d8078a86ede343118e903089401347",
+    "json/tlv71333_3v3.json": "01fd8db3d5eec539a571208d1e5d0b120a51f95bedeb6921d96938a81bca7892",
+    "source/tlv71333_3v3.cpp": "febf2c5367be323f4af59a6e6398fe9e056d6eadc360eb57e397b9e681999e23"
+  },
+  "baseline_cases": [
+    "tlv71333_3v3-SC-B01"
+  ]
+}

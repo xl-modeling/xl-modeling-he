@@ -1,0 +1,16 @@
+{
+  "model": "lt8627sp",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Buck Converter _低噪声Buck/lt8627sp",
+  "original_files_sha256": {
+    "doc/DC-DC芯粒清单.xlsx": "d62f5f6cfa126972ac7d42ecd4f19cfe8664a01d0f609004af5651a3480cd927",
+    "doc/lt8627sp模型说明.docx": "140fc6bf64089cba0400f44d2ea513dad34d67850fb8d0828bc51a3cd17ca7d2",
+    "doc/lt8627sp芯粒自测试报告.docx": "7fe235e6484e6f191bcd33433192e355b8e6776d4fcb634db535c5f66043ec9e",
+    "include/lt8627sp.h": "2d69055760a2f7c1512b8ebd9e384d09137ed9ff9a4eb5c5fda6b0c9f2b24faa",
+    "json/lt8627sp.json": "550e24d53c73ed161467627999f494c1da50a9e2aab193738542bb2bf01b241b",
+    "source/lt8627sp.cpp": "eb2a677d88d2d8489994f98dae9ae4903e57b9fb91b3a07d2c91f588bf5070dd"
+  },
+  "baseline_cases": [
+    "lt8627sp-SC-B01"
+  ]
+}

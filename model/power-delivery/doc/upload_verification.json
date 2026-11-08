@@ -1,0 +1,327 @@
+{
+  "checked_at": "2026-11-07T14:56:03.876508+08:00",
+  "environment": {
+    "compiler": "GCC 11.4.0",
+    "cpp_standard": 17,
+    "SystemC": "2.3.4",
+    "SystemC_AMS": "2.3.4",
+    "nlohmann_json": "3.12.0"
+  },
+  "models": [
+    {
+      "model": "auirs2117s",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "auirs2117s-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "lm1117_3v3",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "lm1117_3v3-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "lm2665_sw",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "lm2665_sw-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "lm3350_sw",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "lm3350_sw-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "lm337",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "lm337-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "lm5116mh",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "lm5116mh-SC-B01",
+          "status": "OBSERVED"
+        }
+      ]
+    },
+    {
+      "model": "lm5118mh",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "lm5118mh-SC-B01",
+          "status": "OBSERVED"
+        }
+      ]
+    },
+    {
+      "model": "lt8627sp",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "lt8627sp-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "max20310",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "max20310-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "max865_sw",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "max865_sw-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "mcp1623",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "mcp1623-SC-B01",
+          "status": "OBSERVED"
+        }
+      ]
+    },
+    {
+      "model": "mcp1711_3v3",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "mcp1711_3v3-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "mp2183",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "mp2183-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tang2019_dcldo_0v8",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tang2019_dcldo_0v8-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tlv71333_3v3",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tlv71333_3v3-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps22975",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps22975-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps43060",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps43060-SC-B01",
+          "status": "OBSERVED"
+        }
+      ]
+    },
+    {
+      "model": "tps51200",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps51200-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps53647",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps53647-SC-B01",
+          "status": "OBSERVED"
+        }
+      ]
+    },
+    {
+      "model": "tps546a24a",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps546a24a-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps60150_sw",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps60150_sw-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps60400_sw",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps60400_sw-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps61235p",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps61235p-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps62746",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps62746-SC-B01",
+          "status": "OBSERVED"
+        }
+      ]
+    },
+    {
+      "model": "tps63021",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps63021-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps73133_3v3",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps73133_3v3-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps7a02_1v8",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps7a02_1v8-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps7a20_2v8",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps7a20_2v8-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "tps7b4250_q1",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "tps7b4250_q1-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "ucc27282",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "ucc27282_en-SC-B01",
+          "status": "PASS"
+        },
+        {
+          "case": "ucc27282_noen-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "model": "ucc27624",
+      "returncode": 0,
+      "cases": [
+        {
+          "case": "ucc27624-SC-B01",
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "note": "OBSERVED cases complete with finite outputs. Their supplied baseline scenarios have no numerical acceptance bounds."
+}

@@ -1,0 +1,16 @@
+{
+  "model": "auirs2117s",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "功率接口/供电芯粒_功率接口_栅极驱动_高边驱动_AUIRS2117S/auirs2117s",
+  "original_files_sha256": {
+    "doc/auirs2117s模型说明.docx": "1dacb18495ffd732d3a4530d4d9bd65ddb78793175027cee50c2463409f4e0d4",
+    "doc/auirs2117s芯粒自测试报告.docx": "26810294a379bd8130e17346d19051230792ce4af210d9a0c7047611af17aa62",
+    "doc/芯粒清单.xlsx": "3b04c7ac3c42eec31a133daa6d969fea006ecd06a2eff273a9d135c1442e27d7",
+    "include/auirs2117s.h": "66e87347415469f81e6245508f6b7f20dd2adf04e2fee2ef4b415094359cb8df",
+    "json/auirs2117s.json": "1d319ed5349f733dbd53d529aba8821b4ec3ab0738fad8bcd80d983ac3f69f4a",
+    "source/auirs2117s.cpp": "f511c151b8667493bad3977954178c334bc6190c36cfccb84b44ece20a479df1"
+  },
+  "baseline_cases": [
+    "auirs2117s-SC-B01"
+  ]
+}

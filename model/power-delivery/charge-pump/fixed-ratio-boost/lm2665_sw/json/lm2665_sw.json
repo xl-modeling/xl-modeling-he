@@ -1,0 +1,488 @@
+{
+  "name": {
+    "type": "string",
+    "value": "lm2665_sw",
+    "unit": "",
+    "editable": false,
+    "group": "identity",
+    "source": "SystemC delivery convention"
+  },
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "",
+    "editable": false,
+    "group": "identity",
+    "source": "SystemC delivery convention"
+  },
+  "category": {
+    "type": "string",
+    "value": "Charge_Pump-固定比例升压",
+    "unit": "",
+    "editable": false,
+    "group": "identity",
+    "source": "SystemC delivery convention"
+  },
+  "initial_state": {
+    "type": "string",
+    "value": "uncharged",
+    "unit": "",
+    "editable": true,
+    "group": "functional",
+    "source": "Zero capacitor initial voltage; numerical initial condition"
+  },
+  "dt_s": {
+    "type": "float",
+    "value": 5e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "TDF sampling step; not physical propagation delay"
+  },
+  "max_internal_step_s": {
+    "type": "float",
+    "value": 5e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "Backward Euler maximum internal integration step"
+  },
+  "fosc_5v": {
+    "type": "float",
+    "value": 160000.0,
+    "unit": "Hz",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "ron_5v": {
+    "type": "float",
+    "value": 1.1,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "roff": {
+    "type": "float",
+    "value": 1000000000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "tr_edge": {
+    "type": "float",
+    "value": 2e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "dead_fraction": {
+    "type": "float",
+    "value": 0.008,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "iq_5v": {
+    "type": "float",
+    "value": 0.00065,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "iq_shutdown": {
+    "type": "float",
+    "value": 3.04e-07,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "loss_enable": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "loss_scale": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "light_loss_gain": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "loss_filter_tau": {
+    "type": "float",
+    "value": 5e-05,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "temp_ref_c": {
+    "type": "float",
+    "value": 25.0,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "ron_tempco": {
+    "type": "float",
+    "value": 0.0022,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "fosc_tempco": {
+    "type": "float",
+    "value": -0.003,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "ron_corner": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "freq_corner": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "iq_corner": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "sd_ratio": {
+    "type": "float",
+    "value": 0.3,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "sd_smooth_v": {
+    "type": "float",
+    "value": 0.02,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "osc_supply_min": {
+    "type": "float",
+    "value": 1.8,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "supply_smooth_v": {
+    "type": "float",
+    "value": 0.025,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "gmin_pin": {
+    "type": "float",
+    "value": 1e-12,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "cpin": {
+    "type": "float",
+    "value": 1e-11,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "lm2665_boost_sw.va; TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "cfly_f": {
+    "type": "float",
+    "value": 3.3e-06,
+    "unit": "F",
+    "editable": true,
+    "group": "application",
+    "source": "External network in provided VA testbench; capacitor value from datasheet, ESR from test fixture"
+  },
+  "cout_f": {
+    "type": "float",
+    "value": 3.3e-06,
+    "unit": "F",
+    "editable": true,
+    "group": "application",
+    "source": "External network in provided VA testbench; capacitor value from datasheet, ESR from test fixture"
+  },
+  "cfly_esr_ohm": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "ohm",
+    "editable": true,
+    "group": "application",
+    "source": "External network in provided VA testbench; capacitor value from datasheet, ESR from test fixture"
+  },
+  "cout_esr_ohm": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "ohm",
+    "editable": true,
+    "group": "application",
+    "source": "External network in provided VA testbench; capacitor value from datasheet, ESR from test fixture"
+  },
+  "startup_diode_enabled": {
+    "type": "float",
+    "value": 1,
+    "unit": "",
+    "editable": true,
+    "group": "application",
+    "source": "Required VIN to OUT startup Schottky, SNVS009H sec9.2"
+  },
+  "diode_vf_v": {
+    "type": "float",
+    "value": 0.3,
+    "unit": "V",
+    "editable": true,
+    "group": "application",
+    "source": "Piecewise-linear Schottky approximation, not 1N5817 leakage model"
+  },
+  "diode_ron_ohm": {
+    "type": "float",
+    "value": 1,
+    "unit": "ohm",
+    "editable": true,
+    "group": "application",
+    "source": "Piecewise-linear startup diode assumption"
+  },
+  "vin_min_v": {
+    "type": "float",
+    "value": 2.5,
+    "unit": "V",
+    "editable": true,
+    "group": "operating_domain",
+    "source": "TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "vin_max_v": {
+    "type": "float",
+    "value": 5.5,
+    "unit": "V",
+    "editable": true,
+    "group": "operating_domain",
+    "source": "TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "vin_absolute_max_v": {
+    "type": "float",
+    "value": 5.5,
+    "unit": "V",
+    "editable": true,
+    "group": "operating_domain",
+    "source": "Model input rejection threshold, set to recommended operating upper bound; NOT the datasheet absolute maximum rating. TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "temperature_min_c": {
+    "type": "float",
+    "value": -40,
+    "unit": "degC",
+    "editable": true,
+    "group": "operating_domain",
+    "source": "TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "temperature_max_c": {
+    "type": "float",
+    "value": 85,
+    "unit": "degC",
+    "editable": true,
+    "group": "operating_domain",
+    "source": "TI SNVS009H (March 2016), sec6.5 pp5-6 and sec9.2 startup Schottky"
+  },
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm2",
+    "editable": false,
+    "group": "uncharacterized",
+    "source": "Not provided by independent die/layout/timing data; pending expert review"
+  },
+  "latency_s": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "group": "uncharacterized",
+    "source": "Not provided by independent die/layout/timing data; pending expert review"
+  },
+  "dimensions": {
+    "x": 8,
+    "y": 13
+  },
+  "ports": [
+    {
+      "name": "vin",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "name": "control",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "name": "temperature",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "degC",
+      "x": 0,
+      "y": 3
+    },
+    {
+      "name": "iload",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "A",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "name": "rload",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "ohm",
+      "x": 0,
+      "y": 5
+    },
+    {
+      "name": "vout",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 1
+    },
+    {
+      "name": "iin",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 2
+    },
+    {
+      "name": "power",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 3
+    },
+    {
+      "name": "external_loss",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "name": "numerical_loss",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 5
+    },
+    {
+      "name": "stored_energy",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "J",
+      "x": 8,
+      "y": 6
+    },
+    {
+      "name": "energy_residual",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "name": "fsw",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "Hz",
+      "x": 8,
+      "y": 8
+    },
+    {
+      "name": "phi1",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "1",
+      "x": 8,
+      "y": 9
+    },
+    {
+      "name": "phi2",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "1",
+      "x": 8,
+      "y": 10
+    },
+    {
+      "name": "cfly_v",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 11
+    },
+    {
+      "name": "skip_state",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "1",
+      "x": 8,
+      "y": 12
+    }
+  ]
+}

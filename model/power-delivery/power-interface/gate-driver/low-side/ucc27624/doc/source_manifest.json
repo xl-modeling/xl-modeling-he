@@ -1,0 +1,16 @@
+{
+  "model": "ucc27624",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "功率接口/供电芯粒_功率接口_栅极驱动_低边驱动_UCC27624/ucc27624",
+  "original_files_sha256": {
+    "doc/ucc27624模型说明.docx": "4fcd23cc861eb7bb412101dbf66476e28ce4e5179086d866440f5aae02ee9dd8",
+    "doc/ucc27624芯粒自测试报告.docx": "d068faf25ff05606fbbd88a2a69897348d763e1f17bebedd8f20c7a3e0008055",
+    "doc/芯粒清单.xlsx": "b6c58e52d2c65afd6c8f13c1b490bee843bf41f34949e73ba3f8cedb14fe5a0b",
+    "include/ucc27624.h": "95f024fd1f559317113ed0c23ec88f53efd0f78cef5800e066db920141fe8875",
+    "json/ucc27624.json": "6532dcc34a05f3427a105772700f8fc5d9ab17ce017b435ada1bb1b70d05d086",
+    "source/ucc27624.cpp": "2d2dcdcef70e36b1a2055a9f94aaac7452833d75d84b0876aeb4670848f0f92d"
+  },
+  "baseline_cases": [
+    "ucc27624-SC-B01"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "tps63021-SC-B01",
+  "model": "tps63021",
+  "variant": "tps63021",
+  "category": "DC-DC",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 1e-09,
+  "stop_s": 0.003,
+  "window_s": [
+    0.0029000000000000002,
+    0.002999999
+  ],
+  "capture_from_s": 0.0029000000000000002,
+  "inputs": {
+    "vin": 3.6,
+    "vina": 3.6,
+    "en": {
+      "pwl": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0001,
+          0
+        ],
+        [
+          0.000100001,
+          3.6
+        ]
+      ]
+    },
+    "ps_sync": 3.6,
+    "temperature": 25,
+    "fb_override": -1,
+    "iload": 0,
+    "rload": 6.6
+  },
+  "fixture": {},
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [
+    {
+      "id": "B01-1",
+      "output": "vout",
+      "stat": "mean",
+      "expected": 3.3,
+      "absolute_tolerance": 0.033,
+      "unit": "V",
+      "source": "交付JSON标称值及对应源码稳态方程；参考和容差在此用例中冻结",
+      "purpose": "behavior_regression",
+      "tolerance_basis": "本测试包方程回归预算，非器件保证；正式手册／独立精度项另行执行"
+    }
+  ],
+  "scope": "application_behavior",
+  "config": "json/tps63021.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。",
+  "baseline_note": "沿用既有functional测试：100us后使能，PS_SYNC高为PWM。PS_SYNC低的PFM另立用例，不混用工作模式。"
+}

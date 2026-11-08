@@ -1,0 +1,1016 @@
+{
+  "name": {
+    "type": "string",
+    "value": "tps51200",
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "VA v1 parameter; [1] TI SLUS812E pp.5-6"
+  },
+  "version": {
+    "type": "string",
+    "value": "1.0.0",
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "SC initial release 2026-10-29"
+  },
+  "category": {
+    "type": "string",
+    "value": "供电芯粒/LDO/External-Cap_LDO/Source-Sink_LDO",
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "VA v1 parameter; [1] TI SLUS812E pp.5-6"
+  },
+  "gm": {
+    "type": "double",
+    "value": 250,
+    "unit": "S",
+    "editable": true,
+    "group": "performance",
+    "source": "TI p.14: typical at 2A; constant approximation from VA",
+    "valid_range": [
+      1,
+      2000
+    ]
+  },
+  "ilim_source": {
+    "type": "double",
+    "value": 4.5,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TI p.5 source limit at VOSNS=0.9*REFOUT",
+    "valid_range": [
+      0.01,
+      20
+    ]
+  },
+  "ilim_sink": {
+    "type": "double",
+    "value": 5.5,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TI p.5 sink limit at VOSNS=1.1*REFOUT",
+    "valid_range": [
+      0.01,
+      20
+    ]
+  },
+  "rhead_source": {
+    "type": "double",
+    "value": 0.1,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "VA assumption; not fitted dropout",
+    "valid_range": [
+      0.0001,
+      10
+    ]
+  },
+  "rhead_sink": {
+    "type": "double",
+    "value": 0.1,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "VA assumption",
+    "valid_range": [
+      0.0001,
+      10
+    ]
+  },
+  "vo_offset": {
+    "type": "double",
+    "value": 0,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "VA nominal zero offset; not full-temperature distribution",
+    "valid_range": [
+      -0.1,
+      0.1
+    ]
+  },
+  "ref_offset": {
+    "type": "double",
+    "value": 0,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "VA nominal zero offset",
+    "valid_range": [
+      -0.1,
+      0.1
+    ]
+  },
+  "gm_ref": {
+    "type": "double",
+    "value": 1,
+    "unit": "S",
+    "editable": true,
+    "group": "performance",
+    "source": "VA assumption",
+    "valid_range": [
+      0.01,
+      100
+    ]
+  },
+  "iref_limit": {
+    "type": "double",
+    "value": 0.04,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TI p.6 typical 40mA; see source/sink compliance",
+    "valid_range": [
+      0.001,
+      0.2
+    ]
+  },
+  "vin_on": {
+    "type": "double",
+    "value": 2.3,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0.5,
+      3.5
+    ]
+  },
+  "vin_off": {
+    "type": "double",
+    "value": 2.25,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0.4,
+      3.5
+    ]
+  },
+  "ref_on": {
+    "type": "double",
+    "value": 0.39,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0.1,
+      1.8
+    ]
+  },
+  "ref_off": {
+    "type": "double",
+    "value": 0.37,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0.05,
+      1.8
+    ]
+  },
+  "en_on": {
+    "type": "double",
+    "value": 1.2,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "VA assumed threshold; TI only guarantees HIGH >=1.7V",
+    "valid_range": [
+      0.3,
+      1.7
+    ]
+  },
+  "en_off": {
+    "type": "double",
+    "value": 0.7,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "VA assumed threshold; TI only guarantees LOW <=0.3V",
+    "valid_range": [
+      0,
+      1.7
+    ]
+  },
+  "tsd_c": {
+    "type": "double",
+    "value": 150,
+    "unit": "degC",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      85,
+      200
+    ]
+  },
+  "trecover_c": {
+    "type": "double",
+    "value": 125,
+    "unit": "degC",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0,
+      180
+    ]
+  },
+  "iq_on": {
+    "type": "double",
+    "value": 0.0007,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0,
+      0.01
+    ]
+  },
+  "iq_s3": {
+    "type": "double",
+    "value": 0.0002,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0,
+      0.01
+    ]
+  },
+  "iq_s5": {
+    "type": "double",
+    "value": 6.5e-05,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0,
+      0.01
+    ]
+  },
+  "ildoin_on": {
+    "type": "double",
+    "value": 1e-06,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0,
+      0.001
+    ]
+  },
+  "ildoin_off": {
+    "type": "double",
+    "value": 1e-07,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0,
+      0.001
+    ]
+  },
+  "rdis": {
+    "type": "double",
+    "value": 18,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      1,
+      1000
+    ]
+  },
+  "rdis_ref": {
+    "type": "double",
+    "value": 10000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "VA assumption",
+    "valid_range": [
+      1,
+      1000000000.0
+    ]
+  },
+  "pg_delay_s": {
+    "type": "double",
+    "value": 0.002,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0,
+      1
+    ]
+  },
+  "pg_bad_delay_s": {
+    "type": "double",
+    "value": 1e-05,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0,
+      1
+    ]
+  },
+  "pg_tick_s": {
+    "type": "double",
+    "value": 1e-06,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "VA timer quantization assumption",
+    "valid_range": [
+      1e-09,
+      0.001
+    ]
+  },
+  "pg_ron": {
+    "type": "double",
+    "value": 50,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "VA equivalent resistance; TI VOL <=0.4V at 4mA",
+    "valid_range": [
+      1,
+      1000
+    ]
+  },
+  "edge_s": {
+    "type": "double",
+    "value": 1e-07,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "VA EDGE; SC uses finite linear ramps, not exact transition()",
+    "valid_range": [
+      1e-09,
+      0.001
+    ]
+  },
+  "epsilon_A": {
+    "type": "double",
+    "value": 1e-09,
+    "unit": "A",
+    "editable": true,
+    "group": "numerical",
+    "source": "VA smooth limit regularization",
+    "valid_range": [
+      1e-15,
+      1e-05
+    ]
+  },
+  "pg_enter_ratio": {
+    "type": "double",
+    "value": 0.15,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0,
+      0.9
+    ]
+  },
+  "pg_exit_ratio": {
+    "type": "double",
+    "value": 0.2,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "VA v1; TI SLUS812E pp.5-6",
+    "valid_range": [
+      0.01,
+      0.99
+    ]
+  },
+  "fold_ratio": {
+    "type": "double",
+    "value": 0.5,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "TI feature description half current outside +/-20%; VA smooth approximation",
+    "valid_range": [
+      0.01,
+      1
+    ]
+  },
+  "fold_width": {
+    "type": "double",
+    "value": 0.005,
+    "unit": "1",
+    "editable": true,
+    "group": "numerical",
+    "source": "VA smoothing assumption",
+    "valid_range": [
+      0.0001,
+      0.1
+    ]
+  },
+  "g_leak_S": {
+    "type": "double",
+    "value": 1e-09,
+    "unit": "S",
+    "editable": true,
+    "group": "performance",
+    "source": "VA numerical shunt",
+    "valid_range": [
+      0,
+      1e-05
+    ]
+  },
+  "g_input_S": {
+    "type": "double",
+    "value": 1e-12,
+    "unit": "S",
+    "editable": true,
+    "group": "performance",
+    "source": "VA high-Z approximation",
+    "valid_range": [
+      0,
+      1e-06
+    ]
+  },
+  "cout_F": {
+    "type": "double",
+    "value": 3e-05,
+    "unit": "F",
+    "editable": true,
+    "group": "fixture",
+    "source": "TI p.14 minimum20uF; default 3x10uF",
+    "valid_range": [
+      2e-05,
+      0.001
+    ]
+  },
+  "cref_F": {
+    "type": "double",
+    "value": 1e-07,
+    "unit": "F",
+    "editable": true,
+    "group": "fixture",
+    "source": "TI p.3 0.1uF; total below0.47uF",
+    "valid_range": [
+      1e-09,
+      4.69e-07
+    ]
+  },
+  "esr_ohm": {
+    "type": "double",
+    "value": 0.005,
+    "unit": "ohm",
+    "editable": true,
+    "group": "fixture",
+    "source": "VA test fixture assumption, not stability guarantee",
+    "valid_range": [
+      0,
+      1
+    ]
+  },
+  "rtrace_ohm": {
+    "type": "double",
+    "value": 0.001,
+    "unit": "ohm",
+    "editable": true,
+    "group": "fixture",
+    "source": "VA test fixture",
+    "valid_range": [
+      0,
+      1
+    ]
+  },
+  "rpg_ohm": {
+    "type": "double",
+    "value": 10000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "fixture",
+    "source": "VA external pullup",
+    "valid_range": [
+      1,
+      1000000000.0
+    ]
+  },
+  "dt_s": {
+    "type": "double",
+    "value": 5e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "SC numerical step; must <=edge_s and pg_tick_s",
+    "valid_range": [
+      1e-10,
+      1e-06
+    ]
+  },
+  "initial_vo_V": {
+    "type": "double",
+    "value": 0,
+    "unit": "V",
+    "editable": true,
+    "group": "fixture",
+    "source": "SC capacitor initial condition",
+    "valid_range": [
+      0,
+      3.5
+    ]
+  },
+  "initial_ref_V": {
+    "type": "double",
+    "value": 0,
+    "unit": "V",
+    "editable": true,
+    "group": "fixture",
+    "source": "SC capacitor initial condition",
+    "valid_range": [
+      0,
+      1.8
+    ]
+  },
+  "noise_rms_V": {
+    "type": "double",
+    "value": 0,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "Uncalibrated Gaussian observed-output sample RMS; not physical spectrum",
+    "valid_range": [
+      0,
+      0.1
+    ]
+  },
+  "noise_seed": {
+    "type": "int",
+    "value": 51200,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "SC reproducibility seed",
+    "valid_range": [
+      0,
+      4294967295
+    ]
+  },
+  "remote_sense": {
+    "type": "bool",
+    "value": true,
+    "unit": "1",
+    "editable": true,
+    "group": "functional",
+    "source": "SC interface extension",
+    "description": "true: VOSNS at load; false: local VO feedback"
+  },
+  "force_vo_enable": {
+    "type": "bool",
+    "value": false,
+    "unit": "1",
+    "editable": true,
+    "group": "functional",
+    "source": "SC interface extension",
+    "description": "verification fixture: ideal output clamp"
+  },
+  "force_ref_enable": {
+    "type": "bool",
+    "value": false,
+    "unit": "1",
+    "editable": true,
+    "group": "functional",
+    "source": "SC interface extension",
+    "description": "verification fixture: ideal REFOUT clamp"
+  },
+  "noise_enable": {
+    "type": "bool",
+    "value": false,
+    "unit": "1",
+    "editable": true,
+    "group": "functional",
+    "source": "SC interface extension",
+    "description": "only observed VO; not included in KCL or physical power"
+  },
+  "area_mm2": {
+    "type": "nullable_double",
+    "value": null,
+    "unit": "mm2",
+    "editable": false,
+    "group": "reference_only",
+    "source": "No die area / independent silicon timing supplied"
+  },
+  "physical_latency_s": {
+    "type": "nullable_double",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "group": "reference_only",
+    "source": "No die area / independent silicon timing supplied"
+  },
+  "dimensions": {
+    "type": "object",
+    "value": {
+      "width": 16,
+      "height": 32
+    },
+    "unit": "1",
+    "editable": false,
+    "group": "interface",
+    "source": "Icon grid, not die/package size"
+  },
+  "ports": {
+    "type": "array",
+    "value": [
+      {
+        "name": "vin",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "name": "vldoin",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "name": "refin",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "name": "en",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "name": "iload",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "A",
+        "x": 0,
+        "y": 5
+      },
+      {
+        "name": "iref",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "A",
+        "x": 0,
+        "y": 6
+      },
+      {
+        "name": "rload",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "ohm",
+        "x": 0,
+        "y": 7
+      },
+      {
+        "name": "temp_c",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "degC",
+        "x": 0,
+        "y": 8
+      },
+      {
+        "name": "force_vo",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 9
+      },
+      {
+        "name": "force_ref",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 10
+      },
+      {
+        "name": "pg_pullup",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 11
+      },
+      {
+        "name": "vo",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 16,
+        "y": 1
+      },
+      {
+        "name": "vosns",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 16,
+        "y": 2
+      },
+      {
+        "name": "refout",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 16,
+        "y": 3
+      },
+      {
+        "name": "pgood",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 16,
+        "y": 4
+      },
+      {
+        "name": "iin",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 16,
+        "y": 5
+      },
+      {
+        "name": "ildoin",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 16,
+        "y": 6
+      },
+      {
+        "name": "isource",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 16,
+        "y": 7
+      },
+      {
+        "name": "isink",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 16,
+        "y": 8
+      },
+      {
+        "name": "iref_source",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 16,
+        "y": 9
+      },
+      {
+        "name": "iref_sink",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 16,
+        "y": 10
+      },
+      {
+        "name": "power",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 11
+      },
+      {
+        "name": "power_source",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 12
+      },
+      {
+        "name": "power_sink",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 13
+      },
+      {
+        "name": "power_ref",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 14
+      },
+      {
+        "name": "power_bias",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 15
+      },
+      {
+        "name": "power_discharge",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 16
+      },
+      {
+        "name": "power_pg",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 17
+      },
+      {
+        "name": "pin",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 18
+      },
+      {
+        "name": "pload",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 19
+      },
+      {
+        "name": "pstorage",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 20
+      },
+      {
+        "name": "pexternal",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 21
+      },
+      {
+        "name": "residual",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 22
+      },
+      {
+        "name": "numerical_damping",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 16,
+        "y": 23
+      },
+      {
+        "name": "uv_ok",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "1",
+        "x": 16,
+        "y": 24
+      },
+      {
+        "name": "ref_ok",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "1",
+        "x": 16,
+        "y": 25
+      },
+      {
+        "name": "en_ok",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "1",
+        "x": 16,
+        "y": 26
+      },
+      {
+        "name": "hot",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "1",
+        "x": 16,
+        "y": 27
+      },
+      {
+        "name": "pg_ok",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "1",
+        "x": 16,
+        "y": 28
+      },
+      {
+        "name": "noise",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 16,
+        "y": 29
+      },
+      {
+        "name": "vo_observed",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 16,
+        "y": 30
+      }
+    ],
+    "unit": "1",
+    "editable": false,
+    "group": "interface",
+    "source": "TDF vector order, see enum In/Out in header"
+  },
+  "sources": {
+    "type": "array",
+    "value": [
+      {
+        "file": "E:\\电源芯粒汇总\\电源芯粒datasheet建模\\VA建模\\LDO\\External-Cap_LDO\\供电芯粒_LDO_External-Cap_LDO_Source-Sink_LDO\\TPS51200_core_v1.va",
+        "sha256": "32f61693998b072384f099ac9a73e6970ba67213b3d7b63c8740d311417f8b3f"
+      },
+      {
+        "file": "E:\\电源芯粒汇总\\电源芯粒datasheet建模\\VA建模\\LDO\\External-Cap_LDO\\供电芯粒_LDO_External-Cap_LDO_Source-Sink_LDO\\01_TI_TPS51200_RevE.pdf",
+        "sha256": "c3ad54837f5fb8620c06af33105e1aaa3403b127ab0125c299cb690bb914154e"
+      },
+      {
+        "file": "E:\\电源芯粒汇总\\电源芯粒datasheet建模\\VA建模\\LDO\\External-Cap_LDO\\供电芯粒_LDO_External-Cap_LDO_Source-Sink_LDO\\TPS51200_VerilogA模型验证报告.docx",
+        "sha256": "0dc4c0a1610dfc400ae8e548a62ddd43a35d6168ff5763ab3414e8e63383c515"
+      },
+      {
+        "file": "E:\\电源芯粒汇总\\电源芯粒datasheet建模\\VA建模\\LDO\\External-Cap_LDO\\供电芯粒_LDO_External-Cap_LDO_Source-Sink_LDO\\External-Cap_LDO-Source-Sink_LDO.xlsx",
+        "sha256": "7aba4ea8385be5968af35df39ceb0e19d2c2d559235edede9921998be0477f20"
+      }
+    ],
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "SHA256 source snapshot"
+  },
+  "limitations": {
+    "type": "array",
+    "value": [
+      "No calibrated PSRR/noise/PVT/self-heating/parasitic stability",
+      "Shared GND/PGND; signal-flow interface; internal fixture solver",
+      "GM/RHEAD/EN/PG-requalification assumptions inherited from VA",
+      "Area/physical latency null; teacher independent precision acceptance pending"
+    ],
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "Model scope"
+  }
+}

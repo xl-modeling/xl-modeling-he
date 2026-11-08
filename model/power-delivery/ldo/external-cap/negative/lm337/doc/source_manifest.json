@@ -1,0 +1,16 @@
+{
+  "model": "lm337",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_Negative_LDO/lm337",
+  "original_files_sha256": {
+    "doc/LDO芯粒清单.xlsx": "c0cd8d42a347ce8952c8adbc447d9c68ec8d49d1eeace6cb638ba75c2b87ee1c",
+    "doc/lm337模型说明.docx": "a4d13746b779f20cf96d9f0c96424c3bfdc5827e9b7f307586e0208d0829f974",
+    "doc/lm337芯粒自测试报告.docx": "7e061185d9f4fbf866bf816b87418287ee3dca030d1f7889e1a4847f03b8308a",
+    "include/lm337.h": "746f9a4f24dd0a1e2c24dde45c9b3ee49b99e3681f43537401e6ca6087c78b5f",
+    "json/lm337.json": "2c723f0291d6e76d4762471093d0c54ef6036cbd44dde3eb77ab853204a5b7d0",
+    "source/lm337.cpp": "f289735020ceb185546a8b012edb553e81002a8c7d1376bb7c9c6a61e855fe4f"
+  },
+  "baseline_cases": [
+    "lm337-SC-B01"
+  ]
+}

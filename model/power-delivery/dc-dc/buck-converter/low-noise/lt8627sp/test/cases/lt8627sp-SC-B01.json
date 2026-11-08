@@ -1,0 +1,45 @@
+{
+  "id": "lt8627sp-SC-B01",
+  "model": "lt8627sp",
+  "variant": "lt8627sp",
+  "category": "DC-DC",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 1e-09,
+  "stop_s": 0.0004,
+  "window_s": [
+    0.00036,
+    0.000399999
+  ],
+  "capture_from_s": 0.00036,
+  "inputs": {
+    "pvin": 12,
+    "svin": 12,
+    "en_uvlo": 3.3,
+    "sync_mode": 3.3,
+    "set_override": -1,
+    "sense_offset": 0,
+    "iload": 0,
+    "rload": 0.5
+  },
+  "fixture": {},
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [
+    {
+      "id": "B01-1",
+      "output": "vout",
+      "stat": "mean",
+      "expected": 1,
+      "absolute_tolerance": 0.02,
+      "unit": "V",
+      "source": "交付JSON标称值及对应源码稳态方程；参考和容差在此用例中冻结",
+      "purpose": "behavior_regression",
+      "tolerance_basis": "本测试包方程回归预算，非器件保证；正式手册／独立精度项另行执行"
+    }
+  ],
+  "scope": "application_behavior",
+  "config": "json/lt8627sp.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。"
+}

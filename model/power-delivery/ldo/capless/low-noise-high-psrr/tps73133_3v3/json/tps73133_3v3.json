@@ -1,0 +1,652 @@
+{
+  "name": {
+    "type": "string",
+    "value": "tps73133_3v3",
+    "unit": "",
+    "editable": false,
+    "source": "TPS73133 fixed 3.3V",
+    "evidence": "datasheet"
+  },
+  "version": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "",
+    "editable": false,
+    "source": "Model release 1.0",
+    "evidence": "model_metadata"
+  },
+  "category": {
+    "type": "string",
+    "value": "LDO-Capless_LDO",
+    "unit": "",
+    "editable": false,
+    "source": "与标准交付包和官方清单一级/二级分类一致",
+    "evidence": "datasheet"
+  },
+  "vnom_v": {
+    "type": "float",
+    "value": 3.3,
+    "unit": "V",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 fixed option",
+    "evidence": "datasheet"
+  },
+  "rated_a": {
+    "type": "float",
+    "value": 0.15,
+    "unit": "A",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 rated current",
+    "evidence": "datasheet"
+  },
+  "iq_10ma_a": {
+    "type": "float",
+    "value": 0.0004,
+    "unit": "A",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 10mA typical",
+    "evidence": "datasheet"
+  },
+  "iq_150ma_a": {
+    "type": "float",
+    "value": 0.00055,
+    "unit": "A",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 150mA typical",
+    "evidence": "datasheet"
+  },
+  "iq_off_a": {
+    "type": "float",
+    "value": 2e-08,
+    "unit": "A",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 EN<=0.5V; new silicon -40..125C, legacy -40..100C",
+    "evidence": "datasheet"
+  },
+  "ien_on_a": {
+    "type": "float",
+    "value": 2e-08,
+    "unit": "A",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 EN current at VEN5.5V",
+    "evidence": "datasheet"
+  },
+  "reverse_a": {
+    "type": "float",
+    "value": 1e-07,
+    "unit": "A",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 EN low; current flowing out of IN; max10uA",
+    "evidence": "datasheet"
+  },
+  "icl_a": {
+    "type": "float",
+    "value": 0.36,
+    "unit": "A",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 VOUT=0.9*VR; min150mA, max500mA",
+    "evidence": "datasheet"
+  },
+  "isc_a": {
+    "type": "float",
+    "value": 0.2,
+    "unit": "A",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 VOUT=0",
+    "evidence": "datasheet"
+  },
+  "startup_reference_s": {
+    "type": "float",
+    "value": 0.0006,
+    "unit": "s",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 VOUT3V, RL30ohm, COUT1uF,CNR10nF; endpoint not defined",
+    "evidence": "datasheet"
+  },
+  "noise_low_hz": {
+    "type": "float",
+    "value": 10.0,
+    "unit": "Hz",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 noise lower cutoff",
+    "evidence": "datasheet"
+  },
+  "noise_high_hz": {
+    "type": "float",
+    "value": 100000.0,
+    "unit": "Hz",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 noise upper cutoff",
+    "evidence": "datasheet"
+  },
+  "noise_per_v_no_cnr": {
+    "type": "float",
+    "value": 2.7e-05,
+    "unit": "V rms/V",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 COUT10uF, no CNR",
+    "evidence": "datasheet"
+  },
+  "noise_per_v_cnr": {
+    "type": "float",
+    "value": 8.5e-06,
+    "unit": "V rms/V",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 COUT10uF, CNR10nF",
+    "evidence": "datasheet"
+  },
+  "tsd_trip_c": {
+    "type": "float",
+    "value": 160.0,
+    "unit": "degC junction",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 temperature increasing",
+    "evidence": "datasheet"
+  },
+  "tsd_reset_c": {
+    "type": "float",
+    "value": 140.0,
+    "unit": "degC junction",
+    "editable": false,
+    "source": "TI TPS731 SBVS034P Rev.P p.5 temperature decreasing",
+    "evidence": "datasheet"
+  },
+  "rout_high_ohm": {
+    "type": "float",
+    "value": 0.0165,
+    "unit": "ohm",
+    "editable": false,
+    "source": "TI Rev.P 0.0005%/mA over10..150mA",
+    "evidence": "datasheet_derived"
+  },
+  "rout_low_ohm": {
+    "type": "float",
+    "value": 0.8360000000000002,
+    "unit": "ohm",
+    "editable": false,
+    "source": "TI Rev.P piecewise effective slope below10mA; chosen so both load-reg intervals match",
+    "evidence": "datasheet_derived"
+  },
+  "rdo_ohm": {
+    "type": "float",
+    "value": 0.2,
+    "unit": "ohm",
+    "editable": false,
+    "source": "30mV/150mA secant; power law additionally fits 0.25ohm local derivative",
+    "evidence": "datasheet_derived"
+  },
+  "rfeedback_ohm": {
+    "type": "float",
+    "value": 80000.0,
+    "unit": "ohm",
+    "editable": false,
+    "source": "TI Rev.P internal OUT-to-GND divider, sections6.3.4 and7.2.2.3",
+    "evidence": "datasheet_derived"
+  },
+  "line_gain_v_per_v": {
+    "type": "float",
+    "value": 0.00033,
+    "unit": "V/V",
+    "editable": false,
+    "source": "TI Rev.P 0.01%/V of3.3V; positive slope chosen",
+    "evidence": "datasheet_derived"
+  },
+  "rout_va_ohm": {
+    "type": "float",
+    "value": 0.0667,
+    "unit": "ohm",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: ROUT",
+    "evidence": "va_fit"
+  },
+  "vdo_va_v": {
+    "type": "float",
+    "value": 0.02,
+    "unit": "V",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: VDO_INT",
+    "evidence": "va_fit"
+  },
+  "fold_mid_v": {
+    "type": "float",
+    "value": 0.5,
+    "unit": "V",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: fold midpoint",
+    "evidence": "va_fit"
+  },
+  "fold_width_v": {
+    "type": "float",
+    "value": 0.12,
+    "unit": "V",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: fold slope",
+    "evidence": "va_fit"
+  },
+  "en_mid_v": {
+    "type": "float",
+    "value": 1.1,
+    "unit": "V",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: VEN_MID",
+    "evidence": "va_fit"
+  },
+  "en_width_v": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "V",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: VEN_SLOPE",
+    "evidence": "va_fit"
+  },
+  "uv_mid_v": {
+    "type": "float",
+    "value": 1.7,
+    "unit": "V",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: VUV_MID; not guaranteed hardware UVLO",
+    "evidence": "va_fit"
+  },
+  "uv_width_v": {
+    "type": "float",
+    "value": 0.03,
+    "unit": "V",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: VUV_SLOPE",
+    "evidence": "va_fit"
+  },
+  "vin_ref_v": {
+    "type": "float",
+    "value": 3.8,
+    "unit": "V",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: VIN_REF",
+    "evidence": "va_fit"
+  },
+  "gleak_s": {
+    "type": "float",
+    "value": 1e-09,
+    "unit": "S",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: GMIN_OUT for va_static",
+    "evidence": "va_fit"
+  },
+  "psrr_h_inf": {
+    "type": "float",
+    "value": 0.0142144271,
+    "unit": "V/V",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: PSRR highpass asymptote",
+    "evidence": "va_fit"
+  },
+  "psrr_fc_hz": {
+    "type": "float",
+    "value": 1124.655,
+    "unit": "Hz",
+    "editable": false,
+    "source": "Supplied TPS73133 VA: PSRR pole",
+    "evidence": "va_fit"
+  },
+  "dt_s": {
+    "type": "float",
+    "value": 2e-07,
+    "unit": "s",
+    "editable": true,
+    "source": "default numerical step",
+    "evidence": "engineering_assumption"
+  },
+  "cout_f": {
+    "type": "float",
+    "value": 1e-07,
+    "unit": "F",
+    "editable": true,
+    "source": "table default; optional, not needed for stability",
+    "evidence": "engineering_assumption"
+  },
+  "esr_ohm": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "ohm",
+    "editable": true,
+    "source": "external optional COUT ESR",
+    "evidence": "engineering_assumption"
+  },
+  "ren_off_ohm": {
+    "type": "float",
+    "value": 100000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "source": "VA off EN leakage approximation",
+    "evidence": "engineering_assumption"
+  },
+  "startup_no_cnr_tau_s": {
+    "type": "float",
+    "value": 4e-05,
+    "unit": "s",
+    "editable": true,
+    "source": "engineering assumption when CNR=0",
+    "evidence": "engineering_assumption"
+  },
+  "line_pole_hz": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "slow DC line path separated from AC PSRR fit",
+    "evidence": "engineering_assumption"
+  },
+  "initial_offset_fraction": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "1",
+    "editable": true,
+    "source": "configurable +/-0.5% initial corner",
+    "evidence": "engineering_assumption"
+  },
+  "temperature_offset_fraction": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "1",
+    "editable": true,
+    "source": "extra +/-0.5% corner; no fitted temperature law",
+    "evidence": "engineering_assumption"
+  },
+  "calibration_profile": {
+    "type": "string",
+    "value": "datasheet",
+    "unit": "",
+    "editable": true,
+    "source": "datasheet or va_static; forward DC compatibility only",
+    "evidence": "model_control"
+  },
+  "initial_state": {
+    "type": "string",
+    "value": "dc",
+    "unit": "",
+    "editable": true,
+    "source": "dc or uncharged",
+    "evidence": "model_control"
+  },
+  "cnr_mode": {
+    "type": "int",
+    "value": 1,
+    "unit": "",
+    "editable": true,
+    "source": "0=no CNR; 1=CNR10nF. No arbitrary continuous CNR interpolation",
+    "evidence": "model_control"
+  },
+  "noise_seed": {
+    "type": "int",
+    "value": 73133,
+    "unit": "",
+    "editable": true,
+    "source": "fixed repeatable seed",
+    "evidence": "model_control"
+  },
+  "noise_enable": {
+    "type": "bool",
+    "value": false,
+    "unit": "",
+    "editable": true,
+    "source": "noise table requires COUT10uF and IO10mA default",
+    "evidence": "model_control"
+  },
+  "psrr_enable": {
+    "type": "bool",
+    "value": true,
+    "unit": "",
+    "editable": true,
+    "source": "100Hz58dB and10kHz37dB at150mA",
+    "evidence": "model_control"
+  },
+  "psrr_source": {
+    "type": "string",
+    "value": "vin",
+    "unit": "",
+    "editable": true,
+    "source": "vin actual power ripple, or separate diagnostic ripple port",
+    "evidence": "model_control"
+  },
+  "test_data_path": {
+    "type": "string",
+    "value": "test/scenarios",
+    "unit": "",
+    "editable": true,
+    "source": "relative model path",
+    "evidence": "model_control"
+  },
+  "test_output_path": {
+    "type": "string",
+    "value": "test/results",
+    "unit": "",
+    "editable": true,
+    "source": "relative model path",
+    "evidence": "model_control"
+  },
+  "die_area_mm2": {
+    "type": "unknown",
+    "value": null,
+    "unit": "mm2",
+    "editable": false,
+    "source": "Bare die area not provided",
+    "evidence": "unavailable"
+  },
+  "source_documents": {
+    "type": "array",
+    "value": [
+      {
+        "file": "document/reference/01_TI_TPS731_RevP.pdf",
+        "revision": "SBVS034P April2026"
+      },
+      {
+        "file": "document/reference/TPS73133_quick_function_v1.txt"
+      },
+      {
+        "file": "document/reference/TPS73133_psrr_noise_v1.txt"
+      },
+      {
+        "file": "document/reference/TPS73133_VerilogA_快速模型验证报告.docx",
+        "note": "Historical Spectre result, not rerun here"
+      }
+    ],
+    "editable": false
+  },
+  "dropout_zo_ohm": {
+    "type": "float",
+    "value": 0.25,
+    "unit": "ohm",
+    "editable": false,
+    "source": "TI Rev.P p.5 output impedance in dropout; local slope calibration",
+    "evidence": "datasheet"
+  },
+  "dimensions": {
+    "x": 8,
+    "y": 14,
+    "unit": "relative",
+    "editable": false,
+    "description": "架构工具图标尺寸，不是物理面积"
+  },
+  "ports": [
+    {
+      "name": "vin",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "name": "en",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "name": "iload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "A",
+      "x": 0,
+      "y": 3
+    },
+    {
+      "name": "rload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "ohm",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "name": "temperature",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "degC",
+      "x": 0,
+      "y": 5
+    },
+    {
+      "name": "ripple",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 6
+    },
+    {
+      "name": "vexternal",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 7
+    },
+    {
+      "name": "vout",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 1
+    },
+    {
+      "name": "vcore",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 2
+    },
+    {
+      "name": "iin",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 3
+    },
+    {
+      "name": "ignd",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "name": "ien",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 5
+    },
+    {
+      "name": "ipass",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 6
+    },
+    {
+      "name": "ireverse",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "name": "iexternal",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 8
+    },
+    {
+      "name": "power",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 9
+    },
+    {
+      "name": "noise",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 10
+    },
+    {
+      "name": "psrr_voltage",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 11
+    },
+    {
+      "name": "unmet_load",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 12
+    },
+    {
+      "name": "state",
+      "io_type": "sca_out",
+      "data_type": "int",
+      "unit": "1",
+      "x": 8,
+      "y": 13
+    }
+  ],
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm2",
+    "editable": false,
+    "source": "裸片总面积缺少数据；Tang论文active_area_mm2单独保留，不替代裸片总面积"
+  },
+  "latency_s": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "source": "独立物理延迟未标定；启动典型参数或工程延时另存，不能当作物理精度验收"
+  },
+  "delivery_revision": {
+    "type": "string",
+    "value": "2026-10-28",
+    "unit": "1",
+    "editable": false,
+    "source": "交付规范修订，不修改原电气参数或模型版本"
+  }
+}

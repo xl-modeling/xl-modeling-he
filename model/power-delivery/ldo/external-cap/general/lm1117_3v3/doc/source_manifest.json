@@ -1,0 +1,16 @@
+{
+  "model": "lm1117_3v3",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_通用LDO/lm1117_3v3",
+  "original_files_sha256": {
+    "doc/LDO芯粒清单.xlsx": "1d24cb52258f396354e612e1240c754b7b1390b5f1bcb110b41fd5dd448ab9d0",
+    "doc/lm1117_3v3模型说明.docx": "8de04298c63e2915f01e1446d3952ab53a85a559a5a077e3f34acf99e8b1bbb2",
+    "doc/lm1117_3v3芯粒自测试报告.docx": "3e74395b875149b19d0937b24092fe4219d485d77eed2b8e750f53b5665616cf",
+    "include/lm1117_3v3.h": "850e8e75462cc8fb3066efc31bc742cebafd7a879f83281963227d7e7efc4379",
+    "json/lm1117_3v3.json": "a0987194cecbc684a1b113985d8ff550d3344772cb90aac2eb4650064168921c",
+    "source/lm1117_3v3.cpp": "3dc968881f201ab67a479519b1a935b30335ad777f4cbd1b2f306ae4e9a0099e"
+  },
+  "baseline_cases": [
+    "lm1117_3v3-SC-B01"
+  ]
+}
