@@ -1,0 +1,11 @@
+{
+  "version": "1.1",
+  "original_collection": "LDO delivery 1.1, SystemC model",
+  "files_sha256": {
+    "include/LDO.h": "6d5f9aec0f172c09bfa7bffa17d0ccc035bbf45faa0919179a67afda96f86a94",
+    "include/LDO_table.h": "b600889e729e08e7d938a39a423922a8e92c264c34b7acd76e2aaedae95984c6",
+    "source/LDO.cpp": "0a8e6c3b5ad3146bc1cc0ff8bc750cdaecd95afcb79bb3ac2e15c9cabb94e267",
+    "json/LDO.json": "0e585b2a52afb7aeb94c2cb23b5a661ecef166db11ceecfeb9525d9b747c1c6d",
+    "json/LDO_grid.txt": "ab6cbb178ce21b8048f108b9471791e4daba91b31c96183a0a9c22cb39f8bf6d"
+  }
+}

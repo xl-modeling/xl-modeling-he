@@ -1,0 +1,176 @@
+{
+  "version": "1.1",
+  "conditions": {
+    "VDD_V": 1.2,
+    "VREF_V": 1,
+    "AVDD_V": 2.5,
+    "IBIAS_A": 1e-05,
+    "temperature_C": 27,
+    "PSRR_load_A": 0.1
+  },
+  "formal_measurements": [
+    {
+      "id": 1,
+      "name": "Output voltage at 1 mA",
+      "typical": 1.0,
+      "unit": "V",
+      "low": 0.95,
+      "high": 1.05,
+      "measured": 1.00087699441,
+      "result": "PASS"
+    },
+    {
+      "id": 2,
+      "name": "Output voltage at 100 mA",
+      "typical": 1.0,
+      "unit": "V",
+      "low": 0.95,
+      "high": 1.05,
+      "measured": 1.00010616214,
+      "result": "PASS"
+    },
+    {
+      "id": 3,
+      "name": "Load regulation, 0 to 100 mA",
+      "typical": 16.4,
+      "unit": "uV/mA",
+      "low": 15.579999999999998,
+      "high": 17.22,
+      "measured": 16.447224500000246,
+      "result": "PASS"
+    },
+    {
+      "id": 4,
+      "name": "Quiescent current at no load",
+      "typical": 88.3,
+      "unit": "uA",
+      "low": 83.88499999999999,
+      "high": 92.715,
+      "measured": 88.2637596811,
+      "result": "PASS"
+    },
+    {
+      "id": 5,
+      "name": "PSRR at 1 kHz",
+      "typical": 50.0,
+      "unit": "dB",
+      "low": 47.5,
+      "high": 52.5,
+      "measured": 49.969443601121945,
+      "result": "PASS"
+    },
+    {
+      "id": 6,
+      "name": "PSRR at 100 kHz",
+      "typical": 30.2,
+      "unit": "dB",
+      "low": 28.689999999999998,
+      "high": 31.71,
+      "measured": 30.197050055663208,
+      "result": "PASS"
+    },
+    {
+      "id": 7,
+      "name": "PSRR at 1 MHz",
+      "typical": 9.8,
+      "unit": "dB",
+      "low": 9.31,
+      "high": 10.290000000000001,
+      "measured": 9.793955224798053,
+      "result": "PASS"
+    }
+  ],
+  "extended_validation": {
+    "vout": {
+      "max_absolute_error": 0.002947132142149478,
+      "worst": {
+        "case": {
+          "vdd": 1.2283,
+          "vref": 0.9261,
+          "load": 0.0006879944,
+          "temperature": 72,
+          "group": "holdout",
+          "name": "extra_17"
+        },
+        "model": "VA",
+        "metric": "vout",
+        "value": 0.952801037345451,
+        "reference": 0.9498539052033015,
+        "absolute_error": 0.002947132142149478,
+        "relative_error_percent": 0.31027215090710936
+      }
+    },
+    "iq": {
+      "max_absolute_error": 6.432165632896947e-07,
+      "worst": {
+        "case": {
+          "vdd": 1.345,
+          "vref": 0.9956,
+          "load": 0.08860694,
+          "temperature": -30,
+          "group": "holdout",
+          "name": "extra_9"
+        },
+        "model": "VA",
+        "metric": "iq",
+        "value": 0.00013648489822144783,
+        "reference": 0.00013584168165815813,
+        "absolute_error": 6.432165632896947e-07,
+        "relative_error_percent": 0.47350456460655277
+      }
+    },
+    "max_SC_VA_voltage_difference_V": 5.013101045392432e-12,
+    "max_SC_VA_iq_difference_A": 5.203357276301057e-16,
+    "max_AC_native_difference_dB": 0.19443903754792835,
+    "max_AC_SC_VA_difference_dB": 3.913410269618112e-05,
+    "regulation_worst": {
+      "name": "holdout_line_1",
+      "model": "SC",
+      "unit": "mV/V",
+      "value": 2.4774856499998332,
+      "reference": 2.4673720299950297,
+      "relative_error_percent": 0.4098944091874168
+    }
+  },
+  "extended_SC_measurements": {
+    "load_transient": {
+      "final_V": 1.001270081136384,
+      "rise": {
+        "deviation_mV": 105.14509393720218,
+        "settling_s": 1.6999999999999922e-07,
+        "peak_after_edge_s": 3.4999999999999665e-08
+      },
+      "fall": {
+        "deviation_mV": 149.29701212338986,
+        "settling_s": 2.149999999999988e-07,
+        "peak_after_edge_s": 9.999999999999904e-08
+      }
+    },
+    "line_transient": {
+      "final_V": 1.000106162143954,
+      "min_V": 0.990980901983424,
+      "max_V": 1.009157612642144,
+      "positive_excursion_mV": 9.051450498192004,
+      "negative_excursion_mV": 9.602606969498883
+    },
+    "startup": {
+      "final_V": 1.001269760290827,
+      "t90_s": 9.287430134292282e-07,
+      "overshoot_percent": 0.0
+    },
+    "noise_rms_V": 1.2932318174350396e-05
+  },
+  "source_discrepancy": {
+    "metric": "Dropout at 1% output reduction",
+    "manual_typical_mV": 200,
+    "native_measured_mV": 144.994775631776,
+    "conditions": {
+      "VREF_V": 1,
+      "load_A": 0.1,
+      "temperature_C": 27,
+      "AVDD_V": 2.5,
+      "IBIAS_A": 1e-05
+    },
+    "resolution": "User confirmed adoption of the native transistor-circuit measurement. Use 144.9948 mV (approximately 145 mV) for delivery and retain the manual 200 mV discrepancy record."
+  }
+}

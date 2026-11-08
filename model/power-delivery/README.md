@@ -1,6 +1,6 @@
 # Power-delivery SystemC models
 
-The datasheet-model collection contains 31 model implementations and 32 baseline scenarios.
+The datasheet-model collection contains 31 model implementations and 32 baseline scenarios. The independently delivered LDO 1.1 model has its own seven-item acceptance runner.
 
 | Model | Directory |
 | --- | --- |
@@ -37,3 +37,7 @@ The datasheet-model collection contains 31 model implementations and 32 baseline
 | ucc27624 | [power-interface/gate-driver/low-side/ucc27624](power-interface/gate-driver/low-side/ucc27624) |
 
 Each model provides its own C++17 build entry, parameter files, documentation and baseline runner.
+
+## Independently verified LDO
+
+[LDO 1.1](ldo/capless/general/LDO) provides the capless LDO model used in the current chiplet acceptance test. Its implementation and runtime data are self-contained in that directory.

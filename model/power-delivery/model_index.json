@@ -247,5 +247,13 @@
     "baselines": [
       "ucc27624-SC-B01"
     ]
+  },
+  {
+    "model": "LDO",
+    "path": "ldo/capless/general/LDO",
+    "source": "LDO delivery 1.1 / 02_SC",
+    "baselines": [
+      "Seven original LDO acceptance metrics"
+    ]
   }
 ]
