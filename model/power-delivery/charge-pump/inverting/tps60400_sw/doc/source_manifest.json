@@ -1,0 +1,16 @@
+{
+  "model": "tps60400_sw",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "Charge_Pump/供电芯粒_Charge_Pump_固定比例负压_TPS60400/tps60400_sw",
+  "original_files_sha256": {
+    "doc/Charge_Pump芯粒清单.xlsx": "484c50e266b3284ada09e1dbfc85da48e019523fc9bf2542bf9f73ec9ad553af",
+    "doc/tps60400_sw模型说明.docx": "8993c50b521386ef657341d47c9fe32afb74c9a3c8bfb596f2a112d19825e9ae",
+    "doc/tps60400_sw芯粒自测试报告.docx": "35d244b5380d06ba318d23377264caa017d6e19e63018f3057ab26cc0e886710",
+    "include/tps60400_sw.h": "e37d38ba172e85f1162ad7b67ace42d9c38c775021ffffa1b98df6f63a6ce5f5",
+    "json/tps60400_sw.json": "3aa2185234aa0cac6aba1a058678c03e70d9f5211cc14a4658ebfff154022462",
+    "source/tps60400_sw.cpp": "c7ca58ffab9913cdfe6b38cc04b0d0d9311492ede6740db5d19ec45e636596b9"
+  },
+  "baseline_cases": [
+    "tps60400_sw-SC-B01"
+  ]
+}

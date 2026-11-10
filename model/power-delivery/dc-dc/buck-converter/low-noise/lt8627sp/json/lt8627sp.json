@@ -1,0 +1,844 @@
+{
+  "name": {
+    "type": "string",
+    "value": "lt8627sp",
+    "unit": "1",
+    "editable": false,
+    "group": "identity",
+    "source": "本模型标识"
+  },
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "1",
+    "editable": false,
+    "group": "identity",
+    "source": "本模型标识"
+  },
+  "category": {
+    "type": "string",
+    "value": "Power-DC-DC-LowNoiseBuck",
+    "unit": "1",
+    "editable": false,
+    "group": "identity",
+    "source": "本模型标识"
+  },
+  "FSW": {
+    "type": "float",
+    "value": 2000000.0,
+    "unit": "Hz",
+    "editable": true,
+    "group": "functional",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "LOUT": {
+    "type": "float",
+    "value": 1.8e-07,
+    "unit": "H",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "LDCR": {
+    "type": "float",
+    "value": 0.00035,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "RDS_TOP": {
+    "type": "float",
+    "value": 0.011,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "RDS_BOT": {
+    "type": "float",
+    "value": 0.0034,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "ROFF": {
+    "type": "float",
+    "value": 1000000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "RSW_LEAK": {
+    "type": "float",
+    "value": 1000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "CSW": {
+    "type": "float",
+    "value": 2e-11,
+    "unit": "F",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "DIODE_VF": {
+    "type": "float",
+    "value": 0.65,
+    "unit": "V",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "DIODE_RD": {
+    "type": "float",
+    "value": 0.02,
+    "unit": "ohm",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "DIODE_SMOOTH": {
+    "type": "float",
+    "value": 0.005,
+    "unit": "V",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "ISET": {
+    "type": "float",
+    "value": 0.0001,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "IQ_ON": {
+    "type": "float",
+    "value": 0.0032,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "IQ_OFF": {
+    "type": "float",
+    "value": 5.5e-05,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "ILIM_TOP": {
+    "type": "float",
+    "value": 32.0,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "ILIM_BOT": {
+    "type": "float",
+    "value": 23.0,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "IOUT_MAX": {
+    "type": "float",
+    "value": 16.0,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "VEN_RISE": {
+    "type": "float",
+    "value": 1.32,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "VEN_FALL": {
+    "type": "float",
+    "value": 1.28,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "VIN_MIN": {
+    "type": "float",
+    "value": 2.6,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA的PVIN和SVIN典型门限2.6V；手册正常工作保证下限2.8V，不能互相替代"
+  },
+  "VINTVCC": {
+    "type": "float",
+    "value": 3.4,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "VHEAD": {
+    "type": "float",
+    "value": 0.7,
+    "unit": "V",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "KP": {
+    "type": "float",
+    "value": 4.0,
+    "unit": "1/V",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "TREF": {
+    "type": "float",
+    "value": 1e-05,
+    "unit": "s",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "DEADTIME": {
+    "type": "float",
+    "value": 1e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "TEDGE": {
+    "type": "float",
+    "value": 1e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "PG_RON": {
+    "type": "float",
+    "value": 380.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "SET_RPD": {
+    "type": "float",
+    "value": 500.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "VOUT_MAX": {
+    "type": "float",
+    "value": 6.0,
+    "unit": "V",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "ENABLE_CLKOUT": {
+    "type": "int",
+    "value": 1,
+    "unit": "1",
+    "editable": true,
+    "group": "functional",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "ENABLE_NOISE": {
+    "type": "int",
+    "value": 1,
+    "unit": "1",
+    "editable": true,
+    "group": "functional",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "NOISE_CHAR_MODE": {
+    "type": "int",
+    "value": 0,
+    "unit": "1",
+    "editable": true,
+    "group": "functional",
+    "source": "原VA默认值；ADI LT8627SP Rev.B电气参数及所给应用条件，适用边界见limitations"
+  },
+  "NOISE_DUTY": {
+    "type": "float",
+    "value": 0.0841478,
+    "unit": "1",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "VNOISE_WHITE": {
+    "type": "float",
+    "value": 3.8147e-09,
+    "unit": "V/sqrt(Hz)",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA串联电感白噪声源系数，非直接输出噪声密度；历史固定PWM PSS/Pnoise报告为比较依据"
+  },
+  "VNOISE_LF_1HZ": {
+    "type": "float",
+    "value": 1.206e-05,
+    "unit": "V/sqrt(Hz) @1Hz",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA串联电感低频噪声源1Hz系数，功率谱按f^-VNOISE_LF_EXP变化"
+  },
+  "VNOISE_LF_EXP": {
+    "type": "float",
+    "value": 2.0,
+    "unit": "1",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA应用/工程抽象参数；非ADI内部设计参数或完整器件保证"
+  },
+  "COUT": {
+    "type": "float",
+    "value": 0.0003,
+    "unit": "F",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "COUT/ESR/RSET/CSET来自历史VA报告；PG上拉3.3V/100kohm为本次明确的应用配置；DT为本模型数值步长"
+  },
+  "ESR": {
+    "type": "float",
+    "value": 0.002,
+    "unit": "ohm",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "COUT/ESR/RSET/CSET来自历史VA报告；PG上拉3.3V/100kohm为本次明确的应用配置；DT为本模型数值步长"
+  },
+  "RSET": {
+    "type": "float",
+    "value": 10000,
+    "unit": "ohm",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "COUT/ESR/RSET/CSET来自历史VA报告；PG上拉3.3V/100kohm为本次明确的应用配置；DT为本模型数值步长"
+  },
+  "CSET": {
+    "type": "float",
+    "value": 1e-09,
+    "unit": "F",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "COUT/ESR/RSET/CSET来自历史VA报告；PG上拉3.3V/100kohm为本次明确的应用配置；DT为本模型数值步长"
+  },
+  "PGFB_RATIO": {
+    "type": "float",
+    "value": 0.5,
+    "unit": "1",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "COUT/ESR/RSET/CSET来自历史VA报告；PG上拉3.3V/100kohm为本次明确的应用配置；DT为本模型数值步长"
+  },
+  "PG_PULLUP_V": {
+    "type": "float",
+    "value": 3.3,
+    "unit": "V",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "COUT/ESR/RSET/CSET来自历史VA报告；PG上拉3.3V/100kohm为本次明确的应用配置；DT为本模型数值步长"
+  },
+  "PG_PULLUP_R": {
+    "type": "float",
+    "value": 100000,
+    "unit": "ohm",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "COUT/ESR/RSET/CSET来自历史VA报告；PG上拉3.3V/100kohm为本次明确的应用配置；DT为本模型数值步长"
+  },
+  "INITIAL_VOUT": {
+    "type": "float",
+    "value": 0,
+    "unit": "V",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "COUT/ESR/RSET/CSET来自历史VA报告；PG上拉3.3V/100kohm为本次明确的应用配置；DT为本模型数值步长"
+  },
+  "DT": {
+    "type": "float",
+    "value": 1e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "COUT/ESR/RSET/CSET来自历史VA报告；PG上拉3.3V/100kohm为本次明确的应用配置；DT为本模型数值步长"
+  },
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm2",
+    "editable": true,
+    "group": "uncharacterized",
+    "source": "缺少独立硅片/晶体管级表征；不以封装面积或DT代替物理面积/延迟"
+  },
+  "physical_latency_s": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "s",
+    "editable": true,
+    "group": "uncharacterized",
+    "source": "缺少独立硅片/晶体管级表征；不以封装面积或DT代替物理面积/延迟"
+  },
+  "cost": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "CNY",
+    "editable": true,
+    "group": "uncharacterized",
+    "source": "缺少独立硅片/晶体管级表征；不以封装面积或DT代替物理面积/延迟"
+  },
+  "package_area_mm2": {
+    "type": "float",
+    "value": 16,
+    "unit": "mm2",
+    "editable": false,
+    "group": "reference_only",
+    "source": "手册24引脚4mm×4mm LQFN封装本体名义面积，不是硅片面积"
+  },
+  "ports": [
+    {
+      "name": "pvin",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "svin",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "en_uvlo",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "sync_mode",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "set_override",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "sense_offset",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "iload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "A"
+    },
+    {
+      "name": "rload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "ohm"
+    },
+    {
+      "name": "vout",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "sw",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "il",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A"
+    },
+    {
+      "name": "duty",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "1"
+    },
+    {
+      "name": "gh",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "1"
+    },
+    {
+      "name": "gl",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "1"
+    },
+    {
+      "name": "ipvin",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A"
+    },
+    {
+      "name": "isvin",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A"
+    },
+    {
+      "name": "power",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "W"
+    },
+    {
+      "name": "external_loss",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "W"
+    },
+    {
+      "name": "energy",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "J"
+    },
+    {
+      "name": "set_voltage",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "vref",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "intvcc",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "pg",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "clkout",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "ilim",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A"
+    },
+    {
+      "name": "active",
+      "io_type": "sca_out",
+      "data_type": "bool",
+      "unit": "1"
+    },
+    {
+      "name": "limited",
+      "io_type": "sca_out",
+      "data_type": "bool",
+      "unit": "1"
+    },
+    {
+      "name": "state",
+      "io_type": "sca_out",
+      "data_type": "int",
+      "unit": "1"
+    }
+  ],
+  "state_codes": {
+    "0": "EN disabled",
+    "1": "PVIN/SVIN below application minimum",
+    "2": "reference starting",
+    "3": "running",
+    "4": "instantaneous high-side current command blocked"
+  },
+  "noise_model": {
+    "type": "string",
+    "value": "averaged fixed-duty L/C power-stage transfer of original white and f^-exponent series voltage source",
+    "editable": false,
+    "band_rule": "0 < f < FSW/10; queries require NOISE_CHAR_MODE=1",
+    "transient_noise": "zero, matching ordinary VA transient; no stochastic waveform is injected",
+    "limitations": "Not Spectre PSS/Pnoise or closed-loop reference/control noise; no EMI or deterministic ripple included"
+  },
+  "power_model": {
+    "type": "string",
+    "value": "bridge conduction + smooth body diode + SW leakage + SVIN*IQ",
+    "editable": false,
+    "unit": "W",
+    "description": "ipvin and isvin are separate supply currents; DCR/ESR loss is external_loss. No calibrated switching/gate-drive/INTVCC-load/SET-source/PG-pullup power or temperature effects."
+  },
+  "source_documents": [
+    {
+      "file": "LT8627SP.va",
+      "sha256": "378abd6ad142ce1eb8ad1f6cb79dde24e366b230620a13b321becc1295bec69d"
+    },
+    {
+      "file": "ADI_LT8627SP_datasheet.pdf",
+      "sha256": "ebc980a3e130d77e7615d09d1a758d5991988e7ff7f1cd76e517ad9a03323979"
+    },
+    {
+      "file": "LT8627SP_VerilogA_开关模型验证报告_最终版.docx",
+      "sha256": "b5db0441c6966d57c38260b1c152ab4ae00b22fa70da814102f8e1a5d8940fd3"
+    },
+    {
+      "file": "低噪声Buck核心指标集-20260720.xlsx",
+      "sha256": "d8a889a9ea8e707991f15a19a2f2676ef7e91d155859acd6286fcf290167f81e"
+    },
+    {
+      "file": "LT8627SP_noise_setup.scs",
+      "sha256": "7169e74aaf23f7baa0b057ca3a5bc880240f65ca19b6bba30963a144b3c1cd47"
+    }
+  ],
+  "limitations": [
+    "仅LT8627SP单芯片应用级模型，非官方晶体管模型；不实现PolyPhase或外部SYNC锁相/PHMODE相移",
+    "原VA的VC/RT/PHMODE为占位引脚；本模型用FSW配置频率、内部OUTS=VOUT+sense_offset，不重建VC补偿网络",
+    "set_override<0使用RSET/CSET网络；>=0为外部理想SET电压驱动；原VA单模块包含的180nH电感属应用外围，并非芯片集成电感",
+    "COUT/ESR及RSET/CSET应用网络内部求解，外部不能重复添加；PVIN/SVIN为理想端电压，不积分外部输入电容",
+    "VIN_MIN=2.6V为原VA典型门限；手册工作保证下限2.8V。VOUT_MAX=6V和SVIN-VHEAD为VA应用边界，非器件全范围规格",
+    "简化高侧限流会按瞬时电感电流关断命令；FCM下原VA低侧23A限制不生效，不等于真实逐周期保护、短路打嗝、OVP或OTP",
+    "INTVCC为原VA理想稳压抽象，本TDF输出关断时置0，不提供外部INTVCC电容放电曲线；PG为配置上拉网络下的电压，CLKOUT禁止时输出0，不表示电气高阻",
+    "普通瞬态中的噪声源为零；固定占空比噪声仅为平均功率级解析近似，不是重新运行Spectre PSS/Pnoise，不把噪声与开关纹波混用",
+    "IQ_ON/IQ_OFF仅代表SVIN支路，非总静态输入电流；功耗/效率仅限所建支路，未标定真实开关损耗、温度、自热、EMI",
+    "没有独立硅片或晶体管级精度验收；历史VA截图与工程判据不能代替正式精度评价，特殊处理须专家审核"
+  ],
+  "ESR_RESIDUAL_FIT": {
+    "value": 0.0015,
+    "type": "float",
+    "unit": "ohm",
+    "editable": true,
+    "group": "fit",
+    "source": "Historical VA report V2.0: 12V to 1V, Rload0.5ohm,300uF,9.16mVpp; residual output impedance fit, NOT capacitor ESR or data-sheet value"
+  },
+  "SWITCH_CAP_FIT": {
+    "value": 7e-10,
+    "type": "float",
+    "unit": "F",
+    "editable": true,
+    "group": "fit",
+    "source": "Historical VA report V2.0 84.98% efficiency; energy residual Cfit*VIN^2*FSW, NOT measured transistor capacitance"
+  },
+  "fit_scope": {
+    "type": "gray-box residual calibration",
+    "calibration_points": [
+      "12V/1V/2A,9.16mVpp",
+      "12V/1V/2A,84.98%"
+    ],
+    "independent_validation": false,
+    "base_ESR_unchanged": 0.002,
+    "purpose": "Reproduce historical application observables while retaining physical VA parameters separately",
+    "extrapolation": "No independent efficiency/ripple accuracy claim outside calibration point"
+  },
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "新增单独标识的残差拟合项：ESR_RESIDUAL_FIT为1.5 mΩ等效输出阻抗，SWITCH_CAP_FIT为0.7 nF等效开关能量系数。后者按输入电压平方计算每周期残差能量，再乘开关频率得到残差功率。原电容ESR与RDS参数分开保留。校准点复现通过，这些系数不是器件内部实测电阻或电容，不能作为独立物理精度验收。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "lt8627sp",
+      "off_power": 0.00024841936584722496,
+      "on_power": 0.32243274834210484,
+      "power_max": 194.26101781019165,
+      "power_min": 0.0,
+      "samples": 3000000
+    },
+    "functional": [
+      {
+        "model": "lt8627sp",
+        "case": "lt8627sp_vin_3.3",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 94.14462507392638,
+          "pin": 2.128203902095849,
+          "pout": 2.0035895844368086,
+          "power": 0.11485908443268739,
+          "ripple": 0.006906290072193011,
+          "samples": 20000,
+          "vout": 1.0008950779003696
+        },
+        "checks": [
+          {
+            "name": "1V regulation",
+            "actual": 1.0008950779003696,
+            "expected": 1,
+            "tolerance": 0.02,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "lt8627sp",
+        "case": "lt8627sp_vin_5",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 93.29574997156574,
+          "pin": 2.155337470114289,
+          "pout": 2.0108382571612977,
+          "power": 0.12898947448415168,
+          "ripple": 0.007958283636817942,
+          "samples": 20000,
+          "vout": 1.0027033660486602
+        },
+        "checks": [
+          {
+            "name": "1V regulation",
+            "actual": 1.0027033660486602,
+            "expected": 1,
+            "tolerance": 0.02,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "lt8627sp",
+        "case": "lt8627sp_vin_12",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 84.7934510292381,
+          "pin": 2.3791812235294163,
+          "pout": 2.0173898656702436,
+          "power": 0.32063607785941756,
+          "ripple": 0.009330529443685842,
+          "samples": 20000,
+          "vout": 1.0043347086416887
+        },
+        "checks": [
+          {
+            "name": "1V regulation",
+            "actual": 1.0043347086416887,
+            "expected": 1,
+            "tolerance": 0.02,
+            "pass": true
+          },
+          {
+            "name": "historical efficiency calibration-point reproduction",
+            "actual": 84.7934510292381,
+            "expected": 84.98,
+            "tolerance": 2,
+            "pass": true
+          },
+          {
+            "name": "historical ripple calibration-point reproduction",
+            "actual": 0.009330529443685842,
+            "expected": 0.00916,
+            "tolerance": 0.002,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "lt8627sp",
+        "case": "lt8627sp_vin_18",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 75.47325874466111,
+          "pin": 2.6756617099579287,
+          "pout": 2.019409085488371,
+          "power": 0.5898932862448242,
+          "ripple": 0.009733184457321076,
+          "samples": 20000,
+          "vout": 1.0048369946837312
+        },
+        "checks": [
+          {
+            "name": "1V regulation",
+            "actual": 1.0048369946837312,
+            "expected": 1,
+            "tolerance": 0.02,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "lt8627sp",
+        "case": "lt8627sp_noise_0",
+        "returncode": 0,
+        "measurements": {
+          "density": 4.934769793535381e-09,
+          "rms": 3.957201216251349e-06
+        },
+        "checks": [
+          {
+            "name": "10kHz noise-density historical reference",
+            "actual": 4.934769793535381e-09,
+            "expected": 4.9211e-09,
+            "tolerance": 5e-10,
+            "pass": true
+          },
+          {
+            "name": "10Hz-100kHz noise RMS historical reference",
+            "actual": 3.957201216251349e-06,
+            "expected": 3.9559e-06,
+            "tolerance": 5e-07,
+            "pass": true
+          }
+        ]
+      }
+    ],
+    "invalid_config": [],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "source_sha256": {
+      "include\\lt8627sp.h": "2d69055760a2f7c1512b8ebd9e384d09137ed9ff9a4eb5c5fda6b0c9f2b24faa",
+      "source\\lt8627sp.cpp": "eb2a677d88d2d8489994f98dae9ae4903e57b9fb91b3a07d2c91f588bf5070dd"
+    }
+  }
+}

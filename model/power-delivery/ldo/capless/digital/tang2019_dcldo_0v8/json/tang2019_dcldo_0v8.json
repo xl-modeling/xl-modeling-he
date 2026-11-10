@@ -1,0 +1,533 @@
+{
+  "name": {
+    "type": "string",
+    "value": "tang2019_dcldo_0v8",
+    "unit": "",
+    "editable": false,
+    "source": "Tang et al. DOI10.1109/TIE.2018.2840492",
+    "evidence": "paper"
+  },
+  "version": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "",
+    "editable": false,
+    "source": "SystemC release 1.0",
+    "evidence": "metadata"
+  },
+  "category": {
+    "type": "string",
+    "value": "LDO-Capless_LDO",
+    "unit": "",
+    "editable": false,
+    "source": "与标准交付包和官方清单一级/二级分类一致",
+    "evidence": "metadata"
+  },
+  "vnom_v": {
+    "type": "float",
+    "value": 0.8,
+    "unit": "V",
+    "editable": false,
+    "source": "p1803 II-D",
+    "evidence": "paper"
+  },
+  "vin_nom_v": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "V",
+    "editable": false,
+    "source": "p1803 II-D",
+    "evidence": "paper"
+  },
+  "vdo_v": {
+    "type": "float",
+    "value": 0.2,
+    "unit": "V",
+    "editable": false,
+    "source": "p1803 II-D explicitly states dropout",
+    "evidence": "paper"
+  },
+  "vlow_v": {
+    "type": "float",
+    "value": 0.78,
+    "unit": "V",
+    "editable": false,
+    "source": "p1803 II-D",
+    "evidence": "paper"
+  },
+  "vhigh_v": {
+    "type": "float",
+    "value": 0.82,
+    "unit": "V",
+    "editable": false,
+    "source": "p1803 II-D",
+    "evidence": "paper"
+  },
+  "switches": {
+    "type": "int",
+    "value": 28,
+    "unit": "count",
+    "editable": false,
+    "source": "p1803 II-D: N=28, not 2^8",
+    "evidence": "paper"
+  },
+  "load_min_a": {
+    "type": "float",
+    "value": 0.001,
+    "unit": "A",
+    "editable": false,
+    "source": "1..50mA target range",
+    "evidence": "paper"
+  },
+  "load_max_a": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "A",
+    "editable": false,
+    "source": "p1803 II-D",
+    "evidence": "paper"
+  },
+  "iq_min_a": {
+    "type": "float",
+    "value": 0.00016,
+    "unit": "A",
+    "editable": false,
+    "source": "p1803 II-D",
+    "evidence": "paper"
+  },
+  "iq_max_a": {
+    "type": "float",
+    "value": 0.00035,
+    "unit": "A",
+    "editable": false,
+    "source": "p1803 II-D",
+    "evidence": "paper"
+  },
+  "active_area_mm2": {
+    "type": "float",
+    "value": 0.0645,
+    "unit": "mm2",
+    "editable": false,
+    "source": "p1805 sectionIII; active area excluding pads",
+    "evidence": "paper"
+  },
+  "process_nm": {
+    "type": "int",
+    "value": 130,
+    "unit": "nm",
+    "editable": false,
+    "source": "p1803 II-D",
+    "evidence": "paper"
+  },
+  "cout_f": {
+    "type": "float",
+    "value": 1e-10,
+    "unit": "F",
+    "editable": true,
+    "source": "p1805 measurement; on-chip test load capacitor",
+    "evidence": "paper"
+  },
+  "rout_va_ohm": {
+    "type": "float",
+    "value": 0.46,
+    "unit": "ohm",
+    "editable": true,
+    "source": "core_v2 ROUT; paper TableI aggregate load regulation .46mV/mA",
+    "evidence": "va_v2_fit"
+  },
+  "icl_num_a": {
+    "type": "float",
+    "value": 0.2,
+    "unit": "A",
+    "editable": true,
+    "source": "numerical tanh bound, NOT silicon current limit",
+    "evidence": "va_v2_fit"
+  },
+  "tset_va_s": {
+    "type": "float",
+    "value": 3e-06,
+    "unit": "s",
+    "editable": true,
+    "source": "VA v2 TSET fits prose3us; TableI<800ns conflicts",
+    "evidence": "va_v2_fit"
+  },
+  "gmin_s": {
+    "type": "float",
+    "value": 1e-09,
+    "unit": "S",
+    "editable": true,
+    "source": "VA v2 GMIN_OUT",
+    "evidence": "va_v2_fit"
+  },
+  "vsmooth_v": {
+    "type": "float",
+    "value": 1e-06,
+    "unit": "V",
+    "editable": true,
+    "source": "VA v2 VSMOOTH",
+    "evidence": "va_v2_fit"
+  },
+  "psrr_h0": {
+    "type": "float",
+    "value": 0.0316228,
+    "unit": "V/V",
+    "editable": true,
+    "source": "PSRR v2 H0",
+    "evidence": "va_v2_fit"
+  },
+  "psrr_fz_hz": {
+    "type": "float",
+    "value": 1000000.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "PSRR v2 FZ",
+    "evidence": "va_v2_fit"
+  },
+  "psrr_fp_hz": {
+    "type": "float",
+    "value": 3162300.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "PSRR v2 FP",
+    "evidence": "va_v2_fit"
+  },
+  "dt_s": {
+    "type": "float",
+    "value": 2e-12,
+    "unit": "s",
+    "editable": true,
+    "source": "TDF numerical step; no physical clock",
+    "evidence": "engineering_assumption"
+  },
+  "shift_delay_s": {
+    "type": "float",
+    "value": 1e-10,
+    "unit": "s",
+    "editable": true,
+    "source": "assumed combinational shift delay; NOT paper150ps response",
+    "evidence": "engineering_assumption"
+  },
+  "cell_min_a": {
+    "type": "float",
+    "value": 0.0005,
+    "unit": "A",
+    "editable": true,
+    "source": "code1 capacity at VOUT=.8; assumed sizing",
+    "evidence": "engineering_assumption"
+  },
+  "cell_max_a": {
+    "type": "float",
+    "value": 0.065,
+    "unit": "A",
+    "editable": true,
+    "source": "code28 capacity at VOUT=.8; assumed sizing",
+    "evidence": "engineering_assumption"
+  },
+  "cell_slope_v": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "V",
+    "editable": true,
+    "source": "exponential output-current voltage sensitivity; assumed",
+    "evidence": "engineering_assumption"
+  },
+  "rload_default_ohm": {
+    "type": "float",
+    "value": 1000000000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "source": "practical open load",
+    "evidence": "engineering_assumption"
+  },
+  "initial_code": {
+    "type": "int",
+    "value": 0,
+    "unit": "count",
+    "editable": true,
+    "source": "cold-start code, user configurable",
+    "evidence": "engineering_assumption"
+  },
+  "profile": {
+    "type": "string",
+    "value": "window_digital",
+    "unit": "",
+    "editable": true,
+    "source": "window_digital or va_v2",
+    "evidence": "model_control"
+  },
+  "initial_state": {
+    "type": "string",
+    "value": "dc",
+    "unit": "",
+    "editable": true,
+    "source": "dc or uncharged",
+    "evidence": "model_control"
+  },
+  "analysis": {
+    "type": "string",
+    "value": "transient",
+    "unit": "",
+    "editable": true,
+    "source": "transient or small_signal; latter fixes power-stage VIN bias and isolates PSRR like VA AC",
+    "evidence": "model_control"
+  },
+  "psrr_enable": {
+    "type": "bool",
+    "value": true,
+    "unit": "",
+    "editable": true,
+    "source": "VA v2 single pole-zero transfer",
+    "evidence": "model_control"
+  },
+  "psrr_source": {
+    "type": "string",
+    "value": "vin",
+    "unit": "",
+    "editable": true,
+    "source": "vin (VIN minus1V) or diagnostic ripple port",
+    "evidence": "model_control"
+  },
+  "test_data_path": {
+    "type": "string",
+    "value": "test/scenarios",
+    "unit": "",
+    "editable": true,
+    "source": "relative model path",
+    "evidence": "model_control"
+  },
+  "test_output_path": {
+    "type": "string",
+    "value": "test/results",
+    "unit": "",
+    "editable": true,
+    "source": "relative model path",
+    "evidence": "model_control"
+  },
+  "noise_rms_v": {
+    "type": "unknown",
+    "value": null,
+    "unit": "V rms",
+    "editable": false,
+    "source": "not disclosed",
+    "evidence": "unavailable"
+  },
+  "physical_current_limit_a": {
+    "type": "unknown",
+    "value": null,
+    "unit": "A",
+    "editable": false,
+    "source": "not disclosed; ICL_NUM is numerical only",
+    "evidence": "unavailable"
+  },
+  "thermal_trip_c": {
+    "type": "unknown",
+    "value": null,
+    "unit": "degC",
+    "editable": false,
+    "source": "not disclosed",
+    "evidence": "unavailable"
+  },
+  "silicon_shift_delay_s": {
+    "type": "unknown",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "source": "not disclosed",
+    "evidence": "unavailable"
+  },
+  "total_die_area_mm2": {
+    "type": "unknown",
+    "value": null,
+    "unit": "mm2",
+    "editable": false,
+    "source": "only active area excluding pads provided",
+    "evidence": "unavailable"
+  },
+  "source_documents": {
+    "type": "array",
+    "value": [
+      {
+        "file": "document/reference/01_Tang_Analog-Assisted_Digital_CL-LDO_2019.pdf",
+        "doi": "10.1109/TIE.2018.2840492"
+      },
+      {
+        "file": "document/reference/Tang2019_dcldo_core_v2.txt"
+      },
+      {
+        "file": "document/reference/Tang2019_dcldo_psrr_v2.txt"
+      },
+      {
+        "file": "document/reference/Tang2019_数字Capless_LDO_VerilogA_快速模型验证报告.docx",
+        "note": "Historical Spectre report, not rerun here"
+      }
+    ],
+    "unit": "",
+    "editable": false
+  },
+  "dimensions": {
+    "x": 8,
+    "y": 14,
+    "unit": "relative",
+    "editable": false,
+    "description": "架构工具图标尺寸，不是物理面积"
+  },
+  "ports": [
+    {
+      "name": "vin",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "name": "iload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "A",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "name": "rload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "ohm",
+      "x": 0,
+      "y": 3
+    },
+    {
+      "name": "ripple",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "name": "vout",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 1
+    },
+    {
+      "name": "vcore",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 2
+    },
+    {
+      "name": "iin",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 3
+    },
+    {
+      "name": "iq",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "name": "ipass",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 5
+    },
+    {
+      "name": "power",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 6
+    },
+    {
+      "name": "psrr_voltage",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "name": "eta_current",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "1",
+      "x": 8,
+      "y": 8
+    },
+    {
+      "name": "eta_power",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "1",
+      "x": 8,
+      "y": 9
+    },
+    {
+      "name": "unmet_load",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 10
+    },
+    {
+      "name": "code",
+      "io_type": "sca_out",
+      "data_type": "int",
+      "unit": "1",
+      "x": 8,
+      "y": 11
+    },
+    {
+      "name": "action",
+      "io_type": "sca_out",
+      "data_type": "int",
+      "unit": "1",
+      "x": 8,
+      "y": 12
+    },
+    {
+      "name": "state",
+      "io_type": "sca_out",
+      "data_type": "int",
+      "unit": "1",
+      "x": 8,
+      "y": 13
+    }
+  ],
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm2",
+    "editable": false,
+    "source": "裸片总面积缺少数据；Tang论文active_area_mm2单独保留，不替代裸片总面积"
+  },
+  "latency_s": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "source": "独立物理延迟未标定；启动典型参数或工程延时另存，不能当作物理精度验收"
+  },
+  "delivery_revision": {
+    "type": "string",
+    "value": "2026-10-28",
+    "unit": "1",
+    "editable": false,
+    "source": "交付规范修订，不修改原电气参数或模型版本"
+  }
+}

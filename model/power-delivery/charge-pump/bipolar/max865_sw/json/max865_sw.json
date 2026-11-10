@@ -1,0 +1,424 @@
+{
+  "name": {
+    "type": "string",
+    "value": "max865_sw",
+    "unit": "",
+    "editable": false,
+    "group": "identity",
+    "source": "SystemC delivery convention"
+  },
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "",
+    "editable": false,
+    "group": "identity",
+    "source": "SystemC delivery convention"
+  },
+  "category": {
+    "type": "string",
+    "value": "Charge_Pump-固定比例双极",
+    "unit": "",
+    "editable": false,
+    "group": "identity",
+    "source": "SystemC delivery convention"
+  },
+  "initial_state": {
+    "type": "string",
+    "value": "uncharged",
+    "unit": "",
+    "editable": true,
+    "group": "functional",
+    "source": "Zero capacitor initial voltage; numerical initial condition"
+  },
+  "dt_s": {
+    "type": "float",
+    "value": 2e-07,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "TDF sampling step; not physical propagation delay"
+  },
+  "max_internal_step_s": {
+    "type": "float",
+    "value": 2e-07,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "Backward Euler maximum internal integration step"
+  },
+  "fsw": {
+    "type": "float",
+    "value": 24000.0,
+    "unit": "Hz",
+    "editable": true,
+    "group": "performance",
+    "source": "max865_sw.va; Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "ron_pos": {
+    "type": "float",
+    "value": 18.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "max865_sw.va; Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "ron_neg": {
+    "type": "float",
+    "value": 8.5,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "max865_sw.va; Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "iq": {
+    "type": "float",
+    "value": 0.0006,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "max865_sw.va; Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "tr_edge": {
+    "type": "float",
+    "value": 3e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "max865_sw.va; Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "dead": {
+    "type": "float",
+    "value": 0.008,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "max865_sw.va; Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "freq_scale": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "max865_sw.va; Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "r_scale": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "",
+    "editable": true,
+    "group": "performance",
+    "source": "max865_sw.va; Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "cfly_f": {
+    "type": "float",
+    "value": 3.3e-06,
+    "unit": "F",
+    "editable": true,
+    "group": "application",
+    "source": "External network in provided VA testbench; capacitor value from datasheet, ESR from test fixture"
+  },
+  "cout_f": {
+    "type": "float",
+    "value": 3.3e-06,
+    "unit": "F",
+    "editable": true,
+    "group": "application",
+    "source": "External network in provided VA testbench; capacitor value from datasheet, ESR from test fixture"
+  },
+  "cfly_esr_ohm": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "ohm",
+    "editable": true,
+    "group": "application",
+    "source": "External network in provided VA testbench; capacitor value from datasheet, ESR from test fixture"
+  },
+  "cout_esr_ohm": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "ohm",
+    "editable": true,
+    "group": "application",
+    "source": "External network in provided VA testbench; capacitor value from datasheet, ESR from test fixture"
+  },
+  "cfly2_f": {
+    "type": "float",
+    "value": 3.3e-06,
+    "unit": "F",
+    "editable": true,
+    "group": "application",
+    "source": "Second flying capacitor, VA test network"
+  },
+  "cfly2_esr_ohm": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "ohm",
+    "editable": true,
+    "group": "application",
+    "source": "External ESR assumption"
+  },
+  "cout_neg_f": {
+    "type": "float",
+    "value": 3.3e-06,
+    "unit": "F",
+    "editable": true,
+    "group": "application",
+    "source": "Negative output capacitor"
+  },
+  "cout_neg_esr_ohm": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "ohm",
+    "editable": true,
+    "group": "application",
+    "source": "External ESR assumption"
+  },
+  "gmin_s": {
+    "type": "float",
+    "value": 1e-12,
+    "unit": "S",
+    "editable": true,
+    "group": "numerical",
+    "source": "VA pin gmin"
+  },
+  "pin_cap_f": {
+    "type": "float",
+    "value": 1e-12,
+    "unit": "F",
+    "editable": true,
+    "group": "numerical",
+    "source": "VA common-mode pin parasitic"
+  },
+  "vin_min_v": {
+    "type": "float",
+    "value": 2,
+    "unit": "V",
+    "editable": true,
+    "group": "operating_domain",
+    "source": "Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "vin_max_v": {
+    "type": "float",
+    "value": 6,
+    "unit": "V",
+    "editable": true,
+    "group": "operating_domain",
+    "source": "Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "vin_absolute_max_v": {
+    "type": "float",
+    "value": 6,
+    "unit": "V",
+    "editable": true,
+    "group": "operating_domain",
+    "source": "Model input rejection threshold, set to recommended operating upper bound; NOT the datasheet absolute maximum rating. Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "temperature_min_c": {
+    "type": "float",
+    "value": -40,
+    "unit": "degC",
+    "editable": true,
+    "group": "operating_domain",
+    "source": "Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "temperature_max_c": {
+    "type": "float",
+    "value": 85,
+    "unit": "degC",
+    "editable": true,
+    "group": "operating_domain",
+    "source": "Maxim MAX865 datasheet, Electrical Characteristics p2 and Typical Operating Circuit"
+  },
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm2",
+    "editable": false,
+    "group": "uncharacterized",
+    "source": "Not provided by independent die/layout/timing data; pending expert review"
+  },
+  "latency_s": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "group": "uncharacterized",
+    "source": "Not provided by independent die/layout/timing data; pending expert review"
+  },
+  "dimensions": {
+    "x": 8,
+    "y": 15
+  },
+  "ports": [
+    {
+      "name": "vin",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "name": "control",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "name": "temperature",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "degC",
+      "x": 0,
+      "y": 3
+    },
+    {
+      "name": "iload",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "A",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "name": "rload",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "ohm",
+      "x": 0,
+      "y": 5
+    },
+    {
+      "name": "iload_neg",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "A",
+      "x": 0,
+      "y": 6
+    },
+    {
+      "name": "rload_neg",
+      "io_type": "input",
+      "data_type": "double",
+      "unit": "ohm",
+      "x": 0,
+      "y": 7
+    },
+    {
+      "name": "vout",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 1
+    },
+    {
+      "name": "iin",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 2
+    },
+    {
+      "name": "power",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 3
+    },
+    {
+      "name": "external_loss",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "name": "numerical_loss",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 5
+    },
+    {
+      "name": "stored_energy",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "J",
+      "x": 8,
+      "y": 6
+    },
+    {
+      "name": "energy_residual",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "name": "fsw",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "Hz",
+      "x": 8,
+      "y": 8
+    },
+    {
+      "name": "phi1",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "1",
+      "x": 8,
+      "y": 9
+    },
+    {
+      "name": "phi2",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "1",
+      "x": 8,
+      "y": 10
+    },
+    {
+      "name": "cfly_v",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 11
+    },
+    {
+      "name": "skip_state",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "1",
+      "x": 8,
+      "y": 12
+    },
+    {
+      "name": "cfly2_v",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 13
+    },
+    {
+      "name": "vneg",
+      "io_type": "output",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 14
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model": "tps43060",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Boost_Controller/tps43060",
+  "original_files_sha256": {
+    "doc/tps43060模型说明.docx": "8da307231d49cfa65592b4e23c4a0a0f37eccc5afdac2d88882913c623505372",
+    "doc/tps43060芯粒清单.xlsx": "83ad299999476de58a9fc581f6daaad1e997d9483a331b20a63b6e071f88fdec",
+    "doc/tps43060芯粒自测试报告.docx": "d7b905f3f861a24a3640caaf816086681a7976d185eacd751f2492b4e56fa239",
+    "include/tps43060.h": "1b40153a44405636e93d63cfff6e66046ac93ee10da6417f4a1ce851cf973ba2",
+    "json/tps43060.json": "e60306334aff18404239674980774dda568ceb493bed8e36caf02db63e3888ce",
+    "source/tps43060.cpp": "04be8182df277c34eebeb1a595479dd9ac240ec4a116035ffcb51b58067512f0"
+  },
+  "baseline_cases": [
+    "tps43060-SC-B01"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model": "lm5118mh",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Buck-Boost Controller/lm5118mh",
+  "original_files_sha256": {
+    "doc/DC-DC芯粒清单.xlsx": "8f9dc24a3ca8a30f001dea6c7f1b0654264008c4b1270f97a663a39d79a52017",
+    "doc/lm5118mh模型说明.docx": "43b2aa9b8fc7c82ac2cab07f214c18ed1fe03765429d6810b9a0fa4b70c820c4",
+    "doc/lm5118mh芯粒自测试报告.docx": "f4dc6316b1c7d1ead6e76cbbf157ae52da8959d6b9c71be09a84f9ce80a0c773",
+    "include/lm5118mh.h": "91eb0da48db8414aa585154aebdb3bf73231dba835f1c915f2d5d25ed27503ad",
+    "json/lm5118mh.json": "4540af08aafa6f086412dcbd47cbce3aa9809b84fdc8af2eec42bbbd69be54b5",
+    "source/lm5118mh.cpp": "866364a812752bc21e84c318138083750911341c1bc47d0a143dba7a2b98bfd5"
+  },
+  "baseline_cases": [
+    "lm5118mh-SC-B01"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "auirs2117s-SC-B01",
+  "model": "auirs2117s",
+  "variant": "auirs2117s",
+  "category": "功率接口",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 1e-10,
+  "stop_s": 5e-06,
+  "window_s": [
+    4.5e-06,
+    4.9999e-06
+  ],
+  "capture_from_s": 4.5e-06,
+  "inputs": {
+    "vcc_V": 15,
+    "in_V": 15,
+    "vb_V": 15,
+    "vs_V": 0,
+    "com_V": 0
+  },
+  "fixture": {
+    "load": {
+      "capacitance_F": 1.8e-09
+    },
+    "initial_dc": false
+  },
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [
+    {
+      "id": "B01-1",
+      "output": "ho_rel_V",
+      "stat": "mean",
+      "expected": 15,
+      "absolute_tolerance": 0.12,
+      "unit": "V",
+      "source": "交付JSON标称值及对应源码稳态方程；参考和容差在此用例中冻结",
+      "purpose": "behavior_regression",
+      "tolerance_basis": "本测试包方程回归预算，非器件保证；正式手册／独立精度项另行执行"
+    }
+  ],
+  "scope": "application_behavior",
+  "config": "json/auirs2117s.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。"
+}

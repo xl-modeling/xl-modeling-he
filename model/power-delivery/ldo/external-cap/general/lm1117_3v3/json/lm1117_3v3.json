@@ -1,0 +1,279 @@
+{
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "editable": true,
+    "source": "VA verified core"
+  },
+  "name": {
+    "type": "string",
+    "value": "lm1117_3v3",
+    "editable": true,
+    "source": "VA verified core"
+  },
+  "category": {
+    "type": "string",
+    "value": "LDO-External-Cap_LDO",
+    "editable": true,
+    "source": "VA verified core"
+  },
+  "mode": {
+    "type": "string",
+    "value": "transient",
+    "editable": true,
+    "source": "SystemC simulation setting"
+  },
+  "initial_state": {
+    "type": "string",
+    "value": "dc",
+    "editable": true,
+    "source": "SystemC simulation setting"
+  },
+  "dt_s": {
+    "type": "float",
+    "value": 5e-08,
+    "editable": true,
+    "source": "SystemC simulation setting",
+    "unit": "s"
+  },
+  "cout_f": {
+    "type": "float",
+    "value": 1e-05,
+    "editable": true,
+    "source": "External testbench; VA report baseline; TI RevQ external capacitor requirements",
+    "unit": "F"
+  },
+  "esr_ohm": {
+    "type": "float",
+    "value": 0.3,
+    "editable": true,
+    "source": "External testbench; VA report baseline; TI RevQ external capacitor requirements",
+    "unit": "ohm"
+  },
+  "vnom_v": {
+    "type": "float",
+    "value": 3.3,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "V"
+  },
+  "vin_ref_v": {
+    "type": "float",
+    "value": 5.0,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "V"
+  },
+  "line_gain": {
+    "type": "float",
+    "value": 0.0001,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "V/V"
+  },
+  "rout_ohm": {
+    "type": "float",
+    "value": 0.00125,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "ohm"
+  },
+  "iq_a": {
+    "type": "float",
+    "value": 0.005,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "A"
+  },
+  "vdo_offset_v": {
+    "type": "float",
+    "value": 1.085714,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "V"
+  },
+  "rdo_ohm": {
+    "type": "float",
+    "value": 0.142857,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "ohm"
+  },
+  "icl_a": {
+    "type": "float",
+    "value": 1.2,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "A"
+  },
+  "treg_s": {
+    "type": "float",
+    "value": 5e-05,
+    "editable": true,
+    "source": "VA engineering fit; not a guaranteed silicon metric",
+    "unit": "s"
+  },
+  "rload_dyn_ohm": {
+    "type": "float",
+    "value": 0.12,
+    "editable": true,
+    "source": "VA engineering fit; not a guaranteed silicon metric",
+    "unit": "ohm"
+  },
+  "tload_s": {
+    "type": "float",
+    "value": 2e-05,
+    "editable": true,
+    "source": "VA engineering fit; not a guaranteed silicon metric",
+    "unit": "s"
+  },
+  "gmin_s": {
+    "type": "float",
+    "value": 1e-09,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "S"
+  },
+  "iq_on_v": {
+    "type": "float",
+    "value": 0.2,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "V"
+  },
+  "iq_slope_v": {
+    "type": "float",
+    "value": 0.02,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "V"
+  },
+  "h_low": {
+    "type": "float",
+    "value": 0.000177827941,
+    "editable": true,
+    "source": "VA verified core",
+    "unit": "V/V"
+  },
+  "h_inf": {
+    "type": "float",
+    "value": 0.0316227766,
+    "editable": true,
+    "source": "VA engineering fit; not a guaranteed silicon metric",
+    "unit": "V/V"
+  },
+  "fp_hz": {
+    "type": "float",
+    "value": 2000.0,
+    "editable": true,
+    "source": "VA engineering fit; not a guaranteed silicon metric",
+    "unit": "Hz"
+  },
+  "ftran_hz": {
+    "type": "float",
+    "value": 21338.0,
+    "editable": true,
+    "source": "VA engineering fit; not a guaranteed silicon metric",
+    "unit": "Hz"
+  },
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "editable": false,
+    "source": "Die area unavailable; package size is not die area",
+    "unit": "mm2"
+  },
+  "dimensions": {
+    "x": 6,
+    "y": 6,
+    "unit": "relative",
+    "editable": false,
+    "description": "GUI icon size only, not physical area"
+  },
+  "ports": [
+    {
+      "name": "vin",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "name": "iload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "A",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "name": "rload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "ohm",
+      "x": 0,
+      "y": 3
+    },
+    {
+      "name": "ripple",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "name": "vout",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 6,
+      "y": 1
+    },
+    {
+      "name": "iin",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 6,
+      "y": 2
+    },
+    {
+      "name": "ignd",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 6,
+      "y": 3
+    },
+    {
+      "name": "power",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "W",
+      "x": 6,
+      "y": 4
+    }
+  ],
+  "limitations": [
+    "25 C typical model; no thermal/temperature/corner qualification",
+    "No EN pin, output noise, reverse-current or foldback model",
+    "PSRR ripple mode uses separate zero-mean ripple port to reproduce VA AC semantics",
+    "Area unavailable; accuracy exceptions require expert review per teacher requirements",
+    "Hard nonnegative boundary and hard min replace VA smooth numerical regularizers"
+  ],
+  "latency_s": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "source": "缺少独立物理传播/建立时间数据；不得以仿真步长代替"
+  },
+  "power_model": {
+    "type": "string",
+    "value": "(VIN-VOUT)*Ipass+VIN*IQ",
+    "editable": false,
+    "source": "引脚功率记账；独立实测精度待验"
+  }
+}

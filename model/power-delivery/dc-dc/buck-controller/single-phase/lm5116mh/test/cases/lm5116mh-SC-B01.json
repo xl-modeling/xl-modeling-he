@@ -1,0 +1,41 @@
+{
+  "id": "lm5116mh-SC-B01",
+  "model": "lm5116mh",
+  "variant": "lm5116mh",
+  "category": "DC-DC",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 1e-08,
+  "stop_s": 0.003,
+  "window_s": [
+    0.0029000000000000002,
+    0.00299999
+  ],
+  "capture_from_s": 0.0029000000000000002,
+  "inputs": {
+    "vin": 48,
+    "uvlo": 2,
+    "rt_sync": 0,
+    "en": 3.3,
+    "ramp": 0,
+    "agnd": 0,
+    "ss": 3.3,
+    "fb": 1.21,
+    "vout": 5,
+    "demb": 0,
+    "cs": 0,
+    "csg": 0,
+    "vccx": 0,
+    "hb": 7.4,
+    "sw": 0,
+    "pgnd": 0
+  },
+  "fixture": {},
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [],
+  "scope": "control_pin_fixture",
+  "config": "json/lm5116mh.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mcp1711_3v3-SC-B01",
+  "model": "mcp1711_3v3",
+  "variant": "mcp1711_3v3",
+  "category": "LDO",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 2e-07,
+  "stop_s": 0.003,
+  "window_s": [
+    0.0029000000000000002,
+    0.0029998
+  ],
+  "capture_from_s": 0.0029000000000000002,
+  "inputs": {
+    "vin": 4.3,
+    "iload": 0,
+    "rload": 1000000000000.0,
+    "temperature": 27,
+    "ripple": 0,
+    "shdn": 5
+  },
+  "fixture": {},
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [
+    {
+      "id": "B01-1",
+      "output": "vout",
+      "stat": "mean",
+      "expected": 3.3,
+      "absolute_tolerance": 1e-06,
+      "unit": "V",
+      "source": "交付JSON标称值及对应源码稳态方程；参考和容差在此用例中冻结",
+      "purpose": "behavior_regression",
+      "tolerance_basis": "本测试包方程回归预算，非器件保证；正式手册／独立精度项另行执行"
+    }
+  ],
+  "scope": "application_behavior",
+  "config": "json/mcp1711_3v3.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。",
+  "baseline_note": "VIN取交付JSON的vin_ref_v，使线性调整项为零；在模型标称参考点核对输出。"
+}

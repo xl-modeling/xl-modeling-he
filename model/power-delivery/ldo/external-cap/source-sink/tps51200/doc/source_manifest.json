@@ -1,0 +1,16 @@
+{
+  "model": "tps51200",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_Source-Sink_LDO/tps51200",
+  "original_files_sha256": {
+    "doc/LDO芯粒清单.xlsx": "5ff0a68a239dfd488c9bc99881259d4b0ba40152c8e60953caed3d7319a25df3",
+    "doc/tps51200模型说明.docx": "af0911fc5a09c8c1d173ccae09d3ce28ac4c48fac8e91bbf0b6aab7967d37943",
+    "doc/tps51200芯粒自测试报告.docx": "5fa1aad722a53fadf7da687ced783f129906870fb218a897b3c0e752a3fb0b9f",
+    "include/tps51200.h": "a9b23d02e9c48b58e9de78e52efb5cca96db7314eeff94a299071c538c6c1e25",
+    "json/tps51200.json": "8c980b28baf9509d1a902f46b3795a2b4fcb3f33d0eb4e7d249a3e33dcdc489f",
+    "source/tps51200.cpp": "f2228dbf471555d60fc4e849e0e72412547e40d453867dd355b869eb05f9f478"
+  },
+  "baseline_cases": [
+    "tps51200-SC-B01"
+  ]
+}

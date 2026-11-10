@@ -1,0 +1,259 @@
+[
+  {
+    "model": "auirs2117s",
+    "path": "power-interface/gate-driver/high-side/auirs2117s",
+    "source": "功率接口/供电芯粒_功率接口_栅极驱动_高边驱动_AUIRS2117S/auirs2117s",
+    "baselines": [
+      "auirs2117s-SC-B01"
+    ]
+  },
+  {
+    "model": "lm1117_3v3",
+    "path": "ldo/external-cap/general/lm1117_3v3",
+    "source": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_通用LDO/lm1117_3v3",
+    "baselines": [
+      "lm1117_3v3-SC-B01"
+    ]
+  },
+  {
+    "model": "lm2665_sw",
+    "path": "charge-pump/fixed-ratio-boost/lm2665_sw",
+    "source": "Charge_Pump/供电芯粒_Charge_Pump_固定比例升压_LM2665/lm2665_sw",
+    "baselines": [
+      "lm2665_sw-SC-B01"
+    ]
+  },
+  {
+    "model": "lm3350_sw",
+    "path": "charge-pump/fixed-ratio-step-down/lm3350_sw",
+    "source": "Charge_Pump/供电芯粒_Charge_Pump_固定比例降压_LM3350/lm3350_sw",
+    "baselines": [
+      "lm3350_sw-SC-B01"
+    ]
+  },
+  {
+    "model": "lm337",
+    "path": "ldo/external-cap/negative/lm337",
+    "source": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_Negative_LDO/lm337",
+    "baselines": [
+      "lm337-SC-B01"
+    ]
+  },
+  {
+    "model": "lm5116mh",
+    "path": "dc-dc/buck-controller/single-phase/lm5116mh",
+    "source": "DC-DC/供电芯粒_DC-DC_Buck-Controller_单相Buck/lm5116mh",
+    "baselines": [
+      "lm5116mh-SC-B01"
+    ]
+  },
+  {
+    "model": "lm5118mh",
+    "path": "dc-dc/buck-boost-controller/lm5118mh",
+    "source": "DC-DC/供电芯粒_DC-DC_Buck-Boost Controller/lm5118mh",
+    "baselines": [
+      "lm5118mh-SC-B01"
+    ]
+  },
+  {
+    "model": "lt8627sp",
+    "path": "dc-dc/buck-converter/low-noise/lt8627sp",
+    "source": "DC-DC/供电芯粒_DC-DC_Buck Converter _低噪声Buck/lt8627sp",
+    "baselines": [
+      "lt8627sp-SC-B01"
+    ]
+  },
+  {
+    "model": "max20310",
+    "path": "dc-dc/simo-converter/max20310",
+    "source": "DC-DC/供电芯粒_DC-DC_SIMO Converter/max20310",
+    "baselines": [
+      "max20310-SC-B01"
+    ]
+  },
+  {
+    "model": "max865_sw",
+    "path": "charge-pump/bipolar/max865_sw",
+    "source": "Charge_Pump/供电芯粒_Charge_Pump_固定比例双极_MAX865/max865_sw",
+    "baselines": [
+      "max865_sw-SC-B01"
+    ]
+  },
+  {
+    "model": "mcp1623",
+    "path": "dc-dc/boost-converter/low-power/mcp1623",
+    "source": "DC-DC/供电芯粒_DC-DC_Boost_Converter_低功耗Boost/mcp1623",
+    "baselines": [
+      "mcp1623-SC-B01"
+    ]
+  },
+  {
+    "model": "mcp1711_3v3",
+    "path": "ldo/capless/general/mcp1711_3v3",
+    "source": "LDO/Capless_LDO/供电芯粒_LDO_Capless_LDO_通用LDO/mcp1711_3v3",
+    "baselines": [
+      "mcp1711_3v3-SC-B01"
+    ]
+  },
+  {
+    "model": "mp2183",
+    "path": "dc-dc/buck-converter/single-phase/mp2183",
+    "source": "DC-DC/供电芯粒_DC-DC_Buck Converter_单相Buck/mp2183",
+    "baselines": [
+      "mp2183-SC-B01"
+    ]
+  },
+  {
+    "model": "tang2019_dcldo_0v8",
+    "path": "ldo/capless/digital/tang2019_dcldo_0v8",
+    "source": "LDO/Capless_LDO/供电芯粒_LDO_Capless_LDO_数字Capless_LDO/tang2019_dcldo_0v8",
+    "baselines": [
+      "tang2019_dcldo_0v8-SC-B01"
+    ]
+  },
+  {
+    "model": "tlv71333_3v3",
+    "path": "ldo/capless/low-power/tlv71333_3v3",
+    "source": "LDO/Capless_LDO/供电芯粒_LDO_Capless_LDO_低功耗Capless_LDO/tlv71333_3v3",
+    "baselines": [
+      "tlv71333_3v3-SC-B01"
+    ]
+  },
+  {
+    "model": "tps22975",
+    "path": "power-interface/load-switch/tps22975",
+    "source": "功率接口/供电芯粒_功率接口_功率开关_负载开关_TPS22975/tps22975",
+    "baselines": [
+      "tps22975-SC-B01"
+    ]
+  },
+  {
+    "model": "tps43060",
+    "path": "dc-dc/boost-controller/tps43060",
+    "source": "DC-DC/供电芯粒_DC-DC_Boost_Controller/tps43060",
+    "baselines": [
+      "tps43060-SC-B01"
+    ]
+  },
+  {
+    "model": "tps51200",
+    "path": "ldo/external-cap/source-sink/tps51200",
+    "source": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_Source-Sink_LDO/tps51200",
+    "baselines": [
+      "tps51200-SC-B01"
+    ]
+  },
+  {
+    "model": "tps53647",
+    "path": "dc-dc/buck-controller/multiphase/tps53647",
+    "source": "DC-DC/供电芯粒_DC-DC_Buck-Controller_多相Buck/tps53647",
+    "baselines": [
+      "tps53647-SC-B01"
+    ]
+  },
+  {
+    "model": "tps546a24a",
+    "path": "dc-dc/buck-converter/multiphase/tps546a24a",
+    "source": "DC-DC/供电芯粒_DC-DC_Buck Converter_多相Buck/tps546a24a",
+    "baselines": [
+      "tps546a24a-SC-B01"
+    ]
+  },
+  {
+    "model": "tps60150_sw",
+    "path": "charge-pump/regulated-output/tps60150_sw",
+    "source": "Charge_Pump/供电芯粒_Charge_Pump_固定电压输出_TPS60150/tps60150_sw",
+    "baselines": [
+      "tps60150_sw-SC-B01"
+    ]
+  },
+  {
+    "model": "tps60400_sw",
+    "path": "charge-pump/inverting/tps60400_sw",
+    "source": "Charge_Pump/供电芯粒_Charge_Pump_固定比例负压_TPS60400/tps60400_sw",
+    "baselines": [
+      "tps60400_sw-SC-B01"
+    ]
+  },
+  {
+    "model": "tps61235p",
+    "path": "dc-dc/boost-converter/general/tps61235p",
+    "source": "DC-DC/供电芯粒_DC-DC_Boost_Converter_Boost/tps61235p",
+    "baselines": [
+      "tps61235p-SC-B01"
+    ]
+  },
+  {
+    "model": "tps62746",
+    "path": "dc-dc/buck-converter/low-power/tps62746",
+    "source": "DC-DC/供电芯粒_DC-DC_Buck_Converter_低功耗Buck/tps62746",
+    "baselines": [
+      "tps62746-SC-B01"
+    ]
+  },
+  {
+    "model": "tps63021",
+    "path": "dc-dc/buck-boost-converter/tps63021",
+    "source": "DC-DC/供电芯粒_DC-DC_Buck-Boost Converter/tps63021",
+    "baselines": [
+      "tps63021-SC-B01"
+    ]
+  },
+  {
+    "model": "tps73133_3v3",
+    "path": "ldo/capless/low-noise-high-psrr/tps73133_3v3",
+    "source": "LDO/Capless_LDO/供电芯粒_LDO_Capless_LDO_低噪声高PSRR/tps73133_3v3",
+    "baselines": [
+      "tps73133_3v3-SC-B01"
+    ]
+  },
+  {
+    "model": "tps7a02_1v8",
+    "path": "ldo/external-cap/low-power/tps7a02_1v8",
+    "source": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_低功耗_LDO/tps7a02_1v8",
+    "baselines": [
+      "tps7a02_1v8-SC-B01"
+    ]
+  },
+  {
+    "model": "tps7a20_2v8",
+    "path": "ldo/external-cap/low-noise-high-psrr/tps7a20_2v8",
+    "source": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_超低噪声高PSRR_LDO/tps7a20_2v8",
+    "baselines": [
+      "tps7a20_2v8-SC-B01"
+    ]
+  },
+  {
+    "model": "tps7b4250_q1",
+    "path": "ldo/external-cap/tracking/tps7b4250_q1",
+    "source": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_Tracking_LDO/tps7b4250_q1",
+    "baselines": [
+      "tps7b4250_q1-SC-B01"
+    ]
+  },
+  {
+    "model": "ucc27282",
+    "path": "power-interface/gate-driver/half-bridge/ucc27282",
+    "source": "功率接口/供电芯粒_功率接口_栅极驱动_半桥驱动_UCC27282/ucc27282",
+    "baselines": [
+      "ucc27282_en-SC-B01",
+      "ucc27282_noen-SC-B01"
+    ]
+  },
+  {
+    "model": "ucc27624",
+    "path": "power-interface/gate-driver/low-side/ucc27624",
+    "source": "功率接口/供电芯粒_功率接口_栅极驱动_低边驱动_UCC27624/ucc27624",
+    "baselines": [
+      "ucc27624-SC-B01"
+    ]
+  },
+  {
+    "model": "LDO",
+    "path": "ldo/capless/general/LDO",
+    "source": "LDO delivery 1.1 / 02_SC",
+    "baselines": [
+      "Seven original LDO acceptance metrics"
+    ]
+  }
+]

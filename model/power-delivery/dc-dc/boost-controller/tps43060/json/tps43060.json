@@ -1,0 +1,665 @@
+{
+  "name": {
+    "type": "string",
+    "value": "tps43060",
+    "editable": false
+  },
+  "category": {
+    "type": "string",
+    "value": "Boost Controller",
+    "editable": false
+  },
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "editable": false
+  },
+  "meta": {
+    "name": "tps43060",
+    "version": 0.1,
+    "model_kind": "TDF sampled controller"
+  },
+  "parameter": {
+    "vref_nom": {
+      "type": "float",
+      "value": 1.22,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "vcc_nom": {
+      "type": "float",
+      "value": 7.5,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "iq_enabled": {
+      "type": "float",
+      "value": 0.0006,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "A"
+    },
+    "iq_shutdown": {
+      "type": "float",
+      "value": 1.5e-06,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "A"
+    },
+    "iq_standby": {
+      "type": "float",
+      "value": 5e-05,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "A"
+    },
+    "vin_uv_rise": {
+      "type": "float",
+      "value": 4.1,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "vin_uv_fall": {
+      "type": "float",
+      "value": 3.9,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "ven_rise": {
+      "type": "float",
+      "value": 1.21,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "ven_fall": {
+      "type": "float",
+      "value": 1.14,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "ven_shutdown": {
+      "type": "float",
+      "value": 0.4,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "ien_pullup": {
+      "type": "float",
+      "value": 1.8e-06,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "A"
+    },
+    "ien_hyst": {
+      "type": "float",
+      "value": 3.2e-06,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "A"
+    },
+    "ten_start": {
+      "type": "float",
+      "value": 0.000125,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "s"
+    },
+    "vrt_nom": {
+      "type": "float",
+      "value": 0.5,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "rt_pin_r": {
+      "type": "float",
+      "value": 1000.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "rt_override": {
+      "type": "float",
+      "value": 0.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "fsw_override": {
+      "type": "float",
+      "value": 0.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "Hz"
+    },
+    "sync_enable": {
+      "type": "float",
+      "value": 1.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "1"
+    },
+    "vclk_high": {
+      "type": "float",
+      "value": 1.78,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "sync_min": {
+      "type": "float",
+      "value": 300000.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "Hz"
+    },
+    "sync_max": {
+      "type": "float",
+      "value": 1000000.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "Hz"
+    },
+    "sync_timeout": {
+      "type": "float",
+      "value": 0.00025,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "s"
+    },
+    "ss_current": {
+      "type": "float",
+      "value": 5e-06,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "A"
+    },
+    "ss_discharge_r": {
+      "type": "float",
+      "value": 250.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "ss_clamp": {
+      "type": "float",
+      "value": 1.3,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "gea": {
+      "type": "float",
+      "value": 0.0011,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "S"
+    },
+    "rea": {
+      "type": "float",
+      "value": 10000000.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "iea_limit": {
+      "type": "float",
+      "value": 0.00016,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "A"
+    },
+    "comp_low": {
+      "type": "float",
+      "value": 0.7,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "comp_zero_duty": {
+      "type": "float",
+      "value": 1.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "comp_high": {
+      "type": "float",
+      "value": 2.1,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "comp_clamp_r": {
+      "type": "float",
+      "value": 100.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "ton_min": {
+      "type": "float",
+      "value": 1e-07,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "s"
+    },
+    "toff_fixed": {
+      "type": "float",
+      "value": 2.5e-07,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "s"
+    },
+    "toff_fraction": {
+      "type": "float",
+      "value": 0.05,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "1"
+    },
+    "dead_time": {
+      "type": "float",
+      "value": 6.5e-08,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "s"
+    },
+    "reverse_trip": {
+      "type": "float",
+      "value": 0.0038,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "vcs_zero_duty": {
+      "type": "float",
+      "value": 0.073,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "vcs_max_duty": {
+      "type": "float",
+      "value": 0.061,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "r_ldrv_pu_hi": {
+      "type": "float",
+      "value": 2.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "r_ldrv_pd_hi": {
+      "type": "float",
+      "value": 1.2,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "r_hdrv_pu_hi": {
+      "type": "float",
+      "value": 2.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "r_hdrv_pd_hi": {
+      "type": "float",
+      "value": 1.2,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "r_ldrv_pu_4v5": {
+      "type": "float",
+      "value": 3.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "r_ldrv_pd_4v5": {
+      "type": "float",
+      "value": 2.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "r_hdrv_pu_4v5": {
+      "type": "float",
+      "value": 2.8,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "r_hdrv_pd_4v5": {
+      "type": "float",
+      "value": 1.9,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "r_gate_no_bias": {
+      "type": "float",
+      "value": 200000.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "gate_logic_tr": {
+      "type": "float",
+      "value": 1e-09,
+      "editable": false,
+      "source": "tps43060.va",
+      "unit": "s",
+      "implementation": "retained source value; not applied in TDF model"
+    },
+    "gate_logic_tf": {
+      "type": "float",
+      "value": 1e-09,
+      "editable": false,
+      "source": "tps43060.va",
+      "unit": "s",
+      "implementation": "retained source value; not applied in TDF model"
+    },
+    "vcc_gate_ready": {
+      "type": "float",
+      "value": 3.5,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "V"
+    },
+    "vcc_source_r": {
+      "type": "float",
+      "value": 0.2,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "ivcc_max": {
+      "type": "float",
+      "value": 0.05,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "A"
+    },
+    "r_leak": {
+      "type": "float",
+      "value": 1000000000.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "r_vcc_off": {
+      "type": "float",
+      "value": 100000.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "r_pgood_low": {
+      "type": "float",
+      "value": 100.0,
+      "editable": true,
+      "source": "tps43060.va",
+      "unit": "ohm"
+    },
+    "isns_pin_bias": {
+      "type": "float",
+      "value": 0.0,
+      "editable": false,
+      "source": "tps43060.va",
+      "unit": "A",
+      "implementation": "retained source value; not applied in TDF model"
+    }
+  },
+  "configuration": {
+    "timestep_s": 5e-09
+  },
+  "notes": {
+    "interface": "Sampled voltages in V and branch currents in A, not bidirectional electrical nodes. External circuit integrates SS, COMP, VCC and gate loads. No internal power stage or VOUT clamp.",
+    "scope": "Typical 25 C functional behavior; no efficiency, EMI, thermal, process corners or loop stability signoff. Gate edges quantized to timestep; no 1 ns transition smoothing.",
+    "power": "No calibrated power or die area estimate",
+    "area": "3 x 3 mm package body only",
+    "ignored_parameters": [
+      "gate_logic_tr",
+      "gate_logic_tf",
+      "isns_pin_bias"
+    ]
+  },
+  "ports": [
+    {
+      "name": "RT_CLK",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "SS",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "COMP",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "FB",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "ISNS_N",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "ISNS_P",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "VIN",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "PGND",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "VCC",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "BOOT",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "SW",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "EN",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "AGND",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "POWERPAD",
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "LDRV",
+      "io_type": "sca_out",
+      "unit": "V"
+    },
+    {
+      "name": "HDRV",
+      "io_type": "sca_out",
+      "unit": "V"
+    },
+    {
+      "name": "PGOOD_sink",
+      "io_type": "sca_out",
+      "unit": "1"
+    },
+    {
+      "name": "input_current",
+      "io_type": "sca_out",
+      "unit": "A"
+    },
+    {
+      "name": "ss_current",
+      "io_type": "sca_out",
+      "unit": "A"
+    },
+    {
+      "name": "comp_current",
+      "io_type": "sca_out",
+      "unit": "A"
+    },
+    {
+      "name": "vcc_current",
+      "io_type": "sca_out",
+      "unit": "A"
+    },
+    {
+      "name": "ldrv_resistance",
+      "io_type": "sca_out",
+      "unit": "ohm"
+    },
+    {
+      "name": "hdrv_resistance",
+      "io_type": "sca_out",
+      "unit": "ohm"
+    },
+    {
+      "name": "en_current",
+      "io_type": "sca_out",
+      "unit": "A"
+    },
+    {
+      "name": "rt_current",
+      "io_type": "sca_out",
+      "unit": "A"
+    }
+  ],
+  "latency": {
+    "type": "float",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "status": "uncalibrated"
+  },
+  "power": {
+    "type": "float",
+    "value": null,
+    "unit": "W",
+    "editable": false,
+    "status": "uncalibrated"
+  },
+  "area": {
+    "type": "float",
+    "value": null,
+    "unit": "mm2",
+    "editable": false,
+    "status": "uncalibrated"
+  },
+  "dimensions": {
+    "x": 3,
+    "y": 3,
+    "unit": "mm",
+    "note": "package body, not die area"
+  },
+  "delivery_revision": {
+    "date": "2026-10-29",
+    "scope": "Metadata/query/documentation repair only; control equations, application defaults, environment and historical test results unchanged",
+    "formal_accuracy": "Independent physical characterization and expert review pending",
+    "final_layout": [
+      "include",
+      "source",
+      "json",
+      "doc"
+    ],
+    "historical_evidence": "Conditions/results/plots retained in delivered report; development scripts and raw traces are not part of this six-file package",
+    "verification": {
+      "cxx14_compile_and_link": "passed",
+      "name_version_queries": "passed",
+      "unknown_latency_power_area_nan": "passed",
+      "all_ports_bound": 25,
+      "off_state_tdf_smoke_ns": 200,
+      "historical_full_regression": "not rerun",
+      "environment": "unchanged"
+    }
+  },
+  "runtime_power_model": {
+    "getter": "get_power_dissipation",
+    "unit": "W",
+    "type": "sum_of_modeled_dissipative_branches",
+    "calibrated": false,
+    "scope": "See source branch equations; external application losses are excluded",
+    "reference_accuracy": "No independent silicon/transistor loss calibration available",
+    "unknown_area_and_delay": "Remain unknown rather than replaced by package area or sampling step"
+  },
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "功耗查询由NaN改为状态偏置、VCC线性调节与泄漏支路的损耗和；外置MOS及未知栅负载损耗仍不计入。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "tps43060",
+      "off_power": 0.0005804999999999052,
+      "on_power": 0.007200056249994694,
+      "power_max": 0.00720005625,
+      "power_min": 0.0005805,
+      "samples": 600000
+    },
+    "functional": [],
+    "invalid_config": [],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "source_sha256": {
+      "include\\tps43060.h": "1b40153a44405636e93d63cfff6e66046ac93ee10da6417f4a1ce851cf973ba2",
+      "source\\tps43060.cpp": "04be8182df277c34eebeb1a595479dd9ac240ec4a116035ffcb51b58067512f0"
+    }
+  }
+}

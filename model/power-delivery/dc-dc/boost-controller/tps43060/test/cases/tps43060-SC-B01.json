@@ -1,0 +1,39 @@
+{
+  "id": "tps43060-SC-B01",
+  "model": "tps43060",
+  "variant": "tps43060",
+  "category": "DC-DC",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 5e-09,
+  "stop_s": 0.003,
+  "window_s": [
+    0.0029000000000000002,
+    0.002999995
+  ],
+  "capture_from_s": 0.0029000000000000002,
+  "inputs": {
+    "RT_CLK": 0,
+    "SS": 1.3,
+    "COMP": 1.2,
+    "FB": 1.22,
+    "ISNS_N": 0,
+    "ISNS_P": 0.01,
+    "VIN": 12,
+    "PGND": 0,
+    "VCC": 7.5,
+    "BOOT": 27.5,
+    "SW": 20,
+    "EN": 3.3,
+    "AGND": 0,
+    "POWERPAD": 0
+  },
+  "fixture": {},
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [],
+  "scope": "control_pin_fixture",
+  "config": "json/tps43060.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。"
+}

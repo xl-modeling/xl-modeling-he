@@ -1,0 +1,33 @@
+{
+  "id": "tps62746-SC-B01",
+  "model": "tps62746",
+  "variant": "tps62746",
+  "category": "DC-DC",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 1e-08,
+  "stop_s": 0.015,
+  "window_s": [
+    0.0149,
+    0.01499999
+  ],
+  "capture_from_s": 0.0149,
+  "inputs": {
+    "VIN": 3.6,
+    "GND": 0,
+    "VOS": 1.8,
+    "VSEL": 1,
+    "EN": 3.3,
+    "CTRL": 3.3,
+    "inductor_current": 0.01,
+    "vinsw_load": 1000000.0
+  },
+  "fixture": {},
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [],
+  "scope": "control_pin_fixture",
+  "config": "json/tps62746.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。"
+}

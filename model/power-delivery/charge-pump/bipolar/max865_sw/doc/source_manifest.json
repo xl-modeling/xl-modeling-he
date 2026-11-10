@@ -1,0 +1,16 @@
+{
+  "model": "max865_sw",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "Charge_Pump/供电芯粒_Charge_Pump_固定比例双极_MAX865/max865_sw",
+  "original_files_sha256": {
+    "doc/Charge_Pump芯粒清单.xlsx": "fe26b8bb1e0b7a2aaa9ce56d354e11456f166aa43f9db131ce4dd86ff98c3792",
+    "doc/max865_sw模型说明.docx": "abf00815882cd3242809ec07df618504cf2daf86ecc56b687adf959cd0acf431",
+    "doc/max865_sw芯粒自测试报告.docx": "0806cdf6fafb1fa4f214d1f65ff34baaccb772d663a3973013e2b336b5b03f75",
+    "include/max865_sw.h": "390c71837b23fe2e5b87b6126cb79b5d9ee4389e47a45fab9d162c506970d077",
+    "json/max865_sw.json": "e65563a7bf7892b9b9f68f43c68c5a438d8a83c334043026874bbd0f47fd1e8b",
+    "source/max865_sw.cpp": "98c5c781d60e088cd71afed8e59077f8fb152ecc691e2954173bc5a24733b44d"
+  },
+  "baseline_cases": [
+    "max865_sw-SC-B01"
+  ]
+}

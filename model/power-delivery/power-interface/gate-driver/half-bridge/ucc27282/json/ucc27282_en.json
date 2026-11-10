@@ -1,0 +1,1025 @@
+{
+  "name": {
+    "type": "string",
+    "value": "ucc27282",
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "version": {
+    "type": "string",
+    "value": "1.0.1",
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "本轮接口核对及交付修订，2026-10-29"
+  },
+  "variant": {
+    "type": "string",
+    "value": "UCC27282_EN",
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "vdd_min": {
+    "type": "double",
+    "value": 5.5,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "vdd_max": {
+    "type": "double",
+    "value": 16.0,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "vhs_min": {
+    "type": "double",
+    "value": -8.0,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "vhs_max": {
+    "type": "double",
+    "value": 100.0,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "vhbhs_min": {
+    "type": "double",
+    "value": 5.5,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "vhbhs_max": {
+    "type": "double",
+    "value": 16.0,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "tj_min_c": {
+    "type": "double",
+    "value": -40.0,
+    "unit": "degC",
+    "editable": false,
+    "group": "reference_only",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "参考额定值；当前无温度输入或热状态，修改本字段不构成对应保护功能。"
+  },
+  "tj_max_c": {
+    "type": "double",
+    "value": 140.0,
+    "unit": "degC",
+    "editable": false,
+    "group": "reference_only",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "参考额定值；当前无温度输入或热状态，修改本字段不构成对应保护功能。"
+  },
+  "vin_rise": {
+    "type": "double",
+    "value": 2.1,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "vin_fall": {
+    "type": "double",
+    "value": 1.1,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "ven_rise": {
+    "type": "double",
+    "value": 1.54,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "ven_fall": {
+    "type": "double",
+    "value": 1.21,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "rin": {
+    "type": "double",
+    "value": 250000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "ren": {
+    "type": "double",
+    "value": 250000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "t_enable": {
+    "type": "double",
+    "value": 1.8e-05,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "t_disable": {
+    "type": "double",
+    "value": 1.5e-06,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "vdd_uvlo_rise": {
+    "type": "double",
+    "value": 5.0,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "vdd_uvlo_fall": {
+    "type": "double",
+    "value": 4.5,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "hb_uvlo_rise": {
+    "type": "double",
+    "value": 3.7,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "hb_uvlo_fall": {
+    "type": "double",
+    "value": 3.3,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "idd_quiescent": {
+    "type": "double",
+    "value": 0.0003,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "ihb_quiescent": {
+    "type": "double",
+    "value": 0.0002,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "idd_disabled": {
+    "type": "double",
+    "value": 7e-06,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "rho_ho": {
+    "type": "double",
+    "value": 1.3,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "rlo_ho": {
+    "type": "double",
+    "value": 1.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "rho_lo": {
+    "type": "double",
+    "value": 1.3,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "rlo_lo": {
+    "type": "double",
+    "value": 0.85,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "i_source_pk": {
+    "type": "double",
+    "value": 3.0,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "i_sink_pk": {
+    "type": "double",
+    "value": 3.0,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "t_launch_on": {
+    "type": "double",
+    "value": 7e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "t_launch_off": {
+    "type": "double",
+    "value": 8.6e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "t_src_on": {
+    "type": "double",
+    "value": 2.37e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "t_src_off": {
+    "type": "double",
+    "value": 2e-10,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "t_snk_on": {
+    "type": "double",
+    "value": 2.15e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "t_snk_off": {
+    "type": "double",
+    "value": 2e-10,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "iboot_is": {
+    "type": "double",
+    "value": 1.43e-09,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "iboot_nvt": {
+    "type": "double",
+    "value": 0.0493,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "v_clamp": {
+    "type": "double",
+    "value": 0.75,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "r_clamp": {
+    "type": "double",
+    "value": 0.1,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "v_eps": {
+    "type": "double",
+    "value": 1e-06,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "i_limit_eps": {
+    "type": "double",
+    "value": 0.0001,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "i_zero_eps": {
+    "type": "double",
+    "value": 1e-09,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e"
+  },
+  "category": {
+    "type": "string",
+    "value": "半桥栅极驱动器",
+    "unit": "1",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "group": "metadata"
+  },
+  "dimensions": {
+    "type": "object",
+    "value": {
+      "width": 12,
+      "height": 36
+    },
+    "unit": "grid",
+    "editable": false,
+    "description": "图标网格尺寸；封装机械尺寸另见package_info，裸片面积另见area_mm2。",
+    "group": "metadata",
+    "source": "本轮接口核对及交付修订，2026-10-29"
+  },
+  "ports": {
+    "type": "array",
+    "value": [
+      {
+        "name": "vdd_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "name": "hb_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "name": "hs_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "name": "hi_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "name": "li_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 5
+      },
+      {
+        "name": "vss_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 6
+      },
+      {
+        "name": "en_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 7
+      },
+      {
+        "name": "ho_rel_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 1
+      },
+      {
+        "name": "ho_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 2
+      },
+      {
+        "name": "lo_rel_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 3
+      },
+      {
+        "name": "lo_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 4
+      },
+      {
+        "name": "ho_source_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 5
+      },
+      {
+        "name": "ho_sink_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 6
+      },
+      {
+        "name": "lo_source_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 7
+      },
+      {
+        "name": "lo_sink_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 8
+      },
+      {
+        "name": "idd_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 9
+      },
+      {
+        "name": "ihb_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 10
+      },
+      {
+        "name": "ihi_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 11
+      },
+      {
+        "name": "ili_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 12
+      },
+      {
+        "name": "ien_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 13
+      },
+      {
+        "name": "iboot_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 14
+      },
+      {
+        "name": "vbs_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 15
+      },
+      {
+        "name": "logic_ho",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "1",
+        "x": 12,
+        "y": 16
+      },
+      {
+        "name": "logic_lo",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "1",
+        "x": 12,
+        "y": 17
+      },
+      {
+        "name": "enabled",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "1",
+        "x": 12,
+        "y": 18
+      },
+      {
+        "name": "noise_ho_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 19
+      },
+      {
+        "name": "noise_lo_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 20
+      },
+      {
+        "name": "ho_observed_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 21
+      },
+      {
+        "name": "lo_observed_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 22
+      },
+      {
+        "name": "power_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 23
+      },
+      {
+        "name": "power_quiescent_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 24
+      },
+      {
+        "name": "power_drive_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 25
+      },
+      {
+        "name": "power_input_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 26
+      },
+      {
+        "name": "power_clamp_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 27
+      },
+      {
+        "name": "power_bootstrap_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 28
+      },
+      {
+        "name": "power_discharge_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 29
+      },
+      {
+        "name": "power_body_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 30
+      },
+      {
+        "name": "power_ct_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 31
+      },
+      {
+        "name": "power_terminal_in_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 32
+      },
+      {
+        "name": "power_terminal_out_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 33
+      },
+      {
+        "name": "power_ct_source_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 34
+      },
+      {
+        "name": "power_ct_storage_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 35
+      }
+    ],
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "本轮接口核对及交付修订，2026-10-29"
+  },
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm^2",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "group": "metadata"
+  },
+  "function_info": {
+    "type": "string",
+    "value": "可查询模型身份、参数和完整JSON；详细功能边界见模型说明书",
+    "unit": "1",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "group": "metadata"
+  },
+  "power_model": {
+    "type": "string",
+    "value": "max(0, VDDrel*IDDq+VBS*IHBq+sum((VSUP-VOrel)*IS+VOrel*IK+(VOrel-VSUP)*ICH-VOrel*ICL)+HIrel*IHI+LIrel*ILI+ENrel*IEN+(VDD-HB)*IBOOT)",
+    "unit": "W",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "每个采样点使用求解后的节点电压及支路电流，Praw 为所有已建模耗散支路之和，power=max(0,Praw)，单位 W。平滑支路可能产生极小的带符号分项；先求和再对总量取非负值，原始值和能量余额可由分项 getter 查询。 功耗端口返回当前瞬时值；get_power_dissipation() 返回同一采样点总损耗，get_power_breakdown() 返回分项及供电/输出功率。仿真开始前返回 0；该初值不代表已求解的静态工作点。平均功耗应在明确时间窗对波形积分。 统计范围为当前行为模型实际存在的电气支路，不含外部负载耗电、外部电容储能或其 ESR、外部开关管损耗、封装寄生、自热网络、未建模内部开关电容和未建模交越电流。数值记账一致性不构成独立硅片功耗精度认证。 低边相对 VSS，高边相对 HS，VBS=HB−HS；两路分别使用本地电源和输出电压计算驱动/钳位损耗，输入电阻含 EN 变体的下拉支路。noEN 变体 IEN=0。 自举二极管损耗为 (VDD−HB)×IBOOT，不能把自举转移功率重复记入静态损耗。Pin=VDDrel×IDD+VBS×IHB−(HS−VSS)×IBOOT+HIrel×IHI+LIrel×ILI+ENrel×IEN。 Pout 为高、低边 VOrel×(IS−IK−ICH+ICL) 之和，Praw=Pin−Pout。Pin 的共模修正项保证 HS 非零时的自举电流仍按真实二极管压降计损；EN/noEN 两变体使用同一接口。",
+    "group": "metadata"
+  },
+  "limitations": {
+    "type": "string",
+    "value": "面积未提供；功耗仅验证行为支路记账，不含自热及未建模寄生；独立硅片精度评估未完成",
+    "unit": "1",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "group": "metadata"
+  },
+  "power_query": {
+    "type": "object",
+    "value": {
+      "port": "output(\"power_W\")",
+      "getter": "get_power_dissipation()",
+      "breakdown_getter": "get_power_breakdown()",
+      "initial_value_W": 0,
+      "update": "每次 TDF processing()，返回最近已完成的采样点",
+      "output_unit": "W",
+      "binding": "总功耗及各新增 sca_out 观测端口均须绑定 sca_tdf::sca_signal<double>；端口清单见 ports.value.outputs，绑定示例见测试平台"
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "查询值不是累计能量或默认平均功耗。",
+    "group": "metadata"
+  },
+  "power_scope": {
+    "type": "object",
+    "value": {
+      "implemented": "全部现有模型耗散支路及逐项功率记账",
+      "conditions": "EN/noEN 两变体全部既有基准及新增自举正向、浮动共模和平移记账检查。",
+      "exclusions": "统计范围为当前行为模型实际存在的电气支路，不含外部负载耗电、外部电容储能或其 ESR、外部开关管损耗、封装寄生、自热网络、未建模内部开关电容和未建模交越电流。数值记账一致性不构成独立硅片功耗精度认证。",
+      "validation": "E:\\systemCmodel\\work\\power_interface_audit_20261029\\测试结果\\ucc27282；本轮重跑，独立物理精度待验证",
+      "ct_control_source": "not applicable"
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": " 理想观测噪声不进入电气求解及损耗。",
+    "group": "metadata"
+  },
+  "power_components": {
+    "type": "object",
+    "value": {
+      "power_W": {
+        "unit": "W",
+        "description": "总损耗"
+      },
+      "power_quiescent_W": {
+        "unit": "W",
+        "description": "静态支路"
+      },
+      "power_drive_W": {
+        "unit": "W",
+        "description": "驱动或主通路"
+      },
+      "power_input_W": {
+        "unit": "W",
+        "description": "输入电阻"
+      },
+      "power_clamp_W": {
+        "unit": "W",
+        "description": "输出钳位"
+      },
+      "power_bootstrap_W": {
+        "unit": "W",
+        "description": "自举二极管"
+      },
+      "power_discharge_W": {
+        "unit": "W",
+        "description": "快速放电"
+      },
+      "power_body_W": {
+        "unit": "W",
+        "description": "体二极管"
+      },
+      "power_ct_W": {
+        "unit": "W",
+        "description": "CT放电及钳位电阻"
+      },
+      "power_terminal_in_W": {
+        "unit": "W",
+        "description": "电气端口净输入功率"
+      },
+      "power_terminal_out_W": {
+        "unit": "W",
+        "description": "输出到外部负载/电容的净功率"
+      },
+      "power_ct_source_W": {
+        "unit": "W",
+        "description": "理想CT控制源功率"
+      },
+      "power_ct_storage_W": {
+        "unit": "W",
+        "description": "外部CT电容瞬时功率"
+      }
+    },
+    "unit": "W",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "",
+    "group": "metadata"
+  },
+  "power_revision": {
+    "type": "string",
+    "value": "2026-10-27 branch-accounting",
+    "unit": "1",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "",
+    "group": "metadata"
+  },
+  "noise_enable": {
+    "type": "bool",
+    "value": false,
+    "unit": "1",
+    "editable": true,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "默认关闭；噪声缺少芯片独立谱数据。启用表示用户指定的理想观测扰动。",
+    "group": "functional"
+  },
+  "noise_model": {
+    "type": "string",
+    "value": "multisine",
+    "unit": "1",
+    "editable": true,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "multisine 为带内随机相位离散音；gaussian_white 为至Nyquist的白噪声。",
+    "group": "metadata"
+  },
+  "noise_rms_v": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "V",
+    "editable": true,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "配置频带内RMS；默认0仅表示关闭，不能解释为芯片零噪声。",
+    "group": "functional"
+  },
+  "noise_low_hz": {
+    "type": "float",
+    "value": 1000.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "演示频带下限，非芯片指标。",
+    "group": "functional"
+  },
+  "noise_high_hz": {
+    "type": "float",
+    "value": 1000000.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "演示频带上限，非芯片指标；启用时dt<=1/(20*fhigh)。",
+    "group": "functional"
+  },
+  "noise_tones": {
+    "type": "int",
+    "value": 32,
+    "unit": "1",
+    "editable": true,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "multisine音数8..1024。",
+    "group": "functional"
+  },
+  "noise_seed": {
+    "type": "int",
+    "value": 27624,
+    "unit": "1",
+    "editable": true,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "同一实现、种子、步长和采样调用序列可重复；各通道独立种子流。",
+    "group": "functional"
+  },
+  "latency_query": {
+    "type": "object",
+    "value": {
+      "getter": "get_latency()",
+      "unit": "s",
+      "meaning": "configured rising event delay",
+      "source_parameter": "t_launch_on",
+      "details_getter": "get_latency_info()",
+      "boundary": "不是带负载的波形交越传播延迟；边沿/输入迟滞、强度斜坡和外部负载另行影响CSV测量。"
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "",
+    "group": "metadata"
+  },
+  "timestep_query": {
+    "type": "object",
+    "value": {
+      "getter": "get_timestep_s()",
+      "unit": "s",
+      "meaning": "TDF构造时实际采用的采样步长，不是get_latency()；Core在首次step前为0。"
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "",
+    "group": "metadata"
+  },
+  "area_query": {
+    "type": "object",
+    "value": {
+      "getter": "get_area()",
+      "unit": "mm2",
+      "return": "C++11 OptionalArea: has_value(), value(), value_or(); unknown.value() throws",
+      "source_parameter": "area_mm2",
+      "boundary": "未知裸片面积返回空；不使用封装面积代替。"
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "",
+    "group": "metadata"
+  },
+  "noise_query": {
+    "type": "object",
+    "value": {
+      "density_getter": "get_noise_density()",
+      "details_getter": "get_noise_info()",
+      "formula": "ASD=noise_rms_v/sqrt(noise_high_hz-noise_low_hz)",
+      "unit": "V/sqrt(Hz)",
+      "calibrated_to_chip": false,
+      "scope": "仅在独立noise及observed观测端口输出；不扰动隐式节点方程、不进入功耗记账；输出参考地遵循原输出的局部参考。",
+      "modes": {
+        "multisine": "sum sin(2*pi*f_k*t+phase_k)*RMS*sqrt(2/N), f_k=flow+(k+0.5)*(fhigh-flow)/N",
+        "gaussian_white": "normal(0,1)*ASD/sqrt(2*dt); 频谱至Nyquist，配置RMS只对应指定频带"
+      },
+      "port_units": {
+        "noise_ho_V": "V",
+        "noise_lo_V": "V",
+        "ho_observed_V": "V",
+        "lo_observed_V": "V"
+      }
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "description": "",
+    "group": "metadata"
+  },
+  "package_info": {
+    "type": "object",
+    "value": {
+      "status": "数据手册封装选项；外形尺寸不进入电气模型",
+      "packages": [
+        {
+          "type": "VSON DRM0008A",
+          "body_mm": "3.9–4.1 × 3.9–4.1",
+          "datasheet_pdf_page": 35
+        },
+        {
+          "type": "SOIC D0008A",
+          "body_mm": "4.81–5.00 × 3.81–3.98",
+          "datasheet_pdf_page": 38
+        },
+        {
+          "type": "VSON DRC0010J",
+          "body_mm": "2.9–3.1 × 2.9–3.1",
+          "datasheet_pdf_page": 42
+        }
+      ]
+    },
+    "unit": "mm",
+    "editable": false,
+    "source": "UCC27282_datasheet.pdf SHA256=bf856648b4e9ff0de0593220b4c440f9b9a10f5aec20e858fbb543ac25f92620; UCC27282_EN.va SHA256=5c871e3b661e83571318a3074fd4bb74075a0a9fb24e70cc3d1a5af2f0b0b908; UCC27282_noEN.va SHA256=3235924daaa2cebd3220ef0fbf1760c10e49342de52e75f3a76cc678fb39fe6e",
+    "group": "metadata"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "tps73133_3v3",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "LDO/Capless_LDO/供电芯粒_LDO_Capless_LDO_低噪声高PSRR/tps73133_3v3",
+  "original_files_sha256": {
+    "doc/LDO芯粒清单.xlsx": "edba3ee94c4616c0c8ebe460a6029d4e4c127f0cc6c513538fc672600c3caf87",
+    "doc/tps73133_3v3模型说明.docx": "a17ef698dc0d1d52e40f0e9ae35db941ff4db356b0df6bc2b8aa77e9b240f6d8",
+    "doc/tps73133_3v3芯粒自测试报告.docx": "f07a7fd668bba8304608fad2196501689e45f1ac0f25079639e907a253e1597d",
+    "include/tps73133_3v3.h": "3373fc5e311655d1994d09dba9c5c2cc1c0359dfa7dd8e99c54b88e1a6e601ea",
+    "json/tps73133_3v3.json": "c071671b143e49139332660620624bd4aa87aac7f8436c824f8b9dc433c84515",
+    "source/tps73133_3v3.cpp": "1b89c8234a614b45076618f13c8ff35f2c760dcbba8934ffd44d176bb25f3d1e"
+  },
+  "baseline_cases": [
+    "tps73133_3v3-SC-B01"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model": "tps22975",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "功率接口/供电芯粒_功率接口_功率开关_负载开关_TPS22975/tps22975",
+  "original_files_sha256": {
+    "doc/tps22975模型说明.docx": "ae6e5dc293af6a2602e938356c830005aaafe084e6fd76f74df046592999418b",
+    "doc/tps22975芯粒自测试报告.docx": "dce1f1ed8d078126d73f9cb416570ae1ffa670dfc3417f70e569f94469730839",
+    "doc/芯粒清单.xlsx": "c8cd8b44431b149bbe496f1c680e8f5c5522b3e88e654f009baebed5ce79b45a",
+    "include/tps22975.h": "ae40c45ecc367f600abf87901bc303714955be5b70af92c409da7b99dde3ef9a",
+    "json/tps22975.json": "15f46a8cbecd9fd82b34fc329ddf3307c7004f885bd5e213cf8286c65b02f2ba",
+    "source/tps22975.cpp": "8e747e77e895813d406ad8ee9a5ca66899f0223e11f64894d1c77eaa05baa7de"
+  },
+  "baseline_cases": [
+    "tps22975-SC-B01"
+  ]
+}

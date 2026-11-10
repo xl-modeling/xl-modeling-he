@@ -1,0 +1,36 @@
+{
+  "id": "mcp1623-SC-B01",
+  "model": "mcp1623",
+  "variant": "mcp1623",
+  "category": "DC-DC",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 5e-09,
+  "stop_s": 0.003,
+  "window_s": [
+    0.0029000000000000002,
+    0.002999995
+  ],
+  "capture_from_s": 0.0029000000000000002,
+  "inputs": {
+    "VIN": 1.5,
+    "PGND": 0,
+    "SGND": 0,
+    "EP": 0,
+    "VOUTP": 3.3,
+    "VOUTS": 3.3,
+    "SW": 0,
+    "EN": 1.5,
+    "VFB": 1.21,
+    "inductor_current": 0.01,
+    "rectifier_current": 0.025
+  },
+  "fixture": {},
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [],
+  "scope": "control_pin_fixture",
+  "config": "json/mcp1623.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。"
+}
