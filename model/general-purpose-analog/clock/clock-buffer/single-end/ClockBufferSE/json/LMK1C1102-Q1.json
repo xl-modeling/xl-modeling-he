@@ -1,0 +1,238 @@
+{
+    "name": {
+        "type": "string",
+        "value": "LMK1C1102-Q1",
+        "editable": false
+    },
+    "version": {
+        "type": "float",
+        "value": 1.0,
+        "editable": false
+    },
+    "category": {
+        "type": "string",
+        "value": "通用模拟-时钟",
+        "editable": false
+    },
+    "part_number": {
+        "type": "string",
+        "value": "LMK1C1102-Q1",
+        "editable": false
+    },
+    "manufacturer": {
+        "type": "string",
+        "value": "Texas Instruments",
+        "editable": false
+    },
+    "fanout": {
+        "type": "string",
+        "value": "1:2",
+        "editable": false
+    },
+    "clock-input": {
+        "type": "string",
+        "value": "LVCMOS",
+        "editable": false
+    },
+    "VDD": {
+        "type": "float",
+        "value": 3.3,
+        "unit": "V",
+        "editable": false
+    },
+    "input-frequency": {
+        "type": "float",
+        "value": 250,
+        "unit": "MHz",
+        "editable": false,
+        "valid_range": [
+            0,
+            250
+        ]
+    },
+    "output-frequency": {
+        "type": "float",
+        "value": 250,
+        "unit": "MHz",
+        "editable": false,
+        "valid_range": [
+            0,
+            250
+        ]
+    },
+    "IDD": {
+        "type": "float",
+        "value": 21,
+        "unit": "mA",
+        "editable": false
+    },
+    "PWd": {
+        "type": "float",
+        "value": 69.3,
+        "unit": "mW",
+        "editable": false
+    },
+    "package-size": {
+        "type": "float",
+        "value": 13.2,
+        "unit": "mm²",
+        "editable": false
+    },
+    "die-length": {
+        "type": "float",
+        "value": 0,
+        "unit": "µm",
+        "editable": false
+    },
+    "die-width": {
+        "type": "float",
+        "value": 0,
+        "unit": "µm",
+        "editable": false
+    },
+    "die-height": {
+        "type": "float",
+        "value": 0,
+        "unit": "µm",
+        "editable": false
+    },
+    "bump-count": {
+        "type": "int",
+        "value": 0,
+        "editable": false
+    },
+    "bump-pitch": {
+        "type": "float",
+        "value": 0,
+        "unit": "µm",
+        "editable": false
+    },
+    "output-skew": {
+        "type": "float",
+        "value": 50,
+        "unit": "ps",
+        "editable": false
+    },
+    "additive-jitter": {
+        "type": "float",
+        "value": 0.0075,
+        "unit": "ps",
+        "editable": false
+    },
+    "propagation-delay": {
+        "type": "float",
+        "value": 2000,
+        "unit": "ps",
+        "editable": false
+    },
+    "VIH": {
+        "type": "float",
+        "value": 2.31,
+        "unit": "V",
+        "editable": false
+    },
+    "VIL": {
+        "type": "float",
+        "value": 0.99,
+        "unit": "V",
+        "editable": false
+    },
+    "VOH": {
+        "type": "float",
+        "value": 2.8,
+        "unit": "V",
+        "editable": false
+    },
+    "VOL": {
+        "type": "float",
+        "value": 0.2,
+        "unit": "V",
+        "editable": false
+    },
+    "tr_tf_ps": {
+        "type": "float",
+        "value": 700,
+        "unit": "ps",
+        "editable": false
+    },
+    "jitter_ps": {
+        "type": "float",
+        "value": 0.0075,
+        "unit": "ps",
+        "editable": false
+    },
+    "propagation_delay_ps": {
+        "type": "float",
+        "value": 2000,
+        "unit": "ps",
+        "editable": false
+    },
+    "voh_v": {
+        "type": "float",
+        "value": 2.8,
+        "unit": "V",
+        "editable": false
+    },
+    "vol_v": {
+        "type": "float",
+        "value": 0.2,
+        "unit": "V",
+        "editable": false
+    },
+    "vih_v": {
+        "type": "float",
+        "value": 2.31,
+        "unit": "V",
+        "editable": false
+    },
+    "vil_v": {
+        "type": "float",
+        "value": 0.99,
+        "unit": "V",
+        "editable": false
+    },
+    "latency": {
+        "type": "float",
+        "value": 2000,
+        "unit": "ps",
+        "editable": false
+    },
+    "power": {
+        "type": "float",
+        "value": 69.3,
+        "unit": "mW",
+        "editable": false
+    },
+    "area": {
+        "type": "float",
+        "value": 13.2,
+        "unit": "mm²",
+        "editable": false
+    },
+    "dimensions": {
+        "type": "float",
+        "unit": "mm",
+        "x": 5,
+        "y": 5
+    },
+    "ports": [
+        {
+            "name": "CLKIN",
+            "x": 0,
+            "y": 2.5,
+            "io_type": "sca_in"
+        },
+        {
+            "name": "Y0",
+            "x": 5,
+            "y": 1.5,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "Y1",
+            "x": 5,
+            "y": 3.5,
+            "io_type": "sca_out"
+        }
+    ]
+}

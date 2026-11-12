@@ -55,7 +55,7 @@ public:
         , in("in"), out("out")
         , m_fail(0)
 	{
-        m_cfgs = ClockBufferSE::get_configs_from_json("../../json/ClockBufferSE.json");
+        m_cfgs = ClockBufferSE::get_configs_from_json("../../json/LMK1C1102-Q1.json");
 
         m_src = new PhasedSine("src", 100e6, sc_core::sc_time(10, sc_core::SC_PS));
         m_src->out(in);
@@ -119,10 +119,10 @@ private:
         {
             info("模型信息接口");
             info((std::string("name: ") + m_buf->get_name()).c_str());
-            check("version", m_buf->get_version(), 0.1, 0, "", m_fail);
-            check("latency", m_buf->get_latency(), 2200.0, 0, "ps", m_fail);
-            check("power", m_buf->get_power(), 990.0, 0, "mW", m_fail);
-            check("area", m_buf->get_area(), 1.875, 0, "mm2", m_fail);
+            check("version", m_buf->get_version(), m_cfgs.version, 0, "", m_fail);
+            check("latency", m_buf->get_latency(), m_cfgs.latency_ps, 0, "ps", m_fail);
+            check("power", m_buf->get_power(), m_cfgs.power_mw, 0, "mW", m_fail);
+            check("area", m_buf->get_area(), m_cfgs.area_mm2, 0, "mm2", m_fail);
         }
 
         wait(sc_core::sc_time(205, sc_core::SC_NS));
