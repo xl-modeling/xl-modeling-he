@@ -1,0 +1,16 @@
+{
+  "model": "lm3350_sw",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "Charge_Pump/供电芯粒_Charge_Pump_固定比例降压_LM3350/lm3350_sw",
+  "original_files_sha256": {
+    "doc/Charge_Pump芯粒清单.xlsx": "32c00be5f166b96741800e49fd78fab6782cfaa1d3fae9b01e8bb82aa8af6209",
+    "doc/lm3350_sw模型说明.docx": "0f6f684ea6342226ad4f0119446f98f4003331090c902ba856e1f3e2d73c2507",
+    "doc/lm3350_sw芯粒自测试报告.docx": "d79403f2df7c49c78cf342ae3fa614b92d5bdc50303dc07d76b42767520fd5cc",
+    "include/lm3350_sw.h": "8423a0ab4e7974e72172c6a59fd36ededfecef5b77a541e5a3517991979995b0",
+    "json/lm3350_sw.json": "7062eac86bf5ce8ac4a0edba740986bd8addc61dc2f6244e58888882f2ec8a31",
+    "source/lm3350_sw.cpp": "2f100a6311cd27df30d84679e20c58a7e506d9b618d65a9be048115715e045a1"
+  },
+  "baseline_cases": [
+    "lm3350_sw-SC-B01"
+  ]
+}

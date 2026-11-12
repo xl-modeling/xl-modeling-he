@@ -1,0 +1,534 @@
+{
+  "name": {
+    "type": "string",
+    "value": "tlv71333_3v3",
+    "unit": "1",
+    "editable": false,
+    "source": "本SystemC模型标识信息，非VA电气拟合参数"
+  },
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "1",
+    "editable": false,
+    "source": "本SystemC模型标识信息，非VA电气拟合参数"
+  },
+  "category": {
+    "type": "string",
+    "value": "LDO-Capless_LDO",
+    "unit": "1",
+    "editable": false,
+    "source": "本SystemC模型标识信息，非VA电气拟合参数"
+  },
+  "dt_s": {
+    "type": "float",
+    "value": 5e-08,
+    "unit": "s",
+    "editable": true,
+    "source": "SystemC仿真设置"
+  },
+  "cout_f": {
+    "type": "float",
+    "value": 1e-06,
+    "unit": "F",
+    "editable": true,
+    "source": "SystemC仿真设置"
+  },
+  "esr_ohm": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "ohm",
+    "editable": true,
+    "source": "SystemC仿真设置"
+  },
+  "noise_enable": {
+    "type": "bool",
+    "value": false,
+    "unit": "1",
+    "editable": true,
+    "source": "SystemC仿真设置"
+  },
+  "noise_tones": {
+    "type": "int",
+    "value": 64,
+    "unit": "1",
+    "editable": true,
+    "source": "SystemC仿真设置"
+  },
+  "noise_seed": {
+    "type": "int",
+    "value": 713,
+    "unit": "1",
+    "editable": true,
+    "source": "SystemC仿真设置"
+  },
+  "initial_state": {
+    "type": "string",
+    "value": "dc",
+    "unit": "1",
+    "editable": true,
+    "source": "SystemC仿真设置"
+  },
+  "mode": {
+    "type": "string",
+    "value": "transient",
+    "unit": "1",
+    "editable": true,
+    "source": "SystemC仿真设置"
+  },
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm2",
+    "editable": true,
+    "source": "数值设置/边界假设；面积缺少数据，不能用图标面积替代"
+  },
+  "vnom_v": {
+    "type": "float",
+    "value": 3.3,
+    "unit": "V",
+    "editable": true,
+    "source": "TI TLV713 SBVS195F Rev.F §6.5 p7；典型值/型号参数，测试条件见手册"
+  },
+  "vin_ref_v": {
+    "type": "float",
+    "value": 3.8,
+    "unit": "V",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "rated_a": {
+    "type": "float",
+    "value": 0.15,
+    "unit": "A",
+    "editable": true,
+    "source": "TI TLV713 SBVS195F Rev.F §6.5 p7；典型值/型号参数，测试条件见手册"
+  },
+  "iq_on_a": {
+    "type": "float",
+    "value": 5e-05,
+    "unit": "A",
+    "editable": true,
+    "source": "TI TLV713 SBVS195F Rev.F §6.5 p7；典型值/型号参数，测试条件见手册"
+  },
+  "iq_off_a": {
+    "type": "float",
+    "value": 1e-07,
+    "unit": "A",
+    "editable": true,
+    "source": "TI TLV713 SBVS195F Rev.F §6.5 p7；典型值/型号参数，测试条件见手册"
+  },
+  "icl_a": {
+    "type": "float",
+    "value": 0.36,
+    "unit": "A",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "isc_a": {
+    "type": "float",
+    "value": 0.04,
+    "unit": "A",
+    "editable": true,
+    "source": "TI TLV713 SBVS195F Rev.F §6.5 p7；典型值/型号参数，测试条件见手册"
+  },
+  "rout_ohm": {
+    "type": "float",
+    "value": 0.0667,
+    "unit": "ohm",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "rdo_ohm": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "ohm",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "vdo_v": {
+    "type": "float",
+    "value": 0.22,
+    "unit": "V",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "line_gain": {
+    "type": "float",
+    "value": 0.000588,
+    "unit": "1",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "line_trans_gain": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "1",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "tline_s": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "s",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "treg_s": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "s",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "tss_s": {
+    "type": "float",
+    "value": 2.556e-05,
+    "unit": "s",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "tdisable_s": {
+    "type": "float",
+    "value": 2.556e-05,
+    "unit": "s",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "latency_s": {
+    "type": "float",
+    "value": 0.0001,
+    "unit": "s",
+    "editable": false,
+    "source": "TI TLV713 SBVS195F Rev.F §6.5 p7；EN到98%标称，150mA/COUT1µF；声明值不代表本模型所有工况已达标",
+    "description": "器件特征启动时间，与dt_s数值步长独立；实际达标情况见自测试报告"
+  },
+  "latency_fraction": {
+    "type": "float",
+    "value": 0.98,
+    "unit": "1",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "ven_rise_v": {
+    "type": "float",
+    "value": 0.65,
+    "unit": "V",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "ven_fall_v": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "V",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证",
+    "description": "VA平滑EN过渡宽度，不是下降阈值"
+  },
+  "uvlo_rise_v": {
+    "type": "float",
+    "value": 1.35,
+    "unit": "V",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "uvlo_fall_v": {
+    "type": "float",
+    "value": 0.03,
+    "unit": "V",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证",
+    "description": "VA平滑UVLO宽度，不是迟滞阈值"
+  },
+  "tsd_off_c": {
+    "type": "float",
+    "value": 158.0,
+    "unit": "degC",
+    "editable": true,
+    "source": "TI TLV713 SBVS195F Rev.F §6.5 p7；典型值/型号参数，测试条件见手册"
+  },
+  "tsd_on_c": {
+    "type": "float",
+    "value": 2.0,
+    "unit": "degC",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证",
+    "description": "VA平滑热关闭宽度2°C，不是恢复温度；无140°C迟滞"
+  },
+  "rdis_ohm": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "ohm",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "rov_ohm": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "ohm",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "gleak_s": {
+    "type": "float",
+    "value": 1e-09,
+    "unit": "1",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "fold_mid_v": {
+    "type": "float",
+    "value": 0.55,
+    "unit": "V",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "fold_slope_v": {
+    "type": "float",
+    "value": 0.12,
+    "unit": "V",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "fold_arm_fraction": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "1",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "iq1_a": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "A",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "iq100_a": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "A",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "iq200_a": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "A",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "ren_ohm": {
+    "type": "float",
+    "value": 100000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "ien_a": {
+    "type": "float",
+    "value": 1e-08,
+    "unit": "A",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "h_low": {
+    "type": "float",
+    "value": 0.00031622776601683794,
+    "unit": "1",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "h_high": {
+    "type": "float",
+    "value": 0.0017782794100389228,
+    "unit": "1",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "psrr_fc_hz": {
+    "type": "float",
+    "value": 2210.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "dc_remove_hz": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "Hz",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "noise_rms_v": {
+    "type": "float",
+    "value": 7.3e-05,
+    "unit": "V",
+    "editable": true,
+    "source": "TI TLV713 SBVS195F Rev.F §6.5 p7；73µVrms原手册条件为1.8V输出，迁移至3.3V为VA假设"
+  },
+  "noise_low_hz": {
+    "type": "float",
+    "value": 100.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "noise_high_hz": {
+    "type": "float",
+    "value": 100000.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "VA工程参数；原始代码参数定义；并非独立硅片保证"
+  },
+  "source_documents": [
+    "02_TI_TLV713_RevF.pdf",
+    "TLV71333_3V3_VerilogA模型完整验证报告.docx",
+    "TLV71333_core_v1.txt",
+    "TLV71333_psrr_noise_v1.txt"
+  ],
+  "limitations": [
+    "系统级标量TDF模型，不是SPICE电气引脚模型",
+    "无自热网络、反向电流、工艺角或环路稳定性评价",
+    "硬非负钳位代替VA数值平滑；过载恒流负载可能无法满足KCL，输出钳零",
+    "噪声可选高斯白噪声或带限多音；高斯全采样带宽至Nyquist，带内目标RMS不等于总RMS；未拟合真实噪声谱",
+    "独立硅片/晶体管级精度和面积待评价；未进行新的Spectre仿真",
+    "超出手册输入范围不提供精度保证",
+    "原VA无热恢复迟滞；162.4℃源码约40.02mV，与历史报告49.98mV不一致",
+    "理想恒流150mA从零启动可能被折返限流锁在低压区；22ohm电阻启动另测"
+  ],
+  "dimensions": {
+    "x": 7,
+    "y": 7,
+    "unit": "relative",
+    "description": "GUI图标相对尺寸，非物理面积"
+  },
+  "ports": [
+    {
+      "name": "vin",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "name": "en",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "name": "iload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "A",
+      "x": 0,
+      "y": 3
+    },
+    {
+      "name": "rload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "ohm",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "name": "temperature",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "degC",
+      "x": 0,
+      "y": 5
+    },
+    {
+      "name": "ripple",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 6
+    },
+    {
+      "name": "vout",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 7,
+      "y": 1
+    },
+    {
+      "name": "iin",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 7,
+      "y": 2
+    },
+    {
+      "name": "ignd",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 7,
+      "y": 3
+    },
+    {
+      "name": "ien",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 7,
+      "y": 4
+    },
+    {
+      "name": "power",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "W",
+      "x": 7,
+      "y": 5
+    },
+    {
+      "name": "noise",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 7,
+      "y": 6
+    },
+    {
+      "name": "state",
+      "io_type": "sca_out",
+      "data_type": "int",
+      "unit": "1",
+      "x": 7,
+      "y": 7
+    }
+  ],
+  "state_codes": {
+    "0": "off/protection",
+    "1": "startup",
+    "2": "regulation",
+    "3": "current_limit",
+    "4": "dropout_or_foldback"
+  },
+  "noise_model": {
+    "type": "string",
+    "value": "gaussian_white",
+    "unit": "1",
+    "editable": true,
+    "source": "通用模拟类高斯白噪声；带内RMS换算平坦单边PSD，完整采样带宽为Nyquist；可选multisine仅用于有限带宽等效扰动"
+  },
+  "power_model": {
+    "type": "string",
+    "value": "max(0,(VIN-VOUT_base)*Ipass+VIN*IQ)",
+    "editable": false,
+    "unit": "W",
+    "source": "稳态功率守恒记账；非独立实测拟合",
+    "description": "实时查询get_power_dissipation；不含EN*IEN、外部电容和负载、理想噪声与纹波源"
+  }
+}

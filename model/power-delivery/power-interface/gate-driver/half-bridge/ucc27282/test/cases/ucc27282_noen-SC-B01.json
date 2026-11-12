@@ -1,0 +1,53 @@
+{
+  "id": "ucc27282_noen-SC-B01",
+  "model": "ucc27282",
+  "variant": "ucc27282_noen",
+  "category": "功率接口",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 1e-10,
+  "stop_s": 5e-05,
+  "window_s": [
+    4.5e-05,
+    4.99999e-05
+  ],
+  "capture_from_s": 4.5e-05,
+  "inputs": {
+    "vdd_V": 12,
+    "hb_V": 12,
+    "hs_V": 0,
+    "hi_V": 5,
+    "li_V": 0,
+    "vss_V": 0,
+    "en_V": 0
+  },
+  "fixture": {
+    "load_ho": {
+      "capacitance_F": 1.8e-09
+    },
+    "load_lo": {
+      "capacitance_F": 1.8e-09
+    },
+    "initial_dc": false
+  },
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [
+    {
+      "id": "B01-1",
+      "output": "ho_rel_V",
+      "stat": "mean",
+      "expected": 12,
+      "absolute_tolerance": 0.12,
+      "unit": "V",
+      "source": "交付JSON标称值及对应源码稳态方程；参考和容差在此用例中冻结",
+      "purpose": "behavior_regression",
+      "tolerance_basis": "本测试包方程回归预算，非器件保证；正式手册／独立精度项另行执行"
+    }
+  ],
+  "scope": "application_behavior",
+  "config": "json/ucc27282_noen.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。",
+  "baseline_note": "SC统一封装保留en_V辅助输入，noEN配置的with_en_为false，该输入不参与使能。VA无EN器件不增加EN引脚。"
+}

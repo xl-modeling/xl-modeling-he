@@ -1,0 +1,2662 @@
+{
+  "name": {
+    "type": "string",
+    "value": "max20310",
+    "editable": false
+  },
+  "version": {
+    "type": "float",
+    "value": 1.0,
+    "editable": false
+  },
+  "category": {
+    "type": "string",
+    "value": "DC-DC/SIMO_Converter",
+    "editable": false
+  },
+  "parameters": {
+    "VBB1": {
+      "type": "double",
+      "value": 1.8,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "V"
+    },
+    "VBB2": {
+      "type": "double",
+      "value": 1.2,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "V"
+    },
+    "VLDO1": {
+      "type": "double",
+      "value": 1.5,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "V"
+    },
+    "VLDO2": {
+      "type": "double",
+      "value": 1.0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "V"
+    },
+    "BB1_EN": {
+      "type": "int",
+      "value": 1,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "functional",
+      "unit": "1"
+    },
+    "BB2_EN": {
+      "type": "int",
+      "value": 1,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "functional",
+      "unit": "1"
+    },
+    "LDO1_EN": {
+      "type": "int",
+      "value": 1,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "functional",
+      "unit": "1"
+    },
+    "LDO2_EN": {
+      "type": "int",
+      "value": 1,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "functional",
+      "unit": "1"
+    },
+    "LDO1_SWITCH": {
+      "type": "int",
+      "value": 0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "functional",
+      "unit": "1"
+    },
+    "LDO2_SWITCH": {
+      "type": "int",
+      "value": 0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "functional",
+      "unit": "1"
+    },
+    "IPEAK": {
+      "type": "double",
+      "value": 0.6,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "A"
+    },
+    "PIN_LIMIT": {
+      "type": "double",
+      "value": 0.25,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "W"
+    },
+    "IIN_LIMIT": {
+      "type": "double",
+      "value": 0.2,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "A"
+    },
+    "UV_START": {
+      "type": "double",
+      "value": 0.8,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "V"
+    },
+    "UV_STOP": {
+      "type": "double",
+      "value": 0.7,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "V"
+    },
+    "ILDO_MAX": {
+      "type": "double",
+      "value": 0.05,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "A"
+    },
+    "RDROP": {
+      "type": "double",
+      "value": 2.0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "ohm"
+    },
+    "RLOADSW": {
+      "type": "double",
+      "value": 1.0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "ohm"
+    },
+    "DISCHARGE": {
+      "type": "int",
+      "value": 1,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "functional",
+      "unit": "1"
+    },
+    "RDIS": {
+      "type": "double",
+      "value": 10000.0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "ohm"
+    },
+    "RCHG": {
+      "type": "double",
+      "value": 0.15,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "ohm"
+    },
+    "ROUTSW": {
+      "type": "double",
+      "value": 0.18,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "ohm"
+    },
+    "ROFF": {
+      "type": "double",
+      "value": 1000000000000.0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "ohm"
+    },
+    "RDUMP": {
+      "type": "double",
+      "value": 20.0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "ohm"
+    },
+    "CLX": {
+      "type": "double",
+      "value": 2e-11,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "F"
+    },
+    "VDIODE": {
+      "type": "double",
+      "value": 0.35,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "V"
+    },
+    "RDIODE": {
+      "type": "double",
+      "value": 0.5,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "ohm"
+    },
+    "HYST": {
+      "type": "double",
+      "value": 0.008,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "V"
+    },
+    "TCTRL": {
+      "type": "double",
+      "value": 1e-08,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "s"
+    },
+    "TEDGE": {
+      "type": "double",
+      "value": 2e-09,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "s"
+    },
+    "TDEAD": {
+      "type": "double",
+      "value": 2e-08,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "s"
+    },
+    "TIDLE": {
+      "type": "double",
+      "value": 4e-08,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "s"
+    },
+    "TCHG_MAX": {
+      "type": "double",
+      "value": 1e-05,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "s"
+    },
+    "TXFER_MAX": {
+      "type": "double",
+      "value": 3e-05,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "s"
+    },
+    "IZCD": {
+      "type": "double",
+      "value": 0.001,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "A"
+    },
+    "TLIMIT": {
+      "type": "double",
+      "value": 1e-05,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "s"
+    },
+    "START_DELAY": {
+      "type": "double",
+      "value": 0.0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "s"
+    },
+    "TSOFT": {
+      "type": "double",
+      "value": 0.0002,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "s"
+    },
+    "GM_LDO": {
+      "type": "double",
+      "value": 10.0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "A/V"
+    },
+    "TAU_LDO": {
+      "type": "double",
+      "value": 2e-07,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "s"
+    },
+    "IQ_ON": {
+      "type": "double",
+      "value": 2e-05,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "A"
+    },
+    "IQ_OFF": {
+      "type": "double",
+      "value": 1e-08,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "A"
+    },
+    "QSW": {
+      "type": "double",
+      "value": 0.0,
+      "editable": true,
+      "source": "MAX20310.va",
+      "group": "performance",
+      "unit": "C"
+    },
+    "DT": {
+      "type": "double",
+      "value": 2e-09,
+      "editable": true,
+      "source": "application/numerical assumption",
+      "group": "application_numerical",
+      "unit": "s"
+    },
+    "LOUT": {
+      "type": "double",
+      "value": 2.2e-06,
+      "editable": true,
+      "source": "application/numerical assumption",
+      "group": "application_numerical",
+      "unit": "H"
+    },
+    "DCR": {
+      "type": "double",
+      "value": 0.02,
+      "editable": true,
+      "source": "application/numerical assumption",
+      "group": "application_numerical",
+      "unit": "ohm"
+    },
+    "CBB1": {
+      "type": "double",
+      "value": 1e-05,
+      "editable": true,
+      "source": "application/numerical assumption",
+      "group": "application_numerical",
+      "unit": "F"
+    },
+    "CBB2": {
+      "type": "double",
+      "value": 1e-05,
+      "editable": true,
+      "source": "application/numerical assumption",
+      "group": "application_numerical",
+      "unit": "F"
+    },
+    "CLDO1": {
+      "type": "double",
+      "value": 2.2e-06,
+      "editable": true,
+      "source": "application/numerical assumption",
+      "group": "application_numerical",
+      "unit": "F"
+    },
+    "CLDO2": {
+      "type": "double",
+      "value": 2.2e-06,
+      "editable": true,
+      "source": "application/numerical assumption",
+      "group": "application_numerical",
+      "unit": "F"
+    }
+  },
+  "area": {
+    "value": null,
+    "unit": "mm2",
+    "reason": "No die area reference"
+  },
+  "latency": {
+    "value": null,
+    "unit": "s",
+    "reason": "No measured physical propagation delay; TCTRL is numerical sampling"
+  },
+  "cost": {
+    "value": null
+  },
+  "sources": [
+    {
+      "file": "ADI_MAX20310_datasheet.pdf",
+      "sha256": "ca4fda1f7e44d5137bccfb12e60beb2db1170fd0854107b31f5311e88549cbb9"
+    },
+    {
+      "file": "MAX20310.va",
+      "sha256": "1e577bd5e93ca0aa6a6f10175d2becde6fdae2add2539bd514630e13a88c18bc"
+    },
+    {
+      "file": "MAX20310_Verilog-A_系统级模型验证报告_第二版_开关模型.docx",
+      "sha256": "1b660c8cd85c6a0ea45f910ca3994e7181aca4ebc929c4da3c626789929bbf94"
+    },
+    {
+      "file": "SIMO核心指标集-20260720.xlsx",
+      "sha256": "1f4cd75a049e9f2fc65af90b95b190928ac752e0f8ca2f7b2b7bf7abc8169a43"
+    }
+  ],
+  "interface": {
+    "reference": "GND battery positive; BATN=-vbat. All output voltages relative GND. il positive GND->LX; iin battery discharge positive.",
+    "inputs": [
+      "vbat",
+      "en_model",
+      "temperature",
+      "rbb1",
+      "rbb2",
+      "rldo1",
+      "rldo2",
+      "ibb1_load",
+      "ibb2_load",
+      "ildo1_load",
+      "ildo2_load"
+    ],
+    "outputs": [
+      "bb1",
+      "bb2",
+      "ldo1",
+      "ldo2",
+      "lx",
+      "il",
+      "iin",
+      "power",
+      "external_loss",
+      "energy",
+      "pin_filtered",
+      "iin_filtered",
+      "softstart",
+      "peak_limit",
+      "gate_charge",
+      "gate_bb1",
+      "gate_bb2",
+      "gate_dump",
+      "pass1",
+      "pass2"
+    ],
+    "status": [
+      "running",
+      "thermal_trip",
+      "state",
+      "selected"
+    ]
+  },
+  "scope": [
+    "SIMO peak-current packet power core and two downstream LDOs",
+    "Internal application L=2.2uH DCR=20mOhm C=10/10/2.2/2.2uF; no external duplication",
+    "No I2C/CAP/button/RST/POR sequencing; en_model is not a package pin",
+    "Thermal shutdown only inhibits LDOs, as VA",
+    "Not silicon-calibrated; QSW=0; LDO ripple/noise/PSRR not calibrated"
+  ],
+  "validation": {
+    "date": "2026-10-28",
+    "tdf_scenarios": 19,
+    "core_checks": 41,
+    "checks": [
+      {
+        "name": "initial off",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "off IQ",
+        "value": 1.00012e-08,
+        "pass_": true
+      },
+      {
+        "name": "EN .7 does not start",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "EN .71 starts",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "EN .3 holds",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "EN .29 stops",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": ".79 cannot start",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": ".8 starts",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": ".7 holds running",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "below .7 stops",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "150 trips LDO",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "thermal keeps BB running",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "thermal LDO pass off",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "130 holds thermal",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "129 clears",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "start delay no packets",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "start delay released",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "softstart ramp peak",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "default four rails",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "LDO pass limit",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "LDO draws from BB",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "nonnegative loss",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "nonnegative energy",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "no gate overlap",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "IPEAK setting 0.300000",
+        "value": 0.3,
+        "pass_": true
+      },
+      {
+        "name": "IPEAK setting 0.400000",
+        "value": 0.4,
+        "pass_": true
+      },
+      {
+        "name": "IPEAK setting 0.500000",
+        "value": 0.5,
+        "pass_": true
+      },
+      {
+        "name": "IPEAK setting 0.600000",
+        "value": 0.6,
+        "pass_": true
+      },
+      {
+        "name": "reject DT zero",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject DT too large",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject nonintegral grid",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject negative L",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject zero C",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject negative DCR",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject UV order",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject short deadtime",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject invalid BB flag",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject BB voltage range",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject LDO voltage grid",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject peak code",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "reject time jump",
+        "value": 0.0,
+        "pass_": true
+      },
+      {
+        "name": "baseline gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "baseline peak current",
+        "value": 0.6058882885377777,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "cross2 gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "cross2 peak current",
+        "value": 0.6059000881993422,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "disabled gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "disabled peak current",
+        "value": 0.6055854728513922,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "enable gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "enable peak current",
+        "value": 0.6058882885377777,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "half gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "half peak current",
+        "value": 0.6058074530345414,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "hold07 gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "hold07 peak current",
+        "value": 0.6058882885377777,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "iq gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "iq peak current",
+        "value": 0.6058980679887582,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "load gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "load peak current",
+        "value": 0.6058882885377777,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "max165 gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "max165 peak current",
+        "value": 0.6059016812356435,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "max17 gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "max17 peak current",
+        "value": 0.6059030905392502,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "short gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "short peak current",
+        "value": 0.6058899546396879,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "switch gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "switch peak current",
+        "value": 0.6058501641061548,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "thermal gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "thermal peak current",
+        "value": 0.6058882885377777,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "uvlo gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "uvlo peak current",
+        "value": 0.6058882885377777,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "vin07 gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "vin07 peak current",
+        "value": 0.0,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "vin079 gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "vin079 peak current",
+        "value": 0.0,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "vin08 gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "vin08 peak current",
+        "value": 0.6023954920675936,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "vin20 gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "vin20 peak current",
+        "value": 0.6041477568046508,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "vin21 gate overlap",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 1e-15,
+        "pass_": true
+      },
+      {
+        "name": "vin21 peak current",
+        "value": 0.6070737885282776,
+        "lower": -0.001,
+        "upper": 0.63,
+        "pass_": true
+      },
+      {
+        "name": "baseline output 1",
+        "value": 1.8032148331901048,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "baseline output 2",
+        "value": 1.2075719292875635,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "baseline output 3",
+        "value": 1.4990006662167787,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "baseline output 4",
+        "value": 0.9990009989997861,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "vin08 output 1",
+        "value": 1.8017964852580262,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "vin08 output 2",
+        "value": 1.2064405989722002,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "vin08 output 3",
+        "value": 1.4990006662167787,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "vin08 output 4",
+        "value": 0.9990009989997861,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "vin20 output 1",
+        "value": 1.8042832437317295,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "vin20 output 2",
+        "value": 1.2090166037063574,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "vin20 output 3",
+        "value": 1.4990006662167787,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "vin20 output 4",
+        "value": 0.9990009989997861,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "vin21 output 1",
+        "value": 1.804518684597581,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "vin21 output 2",
+        "value": 1.2092730589788432,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "vin21 output 3",
+        "value": 1.4990006662167787,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "vin21 output 4",
+        "value": 0.9990009989997861,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "half output 1",
+        "value": 1.8031742193863496,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "half output 2",
+        "value": 1.2078143317221304,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "half output 3",
+        "value": 1.4990006662070843,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "half output 4",
+        "value": 0.9990009990135682,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "load output 1",
+        "value": 1.7962832055455331,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "load output 2",
+        "value": 1.2069644127190409,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "load output 3",
+        "value": 1.4990006662167787,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "load output 4",
+        "value": 0.9990009989997861,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "cross2 output 1",
+        "value": 1.8025938191983666,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "cross2 output 2",
+        "value": 1.2008355346484931,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "cross2 output 3",
+        "value": 1.4990006662167787,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "cross2 output 4",
+        "value": 0.9990009989997861,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "hold07 output 1",
+        "value": 1.8031579692550534,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "hold07 output 2",
+        "value": 1.2076538306778928,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "hold07 output 3",
+        "value": 1.4990006662167787,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "hold07 output 4",
+        "value": 0.9990009989997861,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "vin07 no cold start 1",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.001,
+        "pass_": true
+      },
+      {
+        "name": "vin07 no cold start 2",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.001,
+        "pass_": true
+      },
+      {
+        "name": "vin07 no cold start 3",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.001,
+        "pass_": true
+      },
+      {
+        "name": "vin07 no cold start 4",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.001,
+        "pass_": true
+      },
+      {
+        "name": "vin079 no cold start 1",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.001,
+        "pass_": true
+      },
+      {
+        "name": "vin079 no cold start 2",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.001,
+        "pass_": true
+      },
+      {
+        "name": "vin079 no cold start 3",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.001,
+        "pass_": true
+      },
+      {
+        "name": "vin079 no cold start 4",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.001,
+        "pass_": true
+      },
+      {
+        "name": "halfstep mean difference 1",
+        "value": 4.061380375519619e-05,
+        "lower": 0,
+        "upper": 0.002,
+        "pass_": true
+      },
+      {
+        "name": "halfstep ripple difference 1",
+        "value": 0.00013571076468932297,
+        "lower": 0,
+        "upper": 0.002,
+        "pass_": true
+      },
+      {
+        "name": "halfstep mean difference 2",
+        "value": 0.0002424024345668574,
+        "lower": 0,
+        "upper": 0.002,
+        "pass_": true
+      },
+      {
+        "name": "halfstep ripple difference 2",
+        "value": 0.000671475504458563,
+        "lower": 0,
+        "upper": 0.002,
+        "pass_": true
+      },
+      {
+        "name": "halfstep mean difference 3",
+        "value": 9.694467451026867e-12,
+        "lower": 0,
+        "upper": 0.002,
+        "pass_": true
+      },
+      {
+        "name": "halfstep ripple difference 3",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.002,
+        "pass_": true
+      },
+      {
+        "name": "halfstep mean difference 4",
+        "value": 1.3782086583091768e-11,
+        "lower": 0,
+        "upper": 0.002,
+        "pass_": true
+      },
+      {
+        "name": "halfstep ripple difference 4",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.002,
+        "pass_": true
+      },
+      {
+        "name": "halfstep efficiency difference",
+        "value": 0.0009945547514497166,
+        "lower": 0,
+        "upper": 0.01,
+        "pass_": true
+      },
+      {
+        "name": "baseline power accounting relative residual",
+        "value": 0.0043131569273033845,
+        "lower": 0,
+        "upper": 0.02,
+        "pass_": true
+      },
+      {
+        "name": "idle IQ",
+        "value": 2.0000001200057975e-05,
+        "lower": 1.9e-05,
+        "upper": 2.1e-05,
+        "pass_": true
+      },
+      {
+        "name": "LDO switch drop",
+        "value": 0.011945397671694336,
+        "lower": 0,
+        "upper": 0.02,
+        "pass_": true
+      },
+      {
+        "name": "disabled BB2",
+        "value": 1.1612897245225538e-13,
+        "lower": 0,
+        "upper": 0.001,
+        "pass_": true
+      },
+      {
+        "name": "disabled downstream LDO2",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0.001,
+        "pass_": true
+      },
+      {
+        "name": "enable recovery 1",
+        "value": 1.80330994187935,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "enable recovery 2",
+        "value": 1.2068388221417499,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "enable recovery 3",
+        "value": 1.49900066622,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "enable recovery 4",
+        "value": 0.9990009990009998,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "enable running off",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0,
+        "pass_": true
+      },
+      {
+        "name": "uvlo recovery 1",
+        "value": 1.80330994187935,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "uvlo recovery 2",
+        "value": 1.2068388221417499,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "uvlo recovery 3",
+        "value": 1.49900066622,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "uvlo recovery 4",
+        "value": 0.9990009990009998,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "uvlo running off",
+        "value": 0.0,
+        "lower": 0,
+        "upper": 0,
+        "pass_": true
+      },
+      {
+        "name": "thermal recovery 1",
+        "value": 1.8029868055113503,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "thermal recovery 2",
+        "value": 1.20728182195405,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "thermal recovery 3",
+        "value": 1.49900066622,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "thermal recovery 4",
+        "value": 0.9990009990009998,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "LDO thermal asserted",
+        "value": 1.0,
+        "lower": 1,
+        "upper": 1,
+        "pass_": true
+      },
+      {
+        "name": "BB still enabled on thermal",
+        "value": 1.0,
+        "lower": 1,
+        "upper": 1,
+        "pass_": true
+      },
+      {
+        "name": "short recovery 1",
+        "value": 1.8030755218767602,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "short recovery 2",
+        "value": 1.20712332480805,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "short recovery 3",
+        "value": 1.49900066622,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "short recovery 4",
+        "value": 0.9990009990009998,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "short BB1 voltage",
+        "value": 0.01344048544981563,
+        "lower": 0,
+        "upper": 0.1,
+        "pass_": true
+      },
+      {
+        "name": "hold07 recovery 1",
+        "value": 1.80328319337112,
+        "lower": 1.764,
+        "upper": 1.836,
+        "pass_": true
+      },
+      {
+        "name": "hold07 recovery 2",
+        "value": 1.2081675994752499,
+        "lower": 1.176,
+        "upper": 1.224,
+        "pass_": true
+      },
+      {
+        "name": "hold07 recovery 3",
+        "value": 1.49900066622,
+        "lower": 1.47,
+        "upper": 1.53,
+        "pass_": true
+      },
+      {
+        "name": "hold07 recovery 4",
+        "value": 0.9990009990009998,
+        "lower": 0.98,
+        "upper": 1.02,
+        "pass_": true
+      },
+      {
+        "name": "0.7V running held",
+        "value": 1.0,
+        "lower": 1,
+        "upper": 1,
+        "pass_": true
+      },
+      {
+        "name": "17ohm BB1 regulation",
+        "value": 1.7915844951226276,
+        "lower": 1.782,
+        "upper": 1.818,
+        "pass_": true
+      },
+      {
+        "name": "16.5ohm outside 1percent band",
+        "value": 1.0,
+        "lower": 1,
+        "upper": 1,
+        "pass_": true
+      }
+    ],
+    "historical_comparisons": [
+      {
+        "name": "baseline mean 1",
+        "value": 1.8032148331901048,
+        "reference": 1.80319,
+        "tolerance": 0.018000000000000002,
+        "unit": "V",
+        "pass_": true
+      },
+      {
+        "name": "settling 1",
+        "value": 350.6360000000001,
+        "reference": 352.79,
+        "tolerance": 50,
+        "unit": "us",
+        "pass_": true
+      },
+      {
+        "name": "baseline mean 2",
+        "value": 1.2075719292875635,
+        "reference": 1.207881,
+        "tolerance": 0.012,
+        "unit": "V",
+        "pass_": true
+      },
+      {
+        "name": "settling 2",
+        "value": 348.2860000000002,
+        "reference": 350.29,
+        "tolerance": 50,
+        "unit": "us",
+        "pass_": true
+      },
+      {
+        "name": "baseline mean 3",
+        "value": 1.4990006662167787,
+        "reference": 1.499001,
+        "tolerance": 0.015,
+        "unit": "V",
+        "pass_": true
+      },
+      {
+        "name": "settling 3",
+        "value": 298.0840000000001,
+        "reference": 300.36,
+        "tolerance": 50,
+        "unit": "us",
+        "pass_": true
+      },
+      {
+        "name": "baseline mean 4",
+        "value": 0.9990009989997861,
+        "reference": 0.999001,
+        "tolerance": 0.01,
+        "unit": "V",
+        "pass_": true
+      },
+      {
+        "name": "settling 4",
+        "value": 299.69,
+        "reference": 301.572,
+        "tolerance": 50,
+        "unit": "us",
+        "pass_": true
+      },
+      {
+        "name": "BB ripple 1",
+        "value": 23.759604533554857,
+        "reference": 23.30023,
+        "tolerance": 5,
+        "unit": "mVpp",
+        "pass_": true
+      },
+      {
+        "name": "BB ripple 2",
+        "value": 32.17412141417664,
+        "reference": 32.37469,
+        "tolerance": 5,
+        "unit": "mVpp",
+        "pass_": true
+      },
+      {
+        "name": "combined efficiency",
+        "value": 80.3756057234519,
+        "reference": 79.60228,
+        "tolerance": 3,
+        "unit": "percent",
+        "pass_": true
+      },
+      {
+        "name": "idle current",
+        "value": 20.000001200057977,
+        "reference": 20.000001,
+        "tolerance": 1,
+        "unit": "uA",
+        "pass_": true
+      },
+      {
+        "name": "17ohm BB1 voltage",
+        "value": 1.7915844951226276,
+        "reference": 1.791423,
+        "tolerance": 0.018,
+        "unit": "V",
+        "pass_": true
+      },
+      {
+        "name": "16.5ohm BB1 voltage",
+        "value": 1.7793368431452858,
+        "reference": 1.760837,
+        "tolerance": 0.018,
+        "unit": "V",
+        "pass_": false
+      },
+      {
+        "name": "17ohm BB1 power",
+        "value": 188.81029430375295,
+        "reference": 188.777,
+        "tolerance": 10,
+        "unit": "mW",
+        "pass_": true
+      },
+      {
+        "name": "load undershoot 10us mean",
+        "value": 11.77158061271033,
+        "reference": 11.42874,
+        "tolerance": 5,
+        "unit": "mV",
+        "pass_": true
+      },
+      {
+        "name": "unload overshoot 10us mean",
+        "value": 7.591528541804671,
+        "reference": 7.56387,
+        "tolerance": 5,
+        "unit": "mV",
+        "pass_": true
+      },
+      {
+        "name": "BB1 load regulation",
+        "value": -0.3828713274079224,
+        "reference": -0.369066,
+        "tolerance": 0.2,
+        "unit": "percent",
+        "pass_": true
+      },
+      {
+        "name": "BB2 cross regulation",
+        "value": -0.053533300249475335,
+        "reference": -0.0837148,
+        "tolerance": 0.2,
+        "unit": "percent",
+        "pass_": true
+      }
+    ],
+    "metrics": {
+      "baseline": {
+        "efficiency": 0.8037560572345189,
+        "energy_rate": -3.9084901223310437e-05,
+        "external_loss": 0.0007801513099334733,
+        "final": [
+          1.800965810389225,
+          1.2097102627671086,
+          1.4990006662223652,
+          0.9990009990008955
+        ],
+        "iin": 0.05720754445360513,
+        "mean": [
+          1.8032148331901048,
+          1.2075719292875635,
+          1.4990006662167787,
+          0.9990009989997861
+        ],
+        "overlap": 0.0,
+        "packets1": 246,
+        "packets2": 153,
+        "peak_current": 0.6058882885377777,
+        "pin": 0.06864905334527718,
+        "pout": 0.05517709244968215,
+        "power": 0.012434800346895869,
+        "ripple": [
+          0.023759604533554857,
+          0.03217412141417664,
+          0.0,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0003506360000000001,
+          0.00034828600000000017,
+          0.0002980840000000001,
+          0.00029969
+        ]
+      },
+      "cross2": {
+        "efficiency": 0.8334633621901432,
+        "energy_rate": -0.00012245394392660703,
+        "external_loss": 0.0014658209277290664,
+        "final": [
+          1.8125262969180818,
+          1.2154955280113486,
+          1.4990006662223652,
+          0.9990009990008955
+        ],
+        "iin": 0.10304673954386318,
+        "mean": [
+          1.8025938191983666,
+          1.2008355346484931,
+          1.4990006662167787,
+          0.9990009989997861
+        ],
+        "overlap": 0.0,
+        "packets1": 343,
+        "packets2": 349,
+        "peak_current": 0.6059000881993422,
+        "pin": 0.12365608745358851,
+        "pout": 0.10306281840434625,
+        "power": 0.018749474301073266,
+        "ripple": [
+          0.02384328142929304,
+          0.03631615004442623,
+          0.0,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0003506360000000001,
+          0.00034828600000000017,
+          0.0002980840000000001,
+          0.00029969
+        ]
+      },
+      "disabled": {
+        "efficiency": 0.8145249782569983,
+        "energy_rate": -0.00019509924558810065,
+        "external_loss": 0.00043062887744702504,
+        "final": [
+          1.8005436314980667,
+          -1.0645725017640698e-13,
+          1.4990006662223643,
+          0.0
+        ],
+        "iin": 0.03381429687144811,
+        "mean": [
+          1.8035420207808168,
+          -1.1612897245225538e-13,
+          1.4990006662167787,
+          0.0
+        ],
+        "overlap": 0.0,
+        "packets1": 281,
+        "packets2": 0,
+        "peak_current": 0.6055854728513922,
+        "pin": 0.040577156246726954,
+        "pout": 0.033051107309596095,
+        "power": 0.007099317692739091,
+        "ripple": [
+          0.019370830002370276,
+          2.389396871829314e-13,
+          0.0,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.00024219600000000008,
+          0.0019999980000000002,
+          0.00021648000000000001,
+          0.0019999980000000002
+        ]
+      },
+      "enable": {
+        "efficiency": 0.46755968951612065,
+        "energy_rate": 0.02941493824107463,
+        "external_loss": 0.0009953871896669847,
+        "final": [
+          1.806151615976175,
+          1.2079127601341548,
+          1.4990006662223707,
+          0.9990009990008991
+        ],
+        "iin": 0.0723998885865413,
+        "mean": [
+          1.5512000418846656,
+          1.0053686706072942,
+          1.2020180790550836,
+          0.7943647878224654
+        ],
+        "overlap": 0.0,
+        "packets1": 317,
+        "packets2": 201,
+        "peak_current": 0.6058882885377777,
+        "pin": 0.08687986630463419,
+        "pout": 0.040621523314596834,
+        "power": 0.015477819307356184,
+        "ripple": [
+          0.7178398584170982,
+          0.6121835721131886,
+          1.212682235663491,
+          0.9067798611363244
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0017706140000000002,
+          0.0017724260000000001,
+          0.0017208980000000002,
+          0.001723286
+        ]
+      },
+      "half": {
+        "efficiency": 0.8047506119859686,
+        "energy_rate": -3.593025235641028e-06,
+        "external_loss": 0.0007795416682518903,
+        "final": [
+          1.8062084154971831,
+          1.2094530129152983,
+          1.4990006662223767,
+          0.9990009990008988
+        ],
+        "iin": 0.05714104994426747,
+        "mean": [
+          1.8031742193863496,
+          1.2078143317221304,
+          1.4990006662070843,
+          0.9990009990135682
+        ],
+        "overlap": 0.0,
+        "packets1": 246,
+        "packets2": 153,
+        "peak_current": 0.6058074530345414,
+        "pin": 0.06856925993410623,
+        "pout": 0.05518115389539695,
+        "power": 0.012455627795946058,
+        "ripple": [
+          0.023623893768865534,
+          0.031502645909718074,
+          0.0,
+          0.0
+        ],
+        "samples": 500000,
+        "settling_after_1ms": [
+          0.0003506560000000002,
+          0.0003483140000000002,
+          0.00029806000000000017,
+          0.00029954700000000005
+        ]
+      },
+      "hold07": {
+        "efficiency": 0.8037646378384409,
+        "energy_rate": -3.956617716576946e-05,
+        "external_loss": 0.0007801130018768675,
+        "final": [
+          1.7937267513148225,
+          1.213423780949279,
+          1.4990006662223652,
+          0.9990009990008955
+        ],
+        "iin": 0.057207460639563106,
+        "mean": [
+          1.8031579692550534,
+          1.2076538306778928,
+          1.4990006662167787,
+          0.9990009989997861
+        ],
+        "overlap": 0.0,
+        "packets1": 342,
+        "packets2": 219,
+        "peak_current": 0.6058882885377777,
+        "pin": 0.068648952768421,
+        "pout": 0.05517760065989814,
+        "power": 0.012434708839211411,
+        "ripple": [
+          0.023856097881800098,
+          0.03219060098629489,
+          0.0,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0003506360000000001,
+          0.00034828600000000017,
+          0.0002980840000000001,
+          0.00029969
+        ]
+      },
+      "iq": {
+        "efficiency": null,
+        "energy_rate": -1.3081407430805964e-13,
+        "external_loss": 2.27736236386992e-21,
+        "final": [
+          1.804680095012454,
+          1.212663731842357,
+          1.5013969304920793,
+          1.000598697392293
+        ],
+        "iin": 2.0000001200057975e-05,
+        "mean": [
+          1.8046800950501054,
+          1.2126637318424662,
+          1.5013969304715349,
+          1.000598697443178
+        ],
+        "overlap": 0.0,
+        "packets1": 77,
+        "packets2": 37,
+        "peak_current": 0.6058980679887582,
+        "pin": 2.4000002440403386e-05,
+        "pout": 7.982814068036632e-12,
+        "power": 2.400001515034713e-05,
+        "ripple": [
+          1.4229728506620631e-11,
+          8.537837103972379e-12,
+          3.4151348415889515e-11,
+          2.276756561059301e-11
+        ],
+        "samples": 2000000,
+        "settling_after_1ms": [
+          0.0003036320000000001,
+          0.00029995200000000003,
+          0.00026636,
+          0.000265464
+        ],
+        "window_power_ratio": 3.3261721901318517e-07
+      },
+      "load": {
+        "efficiency": 0.8486582119170812,
+        "energy_rate": -0.00012873685031376618,
+        "external_loss": 0.001643624656916374,
+        "final": [
+          1.7986573581042735,
+          1.1956446578104225,
+          1.4990006662223652,
+          0.9990009990008955
+        ],
+        "iin": 0.12458647759040282,
+        "mean": [
+          1.7962832055455331,
+          1.2069644127190409,
+          1.4990006662167787,
+          0.9990009989997861
+        ],
+        "overlap": 0.0,
+        "packets1": 533,
+        "packets2": 218,
+        "peak_current": 0.6058882885377777,
+        "pin": 0.1495037731095074,
+        "pout": 0.12687760476197155,
+        "power": 0.020436807306491743,
+        "ripple": [
+          0.02999784171525577,
+          0.032193848085342314,
+          0.0,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0003506360000000001,
+          0.00034828600000000017,
+          0.0002980840000000001,
+          0.00029969
+        ]
+      },
+      "max165": {
+        "efficiency": 0.8841596532838466,
+        "energy_rate": 3.6839101467201006e-05,
+        "external_loss": 0.00232463948159381,
+        "final": [
+          1.783425647456041,
+          1.1897332842334534,
+          1.5004975347194365,
+          1.0010124606199597
+        ],
+        "iin": 0.180851892383716,
+        "mean": [
+          1.7793368431452858,
+          1.189733284321321,
+          1.5004975350528325,
+          1.0010124608419295
+        ],
+        "overlap": 0.0,
+        "packets1": 924,
+        "packets2": 34,
+        "peak_current": 0.6059016812356435,
+        "pin": 0.21702227086231438,
+        "pout": 0.19188233576049693,
+        "power": 0.021767848316128473,
+        "ripple": [
+          0.014519846148830728,
+          1.7857582079727763e-10,
+          6.661311502398348e-10,
+          4.440874334932232e-10
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0008433920000000001,
+          0.0006598120000000001,
+          0.00039773,
+          0.00037969800000000014
+        ]
+      },
+      "max17": {
+        "efficiency": 0.8836005392925967,
+        "energy_rate": 0.00015041702966845142,
+        "external_loss": 0.002291144343606978,
+        "final": [
+          1.7978356143260128,
+          1.2199333725291248,
+          1.500404357559575,
+          1.0009788873404253
+        ],
+        "iin": 0.17807012765665073,
+        "mean": [
+          1.7915844951226276,
+          1.2199333726182162,
+          1.5004043578921855,
+          1.0009788875624492
+        ],
+        "overlap": 0.0,
+        "packets1": 910,
+        "packets2": 35,
+        "peak_current": 0.6059030905392502,
+        "pin": 0.21368415318976502,
+        "pout": 0.18881143299675823,
+        "power": 0.021436510372785014,
+        "ripple": [
+          0.014344494013051046,
+          1.7862644696720054e-10,
+          6.661311502398348e-10,
+          4.440874334932232e-10
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0007446660000000002,
+          0.0006004500000000002,
+          0.0003891560000000001,
+          0.000372832
+        ]
+      },
+      "short": {
+        "efficiency": 0.38621054006748545,
+        "energy_rate": 0.05005848715567508,
+        "external_loss": 0.001486584110249819,
+        "final": [
+          1.7951752497125177,
+          1.2084889981017966,
+          1.499000666222371,
+          0.9990009990008959
+        ],
+        "iin": 0.09428326290814953,
+        "mean": [
+          1.5091168140576965,
+          1.033143563233874,
+          1.3141551280671449,
+          0.8979706081343529
+        ],
+        "overlap": 0.0,
+        "packets1": 351,
+        "packets2": 197,
+        "peak_current": 0.6058899546396879,
+        "pin": 0.11313991549086343,
+        "pout": 0.04369582786491603,
+        "power": 0.017464221393379435,
+        "ripple": [
+          1.8122774639859616,
+          0.7039150291408596,
+          1.182050739515995,
+          0.4879842024577611
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0017205340000000001,
+          0.0017184920000000003,
+          0.0016697440000000003,
+          0.0016687340000000003
+        ]
+      },
+      "switch": {
+        "efficiency": 0.8439611858323239,
+        "energy_rate": 0.00024752330418722774,
+        "external_loss": 0.0008256892993259272,
+        "final": [
+          1.8053966481685035,
+          1.209083179076534,
+          1.7937695744983295,
+          0.9990009990008957
+        ],
+        "iin": 0.06077144776953854,
+        "mean": [
+          1.802057233791348,
+          1.2080310174426236,
+          1.7901118361196537,
+          0.9990009989997861
+        ],
+        "overlap": 0.0,
+        "packets1": 264,
+        "packets2": 153,
+        "peak_current": 0.6058501641061548,
+        "pin": 0.07292573732432583,
+        "pout": 0.061546491749934595,
+        "power": 0.009989911335342256,
+        "ripple": [
+          0.02261043644616456,
+          0.029102023375396913,
+          0.011891503586963115,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0003572620000000001,
+          0.000353166,
+          0.0019999980000000002,
+          0.00030029000000000015
+        ]
+      },
+      "thermal": {
+        "efficiency": 0.650662794883512,
+        "energy_rate": 0.006209944283579689,
+        "external_loss": 0.000934937531331794,
+        "final": [
+          1.8118405990395443,
+          1.2033944525349873,
+          1.4990006662223614,
+          0.9990009990008953
+        ],
+        "iin": 0.06862367693227862,
+        "mean": [
+          1.802033959347926,
+          1.2067571688651084,
+          1.4310251424647056,
+          0.9599484945440508
+        ],
+        "overlap": 0.0,
+        "packets1": 330,
+        "packets2": 208,
+        "peak_current": 0.6058882885377777,
+        "pin": 0.08234841231954416,
+        "pout": 0.05358104811405444,
+        "power": 0.021266362744502984,
+        "ripple": [
+          0.03761442594097897,
+          0.04471636188728523,
+          1.1779823553435542,
+          0.8994050554942474
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0003506360000000001,
+          0.001492096,
+          0.0015577160000000002,
+          0.001543726
+        ]
+      },
+      "uvlo": {
+        "efficiency": 0.46755968951612065,
+        "energy_rate": 0.02941493824107463,
+        "external_loss": 0.0009953871896669847,
+        "final": [
+          1.806151615976175,
+          1.2079127601341548,
+          1.4990006662223707,
+          0.9990009990008991
+        ],
+        "iin": 0.0723998885865413,
+        "mean": [
+          1.5512000418846656,
+          1.0053686706072942,
+          1.2020180790550836,
+          0.7943647878224654
+        ],
+        "overlap": 0.0,
+        "packets1": 317,
+        "packets2": 201,
+        "peak_current": 0.6058882885377777,
+        "pin": 0.08687986630463419,
+        "pout": 0.040621523314596834,
+        "power": 0.015477819307356184,
+        "ripple": [
+          0.7178398584170982,
+          0.6121835721131886,
+          1.212682235663491,
+          0.9067798611363244
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0017706140000000002,
+          0.0017724260000000001,
+          0.0017208980000000002,
+          0.001723286
+        ]
+      },
+      "vin07": {
+        "efficiency": 0.0,
+        "energy_rate": 0.0,
+        "external_loss": 0.0,
+        "final": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iin": 1.0000699999936757e-08,
+        "mean": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "overlap": 0.0,
+        "packets1": 0,
+        "packets2": 0,
+        "peak_current": 0.0,
+        "pin": 7.001489999977539e-09,
+        "pout": 0.0,
+        "power": 7.001489999977539e-09,
+        "ripple": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0019999980000000002,
+          0.0019999980000000002,
+          0.0019999980000000002,
+          0.0019999980000000002
+        ]
+      },
+      "vin079": {
+        "efficiency": 0.0,
+        "energy_rate": 0.0,
+        "external_loss": 0.0,
+        "final": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iin": 1.000078999996092e-08,
+        "mean": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "overlap": 0.0,
+        "packets1": 0,
+        "packets2": 0,
+        "peak_current": 0.0,
+        "pin": 7.9016241000218e-09,
+        "pout": 0.0,
+        "power": 7.9016241000218e-09,
+        "ripple": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0019999980000000002,
+          0.0019999980000000002,
+          0.0019999980000000002,
+          0.0019999980000000002
+        ]
+      },
+      "vin08": {
+        "efficiency": 0.7786516390996691,
+        "energy_rate": 5.701664980297896e-05,
+        "external_loss": 0.001036434203607136,
+        "final": [
+          1.810913845513256,
+          1.203729574158968,
+          1.4990006662223736,
+          0.9990009990008952
+        ],
+        "iin": 0.08849582452466319,
+        "mean": [
+          1.8017964852580262,
+          1.2064405989722002,
+          1.4990006662167787,
+          0.9990009989997861
+        ],
+        "overlap": 0.0,
+        "packets1": 240,
+        "packets2": 149,
+        "peak_current": 0.6023954920675936,
+        "pin": 0.07079665962085388,
+        "pout": 0.05512593505655923,
+        "power": 0.014325279045202222,
+        "ripple": [
+          0.02459722706405265,
+          0.032697530765485094,
+          0.0,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.00043148000000000014,
+          0.00043417200000000003,
+          0.00035367800000000007,
+          0.00035505
+        ]
+      },
+      "vin20": {
+        "efficiency": 0.8176159206483737,
+        "energy_rate": 0.0002574361912390335,
+        "external_loss": 0.0005932683405005218,
+        "final": [
+          1.808976351829461,
+          1.2125754165498872,
+          1.4990006662223636,
+          0.9990009990008959
+        ],
+        "iin": 0.03377355887460212,
+        "mean": [
+          1.8042832437317295,
+          1.2090166037063574,
+          1.4990006662167787,
+          0.9990009989997861
+        ],
+        "overlap": 0.0,
+        "packets1": 251,
+        "packets2": 156,
+        "peak_current": 0.6041477568046508,
+        "pin": 0.06754711774986437,
+        "pout": 0.05522759886619946,
+        "power": 0.01108003189108474,
+        "ripple": [
+          0.02295389325845454,
+          0.030867863508199145,
+          0.0,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.0002938680000000001,
+          0.00029514600000000004,
+          0.000259776,
+          0.00025811400000000004
+        ]
+      },
+      "vin21": {
+        "efficiency": 0.8267572468334075,
+        "energy_rate": -0.00031627168870120145,
+        "external_loss": 0.0005744052243782778,
+        "final": [
+          1.7950682157010391,
+          1.207875239147664,
+          1.4990006662223634,
+          0.999000999000896
+        ],
+        "iin": 0.03181534767460824,
+        "mean": [
+          1.804518684597581,
+          1.2092730589788432,
+          1.4990006662167787,
+          0.9990009989997861
+        ],
+        "overlap": 0.0,
+        "packets1": 249,
+        "packets2": 155,
+        "peak_current": 0.6070737885282776,
+        "pin": 0.06681223011743784,
+        "pout": 0.05523749542669297,
+        "power": 0.010922426677513383,
+        "ripple": [
+          0.02235220184557174,
+          0.03152702602892399,
+          0.0,
+          0.0
+        ],
+        "samples": 250000,
+        "settling_after_1ms": [
+          0.00029007800000000004,
+          0.0002871120000000002,
+          0.00025660600000000015,
+          0.0002551720000000001
+        ]
+      }
+    },
+    "fault_recovery": {
+      "enable": {
+        "recovered_means_3p8_3p9ms": [
+          1.80330994187935,
+          1.2068388221417499,
+          1.49900066622,
+          0.9990009990009998
+        ]
+      },
+      "uvlo": {
+        "recovered_means_3p8_3p9ms": [
+          1.80330994187935,
+          1.2068388221417499,
+          1.49900066622,
+          0.9990009990009998
+        ]
+      },
+      "thermal": {
+        "recovered_means_3p8_3p9ms": [
+          1.8029868055113503,
+          1.20728182195405,
+          1.49900066622,
+          0.9990009990009998
+        ]
+      },
+      "short": {
+        "recovered_means_3p8_3p9ms": [
+          1.8030755218767602,
+          1.20712332480805,
+          1.49900066622,
+          0.9990009990009998
+        ]
+      },
+      "hold07": {
+        "recovered_means_3p8_3p9ms": [
+          1.80328319337112,
+          1.2081675994752499,
+          1.49900066622,
+          0.9990009990009998
+        ]
+      }
+    },
+    "dynamic": {
+      "under_mV": 11.77158061271033,
+      "over_mV": 7.591528541804671,
+      "load_reg_percent": -0.3828713274079224,
+      "cross_reg_percent": -0.053533300249475335
+    },
+    "summary": {
+      "checks": 161,
+      "passed": 161,
+      "failed": 0,
+      "historical_checks": 19,
+      "historical_passed": 18,
+      "historical_failed": 1
+    },
+    "measurement_notes": [
+      "Full DT samples used for mean and ripple; displayed CSV/figures sampled every 100ns.",
+      "Load transient uses 10us causal mean, pre=1.7-1.9ms, heavy=2.7-2.9ms, peaks in first 200us after edges.",
+      "IQ window 2-6ms, no-load 1Tohm per output; no idle efficiency claim.",
+      "Historical comparison is report-only; raw Spectre PSF/CSV unavailable.",
+      "16.5ohm historical voltage comparison failed by 18.500mV versus 18mV tolerance."
+    ]
+  },
+  "numerical_method": {
+    "solver": "backward Euler, analytic piecewise Jacobian and damped Newton, five voltage unknowns; inductor and LDO filter states eliminated algebraically",
+    "timestep_s": 2e-09,
+    "control_interval_s": 1e-08,
+    "transition": "linear edges replace Spectre transition; interval-average conductance",
+    "initialization": "uncharged; at t=0 initialize control; first integration at DT",
+    "temperature": "external junction degC, trips LDO at >=150 and releases <=129, BB not thermally inhibited",
+    "power": "sum resistive and diode dissipation, LDO pass loss, IQ/gate charge and enable bias; external_loss only application DCR; energy includes L, four output C and CLX",
+    "formal_accuracy": "Pending independent silicon/transistor reference and expert review; historical behavioral comparison is not physical sign-off"
+  },
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "峰值比较器在每个电路采样步更新，减少仅按TCTRL检查造成的峰值超调；16.5 Ω单路工况按其他三路1 TΩ正确重测，历史电压对照进入原18 mV容差。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "max20310",
+      "off_power": 0.0005116979729069928,
+      "on_power": 0.012388654395295582,
+      "power_max": 0.3933810132565318,
+      "power_min": 0.0,
+      "samples": 1500000
+    },
+    "functional": [
+      {
+        "model": "max20310",
+        "case": "max20310_load_17",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 88.61642140500922,
+          "pin": 0.21306281182427037,
+          "pout": 0.18880863918355725,
+          "power": 0.02128082043396445,
+          "ripple": 0.01419885195353121,
+          "samples": 250000,
+          "vout": 1.7915714217904362
+        },
+        "checks": [
+          {
+            "name": "historical voltage comparison",
+            "actual": 1.7915714217904362,
+            "expected": 1.791423,
+            "tolerance": 0.018,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "max20310",
+        "case": "max20310_load_16.5",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 88.08814026685627,
+          "pin": 0.21626677075208403,
+          "pout": 0.19050537637069626,
+          "power": 0.022633005541509276,
+          "ripple": 0.014228169962073434,
+          "samples": 250000,
+          "vout": 1.7729410865288981
+        },
+        "checks": [
+          {
+            "name": "historical voltage comparison",
+            "actual": 1.7729410865288981,
+            "expected": 1.760837,
+            "tolerance": 0.018,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "max20310",
+        "case": "max20310_vin_0.8",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 78.17585975664335,
+          "pin": 0.0705065130496783,
+          "pout": 0.05511907276101594,
+          "power": 0.014458435367065982,
+          "ripple": 0.024958986206020883,
+          "samples": 250000,
+          "vout": 1.8015663885722821
+        },
+        "checks": [
+          {
+            "name": "BB1 regulation within documented 2%",
+            "actual": 1.8015663885722821,
+            "expected": 1.8,
+            "tolerance": 0.036,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "max20310",
+        "case": "max20310_vin_1.2",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 80.58180890896513,
+          "pin": 0.06847588063238344,
+          "pout": 0.0551791032799183,
+          "power": 0.012474449102199733,
+          "ripple": 0.02348069721271351,
+          "samples": 250000,
+          "vout": 1.8031065040521672
+        },
+        "checks": [
+          {
+            "name": "BB1 regulation within documented 2%",
+            "actual": 1.8031065040521672,
+            "expected": 1.8,
+            "tolerance": 0.036,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "max20310",
+        "case": "max20310_vin_2",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 81.76560311778935,
+          "pin": 0.06753846151201129,
+          "pout": 0.055223230391772064,
+          "power": 0.011125993216286267,
+          "ripple": 0.02228236819831153,
+          "samples": 250000,
+          "vout": 1.8043168938335838
+        },
+        "checks": [
+          {
+            "name": "BB1 regulation within documented 2%",
+            "actual": 1.8043168938335838,
+            "expected": 1.8,
+            "tolerance": 0.036,
+            "pass": true
+          }
+        ]
+      }
+    ],
+    "invalid_config": [],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "source_sha256": {
+      "include\\max20310.h": "cd73982aeaa574b0e6680ae9c7606ace91c89c905b89420c34395d5647504ea0",
+      "source\\max20310.cpp": "e646aba9aabab3dba0f8427168b69dc83572a4828a013ba2d1d70f35a948554d"
+    }
+  }
+}

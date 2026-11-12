@@ -1,0 +1,1531 @@
+{
+  "VOUT_NOM": {
+    "type": "float",
+    "value": 3.3,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "FSW_NOM_HZ": {
+    "type": "float",
+    "value": 2400000.0,
+    "unit": "Hz",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "FSW_MIN_HZ": {
+    "type": "float",
+    "value": 2200000.0,
+    "unit": "Hz",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "FSW_MAX_HZ": {
+    "type": "float",
+    "value": 2600000.0,
+    "unit": "Hz",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "VIN_OPER_MIN": {
+    "type": "float",
+    "value": 1.8,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "VIN_OPER_MAX": {
+    "type": "float",
+    "value": 5.5,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "UVLO_FALL": {
+    "type": "float",
+    "value": 1.5,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "UVLO_HYST": {
+    "type": "float",
+    "value": 0.2,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "EN_VIL": {
+    "type": "float",
+    "value": 0.4,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "EN_VIH": {
+    "type": "float",
+    "value": 1.2,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "ILIMIT_NOM_A": {
+    "type": "float",
+    "value": 4.0,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "ILIMIT_START_A": {
+    "type": "float",
+    "value": 0.4,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "ILIMIT_LOWVIN_A": {
+    "type": "float",
+    "value": 2.0,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "RSW_ON_OHM": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "RSW_OFF_OHM": {
+    "type": "float",
+    "value": 1000000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "IQ_VINA_A": {
+    "type": "float",
+    "value": 2.5e-05,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "IQ_VOUT_A": {
+    "type": "float",
+    "value": 5e-06,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "ISHUTDOWN_A": {
+    "type": "float",
+    "value": 1e-07,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "FB_RIN_OHM": {
+    "type": "float",
+    "value": 1000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "OVP_V": {
+    "type": "float",
+    "value": 5.5,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "TSD_C": {
+    "type": "float",
+    "value": 140.0,
+    "unit": "degC",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "TSD_HYST_C": {
+    "type": "float",
+    "value": 20.0,
+    "unit": "degC",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "SOFTSTART_S": {
+    "type": "float",
+    "value": 0.00025,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "LOOP_BW_HZ": {
+    "type": "float",
+    "value": 2000.0,
+    "unit": "Hz",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "KP_DUTY_PER_V": {
+    "type": "float",
+    "value": 0.8,
+    "unit": "1/V",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "KI_DUTY_PER_V_S": {
+    "type": "float",
+    "value": 800.0,
+    "unit": "1/(V*s)",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "INT_DUTY_MAX": {
+    "type": "float",
+    "value": 0.25,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "INT_RESET_S": {
+    "type": "float",
+    "value": 5e-06,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "DAMP_FILTER_HZ": {
+    "type": "float",
+    "value": 100000.0,
+    "unit": "Hz",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "ACTIVE_DAMP_GAIN": {
+    "type": "float",
+    "value": 2.5,
+    "unit": "1/V",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "MODE_WINDOW_V": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "V",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "DUTY_MIN": {
+    "type": "float",
+    "value": 0.025,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "DUTY_MAX": {
+    "type": "float",
+    "value": 0.975,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "DEADTIME_S": {
+    "type": "float",
+    "value": 8e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "EDGE_S": {
+    "type": "float",
+    "value": 2e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "STEPS_PER_CYCLE": {
+    "type": "int",
+    "value": 48,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "PSM_LOW_RATIO": {
+    "type": "float",
+    "value": 1.025,
+    "unit": "1",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "PSM_HIGH_RATIO": {
+    "type": "float",
+    "value": 1.035,
+    "unit": "1",
+    "editable": true,
+    "group": "functional",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "SYNC_TIMEOUT_S": {
+    "type": "float",
+    "value": 2e-06,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "P_SWITCH_PWM_W": {
+    "type": "float",
+    "value": 0.025,
+    "unit": "W",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "P_SWITCH_PSM_W": {
+    "type": "float",
+    "value": 0.001,
+    "unit": "W",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "PG_RLOW_OHM": {
+    "type": "float",
+    "value": 100.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "PG_ROFF_OHM": {
+    "type": "float",
+    "value": 1000000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "PG_GOOD_RATIO": {
+    "type": "float",
+    "value": 0.95,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "PG_BAD_RATIO": {
+    "type": "float",
+    "value": 0.9,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "BODY_VF_V": {
+    "type": "float",
+    "value": 0.55,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "BODY_RD_OHM": {
+    "type": "float",
+    "value": 0.08,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "SMOOTH_V": {
+    "type": "float",
+    "value": 0.001,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS63021_switching_v4.va"
+  },
+  "DT": {
+    "type": "float",
+    "value": 1e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "functional",
+    "source": "Application network or SystemC integration"
+  },
+  "LOUT": {
+    "type": "float",
+    "value": 1.5e-06,
+    "unit": "H",
+    "editable": true,
+    "group": "functional",
+    "source": "Application network or SystemC integration"
+  },
+  "LDCR": {
+    "type": "float",
+    "value": 0.015,
+    "unit": "ohm",
+    "editable": true,
+    "group": "functional",
+    "source": "Application network or SystemC integration"
+  },
+  "COUT": {
+    "type": "float",
+    "value": 6.6e-05,
+    "unit": "F",
+    "editable": true,
+    "group": "functional",
+    "source": "Application network or SystemC integration"
+  },
+  "ESR": {
+    "type": "float",
+    "value": 0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "functional",
+    "source": "Application network or SystemC integration"
+  },
+  "PG_PULLUP_V": {
+    "type": "float",
+    "value": 3.3,
+    "unit": "V",
+    "editable": true,
+    "group": "functional",
+    "source": "Application network or SystemC integration"
+  },
+  "PG_PULLUP_R": {
+    "type": "float",
+    "value": 100000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "functional",
+    "source": "Application network or SystemC integration"
+  },
+  "INITIAL_VOUT": {
+    "type": "float",
+    "value": 0,
+    "unit": "V",
+    "editable": true,
+    "group": "functional",
+    "source": "Application network or SystemC integration"
+  },
+  "name": {
+    "type": "string",
+    "value": "TPS63021",
+    "editable": false
+  },
+  "version": {
+    "type": "float",
+    "value": 1.0,
+    "editable": false
+  },
+  "category": {
+    "type": "string",
+    "value": "DC-DC Buck-Boost Converter",
+    "editable": false
+  },
+  "area_mm2": {
+    "type": "float",
+    "value": null,
+    "editable": false
+  },
+  "physical_latency_s": {
+    "type": "float",
+    "value": null,
+    "editable": false
+  },
+  "cost": {
+    "type": "float",
+    "value": null,
+    "editable": false
+  },
+  "interface": {
+    "inputs": [
+      "vin",
+      "vina",
+      "en",
+      "ps_sync",
+      "temperature",
+      "fb_override",
+      "iload",
+      "rload"
+    ],
+    "double_outputs": [
+      "vout",
+      "l1",
+      "l2",
+      "il",
+      "i_vin",
+      "i_vina",
+      "i_en",
+      "i_ps",
+      "i_pg",
+      "power",
+      "external_loss",
+      "energy",
+      "pg",
+      "ilim",
+      "duty_buck",
+      "duty_boost",
+      "frequency",
+      "softstart",
+      "ga_h",
+      "ga_l",
+      "gb_h",
+      "gb_l"
+    ],
+    "bool_outputs": [
+      "active",
+      "psm",
+      "burst",
+      "sync_active",
+      "pg_good",
+      "thermal_ok"
+    ],
+    "integer_outputs": [
+      "mode"
+    ],
+    "binding": "All 37 TDF ports must be bound."
+  },
+  "source_documents": [
+    {
+      "file": "buck-boost_TPS63021_datasheet.pdf",
+      "sha256": "d117773bb7370fd79377bc70ce987eec3469ea5979547a09df52fca5f95b2e69"
+    },
+    {
+      "file": "Buck-boost核心指标集-20260720.xlsx",
+      "sha256": "b62a965c7c8998c389c60c20f8e7d9f36a64ad4d5feb5bf79c42ffe3ea4cb59c"
+    },
+    {
+      "file": "TPS63021_switching_v4.va",
+      "sha256": "7434313048ef811f1908be535bda0e37a865452d304c52f2cb9144ca5f9cf2be"
+    },
+    {
+      "file": "TPS63021_Verilog-A_开关模型验证报告.docx",
+      "sha256": "67aa80b01aa56a0b4332b709954702e6ced58a9c3b6d3154545108392da489cd"
+    }
+  ],
+  "limitations": [
+    "单芯片应用级模型；L、DCR、COUT、ESR及PG上拉已内部求解，不可外部重复计入。VIN/VINA为理想电压输入，不计算输入去耦网络。",
+    "保持VA的补偿电压环、tanh限流通道及体二极管方程，不等于硅片平均电流环。",
+    "softstart、开关边沿及PG电导采用线性过渡替代Spectre transition；后向欧拉存在数值耗散。",
+    "原VA只在PWM关断侧加入死区，周期边界可有短暂通道交叠；未擅自补写互锁。",
+    "PS/SYNC测量上升沿周期后限幅到2.2–2.6MHz，超时2us恢复；相位按t*f计算，无PLL。",
+    "温度输入为外部结温，无自热网络。OVP为平滑电阻泄放，不是完整真实保护状态机。",
+    "功耗包括模型通道/二极管损耗、经验开关损耗及偏置；未标定真实器件开关损耗、EMI、寄生。",
+    "原VA报告大部分结果来自V3，重载与静态电流来自V4；历史比较不是同版本同网表重跑或硅片精度。",
+    "面积、物理传播延迟、成本未知；正式精度待独立数据及专家审核。"
+  ],
+  "validation": {
+    "date": "2026-10-28",
+    "scenario_count": 20,
+    "behavior_checks": 122,
+    "behavior_failures": 3,
+    "failed_checks": [
+      {
+        "name": "vin18 output 3.3V within 1 percent",
+        "actual": 0.31298697686612753,
+        "expected": 3.3,
+        "tolerance": 0.033,
+        "pass": false
+      },
+      {
+        "name": "short recovered voltage",
+        "actual": 3.4453801291382256,
+        "expected": 3.3,
+        "tolerance": 0.033,
+        "pass": false
+      },
+      {
+        "name": "short_long recovered voltage",
+        "actual": 3.445380129137977,
+        "expected": 3.3,
+        "tolerance": 0.033,
+        "pass": false
+      }
+    ],
+    "historical_comparisons": [
+      {
+        "name": "稳态输出",
+        "reference_version": "V3",
+        "actual": 3.298186977487662,
+        "expected": 3.28339,
+        "tolerance": 0.033,
+        "unit": "V",
+        "pass": true
+      },
+      {
+        "name": "启动峰值",
+        "reference_version": "V3",
+        "actual": 3.412323687490109,
+        "expected": 3.4386,
+        "tolerance": 0.1,
+        "unit": "V",
+        "pass": true
+      },
+      {
+        "name": "EN至PG",
+        "reference_version": "V3",
+        "actual": 244.98700000000005,
+        "expected": 242.91,
+        "tolerance": 50,
+        "unit": "us",
+        "pass": true
+      },
+      {
+        "name": "输出纹波",
+        "reference_version": "V3",
+        "actual": 0.42039319595188473,
+        "expected": 21.47,
+        "tolerance": 10,
+        "unit": "mVpp",
+        "pass": false
+      },
+      {
+        "name": "PWM效率",
+        "reference_version": "V3",
+        "actual": 92.84807069500741,
+        "expected": 93.54,
+        "tolerance": 3,
+        "unit": "percent",
+        "pass": true
+      },
+      {
+        "name": "加载下冲",
+        "reference_version": "V3",
+        "actual": 93.55960232667115,
+        "expected": 79.8,
+        "tolerance": 20,
+        "unit": "mV",
+        "pass": true
+      },
+      {
+        "name": "卸载上冲",
+        "reference_version": "V3",
+        "actual": 65.81995520966322,
+        "expected": 67,
+        "tolerance": 20,
+        "unit": "mV",
+        "pass": true
+      },
+      {
+        "name": "开关频率",
+        "reference_version": "V3",
+        "actual": 2.3999919833253163,
+        "expected": 2.382,
+        "tolerance": 0.048,
+        "unit": "MHz",
+        "pass": true
+      },
+      {
+        "name": "2A输出电压",
+        "reference_version": "V4",
+        "actual": 3.293591301710819,
+        "expected": 3.2927,
+        "tolerance": 0.033,
+        "unit": "V",
+        "pass": true
+      },
+      {
+        "name": "2A负载电流",
+        "reference_version": "V4",
+        "actual": 1.9961159404307995,
+        "expected": 1.9956,
+        "tolerance": 0.02,
+        "unit": "A",
+        "pass": true
+      },
+      {
+        "name": "省电静态电流",
+        "reference_version": "V4",
+        "actual": 23.698560231022846,
+        "expected": 23.7,
+        "tolerance": 5,
+        "unit": "uA",
+        "pass": true
+      }
+    ],
+    "measurements": {
+      "baseline": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12213668291594898,
+        "efficiency": 0.928480706950074,
+        "external_loss": 0.003754679209068016,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 1.3886638191782787,
+        "input_current": 0.4930956884717684,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": -0.00037504340859007,
+        "peak": 3.412323687490109,
+        "pg_delay": 0.00024498700000000006,
+        "pin": 1.7751445613873174,
+        "pout": 1.6481874772954757,
+        "ripple": 0.00042039319595188473,
+        "samples": 2000000,
+        "scenario": "baseline",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 1.8071760923721314e-05,
+        "version": 1.0,
+        "vmax": 3.2984028787546875,
+        "vmean": 3.298186977487662,
+        "vmin": 3.2979824855587356
+      },
+      "vin24": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.1485252316812884,
+        "efficiency": 0.9118438114548294,
+        "external_loss": 0.00816889137661167,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.9782747437648767,
+        "input_current": 0.746368158246711,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": -0.0029570991430212246,
+        "peak": 3.4139588978896045,
+        "pg_delay": 0.00027910900000000004,
+        "pin": 1.7912836986810134,
+        "pout": 1.6333709552021993,
+        "ripple": 0.0013387663808583916,
+        "samples": 2000000,
+        "scenario": "vin24",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": -0.0009972806076010698,
+        "version": 1.0,
+        "vmax": 3.2838820426274165,
+        "vmean": 3.2833288307245216,
+        "vmin": 3.282543276246558
+      },
+      "vin42": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.13463316566818012,
+        "efficiency": 0.921843642384318,
+        "external_loss": 0.0037921941555010964,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 1.4523529504096122,
+        "input_current": 0.4257537693581338,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": -0.00019585709729552647,
+        "peak": 3.420322354085558,
+        "pg_delay": 0.00024470700000000004,
+        "pin": 1.7881659039073192,
+        "pout": 1.6484093700453697,
+        "ripple": 0.00037324697250129546,
+        "samples": 2000000,
+        "scenario": "vin42",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": -1.0305133296029112e-05,
+        "version": 1.0,
+        "vmax": 3.2985630261225865,
+        "vmean": 3.2984089856114287,
+        "vmin": 3.298189779150085
+      },
+      "vin18": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 2.401560040733429,
+        "efficiency": 0.006099612413361782,
+        "external_loss": 0.02690278360398448,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 2.0000010548898937,
+        "input_current": 1.3528740536615933,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 0.1369962114551735,
+        "peak": 2.611476974053418,
+        "pg_delay": -1.0,
+        "pin": 2.435282231799636,
+        "pout": 0.014854277731124443,
+        "ripple": 0.03063669054628404,
+        "samples": 2000000,
+        "scenario": "vin18",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 0.25458915394709014,
+        "version": 1.0,
+        "vmax": 0.328663522855687,
+        "vmean": 0.31298697686612753,
+        "vmin": 0.29802683230940297
+      },
+      "vin55": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.1616003839948208,
+        "efficiency": 0.9075895530096477,
+        "external_loss": 0.003913530554923957,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 1.5445643524460921,
+        "input_current": 0.3303885040666154,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 0.0001544738967669268,
+        "peak": 3.434341027428316,
+        "pg_delay": 0.000244227,
+        "pin": 1.817136830382505,
+        "pout": 1.649214403644226,
+        "ripple": 0.00028833057204202817,
+        "samples": 2000000,
+        "scenario": "vin55",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 9.88827993806396e-05,
+        "version": 1.0,
+        "vmax": 3.2993687823476443,
+        "vmean": 3.299214308477337,
+        "vmin": 3.2990804517756023
+      },
+      "transition": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.11802334875479642,
+        "efficiency": 0.928325753006005,
+        "external_loss": 0.004049616049927884,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.4860121835156397,
+        "input_current": 0.5305828518258446,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": -0.0028122116769688787,
+        "peak": 3.277727110546355,
+        "pg_delay": 0.00025663700000000004,
+        "pin": 1.7509235004596675,
+        "pout": 1.6254273770201308,
+        "ripple": 0.0017594129000917391,
+        "samples": 2000000,
+        "scenario": "transition",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": -0.0014511482320012092,
+        "version": 1.0,
+        "vmax": 3.2759064436691467,
+        "vmean": 3.2753351816438023,
+        "vmin": 3.274147030769055
+      },
+      "load2a": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 1.439368506242191,
+        "efficiency": 0.8052918410667538,
+        "external_loss": 0.14704149000848826,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.999977065569682,
+        "input_current": 3.1399945291078555,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": -0.004983460687871144,
+        "peak": 3.29660358589285,
+        "pg_delay": 0.000314673,
+        "pin": 8.163985886261854,
+        "pout": 6.574391224790801,
+        "ripple": 0.00572613872359895,
+        "samples": 5000000,
+        "scenario": "load2a",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": -0.0013101080718191938,
+        "version": 1.0,
+        "vmax": 3.2962167170591767,
+        "vmean": 3.293591301710819,
+        "vmin": 3.290490578335578
+      },
+      "psm": {
+        "area_unknown": true,
+        "burst_fraction": 0.0,
+        "chip_loss": 0.00012978907676457625,
+        "efficiency": null,
+        "external_loss": 4.405615708832096e-17,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 1.244725908176032,
+        "input_current": 2.3698560231022847e-05,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 6.899658468872971e-05,
+        "peak": 3.41700159431375,
+        "pg_delay": 0.00023624900000000006,
+        "pin": 8.536170574279143e-05,
+        "pout": 1.1670318426987628e-08,
+        "ripple": 0.00019709652634380959,
+        "samples": 5000000,
+        "scenario": "psm",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 4.041392203824046e-05,
+        "version": 1.0,
+        "vmax": 3.416283325341553,
+        "vmean": 3.4161847759965096,
+        "vmin": 3.4160862288152094,
+        "window_power_ratio": 0.00013671608744736402
+      },
+      "psm_light": {
+        "area_unknown": true,
+        "burst_fraction": 0.0,
+        "chip_loss": 0.00012912507543321714,
+        "efficiency": null,
+        "external_loss": 5.722067751999768e-17,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 1.247374428514973,
+        "input_current": 2.3702172375791956e-05,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 0.007194171053714005,
+        "peak": 3.4170206604287108,
+        "pg_delay": 0.00023626900000000005,
+        "pin": 8.537470946396056e-05,
+        "pout": 0.034859185008296815,
+        "ripple": 0.015591851776131538,
+        "samples": 5000000,
+        "scenario": "psm_light",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 0.016647202928758542,
+        "version": 1.0,
+        "vmax": 3.3994844901872208,
+        "vmean": 3.3916825903258903,
+        "vmin": 3.3838926384110892,
+        "window_power_ratio": 408.3080953032351
+      },
+      "load_step": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12217021608152871,
+        "efficiency": 0.9297470332430842,
+        "external_loss": 0.0037619350682343545,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 1.6198666911667645,
+        "input_current": 0.49455396935398654,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 0.06581995520966322,
+        "peak": 3.412323687490109,
+        "pg_delay": 0.00024498700000000006,
+        "pin": 1.7803943725632925,
+        "pout": 1.6553163858934035,
+        "ripple": 0.000643035376371337,
+        "samples": 2000000,
+        "scenario": "load_step",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 0.09355960232667115,
+        "version": 1.0,
+        "vmax": 3.3055969902324573,
+        "vmean": 3.305312104488421,
+        "vmin": 3.304953954856086
+      },
+      "line_step": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.13450955103904935,
+        "efficiency": 0.9206778204954364,
+        "external_loss": 0.0037796898266038203,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.9782747437648767,
+        "input_current": 0.4239537872070988,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": -0.001627951746443923,
+        "peak": 3.4139588978896045,
+        "pg_delay": 0.00027910900000000004,
+        "pin": 1.7806059788730133,
+        "pout": 1.639364431789949,
+        "ripple": 0.0010582130548044688,
+        "samples": 2000000,
+        "scenario": "line_step",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": -0.002038930586057308,
+        "version": 1.0,
+        "vmax": 3.2896508530696886,
+        "vmean": 3.2893472296491106,
+        "vmin": 3.288592640014884
+      },
+      "enable": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12209830448490089,
+        "efficiency": 0.9283587507788601,
+        "external_loss": 0.0037483696514545367,
+        "fault_inactive": true,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.7957166421022044,
+        "input_current": 0.49228860641918903,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 0.00030459145081795924,
+        "peak": 3.412323687490109,
+        "pg_delay": 0.00024498700000000006,
+        "pin": 1.7722390659980067,
+        "pout": 1.6452736453914034,
+        "ripple": 0.0004910449382533599,
+        "samples": 2000000,
+        "scenario": "enable",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 2.1848820645036695,
+        "version": 1.0,
+        "vmax": 3.295591222897673,
+        "vmean": 3.2952702524889244,
+        "vmin": 3.29510017795942
+      },
+      "uvlo": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12209830448490089,
+        "efficiency": 0.9283587507788601,
+        "external_loss": 0.0037483696514545367,
+        "fault_inactive": true,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.7957166421022044,
+        "input_current": 0.49228860641918903,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 0.00030459145081795924,
+        "peak": 3.412323687490109,
+        "pg_delay": 0.00024498700000000006,
+        "pin": 1.7722390659980067,
+        "pout": 1.6452736453914034,
+        "ripple": 0.0004910449382533599,
+        "samples": 2000000,
+        "scenario": "uvlo",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 2.1848820645036695,
+        "version": 1.0,
+        "vmax": 3.295591222897673,
+        "vmean": 3.2952702524889244,
+        "vmin": 3.29510017795942
+      },
+      "thermal": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12209830448490089,
+        "efficiency": 0.9283587507788601,
+        "external_loss": 0.0037483696514545367,
+        "fault_inactive": true,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.7957166421022044,
+        "input_current": 0.49228860641918903,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 0.00030459145081795924,
+        "peak": 3.412323687490109,
+        "pg_delay": 0.00024498700000000006,
+        "pin": 1.7722390659980067,
+        "pout": 1.6452736453914034,
+        "ripple": 0.0004910449382533599,
+        "samples": 2000000,
+        "scenario": "thermal",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 2.1848820645036695,
+        "version": 1.0,
+        "vmax": 3.295591222897673,
+        "vmean": 3.2952702524889244,
+        "vmin": 3.29510017795942
+      },
+      "short": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12433308990412831,
+        "efficiency": 0.9332994631144949,
+        "external_loss": 0.0040887263372460705,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.999999845609245,
+        "input_current": 0.5353118019175469,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 1.6722040826699924e-05,
+        "peak": 3.586855273731855,
+        "pg_delay": 0.00024498700000000006,
+        "pin": 1.9271225697918983,
+        "pout": 1.7985824597426043,
+        "ripple": 2.5227638483116266e-05,
+        "samples": 2000000,
+        "scenario": "short",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 2.0438287515189835e-07,
+        "version": 1.0,
+        "vmax": 3.445396745028596,
+        "vmean": 3.4453801291382256,
+        "vmin": 3.4453715173901127
+      },
+      "sync": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12212524885347653,
+        "efficiency": 0.9288941528542033,
+        "external_loss": 0.003751491018054506,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 1.3863523545021776,
+        "input_current": 0.4929176690965194,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": -0.00022703542624569195,
+        "peak": 3.4116777858291356,
+        "pg_delay": 0.00024504700000000003,
+        "pin": 1.7745036916363885,
+        "pout": 1.6483261033792396,
+        "ripple": 6.529315624570486e-05,
+        "samples": 2000000,
+        "scenario": "sync",
+        "sync_off": 2400000.0,
+        "sync_on": 2499999.9999999395,
+        "undershoot": 0.0024074999484908766,
+        "version": 1.0,
+        "vmax": 3.2983633472829745,
+        "vmean": 3.2983256785887196,
+        "vmin": 3.298298054126729
+      },
+      "fb_open": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12432083852216451,
+        "efficiency": 0.9333054368549465,
+        "external_loss": 0.004088673345024967,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.0687762301695285,
+        "input_current": 0.5353085021793491,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 1.6615887445059485e-05,
+        "peak": 3.576150112940096,
+        "pg_delay": 0.000129159,
+        "pin": 1.927110690734567,
+        "pout": 1.7985828850838625,
+        "ripple": 2.5227633026148055e-05,
+        "samples": 2000000,
+        "scenario": "fb_open",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 8.611745541120541e-06,
+        "version": 1.0,
+        "vmax": 3.4453971524193774,
+        "vmean": 3.4453805365319323,
+        "vmin": 3.4453719247863512
+      },
+      "half": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12130029900911246,
+        "efficiency": 0.9289689802211847,
+        "external_loss": 0.0037537242643307764,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 1.3890601304308436,
+        "input_current": 0.4927049611988577,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": -8.133493899631361e-05,
+        "peak": 3.4124105661638615,
+        "pg_delay": 0.00024500100000000006,
+        "pin": 1.7737379432047737,
+        "pout": 1.6477475282785603,
+        "ripple": 0.00041712810183414106,
+        "samples": 4000000,
+        "scenario": "half",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": -0.00011166899788728202,
+        "version": 1.0,
+        "vmax": 3.298006619665049,
+        "vmean": 3.297746755942115,
+        "vmin": 3.297589491563215
+      },
+      "short_long": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12433308990403284,
+        "efficiency": 0.9332994631158341,
+        "external_loss": 0.004088726337232638,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.999999845609245,
+        "input_current": 0.535311801916701,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 1.6722040826699924e-05,
+        "peak": 3.586855273731855,
+        "pg_delay": 0.00024498700000000006,
+        "pin": 1.9271225697888914,
+        "pout": 1.798582459742379,
+        "ripple": 2.52276356378367e-05,
+        "samples": 5000000,
+        "scenario": "short_long",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 2.0438287515189835e-07,
+        "version": 1.0,
+        "vmax": 3.445396745027153,
+        "vmean": 3.445380129137977,
+        "vmin": 3.445371517391515
+      },
+      "short_10ms": {
+        "area_unknown": true,
+        "burst_fraction": 1.0,
+        "chip_loss": 0.12250073598901126,
+        "efficiency": 0.9311936564931389,
+        "external_loss": 0.0038098099109116646,
+        "fault_inactive": false,
+        "fault_recovered": true,
+        "frequency": 2400000.0,
+        "ilmax": 3.999999845609245,
+        "input_current": 0.500980949376527,
+        "name": "TPS63021",
+        "nonfinite": 0,
+        "overshoot": 1.6722040826699924e-05,
+        "peak": 3.586855273731855,
+        "pg_delay": 0.00024498700000000006,
+        "pin": 1.8035315006444073,
+        "pout": 1.6794370926856235,
+        "ripple": 0.001152957649446229,
+        "samples": 10000000,
+        "scenario": "short_10ms",
+        "sync_off": 2400000.0,
+        "sync_on": 2400000.0,
+        "undershoot": 2.0438287515189835e-07,
+        "version": 1.0,
+        "vmax": 3.329609813851211,
+        "vmean": 3.3293069494076537,
+        "vmin": 3.3284568562017647
+      }
+    },
+    "formal_accuracy": "pending independent silicon or transistor-level reference and expert review",
+    "environment": "Ubuntu 18.04; GCC 7.5.0; CMake 3.10.2; Make 4.1; SystemC and AMS 2.3.4; nlohmann JSON 3.12.0; C++14"
+  },
+  "integration": {
+    "timestep_s": 1e-09,
+    "time_resolution_s": 1e-12,
+    "constructor": "tps63021::TPS63021 dut(\"dut\", \"json/tps63021.json\");",
+    "feedback": "fb_override<0 means internal VOUT feedback; >=0 is externally forced FB voltage. In external-FB mode its bias power is attributed to external source.",
+    "load": "RLOAD in ohm in parallel with nonnegative ILOAD in ampere. Ideal constant-current loading at collapsed output can exceed applicability.",
+    "power": "VIN/VINA/EN/PS and PG pullup are separate sources; PG pullup resistor and LDCR/ESR are external losses; capacitor energy changes and BE numerical dissipation affect transient window ratios. PSM window power ratio is not certified efficiency."
+  },
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "修复周期边界死区、积分状态饱和和逐周期峰值电流控制；MOS通道恢复欧姆导通，移除独立理想限流源造成的低压启动阻塞；二极管电流零点修正以避免平滑近似产生负耗散。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "tps63021",
+      "off_power": 2.9537522327447545e-05,
+      "on_power": 0.058629716996181594,
+      "power_max": 7.868608332390982,
+      "power_min": 1.0868252626494385e-07,
+      "samples": 3000000
+    },
+    "functional": [
+      {
+        "model": "tps63021",
+        "case": "tps63021_vin_1.8",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 91.38756996299142,
+          "pin": 1.7975480354306854,
+          "pout": 1.6427354684975954,
+          "power": 0.14065157917124396,
+          "ripple": 0.002191193312079509,
+          "samples": 100001,
+          "vout": 3.292727420797137
+        },
+        "checks": [
+          {
+            "name": "3.3V output within original 1% criterion",
+            "actual": 3.292727420797137,
+            "expected": 3.3,
+            "tolerance": 0.033,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "tps63021",
+        "case": "tps63021_vin_2.4",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 94.45130897516282,
+          "pin": 1.7349622596794587,
+          "pout": 1.638694564492312,
+          "power": 0.0888344198450622,
+          "ripple": 0.0016119303187802636,
+          "samples": 100001,
+          "vout": 3.2886751159168033
+        },
+        "checks": [
+          {
+            "name": "3.3V output within original 1% criterion",
+            "actual": 3.2886751159168033,
+            "expected": 3.3,
+            "tolerance": 0.033,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "tps63021",
+        "case": "tps63021_vin_3.3",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 90.71762753463003,
+          "pin": 1.7886839971463868,
+          "pout": 1.6226516863027918,
+          "power": 0.15825921470148854,
+          "ripple": 0.0018516119647746798,
+          "samples": 100001,
+          "vout": 3.272537393421826
+        },
+        "checks": [
+          {
+            "name": "3.3V output within original 1% criterion",
+            "actual": 3.272537393421826,
+            "expected": 3.3,
+            "tolerance": 0.033,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "tps63021",
+        "case": "tps63021_vin_3.6",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 96.32121060802365,
+          "pin": 1.7065194065101108,
+          "pout": 1.6437401516113992,
+          "power": 0.05866958972908178,
+          "ripple": 0.0006160281959974867,
+          "samples": 100001,
+          "vout": 3.2937341987991875
+        },
+        "checks": [
+          {
+            "name": "3.3V output within original 1% criterion",
+            "actual": 3.2937341987991875,
+            "expected": 3.3,
+            "tolerance": 0.033,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "tps63021",
+        "case": "tps63021_vin_4.2",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 96.31086053034203,
+          "pin": 1.7072888398091872,
+          "pout": 1.644304573358721,
+          "power": 0.05893086578315771,
+          "ripple": 0.0010573041547017326,
+          "samples": 100001,
+          "vout": 3.294299637253915
+        },
+        "checks": [
+          {
+            "name": "3.3V output within original 1% criterion",
+            "actual": 3.294299637253915,
+            "expected": 3.3,
+            "tolerance": 0.033,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "tps63021",
+        "case": "tps63021_vin_5.5",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 96.0919332325634,
+          "pin": 1.712161597545178,
+          "pout": 1.6452491791467034,
+          "power": 0.059869747338285574,
+          "ripple": 0.0008464687503866308,
+          "samples": 100001,
+          "vout": 3.2952457507567607
+        },
+        "checks": [
+          {
+            "name": "3.3V output within original 1% criterion",
+            "actual": 3.2952457507567607,
+            "expected": 3.3,
+            "tolerance": 0.033,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "tps63021",
+        "case": "tps63021_short2_0",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 96.27739985094216,
+          "pin": 1.703587235044795,
+          "pout": 1.640169494093687,
+          "power": 0.05863007317219815,
+          "ripple": 0.0004120357590107204,
+          "samples": 100001,
+          "vout": 3.290154806709646
+        },
+        "checks": [
+          {
+            "name": "3.3V output within original 1% criterion",
+            "actual": 3.290154806709646,
+            "expected": 3.3,
+            "tolerance": 0.033,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "tps63021",
+        "case": "tps63021_short_0",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 96.33594119787197,
+          "pin": 1.7117376585498667,
+          "pout": 1.64901858420243,
+          "power": 0.05867177321525183,
+          "ripple": 0.00019678392410860113,
+          "samples": 100001,
+          "vout": 3.2990184379203535
+        },
+        "checks": [
+          {
+            "name": "3.3V output within original 1% criterion",
+            "actual": 3.2990184379203535,
+            "expected": 3.3,
+            "tolerance": 0.033,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "tps63021",
+        "case": "tps63021_heavy_0",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 85.96930267558535,
+          "pin": 7.530993360550909,
+          "pout": 6.474342476610247,
+          "power": 0.9253383606100238,
+          "ripple": 0.006885766528475834,
+          "samples": 100001,
+          "vout": 3.268434272502638
+        },
+        "checks": [
+          {
+            "name": "3.3V output within original 1% criterion",
+            "actual": 3.268434272502638,
+            "expected": 3.3,
+            "tolerance": 0.033,
+            "pass": true
+          }
+        ]
+      }
+    ],
+    "invalid_config": [],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "v3_ripple_comparison": "Historical report explicitly attributes 21.47mV to V3; supplied source is V4 with additional integral correction. Preserve old mismatch as a version comparison, do not claim it passed or inject ripple to imitate it.",
+    "source_sha256": {
+      "include\\tps63021.h": "3b32a1d96bfe997a57b300bb6c3e43fcb019c4e235382629871ae60d9d79bf27",
+      "source\\tps63021.cpp": "c6091964802c3cf796c37df311f313b87fb86e0a76ecf90ad08c79a2722b62ae"
+    }
+  }
+}

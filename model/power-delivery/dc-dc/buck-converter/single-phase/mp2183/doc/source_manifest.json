@@ -1,0 +1,16 @@
+{
+  "model": "mp2183",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Buck Converter_单相Buck/mp2183",
+  "original_files_sha256": {
+    "doc/DC-DC芯粒清单.xlsx": "f650aa3b7f071d9a08f7db2634ed8160f6abf8d1e499f3d3a2d7565d2cd1dc88",
+    "doc/mp2183模型说明.docx": "57ecd169dbf661087b240706412e7c596ac1ef8cb3d178f5b627de2c64edbdcc",
+    "doc/mp2183芯粒自测试报告.docx": "7da2f9b32954d43d4aa936f8dcc85d108ce9146a6541a54373ccd3a731b36243",
+    "include/mp2183.h": "82f935a0eba05ce687ca195f1c0bc6b13e2a59f271f6b6546dceb8369e962f79",
+    "json/mp2183.json": "36c9fa3b4e99d75786b5ad338b45f283e487b7c5cb2e9d8df3e97c295a9a5b51",
+    "source/mp2183.cpp": "e6241a0970444e08e6493c8c20e9ef828b5415314a6c41e8409318c18423b2bb"
+  },
+  "baseline_cases": [
+    "mp2183-SC-B01"
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "name": {
+    "type": "string",
+    "value": "tps61235p",
+    "editable": false
+  },
+  "category": {
+    "type": "string",
+    "value": "供电芯粒-DC-DC_Boost_Converter_(集成功率级)_Boost",
+    "editable": false
+  },
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "editable": false
+  },
+  "latency": {
+    "type": "nullable_float",
+    "value": null,
+    "editable": false,
+    "unit": "s",
+    "status": "uncalibrated"
+  },
+  "power": {
+    "type": "nullable_float",
+    "value": null,
+    "editable": false,
+    "unit": "W",
+    "status": "uncalibrated"
+  },
+  "area": {
+    "type": "nullable_float",
+    "value": null,
+    "editable": false,
+    "unit": "mm2",
+    "status": "uncalibrated"
+  },
+  "dimensions": {
+    "type": "float",
+    "x": 2.5,
+    "y": 2.5,
+    "unit": "mm",
+    "editable": false
+  },
+  "meta": {
+    "name": "tps61235p",
+    "version": 0.1,
+    "original_module": "TPS61235P_v3",
+    "model_kind": "TDF switching reference application"
+  },
+  "parameter": {
+    "vout_nominal": {
+      "type": "float",
+      "value": 5.1,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "fsw": {
+      "type": "float",
+      "value": 1000000.0,
+      "unit": "Hz",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "softstart": {
+      "type": "float",
+      "value": 0.003,
+      "unit": "s",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "ven_high": {
+      "type": "float",
+      "value": 1.0,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "ven_low": {
+      "type": "float",
+      "value": 0.4,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "vuvlo_rise": {
+      "type": "float",
+      "value": 2.2,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "vuvlo_hyst": {
+      "type": "float",
+      "value": 0.125,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "ron_low": {
+      "type": "float",
+      "value": 0.014,
+      "unit": "ohm",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "ron_high": {
+      "type": "float",
+      "value": 0.014,
+      "unit": "ohm",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "rdiode": {
+      "type": "float",
+      "value": 0.05,
+      "unit": "ohm",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "vdiode": {
+      "type": "float",
+      "value": 0.35,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "roff": {
+      "type": "float",
+      "value": 1000000000.0,
+      "unit": "ohm",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "valley_limit": {
+      "type": "float",
+      "value": 8.0,
+      "unit": "A",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "duty_min": {
+      "type": "float",
+      "value": 0.03,
+      "unit": "1",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "duty_max": {
+      "type": "float",
+      "value": 0.9,
+      "unit": "1",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "kp": {
+      "type": "float",
+      "value": 0.08,
+      "unit": "1",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "ki": {
+      "type": "float",
+      "value": 200.0,
+      "unit": "1",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "iq_vin": {
+      "type": "float",
+      "value": 5e-06,
+      "unit": "A",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "iq_vout": {
+      "type": "float",
+      "value": 5e-06,
+      "unit": "A",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "isd_vin": {
+      "type": "float",
+      "value": 1e-08,
+      "unit": "A",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "precharge_i0": {
+      "type": "float",
+      "value": 0.25,
+      "unit": "A",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "precharge_i2": {
+      "type": "float",
+      "value": 1.3,
+      "unit": "A",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "precharge_i3": {
+      "type": "float",
+      "value": 1.7,
+      "unit": "A",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "precharge_drop": {
+      "type": "float",
+      "value": 0.0,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "precharge_taper": {
+      "type": "float",
+      "value": 0.1,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "pwm_start_margin": {
+      "type": "float",
+      "value": 0.1,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "precharge_assist_margin": {
+      "type": "float",
+      "value": 0.3,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "vovp": {
+      "type": "float",
+      "value": 5.8,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "vovp_hyst": {
+      "type": "float",
+      "value": 0.1,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "r_sw_hold": {
+      "type": "float",
+      "value": 0.1,
+      "unit": "ohm",
+      "editable": true,
+      "source": "TPS61235P.va"
+    },
+    "switch_smooth": {
+      "type": "float",
+      "value": 1e-06,
+      "unit": "V",
+      "editable": true,
+      "source": "TPS61235P.va"
+    }
+  },
+  "configuration": {
+    "latency_s": null,
+    "power_w": null,
+    "area_mm2": null,
+    "timestep_s": 5e-09,
+    "external_inductance_h": 1e-06,
+    "external_capacitance_f": 6.6e-05,
+    "initial_vout_v": 0,
+    "initial_inductor_current_a": 0
+  },
+  "notes": {
+    "power": "Unknown calibrated chip loss. Former 0.1W framework budget removed.",
+    "area": "Physical die area unknown; 6.25mm2 retained only as package_area_mm2.",
+    "ports": "Sampled real-valued signals; not ELN electrical terminals. Tie PGND/AGND. FB connects VOUT. INACT remains an inactive input placeholder.",
+    "external_components": "L and C belong to the reference application; ideal VIN source; CIN is not dynamically modeled; load_resistance is an external load in ohms",
+    "not_implemented": [
+      "PFM",
+      "CC programming",
+      "INACT load indication",
+      "8 A valley current limit (parameter only)",
+      "thermal protection",
+      "calibrated efficiency/corners"
+    ],
+    "numerics": "Backward Euler with analytic 2x2 Newton solve, 1e-8 A KCL residual; VOUT feedback delayed one sample; PWM edge quantized to timestep"
+  },
+  "ports": [
+    {
+      "name": "PGND",
+      "x": 0,
+      "y": 0.0,
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "SW",
+      "x": 2.5,
+      "y": 0.2,
+      "io_type": "sca_out",
+      "unit": "V"
+    },
+    {
+      "name": "VIN",
+      "x": 0,
+      "y": 0.4,
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "CC",
+      "x": 0,
+      "y": 0.6000000000000001,
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "AGND",
+      "x": 0,
+      "y": 0.8,
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "FB",
+      "x": 0,
+      "y": 1.0,
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "EN",
+      "x": 0,
+      "y": 1.2000000000000002,
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "INACT",
+      "x": 0,
+      "y": 1.4000000000000001,
+      "io_type": "sca_in",
+      "unit": "V"
+    },
+    {
+      "name": "VOUT",
+      "x": 2.5,
+      "y": 1.6,
+      "io_type": "sca_out",
+      "unit": "V"
+    },
+    {
+      "name": "load_resistance",
+      "x": 0,
+      "y": 1.8,
+      "io_type": "sca_in",
+      "unit": "ohm"
+    },
+    {
+      "name": "input_current",
+      "x": 2.5,
+      "y": 2.0,
+      "io_type": "sca_out",
+      "unit": "A"
+    },
+    {
+      "name": "inductor_current",
+      "x": 2.5,
+      "y": 2.2,
+      "io_type": "sca_out",
+      "unit": "A"
+    }
+  ],
+  "package_area_mm2": {
+    "type": "float",
+    "value": 6.25,
+    "unit": "mm2",
+    "editable": false,
+    "source": "2.5mm x 2.5mm package body; not die area"
+  },
+  "delivery_revision": {
+    "date": "2026-10-29",
+    "scope": "Metadata/query/documentation repair only; control equations, application defaults, environment and historical test results unchanged",
+    "formal_accuracy": "Independent physical characterization and expert review pending",
+    "final_layout": [
+      "include",
+      "source",
+      "json",
+      "doc"
+    ],
+    "historical_evidence": "Conditions/results/plots retained in delivered report; development scripts and raw traces are not part of this six-file package",
+    "verification": {
+      "cxx14_compile_and_link": "passed",
+      "name_version_queries": "passed",
+      "unknown_latency_power_area_nan": "passed",
+      "all_ports_bound": 12,
+      "off_state_tdf_smoke_ns": 200,
+      "historical_full_regression": "not rerun",
+      "environment": "unchanged"
+    }
+  },
+  "runtime_power_model": {
+    "getter": "get_power_dissipation",
+    "unit": "W",
+    "type": "sum_of_modeled_dissipative_branches",
+    "calibrated": false,
+    "scope": "See source branch equations; external application losses are excluded",
+    "reference_accuracy": "No independent silicon/transistor loss calibration available",
+    "unknown_area_and_delay": "Remain unknown rather than replaced by package area or sampling step"
+  },
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "功耗查询由NaN改为所建MOS、二极管、预充电、静态偏置及泄漏的支路耗散和，不把后向欧拉数值耗散计入芯片功耗。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "tps61235p",
+      "off_power": 6.149159614345706e-08,
+      "on_power": 0.004636409702196251,
+      "power_max": 2.1807877313783814,
+      "power_min": 5.963760011091707e-08,
+      "samples": 600000
+    },
+    "functional": [],
+    "invalid_config": [],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "source_sha256": {
+      "include\\tps61235p.h": "7a076ce2fa3310ccbe1b9a3ee563b09871d42567572c3541bf3b2a2d895577a9",
+      "source\\tps61235p.cpp": "68aa8bd5170387a1b65026f984c46bab56bac90a0ddae7a795e1035cc04c3f4e"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "max20310",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_SIMO Converter/max20310",
+  "original_files_sha256": {
+    "doc/DC-DC芯粒清单.xlsx": "caa0738a5afc0ebbf1c319d59c77e30cd52c4282fb9137baeb15a1a4bdbd4acb",
+    "doc/max20310模型说明.docx": "e1f8f68474417884dec84a462fb522f10e26232cf4c89cb55958f3ec3d9d99a7",
+    "doc/max20310芯粒自测试报告.docx": "49ca8c1b4e6da16564925d7780fdf4b30742df361c4cb1ba497d4bfc7e2a5d29",
+    "include/max20310.h": "cd73982aeaa574b0e6680ae9c7606ace91c89c905b89420c34395d5647504ea0",
+    "json/max20310.json": "e1070d9d23402c316e851705aed847c525b1b3c7abd826e43869fea9edfde3a9",
+    "source/max20310.cpp": "e646aba9aabab3dba0f8427168b69dc83572a4828a013ba2d1d70f35a948554d"
+  },
+  "baseline_cases": [
+    "max20310-SC-B01"
+  ]
+}

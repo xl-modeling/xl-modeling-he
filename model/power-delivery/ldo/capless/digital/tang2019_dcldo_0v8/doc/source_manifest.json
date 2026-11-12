@@ -1,0 +1,16 @@
+{
+  "model": "tang2019_dcldo_0v8",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "LDO/Capless_LDO/供电芯粒_LDO_Capless_LDO_数字Capless_LDO/tang2019_dcldo_0v8",
+  "original_files_sha256": {
+    "doc/LDO芯粒清单.xlsx": "9fdabeb0a55e7aab5dd1b812ac096fec277c4a9ea4cdd450685603f9fa300856",
+    "doc/tang2019_dcldo_0v8模型说明.docx": "9a4cc561ae02c036c336d710c38e9ed3e4c8a02f1a5004022bfe1039cae30a8e",
+    "doc/tang2019_dcldo_0v8芯粒自测试报告.docx": "a0af8489be2f6091f019925064ecd194881c4f50bb7865389ed64d220a287f98",
+    "include/tang2019_dcldo_0v8.h": "16b821d1f499c13908a23d500f7e150995dfb3a12221723d103749884a177b88",
+    "json/tang2019_dcldo_0v8.json": "6fedf7f097d810a24187b530b32aa14cc4c32d1b2ed32dcee2c27fee4df257a6",
+    "source/tang2019_dcldo_0v8.cpp": "db3174275c0c0cb93b8f463ff7df5e3889157bca6b38aefcfdb7213998786dbf"
+  },
+  "baseline_cases": [
+    "tang2019_dcldo_0v8-SC-B01"
+  ]
+}

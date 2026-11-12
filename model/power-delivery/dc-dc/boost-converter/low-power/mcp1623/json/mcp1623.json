@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "name": "mcp1623",
+    "version": 1.0,
+    "category": "电源芯粒 / DC-DC / Boost Converter / 低功耗Boost"
+  },
+  "parameter": {
+    "FSW": {
+      "value": 500000.0,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "Hz",
+      "group": "performance"
+    },
+    "VREF": {
+      "value": 1.21,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "V",
+      "group": "performance"
+    },
+    "ILIM": {
+      "value": 0.425,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "A",
+      "group": "performance"
+    },
+    "VSTART": {
+      "value": 0.65,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "V",
+      "group": "performance"
+    },
+    "IQ_PWM": {
+      "value": 0.00022,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "A",
+      "group": "performance"
+    },
+    "RN": {
+      "value": 0.6,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "ohm",
+      "group": "performance"
+    },
+    "RP": {
+      "value": 0.9,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "ohm",
+      "group": "performance"
+    },
+    "KP": {
+      "value": 6.0,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "A/V",
+      "group": "performance"
+    },
+    "KI": {
+      "value": 80000.0,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "A/(V*s)",
+      "group": "performance"
+    },
+    "L_SLOPE": {
+      "value": 4.7e-06,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "H",
+      "group": "performance"
+    },
+    "P_SWITCH": {
+      "value": 0.005,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "W",
+      "group": "performance"
+    },
+    "DMAX": {
+      "value": 0.9,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "1",
+      "group": "performance"
+    },
+    "TBLANK": {
+      "value": 1e-07,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "s",
+      "group": "performance"
+    },
+    "TEDGE": {
+      "value": 2e-09,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "s",
+      "group": "performance"
+    },
+    "TSS_RAMP": {
+      "value": 0.00075,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "s",
+      "group": "performance"
+    },
+    "IPRE": {
+      "value": 0.1,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "A",
+      "group": "performance"
+    },
+    "VRUN_FLOOR": {
+      "value": 0.3,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "V",
+      "group": "performance"
+    },
+    "IQ_OFF": {
+      "value": 7e-07,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "A",
+      "group": "performance"
+    },
+    "CSW": {
+      "value": 2e-11,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "F",
+      "group": "performance"
+    },
+    "R_DAMP": {
+      "value": 50.0,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "ohm",
+      "group": "performance"
+    },
+    "R_NEG_CLAMP": {
+      "value": 10.0,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "ohm",
+      "group": "performance"
+    },
+    "LINE_FRAC": {
+      "value": 0.0001,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "1/V",
+      "group": "performance"
+    },
+    "LOAD_FRAC": {
+      "value": 0.004,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "1/A",
+      "group": "performance"
+    },
+    "KAW": {
+      "value": 200000.0,
+      "editable": true,
+      "source": "mcp1623_core rev0.5",
+      "type": "float",
+      "unit": "1/s",
+      "group": "performance"
+    }
+  },
+  "configuration": {
+    "timestep_s": 5e-09
+  },
+  "ports": {
+    "VIN": "V",
+    "PGND": "V",
+    "SGND": "V",
+    "EP": "V",
+    "VOUTP": "V",
+    "VOUTS": "V",
+    "SW": "V",
+    "EN": "V",
+    "VFB": "V",
+    "inductor_current": "A",
+    "rectifier_current": "A",
+    "low_conductance": "S",
+    "damping_conductance": "S",
+    "rectifier_enabled": "1",
+    "precharge_enabled": "1",
+    "input_bias_current": "A",
+    "output_sink_current": "A",
+    "feedback_current": "A",
+    "enable_current": "A"
+  },
+  "pin_mapping": {
+    "SOT23": [
+      "SW",
+      "GND=PGND=SGND=EP",
+      "EN",
+      "VFB",
+      "VOUT=VOUTP=VOUTS",
+      "VIN"
+    ],
+    "DFN": [
+      "VFB",
+      "SGND",
+      "PGND",
+      "EN",
+      "SW",
+      "VOUTP",
+      "VOUTS",
+      "VIN",
+      "EP"
+    ]
+  },
+  "notes": [
+    "外部L/C/CSW及分压与负载由应用电路联立求解；不是ELN双向节点。",
+    "仅MCP1623 PWM，零电流整流和最小脉冲跳跃不等于PFM。",
+    "硬开关替代2 ns transition；按采样步长判定cross事件；无硅片精度或Spectre等价结论。"
+  ],
+  "name": {
+    "type": "string",
+    "value": "mcp1623",
+    "editable": false,
+    "group": "identity"
+  },
+  "version": {
+    "type": "float",
+    "value": 1.0,
+    "editable": false,
+    "group": "identity"
+  },
+  "category": {
+    "type": "string",
+    "value": "电源芯粒 / DC-DC / Boost Converter / 低功耗Boost",
+    "editable": false,
+    "group": "identity"
+  },
+  "latency": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "group": "uncharacterized",
+    "status": "uncalibrated"
+  },
+  "power": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "W",
+    "editable": false,
+    "group": "uncharacterized",
+    "status": "uncalibrated"
+  },
+  "area": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm2",
+    "editable": false,
+    "group": "uncharacterized",
+    "status": "uncalibrated"
+  },
+  "delivery_revision": {
+    "date": "2026-10-29",
+    "scope": "Metadata/query/documentation repair only; control equations, application defaults, environment and historical test results unchanged",
+    "formal_accuracy": "Independent physical characterization and expert review pending",
+    "final_layout": [
+      "include",
+      "source",
+      "json",
+      "doc"
+    ],
+    "historical_evidence": "Conditions/results/plots retained in delivered report; development scripts and raw traces are not part of this six-file package",
+    "verification": {
+      "cxx14_compile_and_link": "passed",
+      "name_version_queries": "passed",
+      "unknown_latency_power_area_nan": "passed",
+      "all_ports_bound": 19,
+      "off_state_tdf_smoke_ns": 200,
+      "historical_full_regression": "not rerun",
+      "environment": "unchanged"
+    }
+  },
+  "runtime_power_model": {
+    "getter": "get_power_dissipation",
+    "unit": "W",
+    "type": "sum_of_modeled_dissipative_branches",
+    "calibrated": false,
+    "scope": "See source branch equations; external application losses are excluded",
+    "reference_accuracy": "No independent silicon/transistor loss calibration available",
+    "unknown_area_and_delay": "Remain unknown rather than replaced by package area or sampling step"
+  },
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "增加以SW电压、整流电流和状态为输入的导通、偏置、阻尼及配置开关损耗查询；属于外部网络观测驱动的近似，未作硅片标定。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "mcp1623",
+      "off_power": 1.0497620999926192e-06,
+      "on_power": 0.0062885106520981825,
+      "power_max": 0.006288510652099993,
+      "power_min": 1.0497620999926376e-06,
+      "samples": 600000
+    },
+    "functional": [],
+    "invalid_config": [],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "source_sha256": {
+      "include\\mcp1623.h": "5346a8403720c6f865322a4794203a2503d5861cae2aa28902c8598d72798494",
+      "source\\mcp1623.cpp": "012caea850e5ae153b95d2a0530d6f625579f3c41e95a26170a86924f092b049"
+    }
+  }
+}

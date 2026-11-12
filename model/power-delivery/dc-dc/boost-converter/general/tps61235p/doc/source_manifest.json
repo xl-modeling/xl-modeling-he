@@ -1,0 +1,16 @@
+{
+  "model": "tps61235p",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Boost_Converter_Boost/tps61235p",
+  "original_files_sha256": {
+    "doc/tps61235p模型说明.docx": "d041266b807f1ed971811503c6aeb1cbd3ec7f7bc0abcbbb26916384b1c5f989",
+    "doc/tps61235p芯粒清单.xlsx": "e913c2e7d090c50f8fe6c2d0db18573181235d87b51aba06914b4a5a56c00e0d",
+    "doc/tps61235p芯粒自测试报告.docx": "aeb0ae0953e1157364289fb69c870c57d71c1322933515f67ba1e9dc8773f076",
+    "include/tps61235p.h": "7a076ce2fa3310ccbe1b9a3ee563b09871d42567572c3541bf3b2a2d895577a9",
+    "json/tps61235p.json": "cd2f53a17b49b5e2a65f278b11e6772346cb6ad40a890d5dfabf991454c0ffad",
+    "source/tps61235p.cpp": "68aa8bd5170387a1b65026f984c46bab56bac90a0ddae7a795e1035cc04c3f4e"
+  },
+  "baseline_cases": [
+    "tps61235p-SC-B01"
+  ]
+}

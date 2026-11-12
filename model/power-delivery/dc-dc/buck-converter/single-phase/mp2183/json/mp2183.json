@@ -1,0 +1,860 @@
+{
+  "name": {
+    "type": "string",
+    "value": "mp2183",
+    "unit": "1",
+    "editable": false,
+    "group": "identity",
+    "source": "SystemC模型标识"
+  },
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "1",
+    "editable": false,
+    "group": "identity",
+    "source": "本次交付版本"
+  },
+  "category": {
+    "type": "string",
+    "value": "Power-DC-DC-Buck-SinglePhase",
+    "unit": "1",
+    "editable": false,
+    "group": "identity",
+    "source": "模拟类电源芯粒"
+  },
+  "VREF": {
+    "type": "float",
+    "value": 0.6,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "FSW": {
+    "type": "float",
+    "value": 1200000.0,
+    "unit": "Hz",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "RON_H": {
+    "type": "float",
+    "value": 0.065,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "RON_L": {
+    "type": "float",
+    "value": 0.035,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "IQ": {
+    "type": "float",
+    "value": 2.1e-05,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "ISHDN": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "IFB": {
+    "type": "float",
+    "value": 5e-08,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "ISS": {
+    "type": "float",
+    "value": 3e-06,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "UVLO_ON": {
+    "type": "float",
+    "value": 2.3,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "UVLO_HYS": {
+    "type": "float",
+    "value": 0.2,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "EN_ON": {
+    "type": "float",
+    "value": 1.2,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "EN_OFF": {
+    "type": "float",
+    "value": 0.4,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "EN_DELAY_ON": {
+    "type": "float",
+    "value": 0.0001,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "EN_DELAY_OFF": {
+    "type": "float",
+    "value": 3e-05,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "ILIM_PEAK": {
+    "type": "float",
+    "value": 5.0,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "ILIM_VALLEY": {
+    "type": "float",
+    "value": 3.0,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "IZCD": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "TMIN_ON": {
+    "type": "float",
+    "value": 8e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "TMIN_OFF": {
+    "type": "float",
+    "value": 9e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "PG_ON": {
+    "type": "float",
+    "value": 0.9,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "PG_OFF": {
+    "type": "float",
+    "value": 0.85,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "PG_DELAY": {
+    "type": "float",
+    "value": 8e-05,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "OVP_ON": {
+    "type": "float",
+    "value": 1.15,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "OVP_OFF": {
+    "type": "float",
+    "value": 1.05,
+    "unit": "1",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "OVP_DELAY": {
+    "type": "float",
+    "value": 6e-06,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "OVP_REVERSE": {
+    "type": "float",
+    "value": 1.5,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "OVP_RETRY": {
+    "type": "float",
+    "value": 8e-07,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "VIN_OVP": {
+    "type": "float",
+    "value": 6.1,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "VIN_OVP_HYS": {
+    "type": "float",
+    "value": 0.16,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "RDIS": {
+    "type": "float",
+    "value": 150.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "REN": {
+    "type": "float",
+    "value": 2000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "RPG": {
+    "type": "float",
+    "value": 200.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "TSHUT": {
+    "type": "float",
+    "value": 160.0,
+    "unit": "degC",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "THYST": {
+    "type": "float",
+    "value": 30.0,
+    "unit": "degC",
+    "editable": true,
+    "group": "performance",
+    "source": "MP2183.va原参数；随包MP2183 Rev.1.0 pp.4-5,12-14。典型或逻辑界限，不代表全温保证"
+  },
+  "DT": {
+    "type": "float",
+    "value": 5e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "TEDGE": {
+    "type": "float",
+    "value": 2e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "TDEAD": {
+    "type": "float",
+    "value": 1e-08,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "ROFF": {
+    "type": "float",
+    "value": 10000000000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "CSW": {
+    "type": "float",
+    "value": 1e-10,
+    "unit": "F",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "VBD": {
+    "type": "float",
+    "value": 0.65,
+    "unit": "V",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "RBD": {
+    "type": "float",
+    "value": 0.08,
+    "unit": "ohm",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "KRAMP": {
+    "type": "float",
+    "value": 0.025,
+    "unit": "ohm",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "TAVG": {
+    "type": "float",
+    "value": 5e-06,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "KI": {
+    "type": "float",
+    "value": 6000.0,
+    "unit": "1/s",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "TRIM_MAX": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "V",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "AAM_PEAK": {
+    "type": "float",
+    "value": 0.45,
+    "unit": "A",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "HICCUP": {
+    "type": "float",
+    "value": 0.001,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "TSC_LIMIT": {
+    "type": "float",
+    "value": 5e-05,
+    "unit": "s",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "RON_TC": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "1/degC",
+    "editable": true,
+    "group": "numerical",
+    "source": "MP2183.va工程/数值假设，非独立器件规格"
+  },
+  "L": {
+    "type": "float",
+    "value": 1e-06,
+    "unit": "H",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "原VA报告外围电路设置，非片内器件参数"
+  },
+  "DCR": {
+    "type": "float",
+    "value": 0.027,
+    "unit": "ohm",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "原VA报告外围电路设置，非片内器件参数"
+  },
+  "COUT": {
+    "type": "float",
+    "value": 4.4e-05,
+    "unit": "F",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "原VA报告外围电路设置，非片内器件参数"
+  },
+  "ESR": {
+    "type": "float",
+    "value": 0.005,
+    "unit": "ohm",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "原VA报告外围电路设置，非片内器件参数"
+  },
+  "CSS": {
+    "type": "float",
+    "value": 2.2e-09,
+    "unit": "F",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "原VA报告外围电路设置，非片内器件参数"
+  },
+  "R_TOP": {
+    "type": "float",
+    "value": 100000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "原VA报告外围电路设置，非片内器件参数"
+  },
+  "R_BOT": {
+    "type": "float",
+    "value": 100000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "原VA报告外围电路设置，非片内器件参数"
+  },
+  "R_PG": {
+    "type": "float",
+    "value": 100000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "原VA报告外围电路设置，非片内器件参数"
+  },
+  "INITIAL_VOUT": {
+    "type": "float",
+    "value": 0,
+    "unit": "V",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "数值初始条件"
+  },
+  "INITIAL_IL": {
+    "type": "float",
+    "value": 0,
+    "unit": "A",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "数值初始条件"
+  },
+  "INITIAL_SS": {
+    "type": "float",
+    "value": 0,
+    "unit": "V",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "数值初始条件"
+  },
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm2",
+    "editable": true,
+    "group": "uncharacterized",
+    "source": "无裸片面积/采购成本依据，待提供"
+  },
+  "cost": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "CNY",
+    "editable": true,
+    "group": "uncharacterized",
+    "source": "无裸片面积/采购成本依据，待提供"
+  },
+  "dimensions": {
+    "x": 8,
+    "y": 16,
+    "unit": "relative",
+    "description": "GUI相对坐标，非物理面积"
+  },
+  "ports": [
+    {
+      "name": "vin",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "name": "en",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "name": "iload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "A",
+      "x": 0,
+      "y": 3
+    },
+    {
+      "name": "rload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "ohm",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "name": "temperature",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "degC",
+      "x": 0,
+      "y": 5
+    },
+    {
+      "name": "pg_pullup",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V",
+      "x": 0,
+      "y": 6
+    },
+    {
+      "name": "vout",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 1
+    },
+    {
+      "name": "sw",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 2
+    },
+    {
+      "name": "il",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 3
+    },
+    {
+      "name": "ss",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "name": "fb",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 5
+    },
+    {
+      "name": "pg",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V",
+      "x": 8,
+      "y": 6
+    },
+    {
+      "name": "ipg",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "name": "iin",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 8
+    },
+    {
+      "name": "ien",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A",
+      "x": 8,
+      "y": 9
+    },
+    {
+      "name": "power",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 10
+    },
+    {
+      "name": "external_loss",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "W",
+      "x": 8,
+      "y": 11
+    },
+    {
+      "name": "energy",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "J",
+      "x": 8,
+      "y": 12
+    },
+    {
+      "name": "high",
+      "io_type": "sca_out",
+      "data_type": "bool",
+      "unit": "1",
+      "x": 8,
+      "y": 13
+    },
+    {
+      "name": "low",
+      "io_type": "sca_out",
+      "data_type": "bool",
+      "unit": "1",
+      "x": 8,
+      "y": 14
+    },
+    {
+      "name": "active",
+      "io_type": "sca_out",
+      "data_type": "bool",
+      "unit": "1",
+      "x": 8,
+      "y": 15
+    },
+    {
+      "name": "state",
+      "io_type": "sca_out",
+      "data_type": "int",
+      "unit": "1",
+      "x": 8,
+      "y": 16
+    }
+  ],
+  "state_codes": {
+    "0": "disabled",
+    "1": "soft-start",
+    "2": "running",
+    "3": "output OVP",
+    "4": "hiccup wait",
+    "5": "thermal shutdown",
+    "6": "UVLO",
+    "7": "VIN OVP"
+  },
+  "power_model": {
+    "value": "HS/LS conduction + body diode + IQ + OUT discharge + EN leakage + PG sink",
+    "unit": "W",
+    "editable": false,
+    "description": "instantaneous interval-average branch accounting; no calibrated switching/gate-drive loss, self-heating, or silicon accuracy"
+  },
+  "source_documents": [
+    {
+      "file": "MP2183.va",
+      "sha256": "6b43baa27894797a49e28276283631b8353176bed8872b4566991583dbdd4f00"
+    },
+    {
+      "file": "MP2183_Verilog-A_系统级模型验证报告_开关模型.docx",
+      "sha256": "fd1ad6ec7286084bebc740eee7643de3cff76f876199c4875594c16b435cd7b5"
+    },
+    {
+      "file": "MPS_MP2183_datasheet.pdf",
+      "sha256": "c5b7eade439c842842cdd43921efb3e76be647bcbb51bf7f1c2e98843431204a"
+    },
+    {
+      "file": "单相Buck核心指标集-20260720.xlsx",
+      "sha256": "f1a52264881cf50945af781b48bd0b16a8b07b867be72ddd2866f91a74b9326c"
+    }
+  ],
+  "limitations": [
+    "TDF信号流，非双向电气端口；GND隐含为0V，OUT/FB/SS及外围电路在内部求解",
+    "理想VIN端，不重复计入原报告10uF输入旁路电容；源阻抗/输入纹波网络不在本版范围",
+    "MOS导通边沿采用线性电导近似；后向欧拉包含数值阻尼，需做DT减半检查",
+    "无独立实测/新Spectre对照，不构成正式硅片精度验收；面积成本为空，需专家审核精度特殊处理",
+    "温度是外部给定结温；未建自热、工艺统计、随机噪声或完整寄生频谱",
+    "EN 1.2/0.4V为逻辑保证界限，不是实测翻转点；TMIN 80/90ns保持VA参数",
+    "ISHDN=0为典型假设；21uA IQ仅静态内部供电，不等于带开关的总空载输入电流"
+  ],
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "统一交付文档格式，补3.6、5.0、5.5 V离散输入下的配置工作点回归；本次测试采用配置的1.2 V输出目标。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "mp2183",
+      "off_power": 0.00798831749013987,
+      "on_power": 0.0015082589707892792,
+      "power_max": 0.6937111745793345,
+      "power_min": 0.0,
+      "samples": 600000
+    },
+    "functional": [
+      {
+        "model": "mp2183",
+        "case": "mp2183_vin_3.6",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 93.0463232045123,
+          "pin": 0.04728678898606148,
+          "pout": 0.04399861851300648,
+          "power": 0.0014125638170278283,
+          "ripple": 0.011929972241982556,
+          "samples": 40000,
+          "vout": 1.2049660582529271
+        },
+        "checks": [
+          {
+            "name": "1.2V configured application regulation",
+            "actual": 1.2049660582529271,
+            "expected": 1.2,
+            "tolerance": 0.024,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "mp2183",
+        "case": "mp2183_vin_5",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 93.86251253602438,
+          "pin": 0.046881607815498993,
+          "pout": 0.04400425501291253,
+          "power": 0.0015048088827261962,
+          "ripple": 0.013661227199782244,
+          "samples": 40000,
+          "vout": 1.2050417352534906
+        },
+        "checks": [
+          {
+            "name": "1.2V configured application regulation",
+            "actual": 1.2050417352534906,
+            "expected": 1.2,
+            "tolerance": 0.024,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "mp2183",
+        "case": "mp2183_vin_5.5",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 90.30314535207184,
+          "pin": 0.04871617948865068,
+          "pout": 0.043992242373612434,
+          "power": 0.0015665838518173403,
+          "ripple": 0.014149105136533446,
+          "samples": 40000,
+          "vout": 1.2048769039343108
+        },
+        "checks": [
+          {
+            "name": "1.2V configured application regulation",
+            "actual": 1.2048769039343108,
+            "expected": 1.2,
+            "tolerance": 0.024,
+            "pass": true
+          }
+        ]
+      }
+    ],
+    "invalid_config": [],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "source_sha256": {
+      "include\\mp2183.h": "82f935a0eba05ce687ca195f1c0bc6b13e2a59f271f6b6546dceb8369e962f79",
+      "source\\mp2183.cpp": "e6241a0970444e08e6493c8c20e9ef828b5415314a6c41e8409318c18423b2bb"
+    }
+  }
+}

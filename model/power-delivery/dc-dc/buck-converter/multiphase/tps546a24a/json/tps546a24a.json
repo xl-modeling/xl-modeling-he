@@ -1,0 +1,582 @@
+{
+  "name": {
+    "type": "string",
+    "value": "tps546a24a",
+    "unit": "1",
+    "editable": false,
+    "group": "identity",
+    "source": "本模型标识"
+  },
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "1",
+    "editable": false,
+    "group": "identity",
+    "source": "本次版本"
+  },
+  "category": {
+    "type": "string",
+    "value": "Power-DC-DC-TPS546A24A",
+    "unit": "1",
+    "editable": false,
+    "group": "identity",
+    "source": "TPS546A24A芯片行为及其手册限定堆叠"
+  },
+  "device_count": {
+    "type": "int",
+    "value": 1,
+    "unit": "devices",
+    "editable": true,
+    "group": "functional",
+    "source": "单颗10A；同型号2/3/4颗堆叠至20/30/40A，手册§7.4.2"
+  },
+  "VOUT_SET": {
+    "type": "float",
+    "value": 1.2,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA参数；TI SLUSE16A pp.7,10及参考应用条件"
+  },
+  "FSW": {
+    "type": "float",
+    "value": 650000.0,
+    "unit": "Hz",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA参数；TI SLUSE16A pp.7,10及参考应用条件"
+  },
+  "TSS": {
+    "type": "float",
+    "value": 0.005,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA应用软启动时间5ms；TI SLUSE16A p.10工厂默认3ms，不作为本配置默认值"
+  },
+  "VEN_ON": {
+    "type": "float",
+    "value": 1.05,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA参数；TI SLUSE16A pp.7,10及参考应用条件"
+  },
+  "VEN_OFF": {
+    "type": "float",
+    "value": 0.98,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA参数；TI SLUSE16A pp.7,10及参考应用条件"
+  },
+  "VIN_ON": {
+    "type": "float",
+    "value": 4.5,
+    "unit": "V",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "VIN_OFF": {
+    "type": "float",
+    "value": 4.25,
+    "unit": "V",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "SENSE_SCALE": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "V/A",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA用于电感电流观测的比例1V/A，非TI芯片实测电流监测增益"
+  },
+  "KP": {
+    "type": "float",
+    "value": 60.0,
+    "unit": "A/V",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "KI": {
+    "type": "float",
+    "value": 1000000.0,
+    "unit": "A/(V*s)",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "RI": {
+    "type": "float",
+    "value": 0.2,
+    "unit": "ohm",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "IREF_MAX": {
+    "type": "float",
+    "value": 14.0,
+    "unit": "A",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "IREF_MIN": {
+    "type": "float",
+    "value": -3.0,
+    "unit": "A",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "DMAX": {
+    "type": "float",
+    "value": 0.9,
+    "unit": "1",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "TDEAD": {
+    "type": "float",
+    "value": 6e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA参数；TI SLUSE16A pp.7,10及参考应用条件"
+  },
+  "TEDGE": {
+    "type": "float",
+    "value": 2e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "TON_NUM": {
+    "type": "float",
+    "value": 4e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "RHS": {
+    "type": "float",
+    "value": 0.0055,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA参数；TI SLUSE16A pp.7,10及参考应用条件"
+  },
+  "RLS": {
+    "type": "float",
+    "value": 0.0018,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA参数；TI SLUSE16A pp.7,10及参考应用条件"
+  },
+  "RSWPD": {
+    "type": "float",
+    "value": 30000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "原VA参数；TI SLUSE16A pp.7,10及参考应用条件"
+  },
+  "GOFF": {
+    "type": "float",
+    "value": 1e-09,
+    "unit": "S",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "VDIODE": {
+    "type": "float",
+    "value": 0.7,
+    "unit": "V",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "RDIODE": {
+    "type": "float",
+    "value": 0.03,
+    "unit": "ohm",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "VSMOOTH": {
+    "type": "float",
+    "value": 0.0001,
+    "unit": "V",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "CSW": {
+    "type": "float",
+    "value": 2e-10,
+    "unit": "F",
+    "editable": true,
+    "group": "engineering",
+    "source": "原VA工程代理/数值参数，非TI内部参数或物理保证"
+  },
+  "DT": {
+    "type": "float",
+    "value": 5e-09,
+    "unit": "s",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "历史VA报告外接电路/数值设置；L、DCR数组分别为4个芯片槽位"
+  },
+  "L": {
+    "type": "array",
+    "value": [
+      6.8e-07,
+      6.8e-07,
+      6.8e-07,
+      6.8e-07
+    ],
+    "unit": "H",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "历史VA报告外接电路/数值设置；L、DCR数组分别为4个芯片槽位"
+  },
+  "DCR": {
+    "type": "array",
+    "value": [
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "unit": "ohm",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "历史VA报告外接电路/数值设置；L、DCR数组分别为4个芯片槽位"
+  },
+  "COUT": {
+    "type": "float",
+    "value": 0.0004,
+    "unit": "F",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "历史VA报告外接电路/数值设置；L、DCR数组分别为4个芯片槽位"
+  },
+  "ESR": {
+    "type": "float",
+    "value": 0.001,
+    "unit": "ohm",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "历史VA报告外接电路/数值设置；L、DCR数组分别为4个芯片槽位"
+  },
+  "INITIAL_VOUT": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "V",
+    "editable": true,
+    "group": "external_circuit",
+    "source": "历史VA报告外接电路/数值设置；L、DCR数组分别为4个芯片槽位"
+  },
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm2",
+    "editable": true,
+    "group": "uncharacterized",
+    "source": "无独立表征；IQ未在原VA实现，不在输入电流中虚构补入"
+  },
+  "cost": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "CNY",
+    "editable": true,
+    "group": "uncharacterized",
+    "source": "无独立表征；IQ未在原VA实现，不在输入电流中虚构补入"
+  },
+  "physical_latency_s": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "s",
+    "editable": true,
+    "group": "uncharacterized",
+    "source": "无独立表征；IQ未在原VA实现，不在输入电流中虚构补入"
+  },
+  "IQ_A": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "A",
+    "editable": true,
+    "group": "uncharacterized",
+    "source": "无独立表征；IQ未在原VA实现，不在输入电流中虚构补入"
+  },
+  "stack_model": {
+    "value": "one master voltage PI, shared per-device current reference, individual cycle-average loops, offsets k*T/N",
+    "editable": false,
+    "source": "手册§7.3.11–7.3.14/§7.4.2行为抽象；本次工程扩展，非BCX协议或内部晶体管实现"
+  },
+  "power_model": {
+    "value": "sum(half-bridge conduction + body diode + RSWPD)",
+    "unit": "W",
+    "editable": false,
+    "description": "only modeled stage loss; excludes AVIN/IQ, VDD5/gate drive and uncalibrated switching loss; not complete device input power"
+  },
+  "ports": [
+    {
+      "name": "vin",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "en",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "iload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "A"
+    },
+    {
+      "name": "rload",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "ohm"
+    },
+    {
+      "name": "vout",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "iin",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A"
+    },
+    {
+      "name": "power",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "W"
+    },
+    {
+      "name": "external_loss",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "W"
+    },
+    {
+      "name": "energy",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "J"
+    },
+    {
+      "name": "vref",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "iref",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A"
+    },
+    {
+      "name": "total_current",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A"
+    },
+    {
+      "name": "active",
+      "io_type": "sca_out",
+      "data_type": "bool",
+      "unit": "1"
+    },
+    {
+      "name": "state",
+      "io_type": "sca_out",
+      "data_type": "int",
+      "unit": "1"
+    },
+    {
+      "name": "sw",
+      "io_type": "sc_vector<sca_out<double>>",
+      "size": "device_count",
+      "unit": "V"
+    },
+    {
+      "name": "il",
+      "io_type": "sc_vector<sca_out<double>>",
+      "size": "device_count",
+      "unit": "A"
+    },
+    {
+      "name": "isns",
+      "io_type": "sc_vector<sca_out<double>>",
+      "size": "device_count",
+      "unit": "V"
+    },
+    {
+      "name": "duty",
+      "io_type": "sc_vector<sca_out<double>>",
+      "size": "device_count",
+      "unit": "1"
+    },
+    {
+      "name": "gh",
+      "io_type": "sc_vector<sca_out<double>>",
+      "size": "device_count",
+      "unit": "1"
+    },
+    {
+      "name": "gl",
+      "io_type": "sc_vector<sca_out<double>>",
+      "size": "device_count",
+      "unit": "1"
+    }
+  ],
+  "state_codes": {
+    "0": "disabled or initial",
+    "1": "soft start",
+    "2": "running",
+    "3": "application UVLO"
+  },
+  "source_documents": [
+    {
+      "file": "TI_TPS546A24A_datasheet.pdf",
+      "sha256": "c65fe1867f5f4d889f74454ff25c79002906ff7578c88562c7c4a9a9463cbb7f"
+    },
+    {
+      "file": "tps546a24a_ctrl_sw_v1.va",
+      "sha256": "61a90a4094ba942735da62cc165ea51f5e98794169363d8d8fd69717fe523dd2"
+    },
+    {
+      "file": "tps546a24a_power_sw_v1.va",
+      "sha256": "dd0000ac787440d80f2edbc174b8d2ab28b66d7bca5dfd0d0397ce2e91c9f401"
+    },
+    {
+      "file": "TPS546A24A_VerilogA_开关模型验证报告.docx",
+      "sha256": "6b13f7c15bf2dc64aed0d5e459508c4138b9f0a60104e1a1f205754b99c4f979"
+    },
+    {
+      "file": "多相Buck核心指标集-20250720.xlsx",
+      "sha256": "ce338be624968fbb4f30c877f90c199c9558fa136a207124e890d6aaeedf64d3"
+    }
+  ],
+  "limitations": [
+    "仅TPS546A24A单颗或同型号2/3/4颗堆叠；不是任意相数或异型号通用Buck平台",
+    "无PMBus、真实VSHARE/BCX电气协议、配置引脚读取、完整POR、PGOOD、预偏置启动保护或故障状态机",
+    "IREF_MAX=14A为代理电流指令饱和，不是真实逐周期过流/短路保护；单颗额定10A不由该限幅替代",
+    "VIN为AVIN/PVIN合并的理想端电压；5–18V为本VA应用范围，非芯片完整分轨工作范围",
+    "外围电路内部求解，不另加188uF输入旁路，输入源尖峰不包含CIN充放电",
+    "不包含真实静态输入电流、温度特性、自热、开关损耗拟合、噪声及独立硅片精度；面积/成本未知",
+    "TSS=5ms为原VA应用设置，非芯片3ms工厂默认；代理电流指令限幅不代表真实故障保护"
+  ],
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "统一交付文档格式；1.2 V稳压检查在配置5 ms软启动完成后、7.5–8.0 ms统计，补充5 V和12 V输入工作点。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "tps546a24a",
+      "off_power": 4.640852617890771e-07,
+      "on_power": 0.010000525778098188,
+      "power_max": 12.016713439462427,
+      "power_min": 0.0,
+      "samples": 600000
+    },
+    "functional": [
+      {
+        "model": "tps546a24a",
+        "case": "tps546a24a_vin_5",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 97.8412909873509,
+          "pin": 6.13246827782941,
+          "pout": 6.000086132418059,
+          "power": 0.08599932773170813,
+          "ripple": 0.002575647592558905,
+          "samples": 100001,
+          "vout": 1.2000084088185716
+        },
+        "checks": [
+          {
+            "name": "1.2V application regulation",
+            "actual": 1.2000084088185716,
+            "expected": 1.2,
+            "tolerance": 0.024,
+            "pass": true
+          }
+        ]
+      },
+      {
+        "model": "tps546a24a",
+        "case": "tps546a24a_vin_12",
+        "returncode": 0,
+        "measurements": {
+          "efficiency": 97.32999166102805,
+          "pin": 6.164624400177156,
+          "pout": 6.000028414626127,
+          "power": 0.07131803864422377,
+          "ripple": 0.0035007009050653792,
+          "samples": 100001,
+          "vout": 1.2000025582937197
+        },
+        "checks": [
+          {
+            "name": "1.2V application regulation",
+            "actual": 1.2000025582937197,
+            "expected": 1.2,
+            "tolerance": 0.024,
+            "pass": true
+          }
+        ]
+      }
+    ],
+    "invalid_config": [],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "source_sha256": {
+      "include\\tps546a24a.h": "13ae7bc33073abad2b2b05aef5674d5ef22abebe19df89c538b7ea82d3a19668",
+      "source\\tps546a24a.cpp": "53b9d0a46eacac3c553301ff70e050851c6e59f33cd885060c10371fe86ebdc7"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "tps60150_sw-SC-B01",
+  "model": "tps60150_sw",
+  "variant": "tps60150_sw",
+  "category": "Charge_Pump",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 1e-08,
+  "stop_s": 0.001,
+  "window_s": [
+    0.0009,
+    0.00099999
+  ],
+  "capture_from_s": 0.0009,
+  "inputs": {
+    "vin": 3.6,
+    "iload": 0.14,
+    "rload": 1000000000000.0,
+    "control": 3.6,
+    "temperature": 25
+  },
+  "fixture": {},
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [
+    {
+      "id": "B01-1",
+      "output": "vout",
+      "stat": "mean",
+      "expected": 4.9863,
+      "absolute_tolerance": 0.049863,
+      "unit": "V",
+      "source": "配套自测试报告baseline历史VA参考及回归容差",
+      "purpose": "behavior_regression"
+    }
+  ],
+  "scope": "application_behavior",
+  "config": "json/tps60150_sw.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。"
+}

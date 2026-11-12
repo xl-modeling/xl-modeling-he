@@ -1,0 +1,41 @@
+{
+  "id": "tang2019_dcldo_0v8-SC-B01",
+  "model": "tang2019_dcldo_0v8",
+  "variant": "tang2019_dcldo_0v8",
+  "category": "LDO",
+  "title": "标称工作点及全端口TDF运行",
+  "dt_s": 2e-12,
+  "stop_s": 1e-06,
+  "window_s": [
+    8e-07,
+    9.99998e-07
+  ],
+  "capture_from_s": 8e-07,
+  "inputs": {
+    "vin": 1,
+    "iload": 0.001,
+    "rload": 1000000000000.0,
+    "ripple": 0
+  },
+  "fixture": {},
+  "load_c_f": 1.8e-09,
+  "load_r_ohm": 1000000000000.0,
+  "metrics": [
+    {
+      "id": "B01-1",
+      "output": "vout",
+      "stat": "mean",
+      "min": 0.78,
+      "max": 0.82,
+      "unit": "V",
+      "source": "论文窗口及配套JSON vlow_v/vhigh_v",
+      "purpose": "behavior_regression"
+    }
+  ],
+  "scope": "application_behavior",
+  "config": "json/tang2019_dcldo_0v8.json",
+  "config_patch": {},
+  "source_report": "../doc",
+  "waveform_policy": "完整测量窗口逐点保存CSV；统计与CSV使用同一时间窗。",
+  "baseline_note": "数字模式dt=2ps，使用1us功能窗口；另按报告0.2/0.6us事件执行负载瞬态，不能套用毫秒级仿真长度。"
+}

@@ -1,0 +1,635 @@
+{
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "editable": false,
+    "source": "Supplied TPS53647 Verilog-A Rev-B behavior model"
+  },
+  "name": {
+    "type": "string",
+    "value": "TPS53647",
+    "editable": false,
+    "source": "TI TPS53647 ZHCSDV0B"
+  },
+  "category": {
+    "type": "string",
+    "value": "Power-Buck-Controller",
+    "editable": false,
+    "source": "Chiplet delivery classification"
+  },
+  "mode": {
+    "type": "string",
+    "value": "transient_tdf",
+    "editable": false,
+    "source": "SystemC-AMS TDF implementation"
+  },
+  "dt_s": {
+    "type": "float",
+    "value": 5e-08,
+    "unit": "s",
+    "editable": true,
+    "source": "TDF simulation setting; 40 samples per 500 kHz period"
+  },
+  "vin_uvlo_v": {
+    "type": "float",
+    "value": 4.5,
+    "unit": "V",
+    "editable": true,
+    "source": "Verilog-A VIN_UVLO / TPS53647 datasheet"
+  },
+  "v5_uvlo_v": {
+    "type": "float",
+    "value": 4.25,
+    "unit": "V",
+    "editable": true,
+    "source": "Verilog-A V5_UVLO"
+  },
+  "vin_max_v": {
+    "type": "float",
+    "value": 17.0,
+    "unit": "V",
+    "editable": true,
+    "source": "TPS53647 recommended operating range"
+  },
+  "en_threshold_v": {
+    "type": "float",
+    "value": 0.3,
+    "unit": "V",
+    "editable": true,
+    "source": "Verilog-A EN_THRESHOLD"
+  },
+  "reset_threshold_v": {
+    "type": "float",
+    "value": 0.8,
+    "unit": "V",
+    "editable": true,
+    "source": "Verilog-A RESET_THRESHOLD"
+  },
+  "vref_v": {
+    "type": "float",
+    "value": 1.7,
+    "unit": "V",
+    "editable": true,
+    "source": "Verilog-A VREF_NOMINAL"
+  },
+  "v3r3_v": {
+    "type": "float",
+    "value": 3.3,
+    "unit": "V",
+    "editable": true,
+    "source": "Verilog-A V3R3_NOMINAL"
+  },
+  "vout_min_v": {
+    "type": "float",
+    "value": 0.5,
+    "unit": "V",
+    "editable": true,
+    "source": "TPS53647 8-bit VID range"
+  },
+  "vout_max_v": {
+    "type": "float",
+    "value": 2.5,
+    "unit": "V",
+    "editable": true,
+    "source": "TPS53647 8-bit VID range"
+  },
+  "duty_max": {
+    "type": "float",
+    "value": 0.5,
+    "unit": "ratio",
+    "editable": true,
+    "source": "Verilog-A DUTY_MAX"
+  },
+  "ocl_phase_a": {
+    "type": "float",
+    "value": 60.0,
+    "unit": "A",
+    "editable": true,
+    "source": "Verilog-A I_OCL_PHASE / scaled protection model"
+  },
+  "ocp_total_a": {
+    "type": "float",
+    "value": 240.0,
+    "unit": "A",
+    "editable": true,
+    "source": "Verilog-A I_OCP_TOTAL / scaled protection model"
+  },
+  "vout_target_v": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "V",
+    "editable": true,
+    "source": "Verilog-A VOUT_TARGET; TB01 nominal point"
+  },
+  "fsw_hz": {
+    "type": "float",
+    "value": 500000.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "TPS53647 500 kHz nominal operating point"
+  },
+  "t_ss_s": {
+    "type": "float",
+    "value": 0.001,
+    "unit": "s",
+    "editable": true,
+    "source": "Verilog-A T_SS; TB01 soft-start equivalent"
+  },
+  "t_edge_s": {
+    "type": "float",
+    "value": 5e-09,
+    "unit": "s",
+    "editable": true,
+    "source": "Verilog-A T_EDGE; sampled TDF output uses dt_s"
+  },
+  "k_fb": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "duty/V",
+    "editable": true,
+    "source": "Verilog-A K_FB"
+  },
+  "r_csp_ohm": {
+    "type": "float",
+    "value": 0.005,
+    "unit": "ohm",
+    "editable": true,
+    "source": "Verilog-A R_CSP / current-sensor CS_V_PER_A"
+  },
+  "r_imon_ohm": {
+    "type": "float",
+    "value": 24800.0,
+    "unit": "ohm",
+    "editable": true,
+    "source": "Verilog-A R_IMON"
+  },
+  "imon_int_a": {
+    "type": "float",
+    "value": 35000.0,
+    "unit": "A",
+    "editable": true,
+    "source": "Verilog-A IMON_INT"
+  },
+  "vcomp_max_v": {
+    "type": "float",
+    "value": 5.0,
+    "unit": "V",
+    "editable": true,
+    "source": "Verilog-A V_COMP_MAX"
+  },
+  "v_ovp_track_v": {
+    "type": "float",
+    "value": 0.207,
+    "unit": "V",
+    "editable": true,
+    "source": "TPS53647 tracking OVP offset"
+  },
+  "v_ovp_fixed_v": {
+    "type": "float",
+    "value": 1.75,
+    "unit": "V",
+    "editable": true,
+    "source": "TPS53647 fixed OVP threshold"
+  },
+  "v_uvp_off_v": {
+    "type": "float",
+    "value": 0.207,
+    "unit": "V",
+    "editable": true,
+    "source": "TPS53647 UVP offset"
+  },
+  "t_hiccup_s": {
+    "type": "float",
+    "value": 0.022,
+    "unit": "s",
+    "editable": true,
+    "source": "TPS53647 UVP/OCP hiccup retry"
+  },
+  "v_tsen_off_v": {
+    "type": "float",
+    "value": 0.56,
+    "unit": "V",
+    "editable": true,
+    "source": "CSD95372 TSEN transfer"
+  },
+  "tsen_slope_v_per_c": {
+    "type": "float",
+    "value": 0.008,
+    "unit": "V/degC",
+    "editable": true,
+    "source": "CSD95372 TSEN transfer"
+  },
+  "v_tsen_otp_v": {
+    "type": "float",
+    "value": 1.56,
+    "unit": "V",
+    "editable": true,
+    "source": "TPS53647 OTPTHLD default 125 degC"
+  },
+  "v_tsen_hot_v": {
+    "type": "float",
+    "value": 1.44,
+    "unit": "V",
+    "editable": true,
+    "source": "TPS53647 VR_HOT warning threshold"
+  },
+  "k_ab": {
+    "type": "float",
+    "value": 0.02,
+    "unit": "duty/A",
+    "editable": true,
+    "source": "Verilog-A AutoBalance gain"
+  },
+  "ab_en": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "bool-like",
+    "editable": true,
+    "source": "Verilog-A AutoBalance enable"
+  },
+  "tau_ab_s": {
+    "type": "float",
+    "value": 2e-05,
+    "unit": "s",
+    "editable": true,
+    "source": "Verilog-A AutoBalance LPF"
+  },
+  "k_i": {
+    "type": "float",
+    "value": 200.0,
+    "unit": "duty/(V*s)",
+    "editable": true,
+    "source": "Verilog-A integral gain"
+  },
+  "iq_a": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "A",
+    "editable": true,
+    "source": "Engineering estimate for controller bias power only"
+  },
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "editable": false,
+    "source": "Die area not published; TPS53647 package is 6 mm x 6 mm"
+  },
+  "package_area_mm2": {
+    "type": "float",
+    "value": 36.0,
+    "unit": "mm2",
+    "editable": false,
+    "source": "TPS53647 40-pin QFN package"
+  },
+  "ports": [
+    {
+      "name": "vin",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "v5",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "enable",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "reset",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "vsp",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "vsn",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "csp1",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "csp2",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "csp3",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "csp4",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "tsen",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "ocl_r",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "pmb_clk",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "pmb_dio",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "addr_trise",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "slew_mode",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "o_usr",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "vboot",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "f_imax",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "nc7",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "nc8",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "nc33",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "nc34",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "gnd17",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "gnd20",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "gnd22",
+      "io_type": "sca_in",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "pwm1",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "pwm2",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "pwm3",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "pwm4",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "v3r3",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "vref",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "comp",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "imon",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "vr_rdy",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "vr_fault",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "vr_hot",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "isum",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "A"
+    },
+    {
+      "name": "pmb_alert",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    },
+    {
+      "name": "skip_nvm",
+      "io_type": "sca_out",
+      "data_type": "double",
+      "unit": "V"
+    }
+  ],
+  "limitations": [
+    "TDF outputs are sampled at dt_s; Verilog-A transition edge smoothing is not represented below one TDF sample.",
+    "PMBus protocol, NVM transactions and open-drain electrical loading are not modeled; pmb_alert, skip_nvm and isum are deterministic placeholders.",
+    "The model represents the controller and PWM logic only; external power stages, inductors, capacitors and current sensors remain in the testbench/system model.",
+    "iq_a is an engineering estimate used only for controller bias power; power-stage loss and temperature-dependent electrical corners are not modeled.",
+    "Die area is unavailable from the supplied datasheet; package footprint is reported separately."
+  ],
+  "physical_latency_s": {
+    "value": null,
+    "unit": "s",
+    "type": "float",
+    "editable": false,
+    "source": "No independent delay evidence; dt_s is numerical sampling only"
+  },
+  "implementation_scope": {
+    "status_outputs": "0/3.3 V TDF logic-level abstraction; no high-impedance electrical semantics",
+    "unimplemented": [
+      "VBOOT two-stage target",
+      "PIN_CFG_EN pin decoding",
+      "PMBus protocol",
+      "NVM"
+    ],
+    "power": "V5*IQ bias estimate; no complete dynamic loss calibration"
+  },
+  "iq_shutdown_a": {
+    "value": 5e-05,
+    "unit": "A",
+    "type": "float",
+    "editable": true,
+    "group": "assumption",
+    "source": "Engineering disabled-bias assumption; not a data-sheet guarantee; independently uncalibrated"
+  },
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "将状态脚准确限定为电平近似；不再宣称VBOOT两段启动或PIN_CFG_EN解码已实现；物理延迟与数值步长分开；除数严格正值；增加可配置关断偏置假设。关断偏置50 µA为明确的工程假设，未作硅片标定。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "tps53647",
+      "off_power": 0.00024999999999998786,
+      "on_power": 0.25,
+      "power_max": 0.25,
+      "power_min": 0.00025,
+      "samples": 60000
+    },
+    "functional": [],
+    "invalid_config": [
+      {
+        "model": "tps53647",
+        "parameter": "dt_s",
+        "value": 0,
+        "rejected": true,
+        "returncode": 2
+      },
+      {
+        "model": "tps53647",
+        "parameter": "r_csp_ohm",
+        "value": 0,
+        "rejected": true,
+        "returncode": 2
+      },
+      {
+        "model": "tps53647",
+        "parameter": "imon_int_a",
+        "value": 0,
+        "rejected": true,
+        "returncode": 2
+      },
+      {
+        "model": "tps53647",
+        "parameter": "tsen_slope_v_per_c",
+        "value": 0,
+        "rejected": true,
+        "returncode": 2
+      },
+      {
+        "model": "tps53647",
+        "parameter": "iq_shutdown_a",
+        "value": -1e-09,
+        "rejected": true,
+        "returncode": 2
+      }
+    ],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "source_sha256": {
+      "include\\tps53647.h": "3e61fe5e0eb2ee3c8170c7475c7025e7c54e78f1b5ba2f6a06b645e4b8151bba",
+      "source\\tps53647.cpp": "00b70e917fe23869e07605284b4535967325859170ce01e3dc4f898e26d62014"
+    }
+  }
+}

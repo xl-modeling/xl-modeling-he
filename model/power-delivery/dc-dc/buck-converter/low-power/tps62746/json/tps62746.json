@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "name": "tps62746",
+    "version": 1.0,
+    "category": "电源芯粒 / DC-DC / Buck Converter / 低功耗 Buck"
+  },
+  "parameter": {
+    "fsw": {
+      "value": 1200000.0,
+      "editable": true,
+      "type": "float",
+      "unit": "Hz",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "l_nom": {
+      "value": 2.2e-06,
+      "editable": true,
+      "type": "float",
+      "unit": "H",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "tick": {
+      "value": 1e-08,
+      "editable": true,
+      "type": "float",
+      "unit": "s",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "tr": {
+      "value": 2e-09,
+      "editable": true,
+      "type": "float",
+      "unit": "s",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "start_delay": {
+      "value": 0.01,
+      "editable": true,
+      "type": "float",
+      "unit": "s",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "soft_time": {
+      "value": 0.0007,
+      "editable": true,
+      "type": "float",
+      "unit": "s",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "uv_rise": {
+      "value": 2.075,
+      "editable": true,
+      "type": "float",
+      "unit": "V",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "uv_fall": {
+      "value": 1.925,
+      "editable": true,
+      "type": "float",
+      "unit": "V",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "r_hi": {
+      "value": 0.45,
+      "editable": true,
+      "type": "float",
+      "unit": "ohm",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "r_lo": {
+      "value": 0.22,
+      "editable": true,
+      "type": "float",
+      "unit": "ohm",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "i_limit": {
+      "value": 0.6,
+      "editable": true,
+      "type": "float",
+      "unit": "A",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "i_soft": {
+      "value": 0.15,
+      "editable": true,
+      "type": "float",
+      "unit": "A",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "iq_sleep": {
+      "value": 3.6e-07,
+      "editable": true,
+      "type": "float",
+      "unit": "A",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "iq_active": {
+      "value": 4.6e-07,
+      "editable": true,
+      "type": "float",
+      "unit": "A",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "i_shutdown": {
+      "value": 7e-08,
+      "editable": true,
+      "type": "float",
+      "unit": "A",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "vos_bias": {
+      "value": 4e-08,
+      "editable": true,
+      "type": "float",
+      "unit": "A",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "v_error": {
+      "value": 0.0,
+      "editable": true,
+      "type": "float",
+      "unit": "1",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "load_slope": {
+      "value": 0.01,
+      "editable": true,
+      "type": "float",
+      "unit": "1/A",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "line_slope": {
+      "value": 0.0,
+      "editable": true,
+      "type": "float",
+      "unit": "1/V",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "kp": {
+      "value": 1.0,
+      "editable": true,
+      "type": "float",
+      "unit": "A/V",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "ki": {
+      "value": 20000.0,
+      "editable": true,
+      "type": "float",
+      "unit": "A/(V*s)",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "pfm_band": {
+      "value": 0.002,
+      "editable": true,
+      "type": "float",
+      "unit": "V",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    },
+    "e_switch": {
+      "value": 0.0,
+      "editable": true,
+      "type": "float",
+      "unit": "J",
+      "group": "performance",
+      "source": "TPS62746 rev0.3; TI SLVSD27B (historical model documentation)"
+    }
+  },
+  "configuration": {
+    "timestep_s": 1e-08
+  },
+  "notes": [
+    "采样电压电流接口，不是双向电气节点。外部测试台积分L/C并将VOUT回接VOS。",
+    "保留VA rev0.3控制逻辑；硬开关代替transition，开关时间量化到步长。",
+    "效率、热、工艺角、EMI及器件精度未校准，不作芯片签核。"
+  ],
+  "ports": {
+    "VIN": "V",
+    "GND": "V",
+    "VOS": "V",
+    "VSEL": "V",
+    "EN": "V",
+    "CTRL": "V",
+    "SW": "V",
+    "VINSW": "V",
+    "inductor_current": "A",
+    "input_current": "A",
+    "vos_current": "A",
+    "vinsw_load": "ohm",
+    "high_conductance": "S",
+    "low_conductance": "S"
+  },
+  "name": {
+    "type": "string",
+    "value": "tps62746",
+    "editable": false,
+    "group": "identity"
+  },
+  "version": {
+    "type": "float",
+    "value": 1.0,
+    "editable": false,
+    "group": "identity"
+  },
+  "category": {
+    "type": "string",
+    "value": "电源芯粒 / DC-DC / Buck Converter / 低功耗 Buck",
+    "editable": false,
+    "group": "identity"
+  },
+  "latency": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "group": "uncharacterized",
+    "status": "uncalibrated"
+  },
+  "power": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "W",
+    "editable": false,
+    "group": "uncharacterized",
+    "status": "uncalibrated"
+  },
+  "area": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm2",
+    "editable": false,
+    "group": "uncharacterized",
+    "status": "uncalibrated"
+  },
+  "delivery_revision": {
+    "date": "2026-10-29",
+    "scope": "Metadata/query/documentation repair only; control equations, application defaults, environment and historical test results unchanged",
+    "formal_accuracy": "Independent physical characterization and expert review pending",
+    "final_layout": [
+      "include",
+      "source",
+      "json",
+      "doc"
+    ],
+    "historical_evidence": "Conditions/results/plots retained in delivered report; development scripts and raw traces are not part of this six-file package",
+    "verification": {
+      "cxx14_compile_and_link": "passed",
+      "name_version_queries": "passed",
+      "unknown_latency_power_area_nan": "passed",
+      "all_ports_bound": 14,
+      "off_state_tdf_smoke_ns": 200,
+      "historical_full_regression": "not rerun",
+      "environment": "unchanged"
+    }
+  },
+  "runtime_power_model": {
+    "getter": "get_power_dissipation",
+    "unit": "W",
+    "type": "sum_of_modeled_dissipative_branches",
+    "calibrated": false,
+    "scope": "See source branch equations; external application losses are excluded",
+    "reference_accuracy": "No independent silicon/transistor loss calibration available",
+    "unknown_area_and_delay": "Remain unknown rather than replaced by package area or sampling step"
+  },
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "增加高低侧导通、体二极管、偏置、配置开关能量、VINSW及输出放电支路的当前损耗查询。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "tps62746",
+      "off_power": 0.11301025202772048,
+      "on_power": 0.005011369958177256,
+      "power_max": 0.11301025202771905,
+      "power_min": 0.005011369958180218,
+      "samples": 300000
+    },
+    "functional": [],
+    "invalid_config": [],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "source_sha256": {
+      "include\\tps62746.h": "feb26da11f74f21dde2a3a0f1e49e381917ea089379ac13ae160ee0afb2633c1",
+      "source\\tps62746.cpp": "531bfe6eec7463c5685cbf74a71b76b68c273f43ee1e32b204fb172c882a7342"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "mcp1623",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Boost_Converter_低功耗Boost/mcp1623",
+  "original_files_sha256": {
+    "doc/mcp1623模型说明.docx": "bb16a91e97ff6cbee866a29a556a4164f631fd29e7e357acf2c34dbff3194099",
+    "doc/mcp1623芯粒清单.xlsx": "cddf294c8072524a790ff682e83b4d3476312e35194a9f467582f97890dc5c90",
+    "doc/mcp1623芯粒自测试报告.docx": "de36235e1c3f5aacaf81f69eb62ca95dac4895f7256a84977a7fdc4204176a01",
+    "include/mcp1623.h": "5346a8403720c6f865322a4794203a2503d5861cae2aa28902c8598d72798494",
+    "json/mcp1623.json": "940b280ae507ee80da5f3424e09fefca53494d2a5c8695368c6e595ea73cb286",
+    "source/mcp1623.cpp": "012caea850e5ae153b95d2a0530d6f625579f3c41e95a26170a86924f092b049"
+  },
+  "baseline_cases": [
+    "mcp1623-SC-B01"
+  ]
+}

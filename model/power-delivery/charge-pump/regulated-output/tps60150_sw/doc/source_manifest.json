@@ -1,0 +1,16 @@
+{
+  "model": "tps60150_sw",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "Charge_Pump/供电芯粒_Charge_Pump_固定电压输出_TPS60150/tps60150_sw",
+  "original_files_sha256": {
+    "doc/Charge_Pump芯粒清单.xlsx": "a43fe949a6b8d1a236429badac28805d9982cb5d086d309d4f0e8d10837b568e",
+    "doc/tps60150_sw模型说明.docx": "add74419c7117d0f11cb4d13c7264e483813b60dfb2dac972e7d05c5b58fc6b8",
+    "doc/tps60150_sw芯粒自测试报告.docx": "3ea8d9beb939e1d08bcc8b627ea197e5841a7eff847259d72ca18a5e503a369e",
+    "include/tps60150_sw.h": "28224bf33b8d09092d43df2877222283a2a511bfd0fb39ec9c91b00be55b013a",
+    "json/tps60150_sw.json": "992f9656030f300a2280bd86af95e353fff51e3e684a5dbc1211a46cf8512e32",
+    "source/tps60150_sw.cpp": "a4bb239f02dc63b9f356a3de0afd32e0c34a43722cf3fc20a5ec0442075e0f4c"
+  },
+  "baseline_cases": [
+    "tps60150_sw-SC-B01"
+  ]
+}

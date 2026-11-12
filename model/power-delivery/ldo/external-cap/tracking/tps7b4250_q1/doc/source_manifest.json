@@ -1,0 +1,16 @@
+{
+  "model": "tps7b4250_q1",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_Tracking_LDO/tps7b4250_q1",
+  "original_files_sha256": {
+    "doc/LDO芯粒清单.xlsx": "338805ba2028c48e491d319b54191ebcc23e6bd4789b1dc2b57a635c0b9b1cc2",
+    "doc/tps7b4250_q1模型说明.docx": "745a772416f8ca35041b34daaa623db5dc73918be76506a84caf3296b6920338",
+    "doc/tps7b4250_q1芯粒自测试报告.docx": "910e134e6d1f6c10ab30a3d2b27b032c9cc7b07a56faafc2c72a5a99ee53f987",
+    "include/tps7b4250_q1.h": "28ff98839b1a388907de1647928e47d4a119317b171b6dc64ca8ba817fd09407",
+    "json/tps7b4250_q1.json": "f0dc826fbd9a836022d62709995f60886039ce477c9b8692b9580d48e7afa6a2",
+    "source/tps7b4250_q1.cpp": "7826580443fc4590d715bf18b667c52b82b5c70d6ff375040f0bc82d9ccc8bc5"
+  },
+  "baseline_cases": [
+    "tps7b4250_q1-SC-B01"
+  ]
+}

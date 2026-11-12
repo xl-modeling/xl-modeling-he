@@ -1,0 +1,16 @@
+{
+  "model": "lm5116mh",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Buck-Controller_单相Buck/lm5116mh",
+  "original_files_sha256": {
+    "doc/LM5116MH模型说明.docx": "8282687e54c039cdb02884e74e85d2d773cb347a608e611cc88f87ea0ca5d1df",
+    "doc/LM5116MH芯粒清单.xlsx": "a58506ffe9f21e38e3e64f8753b150b2b1e81db1334466bac2206989170b9542",
+    "doc/LM5116MH芯粒自测试报告.docx": "697d310cbb97903f021c4a6ad46913b558cea65037eb6a991acd610b6fc629c4",
+    "include/lm5116mh.h": "eee47b6547069577f76ce6a9c5b27304037aef2b841ef6d408909c81461adbf3",
+    "json/lm5116mh.json": "f7a859f00313f7138b816990be6e21e654c0a4654f0ebde66438948cc5807826",
+    "source/lm5116mh.cpp": "272dcbe7a674a3d0ec0d6d7733579c8a6d49130034caa56e8be1f4fc8b5c8000"
+  },
+  "baseline_cases": [
+    "lm5116mh-SC-B01"
+  ]
+}

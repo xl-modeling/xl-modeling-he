@@ -1,0 +1,16 @@
+{
+  "model": "tps63021",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Buck-Boost Converter/tps63021",
+  "original_files_sha256": {
+    "doc/DC-DC芯粒清单.xlsx": "f92b7435322d85cb1bd16f4248305c4e901fe08f76f0c1c038692990dddac0d4",
+    "doc/tps63021模型说明.docx": "9f327f0e984687796efa890e689fc980852410a6214070f68d00aa525257778a",
+    "doc/tps63021芯粒自测试报告.docx": "7b1d9bd72771224e7361aa7ba4056192f4782088733e589527b670a62a4b9eb2",
+    "include/tps63021.h": "3b32a1d96bfe997a57b300bb6c3e43fcb019c4e235382629871ae60d9d79bf27",
+    "json/tps63021.json": "b4152e400ea668bfbbc5133bd2db71988f554b01c7832faf7b29deb66012ab97",
+    "source/tps63021.cpp": "c6091964802c3cf796c37df311f313b87fb86e0a76ecf90ad08c79a2722b62ae"
+  },
+  "baseline_cases": [
+    "tps63021-SC-B01"
+  ]
+}

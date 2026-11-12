@@ -1,0 +1,16 @@
+{
+  "model": "mcp1711_3v3",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "LDO/Capless_LDO/供电芯粒_LDO_Capless_LDO_通用LDO/mcp1711_3v3",
+  "original_files_sha256": {
+    "doc/LDO芯粒清单.xlsx": "33351729600202f24293929c817a9f433ec060680e1c0a35f65a38867b84dc82",
+    "doc/mcp1711_3v3模型说明.docx": "6a80dca2e16bdc2db919ef797c3972eda61353d9b28ded089dbac6c60b6ff944",
+    "doc/mcp1711_3v3芯粒自测试报告.docx": "fe07fb749e454f39f2a9dee658ffe87381eb41a791ea10f1b4f7bf427265bf62",
+    "include/mcp1711_3v3.h": "739d9df3a5a2b7f5761fdb5a5d1f015f8bdcaa7cee773bb61338708f51a8b6b8",
+    "json/mcp1711_3v3.json": "8729a3f05f7aafe93917a31424f66cac01da263e672acf82996ca3fe221e9816",
+    "source/mcp1711_3v3.cpp": "768ff407f0e12805a2addb6bca5ab5c0b88f07c48656d12666d2c110d84a923f"
+  },
+  "baseline_cases": [
+    "mcp1711_3v3-SC-B01"
+  ]
+}

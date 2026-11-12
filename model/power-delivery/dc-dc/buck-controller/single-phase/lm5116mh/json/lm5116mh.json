@@ -1,0 +1,626 @@
+{
+  "name": {
+    "type": "string",
+    "value": "lm5116mh",
+    "editable": false
+  },
+  "category": {
+    "type": "string",
+    "value": "Power-BuckController",
+    "editable": false
+  },
+  "version": {
+    "type": "float",
+    "value": 0.1,
+    "editable": false
+  },
+  "dt_s": {
+    "type": "float",
+    "value": 1e-08,
+    "unit": "s",
+    "editable": false,
+    "comment": "TDF 步长，须与 testbench set_timestep 一致；5us 开关周期 / 10ns = 500 步/周期"
+  },
+  "comment": "以下为功能配置参数，源值取自 Verilog-A 模型 veriloga.va 顶部 parameter 块（source 标注 VA verified core）",
+  "fsw": {
+    "type": "float",
+    "value": 200000.0,
+    "unit": "Hz",
+    "source": "LM5116 typical at RT=16 kΩ",
+    "editable": false
+  },
+  "rt_ohm": {
+    "type": "float",
+    "value": 16000.0,
+    "unit": "ohm",
+    "source": "LM5116 RT/SYNC typical operating point",
+    "editable": true,
+    "comment": "16 kΩ→200 kHz；5 kΩ→535 kHz；其他阻值按数据手册设计方程近似"
+  },
+  "a_cs": {
+    "type": "float",
+    "value": 10.0,
+    "unit": "",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "电流检测放大器增益 A=10k/(1k+RG), RG=0"
+  },
+  "gm_ramp": {
+    "type": "float",
+    "value": 5e-06,
+    "unit": "A/V",
+    "source": "VA verified core",
+    "editable": false
+  },
+  "i_ramp_os": {
+    "type": "float",
+    "value": 2.5e-05,
+    "unit": "A",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "固定斜率补偿电流"
+  },
+  "cramp_ext": {
+    "type": "float",
+    "value": 3e-10,
+    "unit": "F",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "外部 RAMP 电容"
+  },
+  "vcs_offset": {
+    "type": "float",
+    "value": 0.5,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "CS 放大器偏置，允许负电感电流"
+  },
+  "cs_pol": {
+    "type": "float",
+    "value": -1.0,
+    "unit": "",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "CS/CSG Kelvin 极性（检测电阻在 LS FET 源极）"
+  },
+  "vcs_th": {
+    "type": "float",
+    "value": 0.11,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "逐周期 CS 引脚阈值"
+  },
+  "vilim_ref": {
+    "type": "float",
+    "value": 1.6,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "仿真域电流限制比较器基准"
+  },
+  "dv_ramp_min": {
+    "type": "float",
+    "value": 5.0,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "(VIN-VOUT) 下限，防仿真斜率塌缩"
+  },
+  "t_off_min": {
+    "type": "float",
+    "value": 4.5e-07,
+    "unit": "s",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "强制 HO 关断时间（自举刷新）"
+  },
+  "t_on_min": {
+    "type": "float",
+    "value": 1e-07,
+    "unit": "s",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "最小可控 HO 导通时间"
+  },
+  "t_dead_ho": {
+    "type": "float",
+    "value": 7.5e-08,
+    "unit": "s",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "LO 下降 -> HO 上升 死区"
+  },
+  "t_dead_lo": {
+    "type": "float",
+    "value": 7e-08,
+    "unit": "s",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "HO 下降 -> LO 上升 死区"
+  },
+  "t_edge": {
+    "type": "float",
+    "value": 1.5e-08,
+    "unit": "s",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "驱动输出边沿时间（slew-limit）"
+  },
+  "vref": {
+    "type": "float",
+    "value": 1.215,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "FB 稳压基准"
+  },
+  "ss_fb_offs": {
+    "type": "float",
+    "value": 0.16,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "启动后 SS->FB 偏移"
+  },
+  "vcc_reg": {
+    "type": "float",
+    "value": 7.4,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "VCC 稳压值"
+  },
+  "vcc_uvlo": {
+    "type": "float",
+    "value": 4.5,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false
+  },
+  "vcc_hyst": {
+    "type": "float",
+    "value": 0.2,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false
+  },
+  "vccx_sw": {
+    "type": "float",
+    "value": 4.5,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "切换到外部偏置的阈值"
+  },
+  "uvlo_thr": {
+    "type": "float",
+    "value": 1.215,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false
+  },
+  "uvlo_hyst": {
+    "type": "float",
+    "value": 0.1,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false
+  },
+  "en_on": {
+    "type": "float",
+    "value": 3.3,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false
+  },
+  "en_off": {
+    "type": "float",
+    "value": 0.5,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false
+  },
+  "vin_min_op": {
+    "type": "float",
+    "value": 6.0,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false
+  },
+  "vin_max_op": {
+    "type": "float",
+    "value": 100.0,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false
+  },
+  "hiccup_cycles": {
+    "type": "float",
+    "value": 256.0,
+    "unit": "",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "连续过流周期数 -> 进入打嗝"
+  },
+  "t_hiccup_off": {
+    "type": "float",
+    "value": 0.00128,
+    "unit": "s",
+    "source": "core indicator set",
+    "editable": false,
+    "comment": "256 个周期@200 kHz 的模型重试关断时间；真实器件该时间由 UVLO 电容决定"
+  },
+  "tsd_thr": {
+    "type": "float",
+    "value": 170.0,
+    "unit": "degC",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "热关断上升阈值"
+  },
+  "tsd_hyst": {
+    "type": "float",
+    "value": 15.0,
+    "unit": "degC",
+    "source": "VA verified core",
+    "editable": false
+  },
+  "k_p": {
+    "type": "float",
+    "value": 2.5,
+    "unit": "",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "误差放大器比例增益"
+  },
+  "k_i": {
+    "type": "float",
+    "value": 31000.0,
+    "unit": "1/s",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "误差放大器积分增益（零点 K_I/K_P=2kHz）"
+  },
+  "vdem_zc": {
+    "type": "float",
+    "value": -0.006,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "二极管仿真零流阈值（IL*RS）"
+  },
+  "vss_dem_en": {
+    "type": "float",
+    "value": 3.0,
+    "unit": "V",
+    "source": "VA verified core",
+    "editable": false,
+    "comment": "SS 高于此值后全同步整流"
+  },
+  "temp_c": {
+    "type": "float",
+    "value": 25.0,
+    "unit": "degC",
+    "source": "engineering fit",
+    "editable": false,
+    "comment": "结温（模型无温度端口，由配置给定）"
+  },
+  "ibias_typ": {
+    "type": "float",
+    "value": 0.007,
+    "unit": "A",
+    "source": "LM5116 electrical characteristics",
+    "editable": false,
+    "comment": "VIN 工作偏置电流典型值"
+  },
+  "istdby_max": {
+    "type": "float",
+    "value": 1e-05,
+    "unit": "A",
+    "source": "LM5116 EN shutdown specification",
+    "editable": false,
+    "comment": "EN<0.5V 关断电流上限"
+  },
+  "iohh": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "A",
+    "source": "LM5116 gate driver specification",
+    "editable": false,
+    "comment": "HO source peak current"
+  },
+  "iolh": {
+    "type": "float",
+    "value": 2.2,
+    "unit": "A",
+    "source": "LM5116 gate driver specification",
+    "editable": false,
+    "comment": "HO sink peak current"
+  },
+  "iohl": {
+    "type": "float",
+    "value": 1.8,
+    "unit": "A",
+    "source": "LM5116 gate driver specification",
+    "editable": false,
+    "comment": "LO source peak current"
+  },
+  "ioll": {
+    "type": "float",
+    "value": 3.5,
+    "unit": "A",
+    "source": "LM5116 gate driver specification",
+    "editable": false,
+    "comment": "LO sink peak current"
+  },
+  "ea_aol_db": {
+    "type": "float",
+    "value": 80.0,
+    "unit": "dB",
+    "source": "LM5116 electrical characteristics",
+    "editable": false
+  },
+  "ea_gbw_hz": {
+    "type": "float",
+    "value": 3000000.0,
+    "unit": "Hz",
+    "source": "LM5116 electrical characteristics",
+    "editable": false
+  },
+  "gate_c_f": {
+    "type": "float",
+    "value": 2e-09,
+    "unit": "F",
+    "source": "behavioral measurement fixture",
+    "editable": false,
+    "comment": "虚拟门极负载，仅用于将驱动峰值能力纳入内部测量"
+  },
+  "comment_perf": "以下为性能配置参数，行为级模型给定合理值（虚拟芯粒，非硅保证值）",
+  "latency": {
+    "type": "float",
+    "value": null,
+    "unit": "s",
+    "editable": false,
+    "comment": "控制环采样/建立延迟 ~ 1 个开关周期",
+    "description": "Unknown physical propagation delay; get_latency returns NaN. Numerical timestep and switching period are separate."
+  },
+  "power": {
+    "type": "float",
+    "value": 0.038,
+    "unit": "W",
+    "editable": false,
+    "comment": "静态/典型工作功耗（含栅驱动估算）",
+    "description": "Legacy reference power only; current modeled dissipation is returned by get_power_dissipation and described under power_model."
+  },
+  "dimensions": {
+    "type": "float",
+    "x": 6.5,
+    "y": 4.4,
+    "unit": "mm",
+    "editable": false,
+    "comment": "20 引脚 HTSSOP 封装尺寸（架构仿真图标用）"
+  },
+  "ports": [
+    {
+      "name": "vin",
+      "io_type": "sca_in",
+      "x": 0.0,
+      "y": 9.0
+    },
+    {
+      "name": "uvlo",
+      "io_type": "sca_in",
+      "x": 0.0,
+      "y": 8.0
+    },
+    {
+      "name": "rt_sync",
+      "io_type": "sca_in",
+      "x": 0.0,
+      "y": 7.0
+    },
+    {
+      "name": "en",
+      "io_type": "sca_in",
+      "x": 0.0,
+      "y": 6.0
+    },
+    {
+      "name": "ramp",
+      "io_type": "sca_in",
+      "x": 0.0,
+      "y": 5.0
+    },
+    {
+      "name": "agnd",
+      "io_type": "sca_in",
+      "x": 0.0,
+      "y": 4.0
+    },
+    {
+      "name": "ss",
+      "io_type": "sca_in",
+      "x": 0.0,
+      "y": 3.0
+    },
+    {
+      "name": "fb",
+      "io_type": "sca_in",
+      "x": 0.0,
+      "y": 2.0
+    },
+    {
+      "name": "vout",
+      "io_type": "sca_in",
+      "x": 0.0,
+      "y": 1.0
+    },
+    {
+      "name": "demb",
+      "io_type": "sca_in",
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "name": "cs",
+      "io_type": "sca_in",
+      "x": 10.0,
+      "y": 9.0
+    },
+    {
+      "name": "csg",
+      "io_type": "sca_in",
+      "x": 10.0,
+      "y": 8.0
+    },
+    {
+      "name": "vccx",
+      "io_type": "sca_in",
+      "x": 10.0,
+      "y": 7.0
+    },
+    {
+      "name": "hb",
+      "io_type": "sca_in",
+      "x": 10.0,
+      "y": 6.0
+    },
+    {
+      "name": "sw",
+      "io_type": "sca_in",
+      "x": 10.0,
+      "y": 5.0,
+      "comment": "开关节点监视（VA 声明为 output 但内部未驱动，此处作输入）"
+    },
+    {
+      "name": "pgnd",
+      "io_type": "sca_in",
+      "x": 10.0,
+      "y": 4.0
+    },
+    {
+      "name": "comp",
+      "io_type": "sca_out",
+      "x": 5.0,
+      "y": 6.0
+    },
+    {
+      "name": "ho",
+      "io_type": "sca_out",
+      "x": 5.0,
+      "y": 4.0
+    },
+    {
+      "name": "lo",
+      "io_type": "sca_out",
+      "x": 5.0,
+      "y": 2.0
+    },
+    {
+      "name": "vcc",
+      "io_type": "sca_out",
+      "x": 5.0,
+      "y": 0.0
+    }
+  ],
+  "area_mm2": {
+    "value": null,
+    "unit": "mm2",
+    "type": "float",
+    "editable": false,
+    "source": "Bare die area unavailable; package geometry is not die area"
+  },
+  "physical_latency_s": {
+    "value": null,
+    "unit": "s",
+    "type": "float",
+    "editable": false,
+    "source": "No measured/transistor propagation-delay data"
+  },
+  "power_model": {
+    "method": "VIN * state-dependent bias + 0.5*VCC*(abs(IHO)+abs(ILO))",
+    "scope": "bias and idealized capacitive gate-driver dissipation",
+    "calibrated": false,
+    "gate_load": "GATE_C_F application assumption",
+    "reference_power_w": 0.038
+  },
+  "revision": "2026-10-30-r1",
+  "revision_validation": {
+    "date": "2026-10-30",
+    "environment": "WSL Ubuntu22.04 g++ C++17; SystemC2.3.4 AMS2.3.4 JSON3.12.0",
+    "changes": "区分封装面积与未知裸片面积；物理延迟不再使用开关周期；补状态偏置与理想栅负载功耗；非法配置立即拒绝；手册编号统一SNVS499I。",
+    "tdf": {
+      "checks": [
+        {
+          "name": "all sampled double outputs finite",
+          "pass": true
+        },
+        {
+          "name": "runtime power finite and nonnegative",
+          "pass": true
+        },
+        {
+          "name": "enable/disable/restart power responds",
+          "pass": true
+        },
+        {
+          "name": "3ms TDF schedule completed",
+          "pass": true
+        }
+      ],
+      "model": "lm5116mh",
+      "off_power": 0.00011999999999999949,
+      "on_power": 0.12608133333324623,
+      "power_max": 1.0706666666666669,
+      "power_min": 0.00012000000000000002,
+      "samples": 300000
+    },
+    "functional": [],
+    "invalid_config": [
+      {
+        "model": "lm5116mh",
+        "parameter": "dt_s",
+        "value": 0,
+        "rejected": true,
+        "returncode": 2
+      },
+      {
+        "model": "lm5116mh",
+        "parameter": "fsw",
+        "value": 0,
+        "rejected": true,
+        "returncode": 2
+      },
+      {
+        "model": "lm5116mh",
+        "parameter": "cramp_ext",
+        "value": 0,
+        "rejected": true,
+        "returncode": 2
+      },
+      {
+        "model": "lm5116mh",
+        "parameter": "t_edge",
+        "value": 0,
+        "rejected": true,
+        "returncode": 2
+      }
+    ],
+    "evidence_directory": "E:\\systemCmodel\\work\\DC-DC整改_20261030",
+    "independent_physical_accuracy": "pending data and expert review",
+    "historical_results": "2026-10-28/29 records retained; not a claim that their entire old regression was re-executed",
+    "source_sha256": {
+      "include\\lm5116mh.h": "eee47b6547069577f76ce6a9c5b27304037aef2b841ef6d408909c81461adbf3",
+      "source\\lm5116mh.cpp": "272dcbe7a674a3d0ec0d6d7733579c8a6d49130034caa56e8be1f4fc8b5c8000"
+    }
+  },
+  "switching_period_reference_s": {
+    "value": 5e-06,
+    "unit": "s",
+    "type": "float",
+    "editable": false,
+    "source": "Reference switching period at 200kHz, not physical propagation delay"
+  }
+}

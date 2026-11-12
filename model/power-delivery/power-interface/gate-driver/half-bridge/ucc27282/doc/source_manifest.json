@@ -1,0 +1,18 @@
+{
+  "model": "ucc27282",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "功率接口/供电芯粒_功率接口_栅极驱动_半桥驱动_UCC27282/ucc27282",
+  "original_files_sha256": {
+    "doc/ucc27282模型说明.docx": "7398df1a8f22bf7354046031389cd35a7efa6ace0d56d5000aebbff9a1dad450",
+    "doc/ucc27282芯粒自测试报告.docx": "42f09b722487b14cdca55db792221493bf0edca6084468c5d1c28523425dc71a",
+    "doc/芯粒清单.xlsx": "4b4eb9c4e2f921407fa21f8dc0e3b684135001000fcd579fd39892cd356424bf",
+    "include/ucc27282.h": "30fa26407cc66059d46c40a940956008672accaf2d84fd41ac62e0211322961f",
+    "json/ucc27282_en.json": "f1b682dea0927889981be56e0241b0ca8847c8e27c2c9f21f51e7842bc127b04",
+    "json/ucc27282_noen.json": "f7d20d2aef4d3f5ecb01c8604c9eb55c134f87e83ce307a495824c02f242471c",
+    "source/ucc27282.cpp": "724a62654311bea87d685a29e74bfff3ab5d6de97258879a2af8dfb8b01f4fe8"
+  },
+  "baseline_cases": [
+    "ucc27282_en-SC-B01",
+    "ucc27282_noen-SC-B01"
+  ]
+}

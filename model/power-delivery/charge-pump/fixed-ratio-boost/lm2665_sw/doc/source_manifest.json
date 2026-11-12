@@ -1,0 +1,16 @@
+{
+  "model": "lm2665_sw",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "Charge_Pump/供电芯粒_Charge_Pump_固定比例升压_LM2665/lm2665_sw",
+  "original_files_sha256": {
+    "doc/Charge_Pump芯粒清单.xlsx": "7c081f374b4ed0e67db1cea76aa2c7c6694059e109ca47025d3dedff8302e982",
+    "doc/lm2665_sw模型说明.docx": "8d67e1b9e24082462ef2cdba0dbc15af8e83cf73049b859ba03bc268b809732f",
+    "doc/lm2665_sw芯粒自测试报告.docx": "8a2bddfa07b64e5c046c1d41ec2620c7315a35754ec256228b8bec969fd5f7dc",
+    "include/lm2665_sw.h": "4378c0b16339951a36e8f1f61b722dd92c7ac0ba848f2353aad7253cf76613d2",
+    "json/lm2665_sw.json": "b3bd9f7cb5e085aa24739cdba7fa57df144a0fef637119bb9448787a5a6b2318",
+    "source/lm2665_sw.cpp": "4dcbff05f565656c88891d44790ba5d802d81d60b2eae319f092f5392a3dfea5"
+  },
+  "baseline_cases": [
+    "lm2665_sw-SC-B01"
+  ]
+}

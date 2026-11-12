@@ -1,0 +1,16 @@
+{
+  "model": "tps7a20_2v8",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_超低噪声高PSRR_LDO/tps7a20_2v8",
+  "original_files_sha256": {
+    "doc/LDO芯粒清单.xlsx": "a362f72d504219bfd62a5142a550508e1d8054c06ffbb818c849ac82b51dff32",
+    "doc/tps7a20_2v8模型说明.docx": "db57c33f964748486c3f69da762ae8e42fdc769469f0e7195e89a588a54d1692",
+    "doc/tps7a20_2v8芯粒自测试报告.docx": "7ae4fc135b56311a3d0b718d925a148bea283e8ee34ab31f0d77431f318ae6a1",
+    "include/tps7a20_2v8.h": "94e3721a50d784d4865aed1c6a51318fac15bfec7324ec19a611291a16d88d28",
+    "json/tps7a20_2v8.json": "ffc4b62256cb9845ec4fe308358e52ed50caecd26995ccb5e117f92a94a30739",
+    "source/tps7a20_2v8.cpp": "3a190ab6911da8bc7279c9ebc3d161457047302a1e5ef8438ad3223a5c8da0d4"
+  },
+  "baseline_cases": [
+    "tps7a20_2v8-SC-B01"
+  ]
+}

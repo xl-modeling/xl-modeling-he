@@ -1,0 +1,16 @@
+{
+  "model": "tps62746",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Buck_Converter_低功耗Buck/tps62746",
+  "original_files_sha256": {
+    "doc/tps62746模型说明.docx": "e01e6ef9e4be33ae952b20c26d0df7fb42a1975bfd685bfd6536883ff178dcee",
+    "doc/tps62746芯粒清单.xlsx": "8061184e3afe62db8fc91d0b52343c829edb064c08eb9e5f9d597ef18c5ae494",
+    "doc/tps62746芯粒自测试报告.docx": "a30c90e81546f149fe5b7b21582a4e36c4734891e70a3f7389f33471f09e12f3",
+    "include/tps62746.h": "feb26da11f74f21dde2a3a0f1e49e381917ea089379ac13ae160ee0afb2633c1",
+    "json/tps62746.json": "0289fee9c05828feb76df5fb6eecfce88844034b737684e00b06e882910e2222",
+    "source/tps62746.cpp": "531bfe6eec7463c5685cbf74a71b76b68c273f43ee1e32b204fb172c882a7342"
+  },
+  "baseline_cases": [
+    "tps62746-SC-B01"
+  ]
+}

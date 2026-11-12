@@ -1,0 +1,16 @@
+{
+  "model": "tps7a02_1v8",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "LDO/External-Cap_LDO/供电芯粒_LDO_External-Cap_LDO_低功耗_LDO/tps7a02_1v8",
+  "original_files_sha256": {
+    "doc/LDO芯粒清单.xlsx": "705de616f6fc6e312f7079ea485ff5139e251c4b77fe9fae26a2b60611fa49ea",
+    "doc/tps7a02_1v8模型说明.docx": "789e0c68c52af1a4b8028df4024f3e763e55e678971411909b882ca3b0a0ff3d",
+    "doc/tps7a02_1v8芯粒自测试报告.docx": "e9efc99191411fbbaabbab969330dd2dddd0afc8e6650782efb92161c89bed83",
+    "include/tps7a02_1v8.h": "ce0a299dd68bf3cde5aa4f50db3bf60f1ec314cd3d59dd2dde72ccf4fac1b4b9",
+    "json/tps7a02_1v8.json": "32da40ab08a575611c6a318c7ba69864c6d1dd08aeaeb79478af9814b40535de",
+    "source/tps7a02_1v8.cpp": "36d38073cb7172a50cfd632907861eb3404436193006dcd804023745b19fe3d8"
+  },
+  "baseline_cases": [
+    "tps7a02_1v8-SC-B01"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model": "tps546a24a",
+  "source_collection": "SC modeling collection",
+  "original_relative_path": "DC-DC/供电芯粒_DC-DC_Buck Converter_多相Buck/tps546a24a",
+  "original_files_sha256": {
+    "doc/DC-DC芯粒清单.xlsx": "0bb861cf294f89ef7158cc4132634ac0837828a061fcc1b7e2dbf380b69d12c9",
+    "doc/tps546a24a模型说明.docx": "ca66e9b943f97b1a360f17d2c3a6384d7953f6dbdde716278b42956ec08a4697",
+    "doc/tps546a24a芯粒自测试报告.docx": "1e0feb9548cabee83e902738ae5fdd3b982b6daf0fadfa084f2136351f1b3303",
+    "include/tps546a24a.h": "13ae7bc33073abad2b2b05aef5674d5ef22abebe19df89c538b7ea82d3a19668",
+    "json/tps546a24a.json": "caaafe46025591fd13f0ef3652888dabd4a608b1ed421780deb72d8496df0ba5",
+    "source/tps546a24a.cpp": "53b9d0a46eacac3c553301ff70e050851c6e59f33cd885060c10371fe86ebdc7"
+  },
+  "baseline_cases": [
+    "tps546a24a-SC-B01"
+  ]
+}

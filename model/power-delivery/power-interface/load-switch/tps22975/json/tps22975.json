@@ -1,0 +1,808 @@
+{
+  "name": {
+    "type": "string",
+    "value": "tps22975",
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "version": {
+    "type": "string",
+    "value": "1.0.1",
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "本轮接口核对及交付修订，2026-10-29"
+  },
+  "variant": {
+    "type": "string",
+    "value": "TPS22975",
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "vin_min": {
+    "type": "double",
+    "value": 0.6,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "vbias_min": {
+    "type": "double",
+    "value": 2.5,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "vbias_max": {
+    "type": "double",
+    "value": 5.7,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "ta_min_c": {
+    "type": "double",
+    "value": -40.0,
+    "unit": "degC",
+    "editable": false,
+    "group": "reference_only",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "参考额定值；当前无温度输入或热状态，修改本字段不构成对应保护功能。"
+  },
+  "ta_max_c": {
+    "type": "double",
+    "value": 105.0,
+    "unit": "degC",
+    "editable": false,
+    "group": "reference_only",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "参考额定值；当前无温度输入或热状态，修改本字段不构成对应保护功能。"
+  },
+  "von_rise": {
+    "type": "double",
+    "value": 1.0,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "von_fall": {
+    "type": "double",
+    "value": 0.88,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "ion_leak": {
+    "type": "double",
+    "value": 2e-08,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "iq_5v": {
+    "type": "double",
+    "value": 3.7e-05,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "iq_2p5v": {
+    "type": "double",
+    "value": 1.4e-05,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "isd_vbias_typ": {
+    "type": "double",
+    "value": 5e-07,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "isd_vin_typ": {
+    "type": "double",
+    "value": 5e-09,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "ron_5v": {
+    "type": "double",
+    "value": 0.016,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "ron_2p5v": {
+    "type": "double",
+    "value": 0.02,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "rpd": {
+    "type": "double",
+    "value": 230.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "imax_rating": {
+    "type": "double",
+    "value": 6.0,
+    "unit": "A",
+    "editable": false,
+    "group": "reference_only",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "参考额定值；当前无温度输入或热状态，修改本字段不构成对应保护功能。"
+  },
+  "ict_charge": {
+    "type": "double",
+    "value": 4.5714e-07,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "vct_full": {
+    "type": "double",
+    "value": 1.0,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "t_ramp_start": {
+    "type": "double",
+    "value": 0.000381,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "t_off_delay": {
+    "type": "double",
+    "value": 1.3e-06,
+    "unit": "s",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "rct_discharge": {
+    "type": "double",
+    "value": 1.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "rct_clamp": {
+    "type": "double",
+    "value": 1000.0,
+    "unit": "ohm",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "tsd_c": {
+    "type": "double",
+    "value": 160.0,
+    "unit": "degC",
+    "editable": false,
+    "group": "reference_only",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "参考额定值；当前无温度输入或热状态，修改本字段不构成对应保护功能。"
+  },
+  "tsd_return_c": {
+    "type": "double",
+    "value": 140.0,
+    "unit": "degC",
+    "editable": false,
+    "group": "reference_only",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "参考额定值；当前无温度输入或热状态，修改本字段不构成对应保护功能。"
+  },
+  "body_is": {
+    "type": "double",
+    "value": 1e-12,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "body_nvt": {
+    "type": "double",
+    "value": 0.052,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "i_zero_eps": {
+    "type": "double",
+    "value": 1e-12,
+    "unit": "A",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "v_eps": {
+    "type": "double",
+    "value": 1e-09,
+    "unit": "V",
+    "editable": true,
+    "group": "performance",
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2"
+  },
+  "category": {
+    "type": "string",
+    "value": "带快速输出放电的可调负载开关",
+    "unit": "1",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "group": "metadata"
+  },
+  "dimensions": {
+    "type": "object",
+    "value": {
+      "width": 12,
+      "height": 27
+    },
+    "unit": "grid",
+    "editable": false,
+    "description": "图标网格尺寸；封装机械尺寸另见package_info，裸片面积另见area_mm2。",
+    "group": "metadata",
+    "source": "本轮接口核对及交付修订，2026-10-29"
+  },
+  "ports": {
+    "type": "array",
+    "value": [
+      {
+        "name": "vin_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "name": "on_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "name": "vbias_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "name": "gnd_V",
+        "io_type": "input",
+        "data_type": "double",
+        "unit": "V",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "name": "vout_rel_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 1
+      },
+      {
+        "name": "vout_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 2
+      },
+      {
+        "name": "ct_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 3
+      },
+      {
+        "name": "pass_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 4
+      },
+      {
+        "name": "qod_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 5
+      },
+      {
+        "name": "body_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 6
+      },
+      {
+        "name": "ivin_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 7
+      },
+      {
+        "name": "ivbias_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 8
+      },
+      {
+        "name": "ion_A",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "A",
+        "x": 12,
+        "y": 9
+      },
+      {
+        "name": "ron_ohm",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "ohm",
+        "x": 12,
+        "y": 10
+      },
+      {
+        "name": "enabled",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "1",
+        "x": 12,
+        "y": 11
+      },
+      {
+        "name": "noise_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 12
+      },
+      {
+        "name": "output_observed_V",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "V",
+        "x": 12,
+        "y": 13
+      },
+      {
+        "name": "power_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 14
+      },
+      {
+        "name": "power_quiescent_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 15
+      },
+      {
+        "name": "power_drive_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 16
+      },
+      {
+        "name": "power_input_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 17
+      },
+      {
+        "name": "power_clamp_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 18
+      },
+      {
+        "name": "power_bootstrap_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 19
+      },
+      {
+        "name": "power_discharge_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 20
+      },
+      {
+        "name": "power_body_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 21
+      },
+      {
+        "name": "power_ct_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 22
+      },
+      {
+        "name": "power_terminal_in_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 23
+      },
+      {
+        "name": "power_terminal_out_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 24
+      },
+      {
+        "name": "power_ct_source_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 25
+      },
+      {
+        "name": "power_ct_storage_W",
+        "io_type": "output",
+        "data_type": "double",
+        "unit": "W",
+        "x": 12,
+        "y": 26
+      }
+    ],
+    "unit": "1",
+    "editable": false,
+    "group": "metadata",
+    "source": "本轮接口核对及交付修订，2026-10-29"
+  },
+  "area_mm2": {
+    "type": "nullable_float",
+    "value": null,
+    "unit": "mm^2",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "group": "metadata"
+  },
+  "function_info": {
+    "type": "string",
+    "value": "可查询模型身份、参数和完整JSON；详细功能边界见模型说明书",
+    "unit": "1",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "group": "metadata"
+  },
+  "power_model": {
+    "type": "string",
+    "value": "max(0, VIN*ISD_VIN+VBIAS*IVBIAS+VON*ION+(VIN-VOUT)*IPASS+VOUT*IQOD+(VOUT-VIN)*IBODY+VCT*ICT_DIS)",
+    "unit": "W",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "每个采样点使用求解后的节点电压及支路电流，Praw 为所有已建模耗散支路之和，power=max(0,Praw)，单位 W。平滑支路可能产生极小的带符号分项；先求和再对总量取非负值，原始值和能量余额可由分项 getter 查询。 功耗端口返回当前瞬时值；get_power_dissipation() 返回同一采样点总损耗，get_power_breakdown() 返回分项及供电/输出功率。仿真开始前返回 0；该初值不代表已求解的静态工作点。平均功耗应在明确时间窗对波形积分。 统计范围为当前行为模型实际存在的电气支路，不含外部负载耗电、外部电容储能或其 ESR、外部开关管损耗、封装寄生、自热网络、未建模内部开关电容和未建模交越电流。数值记账一致性不构成独立硅片功耗精度认证。 所有电压相对 GND。主通路损耗为 (VIN−VOUT)×IPASS，软启动期间使用实际 VIN 压降；满导通时退化为 IPASS²×RON。另计 VBIAS/VIN 静态支路、ON 漏电、快速放电 VOUT×IQOD 和反向体二极管 (VOUT−VIN)×IBODY。 CT 内部放电及钳位电阻损耗为 VCT×ICT_DIS，其中 ICT_DIS=(1−strength)×VCT/RCT_DIS+max(0,VCT−VCT_FULL)/RCT_CLAMP。外部 CT 电容储能不计为芯片损耗。 原 VA 的 CT 充电是 I(gnd,ct) 理想控制源，不从 VBIAS 取电。本模型保持该电气关系，单列 Pct_source=VCT×strength×ICT_CHARGE 及 Pct_storage=VCT×(strength×ICT_CHARGE−ICT_DIS)，不把它伪装成实测 VBIAS 电流。 Pin=VIN×IVIN+VBIAS×IVBIAS+VON×ION，Pout=VOUT×(IPASS−IQOD−IBODY)；Praw=Pin+Pct_source−Pout−Pct_storage。该完整支路记账仍不能用于推断真实 CT 电路的供电效率。",
+    "group": "metadata"
+  },
+  "limitations": {
+    "type": "string",
+    "value": "面积未提供；功耗仅验证行为支路记账，不含自热及未建模寄生；独立硅片精度评估未完成；tsd_c/tsd_return_c仅参考，未实现160/140°C热关断；6 A为额定值，未实现主动限流",
+    "unit": "1",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "group": "metadata"
+  },
+  "power_query": {
+    "type": "object",
+    "value": {
+      "port": "output(\"power_W\")",
+      "getter": "get_power_dissipation()",
+      "breakdown_getter": "get_power_breakdown()",
+      "initial_value_W": 0,
+      "update": "每次 TDF processing()，返回最近已完成的采样点",
+      "output_unit": "W",
+      "binding": "总功耗及各新增 sca_out 观测端口均须绑定 sca_tdf::sca_signal<double>；端口清单见 ports.value.outputs，绑定示例见测试平台"
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "查询值不是累计能量或默认平均功耗。",
+    "group": "metadata"
+  },
+  "power_scope": {
+    "type": "object",
+    "value": {
+      "implemented": "全部现有模型耗散支路及逐项功率记账",
+      "conditions": "VIN/VBIAS 2.5/5 V 标称基准及启动/关断、CT 电容变化、QOD、反向体二极管记账检查。",
+      "exclusions": "统计范围为当前行为模型实际存在的电气支路，不含外部负载耗电、外部电容储能或其 ESR、外部开关管损耗、封装寄生、自热网络、未建模内部开关电容和未建模交越电流。数值记账一致性不构成独立硅片功耗精度认证。",
+      "validation": "E:\\systemCmodel\\work\\power_interface_audit_20261029\\测试结果\\tps22975；本轮重跑，独立物理精度待验证",
+      "ct_control_source": "单列理想 CT 源供能与外部 CT 储能"
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": " 理想观测噪声不进入电气求解及损耗。",
+    "group": "metadata"
+  },
+  "power_components": {
+    "type": "object",
+    "value": {
+      "power_W": {
+        "unit": "W",
+        "description": "总损耗"
+      },
+      "power_quiescent_W": {
+        "unit": "W",
+        "description": "静态支路"
+      },
+      "power_drive_W": {
+        "unit": "W",
+        "description": "驱动或主通路"
+      },
+      "power_input_W": {
+        "unit": "W",
+        "description": "输入电阻"
+      },
+      "power_clamp_W": {
+        "unit": "W",
+        "description": "输出钳位"
+      },
+      "power_bootstrap_W": {
+        "unit": "W",
+        "description": "自举二极管"
+      },
+      "power_discharge_W": {
+        "unit": "W",
+        "description": "快速放电"
+      },
+      "power_body_W": {
+        "unit": "W",
+        "description": "体二极管"
+      },
+      "power_ct_W": {
+        "unit": "W",
+        "description": "CT放电及钳位电阻"
+      },
+      "power_terminal_in_W": {
+        "unit": "W",
+        "description": "电气端口净输入功率"
+      },
+      "power_terminal_out_W": {
+        "unit": "W",
+        "description": "输出到外部负载/电容的净功率"
+      },
+      "power_ct_source_W": {
+        "unit": "W",
+        "description": "理想CT控制源功率"
+      },
+      "power_ct_storage_W": {
+        "unit": "W",
+        "description": "外部CT电容瞬时功率"
+      }
+    },
+    "unit": "W",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "",
+    "group": "metadata"
+  },
+  "power_revision": {
+    "type": "string",
+    "value": "2026-10-27 branch-accounting",
+    "unit": "1",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "",
+    "group": "metadata"
+  },
+  "noise_enable": {
+    "type": "bool",
+    "value": false,
+    "unit": "1",
+    "editable": true,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "默认关闭；噪声缺少芯片独立谱数据。启用表示用户指定的理想观测扰动。",
+    "group": "functional"
+  },
+  "noise_model": {
+    "type": "string",
+    "value": "multisine",
+    "unit": "1",
+    "editable": true,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "multisine 为带内随机相位离散音；gaussian_white 为至Nyquist的白噪声。",
+    "group": "metadata"
+  },
+  "noise_rms_v": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "V",
+    "editable": true,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "配置频带内RMS；默认0仅表示关闭，不能解释为芯片零噪声。",
+    "group": "functional"
+  },
+  "noise_low_hz": {
+    "type": "float",
+    "value": 1000.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "演示频带下限，非芯片指标。",
+    "group": "functional"
+  },
+  "noise_high_hz": {
+    "type": "float",
+    "value": 1000000.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "演示频带上限，非芯片指标；启用时dt<=1/(20*fhigh)。",
+    "group": "functional"
+  },
+  "noise_tones": {
+    "type": "int",
+    "value": 32,
+    "unit": "1",
+    "editable": true,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "multisine音数8..1024。",
+    "group": "functional"
+  },
+  "noise_seed": {
+    "type": "int",
+    "value": 27624,
+    "unit": "1",
+    "editable": true,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "同一实现、种子、步长和采样调用序列可重复；各通道独立种子流。",
+    "group": "functional"
+  },
+  "latency_query": {
+    "type": "object",
+    "value": {
+      "getter": "get_latency()",
+      "unit": "s",
+      "meaning": "configured rising event delay",
+      "source_parameter": "t_ramp_start",
+      "details_getter": "get_latency_info()",
+      "boundary": "不是带负载的波形交越传播延迟；边沿/输入迟滞、强度斜坡和外部负载另行影响CSV测量。"
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "",
+    "group": "metadata"
+  },
+  "timestep_query": {
+    "type": "object",
+    "value": {
+      "getter": "get_timestep_s()",
+      "unit": "s",
+      "meaning": "TDF构造时实际采用的采样步长，不是get_latency()；Core在首次step前为0。"
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "",
+    "group": "metadata"
+  },
+  "area_query": {
+    "type": "object",
+    "value": {
+      "getter": "get_area()",
+      "unit": "mm2",
+      "return": "C++11 OptionalArea: has_value(), value(), value_or(); unknown.value() throws",
+      "source_parameter": "area_mm2",
+      "boundary": "未知裸片面积返回空；不使用封装面积代替。"
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "",
+    "group": "metadata"
+  },
+  "noise_query": {
+    "type": "object",
+    "value": {
+      "density_getter": "get_noise_density()",
+      "details_getter": "get_noise_info()",
+      "formula": "ASD=noise_rms_v/sqrt(noise_high_hz-noise_low_hz)",
+      "unit": "V/sqrt(Hz)",
+      "calibrated_to_chip": false,
+      "scope": "仅在独立noise及observed观测端口输出；不扰动隐式节点方程、不进入功耗记账；输出参考地遵循原输出的局部参考。",
+      "modes": {
+        "multisine": "sum sin(2*pi*f_k*t+phase_k)*RMS*sqrt(2/N), f_k=flow+(k+0.5)*(fhigh-flow)/N",
+        "gaussian_white": "normal(0,1)*ASD/sqrt(2*dt); 频谱至Nyquist，配置RMS只对应指定频带"
+      },
+      "port_units": {
+        "noise_V": "V",
+        "output_observed_V": "V"
+      }
+    },
+    "unit": "1",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "description": "",
+    "group": "metadata"
+  },
+  "package_info": {
+    "type": "object",
+    "value": {
+      "status": "数据手册 WSON 外形尺寸；不含PCB焊盘或封装寄生",
+      "packages": [
+        {
+          "type": "WSON DSG0008A",
+          "body_mm": "1.9–2.1 × 1.9–2.1",
+          "datasheet_pdf_page": 27
+        }
+      ]
+    },
+    "unit": "mm",
+    "editable": false,
+    "source": "TPS22975.va SHA256=c37f99b0a0c7852efe068c8cd9292ecefda40143839befbe2ce0d01b8590ae25; TPS22975_datasheet.pdf SHA256=e9544d6c90f1f0973f0cd7eac78954d45b6582f2c6f26dac2e57d018ce743af2",
+    "group": "metadata"
+  }
+}
