@@ -50,7 +50,9 @@ public:
         , in("in"), out("out")
         , m_fail(0)
 	{
-        m_cfgs = ClockBufferSE::get_configs_from_json("../../json/ClockBufferSE.json");
+        m_cfgs = ClockBufferSE::get_configs_from_json("../../json/LMK1C1102-Q1.json");
+        // 时序测试只核对确定性传播延迟：抖动会被延迟线按步长向下取整，使延迟均值系统性偏小约半个步长
+        m_cfgs.jitter_ps = 0.0;
 
         m_src = new Sine("src", 1.65, 1.65, 200e6, sc_core::sc_time(0.1, sc_core::SC_PS));
         m_src->out(in);
@@ -80,13 +82,14 @@ private:
     size_t m_fail;
 
     void testbench(){
-        // 统计 [0, 100ns) 内的输入判决沿及其对应的输出沿（[0, 100ns + 传播延迟 + tr_tf)），多等 3ns 让最后一个沿传到输出
-        wait(sc_core::sc_time(103, sc_core::SC_NS));
+        // 统计 [0, 100ns) 内的输入判决沿，及其对应的输出 50% 沿 [shift, 100ns + shift)
+        // 输出窗口是输入窗口整体平移预期延迟 shift，两端都平移，保证输入沿与输出沿一一对应，与传播延迟是否超过半周期无关
+        const double shift = (m_cfgs.propagation_delay_ps + m_cfgs.tr_tf_ps / 2) * 1e-12;
+        wait(sc_core::sc_time(100e-9 + shift, sc_core::SC_SEC) + sc_core::sc_time(1, sc_core::SC_NS));   // 多等 1ns 让最后一个沿传到输出
 
-        // 第 i 个输出沿与第 i 个输入判决沿配对（传播延迟 2.2ns 小于半周期 2.5ns，不会错配）
+        // 第 i 个输出沿与第 i 个输入判决沿按序号配对
         const auto in = ClockBufferSEMonitor::window(m_mon->in_edges, 0, 100e-9);
-        const double settle = (m_cfgs.propagation_delay_ps + m_cfgs.tr_tf_ps) * 1e-12;
-        const auto o = ClockBufferSEMonitor::window(m_mon->o50, 0, 100e-9 + settle);
+        const auto o = ClockBufferSEMonitor::window(m_mon->o50, shift, 100e-9 + shift);
         size_t n = std::min(in.size(), o.size());
         bool dir_ok = in.size() == o.size();
         std::vector<double> delay_ps;
@@ -120,5 +123,5 @@ private:
 int sc_main(int argc, char* argv[]) {
     sc_core::sc_set_time_resolution(1, sc_core::SC_FS);     // 0.1ps 步长需要 fs 级时间分辨率
     Simulator sim("sim");
-    SIMULATOR_START(sim, 104, sc_core::SC_NS);
+    SIMULATOR_START(sim, 110, sc_core::SC_NS);
 }

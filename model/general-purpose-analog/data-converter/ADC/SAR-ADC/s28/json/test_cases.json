@@ -1,0 +1,58 @@
+{
+  "scenario_id": "02-10-1",
+  "ambient_temperature_c": 2.0,
+  "cdac_sampling_cap_pf": 4.096,
+  "supply_v": 1.0,
+  "common_mode_v": 0.5,
+  "cdac_reference_v": 1.0,
+  "pad_ring_v": 2.5,
+  "M": 16384,
+  "k": 147,
+  "startup_discard_samples": 128,
+  "harmonic_order": 10,
+  "sample_rate_hz": 100000000.0,
+  "differential_peak_v": 0.95,
+  "analysis_bandwidth_hz": 50000000.0,
+  "static_samples": 16384,
+  "static_k": 147,
+  "static_differential_peak_v": 0.95,
+  "dc_resolution_lsb": 0.01,
+  "dc_settle_cycles": 4,
+  "dc_read_cycles": 4,
+  "window": "rectangular",
+  "fft_normalization": "one-sided power |FFT/M|^2; double interior bins only",
+  "code_mapping": "offset binary, floor((Vdiff+VRP)/LSB), saturated 0..63",
+  "dynamic_frequency_hz": 897216.796875,
+  "definitions": {
+    "function": "DC scan from -1.10 V to +1.10 V; output codes 0..63 and 6 bit resolution",
+    "DNL": "sampled-input sine amplitude/DC correction; observed endpoint line; full code bins between measured transitions only",
+    "INL": "residual from the endpoint line through first and last measured transitions, divided by nominal LSB",
+    "SNR": "10 log10(fundamental power / in-band noise power)",
+    "THD": "10 log10(folded harmonic power sum / fundamental power)",
+    "ENOB": "(SNDR-1.76)/6.02; SNDR is used internally for ENOB calculation",
+    "resolution": "Slow differential ramp; average LSB is (transition code 63 - transition code 1) / 62, accepted from 28.125 to 34.375 mV/LSB.",
+    "range": "Slow differential ramp; actual range is V1 to V63 and must cover -0.9*VRP to +0.9*VRP; out-of-range saturation is checked."
+  },
+  "test_instances": {
+    "01": "ADC-001-10-1-1",
+    "02": "ADC-001-10-1-2",
+    "03": "ADC-001-10-1-3",
+    "04": "ADC-001-10-1-4"
+  },
+  "resolution_step_v": null,
+  "resolution_pin_step_v": 0.0078125,
+  "resolution_transitions": 2,
+  "range_scan_start_pin_v": 0.0,
+  "range_scan_stop_pin_v": 1.0,
+  "range_scan_points": 2049,
+  "resolution_method": "slow differential ramp -1.10 V to +1.10 V; average (V63-V1)/62",
+  "resolution_acceptance_lsb_v": [
+    0.028125,
+    0.034375
+  ],
+  "range_method": "slow differential ramp -1.10 V to +1.10 V; actual range V1 to V63",
+  "range_acceptance_v": [
+    -0.9,
+    0.9
+  ]
+}
