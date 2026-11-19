@@ -1,0 +1,592 @@
+{
+  "name": {
+    "type": "string",
+    "value": "s28",
+    "unit": "",
+    "editable": false,
+    "source": "datasheet title",
+    "group": "functional"
+  },
+  "version": {
+    "type": "string",
+    "value": "0.1",
+    "unit": "",
+    "editable": false,
+    "source": "behavioral model version",
+    "group": "functional"
+  },
+  "category": {
+    "type": "string",
+    "value": "general-purpose-analog-adc-sar",
+    "unit": "",
+    "editable": false,
+    "source": "repository taxonomy",
+    "group": "functional"
+  },
+  "pad_ring_v": {
+    "type": "float",
+    "value": 2.5,
+    "unit": "V",
+    "editable": false,
+    "source": "V1 p9 VDDD ESD pad-ring supply; output logic remains VDD=1 V",
+    "group": "functional"
+  },
+  "adc_bits": {
+    "type": "int",
+    "value": 6,
+    "unit": "bit",
+    "editable": false,
+    "source": "V1 p2",
+    "group": "functional"
+  },
+  "sample_rate_hz": {
+    "type": "float",
+    "value": 100000000.0,
+    "unit": "Hz",
+    "editable": true,
+    "source": "V1 pp2,7 maximum",
+    "group": "functional"
+  },
+  "timestep_s": {
+    "type": "float",
+    "value": 2.5e-10,
+    "unit": "s",
+    "editable": true,
+    "source": "numerical assumption",
+    "group": "functional"
+  },
+  "reference_v": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "V",
+    "editable": false,
+    "source": "V1 pp5,6",
+    "group": "functional"
+  },
+  "common_mode_v": {
+    "type": "float",
+    "value": 0.5,
+    "unit": "V",
+    "editable": false,
+    "source": "V1 p5",
+    "group": "functional"
+  },
+  "supply_v": {
+    "type": "float",
+    "value": 1.0,
+    "unit": "V",
+    "editable": false,
+    "source": "V1 pp5,6",
+    "group": "functional"
+  },
+  "decision_time_s": {
+    "type": "float",
+    "value": 5e-10,
+    "unit": "s",
+    "editable": true,
+    "source": "model assumption; no measured conversion time",
+    "group": "functional"
+  },
+  "clockout_width_s": {
+    "type": "float",
+    "value": 5e-10,
+    "unit": "s",
+    "editable": true,
+    "source": "model pulse assumption",
+    "group": "functional"
+  },
+  "offset_lsb": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "LSB",
+    "editable": true,
+    "source": "zero baseline assumption; V1 p5 no measurement",
+    "group": "functional"
+  },
+  "span_error_percent": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "%",
+    "editable": true,
+    "source": "zero baseline assumption; positive means wider input span",
+    "group": "functional"
+  },
+  "noise_rms_lsb": {
+    "type": "float",
+    "value": 0.05,
+    "unit": "LSB RMS",
+    "editable": true,
+    "source": "illustrative input-equivalent noise; not extracted from silicon",
+    "group": "functional"
+  },
+  "quadratic_v_inv": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "1/V",
+    "editable": true,
+    "source": "optional input polynomial; default disabled",
+    "group": "functional"
+  },
+  "cubic_v_inv2": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "1/V^2",
+    "editable": true,
+    "source": "optional input polynomial; default disabled",
+    "group": "functional"
+  },
+  "seed": {
+    "type": "int",
+    "value": 28,
+    "unit": "",
+    "editable": true,
+    "source": "reproducible simulation seed",
+    "group": "functional"
+  },
+  "vcmp_center_v": {
+    "type": "float",
+    "value": 0.5,
+    "unit": "V",
+    "editable": true,
+    "source": "neutral pin bias assumption",
+    "group": "functional"
+  },
+  "vcmp_gain_v_per_v": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "V/V",
+    "editable": true,
+    "source": "unmeasured transfer; disabled",
+    "group": "functional"
+  },
+  "ctl_center_v": {
+    "type": "float",
+    "value": 0.5,
+    "unit": "V",
+    "editable": true,
+    "source": "neutral pin bias assumption",
+    "group": "functional"
+  },
+  "ctl_aperture_s_per_v": {
+    "type": "float",
+    "value": 0.0,
+    "unit": "s/V",
+    "editable": true,
+    "source": "unmeasured transfer; disabled",
+    "group": "functional"
+  },
+  "transition_error_lsb": {
+    "type": "array",
+    "value": [
+      0,
+      0.008855413945,
+      0.012777079953,
+      0.010638924915,
+      0.005976480678,
+      0.004224802469,
+      0.00848336308,
+      0.017093658644,
+      0.024908973741,
+      0.027271410481,
+      0.023611011421,
+      0.017874967769,
+      0.015454071246,
+      0.01899094811,
+      0.026322096269,
+      0.032150348996,
+      0.032150348996,
+      0.026322096269,
+      0.01899094811,
+      0.015454071246,
+      0.017874967769,
+      0.023611011421,
+      0.027271410481,
+      0.024908973741,
+      0.017093658644,
+      0.00848336308,
+      0.004224802469,
+      0.005976480678,
+      0.010638924915,
+      0.012777079953,
+      0.008855413945,
+      0.0,
+      -0.008855413945,
+      -0.012777079953,
+      -0.010638924915,
+      -0.005976480678,
+      -0.004224802469,
+      -0.00848336308,
+      -0.017093658644,
+      -0.024908973741,
+      -0.027271410481,
+      -0.023611011421,
+      -0.017874967769,
+      -0.015454071246,
+      -0.01899094811,
+      -0.026322096269,
+      -0.032150348996,
+      -0.032150348996,
+      -0.026322096269,
+      -0.01899094811,
+      -0.015454071246,
+      -0.017874967769,
+      -0.023611011421,
+      -0.027271410481,
+      -0.024908973741,
+      -0.017093658644,
+      -0.00848336308,
+      -0.004224802469,
+      -0.005976480678,
+      -0.010638924915,
+      -0.012777079953,
+      -0.008855413945,
+      0
+    ],
+    "unit": "LSB",
+    "editable": true,
+    "source": "illustrative monotonic threshold perturbation; not recovered datasheet per-code values",
+    "group": "performance"
+  },
+  "latency": {
+    "type": "float",
+    "value": 3e-09,
+    "unit": "s",
+    "editable": false,
+    "source": "six assumed 0.5 ns decisions",
+    "group": "performance"
+  },
+  "power": {
+    "type": "float",
+    "value": null,
+    "unit": "W",
+    "editable": false,
+    "source": "datasheet V1 pp2,6 unspecified; query returns NaN",
+    "group": "metadata"
+  },
+  "area": {
+    "type": "float",
+    "value": null,
+    "unit": "mm^2",
+    "editable": false,
+    "source": "datasheet does not specify die area; query returns NaN",
+    "group": "metadata"
+  },
+  "dimensions": {
+    "type": "object",
+    "value": {
+      "x": 1.0,
+      "y": 1.0
+    },
+    "unit": "relative",
+    "editable": false,
+    "source": "tool icon size only; not die area",
+    "group": "metadata"
+  },
+  "ports": {
+    "type": "array",
+    "value": [
+      {
+        "name": "IP",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "IN",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "CLK_IP",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "CLK_IN",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "VRP",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "CTL",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "VCMP",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "AVDD",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "DVDD",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "VDD",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "AVSS",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "VSS",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "DVSS",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "CLKVDD",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "CLKVSS",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "VSS2",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "SAVDD",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "SAVSS",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "VSSD",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "VDDD",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "DVDDIO",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "DVSSIO",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "INVSS",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "INVDD",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "VSS1",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "SAVDD1",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "SAVSS1",
+        "direction": "in",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "D1OUT",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "D2OUT",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "D3OUT",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "D4OUT",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "D5OUT",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "D6OUT",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "CLKOUT1",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "VCM",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      },
+      {
+        "name": "code_out",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "unsigned",
+        "unit": "code"
+      },
+      {
+        "name": "sequence_out",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "unsigned",
+        "unit": "count"
+      },
+      {
+        "name": "sample_time_out",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "s"
+      },
+      {
+        "name": "output_time_out",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "s"
+      },
+      {
+        "name": "sampled_diff_out",
+        "direction": "out",
+        "domain": "TDF",
+        "type": "double",
+        "unit": "V"
+      }
+    ],
+    "unit": "",
+    "editable": false,
+    "source": "V1 pp9-10 logical signal interface; auxiliary observability outputs identified",
+    "group": "interface"
+  },
+  "evidence": {
+    "type": "object",
+    "value": {
+      "datasheet": "doc/reference/s28_数据手册v1.pdf",
+      "reference_dynamic": {
+        "snr_db": 37.63,
+        "sndr_db": 37.51,
+        "thd_db": -53.09,
+        "sfdr_dbc": 51.93,
+        "enob_bit": 5.93
+      },
+      "profile": "illustrative behavioral baseline; parameters are not a fitted physical circuit"
+    },
+    "unit": "",
+    "editable": false,
+    "source": "V1 pp5,11",
+    "group": "metadata"
+  }
+}

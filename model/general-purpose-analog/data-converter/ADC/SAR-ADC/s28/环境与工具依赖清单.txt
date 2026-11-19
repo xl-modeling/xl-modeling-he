@@ -1,0 +1,35 @@
+S28 ADC 通用模拟芯粒模型测试（general_analog）—— 环境与工具依赖清单
+（括号内为本机实测版本：Ubuntu 20.04 / WSL2）
+
+一、操作系统与基础命令（三个测试项都需要）
+  - Linux x86_64，bash、coreutils
+  - Python 3（3.8.10）
+
+二、02-10-1 架构功能仿真模型（systemc/）
+  - g++，需支持 C++17（9.4.0）
+  - CMake ≥ 3.16（3.16.3）；有 ninja 时自动使用，否则用 make
+  - SystemC 2.3.4、SystemC-AMS 2.3.4，均以 C++17 编译安装（静态库或动态库均可）
+  - 环境变量：SYSTEMC_HOME=<SystemC 安装目录>，SYSTEMC_AMS_HOME=<SystemC-AMS 安装目录>
+    （本机：~/.local/systemc-2.3.4-cxx17、~/.local/systemc-ams-2.3.4-cxx17，已写入 ~/.bashrc）
+  - Python 包 python-docx（每次运行生成 docx 报告，缺少时预检失败）：pip3 install python-docx
+  - JSON 解析头文件已随源代码提供（include/detail/json_value.h），无需安装
+  - 可选：MATLAB R2024b（test/postprocess_s28.m 重新生成报告曲线）；GTKWave 查看 VCD
+  - 磁盘：每次全部运行约 600 MB（VCD），可用 ./run.sh all --no-vcd 关闭
+
+三、SPICE 模型（spice/）
+  - Cadence Spectre 及许可证（spectre 在 PATH 中；脚本使用 psfascii 输出）
+  - Python 3（交付说明要求 3.9+；本机 3.8.10 已验证 --check、--prepare 和离线单元测试可运行）
+  - NumPy ≥ 1.23（1.24.4）、Matplotlib ≥ 3.6（3.7.5）：pip3 install -r spice/requirements.txt
+  - 工艺模型已包含在 spice/models/（tt 角引用链完整），无需另外准备
+
+四、Verilog-A 电路宏模型（veriloga/）
+  - Cadence Spectre（含 Verilog-A 编译）及许可证
+  - Cadence OCEAN（ocean 命令，随 Virtuoso/IC 提供），用于从仿真结果导出波形
+  - NumPy、Matplotlib
+
+五、运行
+  ./run_all.sh check              检查三个测试项的运行环境
+  ./run_all.sh                    依次运行三个测试项（无 spectre 时跳过 spice、veriloga）
+  cd systemc && bash test/ADC-001-10-1-1.sh   按自测报告单步运行（1～4）
+  cd systemc && ./run.sh          一次运行 4 个用例
+  详见 README.md
