@@ -1,0 +1,455 @@
+{
+    "name": {
+        "type": "string",
+        "value": "ClockSynchronizer",
+        "editable": false
+    },
+    "version": {
+        "type": "float",
+        "value": 0.1,
+        "editable": false
+    },
+    "category": {
+        "type": "string",
+        "value": "通用模拟-时钟",
+        "editable": false
+    },
+    "part_number": {
+        "type": "string",
+        "value": "ADF4030",
+        "editable": false
+    },
+    "manufacturer": {
+        "type": "string",
+        "value": "Analog Devices",
+        "editable": false
+    },
+    "bsync-channels": {
+        "type": "int",
+        "value": 10,
+        "unit": "ch",
+        "editable": false
+    },
+    "refin-frequency": {
+        "type": "float",
+        "value": 100,
+        "unit": "MHz",
+        "editable": false,
+        "valid_range": [
+            10,
+            250
+        ]
+    },
+    "refin-differential-input-voltage": {
+        "type": "float",
+        "value": 350,
+        "unit": "mV",
+        "editable": false,
+        "valid_range": [
+            160,
+            1000
+        ]
+    },
+    "pfd-frequency": {
+        "type": "float",
+        "value": 20,
+        "unit": "MHz",
+        "editable": false,
+        "valid_range": [
+            10,
+            20
+        ]
+    },
+    "vco-frequency": {
+        "type": "float",
+        "value": 2500,
+        "unit": "MHz",
+        "editable": false,
+        "valid_range": [
+            2375,
+            2625
+        ]
+    },
+    "charge-pump-current": {
+        "type": "float",
+        "value": 540,
+        "unit": "µA",
+        "editable": false,
+        "valid_range": [
+            360,
+            630
+        ]
+    },
+    "bsync-frequency": {
+        "type": "float",
+        "value": 100,
+        "unit": "MHz",
+        "editable": false,
+        "valid_range": [
+            0.65,
+            200
+        ]
+    },
+    "bsync-rise-fall-time-20-80": {
+        "type": "float",
+        "value": 80,
+        "unit": "ps",
+        "editable": false
+    },
+    "bsync-duty-cycle": {
+        "type": "float",
+        "value": 50,
+        "unit": "%",
+        "editable": false,
+        "valid_range": [
+            45,
+            55
+        ]
+    },
+    "bsync-differential-output-swing": {
+        "type": "float",
+        "value": 350,
+        "unit": "mV",
+        "editable": false,
+        "valid_range": [
+            290,
+            410
+        ]
+    },
+    "bsync-rms-jitter": {
+        "type": "float",
+        "value": 4.3,
+        "unit": "ps",
+        "editable": false
+    },
+    "bsync-alignment-error-max": {
+        "type": "float",
+        "value": 5,
+        "unit": "ps",
+        "editable": false
+    },
+    "fine-delay-step": {
+        "type": "float",
+        "value": 1.4,
+        "unit": "ps",
+        "editable": false
+    },
+    "intermediate-delay-step": {
+        "type": "float",
+        "value": 50,
+        "unit": "ps",
+        "editable": false
+    },
+    "tdc-single-shot-uncertainty": {
+        "type": "float",
+        "value": 86,
+        "unit": "ps",
+        "editable": false
+    },
+    "tdc-accuracy": {
+        "type": "float",
+        "value": 3.6,
+        "unit": "ps",
+        "editable": false
+    },
+    "tdc-offset-step": {
+        "type": "float",
+        "value": 0.78125,
+        "unit": "ps",
+        "editable": false
+    },
+    "VDD18": {
+        "type": "float",
+        "value": 1.8,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            1.71,
+            1.89
+        ]
+    },
+    "VDD33": {
+        "type": "float",
+        "value": 3.3,
+        "unit": "V",
+        "editable": false,
+        "valid_range": [
+            3.15,
+            3.45
+        ]
+    },
+    "total-power-dissipation": {
+        "type": "float",
+        "value": 2.3,
+        "unit": "W",
+        "editable": false,
+        "valid_range": [
+            2.3,
+            2.9
+        ]
+    },
+    "TA": {
+        "type": "float",
+        "value": 25,
+        "unit": "℃",
+        "editable": false,
+        "valid_range": [
+            -40,
+            105
+        ]
+    },
+    "package": {
+        "type": "string",
+        "value": "48-Terminal LGA（CC-48-10）",
+        "editable": false
+    },
+    "package-length": {
+        "type": "float",
+        "value": 7,
+        "unit": "mm",
+        "editable": false
+    },
+    "package-width": {
+        "type": "float",
+        "value": 7,
+        "unit": "mm",
+        "editable": false
+    },
+    "channels": {
+        "type": "int",
+        "value": 10,
+        "unit": "ch",
+        "editable": false
+    },
+    "ref_channel": {
+        "type": "int",
+        "value": 0,
+        "editable": false
+    },
+    "rdiv": {
+        "type": "int",
+        "value": 5,
+        "editable": false,
+        "valid_range": [
+            1,
+            31
+        ]
+    },
+    "ndiv": {
+        "type": "int",
+        "value": 125,
+        "editable": false,
+        "valid_range": [
+            8,
+            255
+        ]
+    },
+    "odiv": {
+        "type": "int",
+        "value": 25,
+        "editable": false,
+        "valid_range": [
+            10,
+            4095
+        ]
+    },
+    "fine_step_ps": {
+        "type": "float",
+        "value": 1.4,
+        "unit": "ps",
+        "editable": false
+    },
+    "fine_max": {
+        "type": "int",
+        "value": 63,
+        "editable": false
+    },
+    "tdc_tq_ps": {
+        "type": "float",
+        "value": 86,
+        "unit": "ps",
+        "editable": false
+    },
+    "tdc_accuracy_ps": {
+        "type": "float",
+        "value": 3.6,
+        "unit": "ps",
+        "editable": false
+    },
+    "avgexp": {
+        "type": "int",
+        "value": 12,
+        "editable": false,
+        "valid_range": [
+            3,
+            15
+        ]
+    },
+    "align_cycles": {
+        "type": "int",
+        "value": 8,
+        "editable": false
+    },
+    "jitter_ps": {
+        "type": "float",
+        "value": 4.3,
+        "unit": "ps",
+        "editable": false
+    },
+    "tr_tf_ps": {
+        "type": "float",
+        "value": 80,
+        "unit": "ps",
+        "editable": false
+    },
+    "vod_mv": {
+        "type": "float",
+        "value": 350,
+        "unit": "mV",
+        "editable": false
+    },
+    "seed": {
+        "type": "int",
+        "value": 42,
+        "editable": false
+    },
+    "cp_icp_ua": {
+        "type": "float",
+        "value": 540,
+        "unit": "µA",
+        "editable": false
+    },
+    "lpf_c1_pf": {
+        "type": "float",
+        "value": 43.8,
+        "unit": "pF",
+        "editable": false
+    },
+    "lpf_r_ohm": {
+        "type": "float",
+        "value": 11640,
+        "unit": "Ω",
+        "editable": false
+    },
+    "lpf_c2_pf": {
+        "type": "float",
+        "value": 2.92,
+        "unit": "pF",
+        "editable": false
+    },
+    "vco_kvco_hz": {
+        "type": "float",
+        "value": 100000000.0,
+        "unit": "Hz/V",
+        "editable": false
+    },
+    "vco_f0_hz": {
+        "type": "float",
+        "value": 2450000000.0,
+        "unit": "Hz",
+        "editable": false
+    },
+    "lock_phase_rad": {
+        "type": "float",
+        "value": 0.05,
+        "unit": "rad",
+        "editable": false
+    },
+    "lock_cycles": {
+        "type": "int",
+        "value": 64,
+        "editable": false
+    },
+    "latency": {
+        "type": "float",
+        "value": 2.62144,
+        "unit": "ms",
+        "editable": false
+    },
+    "power": {
+        "type": "float",
+        "value": 2300,
+        "unit": "mW",
+        "editable": false
+    },
+    "area": {
+        "type": "float",
+        "value": 49,
+        "unit": "mm²",
+        "editable": false
+    },
+    "dimensions": {
+        "type": "float",
+        "unit": "mm",
+        "x": 5,
+        "y": 5
+    },
+    "ports": [
+        {
+            "name": "refin",
+            "x": 0,
+            "y": 2.5,
+            "io_type": "sca_in"
+        },
+        {
+            "name": "bsync_0",
+            "x": 5,
+            "y": 0.7,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "bsync_1",
+            "x": 5,
+            "y": 1.1,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "bsync_2",
+            "x": 5,
+            "y": 1.5,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "bsync_3",
+            "x": 5,
+            "y": 1.9,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "bsync_4",
+            "x": 5,
+            "y": 2.3,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "bsync_5",
+            "x": 5,
+            "y": 2.7,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "bsync_6",
+            "x": 5,
+            "y": 3.1,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "bsync_7",
+            "x": 5,
+            "y": 3.5,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "bsync_8",
+            "x": 5,
+            "y": 3.9,
+            "io_type": "sca_out"
+        },
+        {
+            "name": "bsync_9",
+            "x": 5,
+            "y": 4.3,
+            "io_type": "sca_out"
+        }
+    ]
+}
